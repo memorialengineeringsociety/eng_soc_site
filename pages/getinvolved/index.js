@@ -32,6 +32,28 @@ export default function GetInvolved() {
 					contact='memorialbaja@gmail.com'
 
     		    />
+				<TeamCard
+    		        name='MUN Sailbot'
+    		        title='Autonomous Sailboat'
+    		        logo='/res/team_logos/sailbot.png'
+    		        text=''
+    		        link=''
+					contact='munsailbot@gmail.com'
+					facebook='https://www.facebook.com/munsailbot/'
+					instagram='https://www.instagram.com/munsailbot/'
+					linkedin='https://www.linkedin.com/company/mun-sailbot/?originalSubdomain=pe'
+					date='2009'
+    		    />
+				<TeamCard
+    		        name='Paradigm Engineering'
+    		        title=''
+    		        logo='/res/team_logos/paradigm.png'
+    		        text=''
+    		        link=''
+    		        instagram='https://www.instagram.com/paradigm_engineering/'
+					contact='hello@paradigmhyperloop.com'
+					date='2016'
+    		    />
     		    <TeamCard
     		        name='Concrete Toboggan'
     		        title=''
@@ -43,15 +65,33 @@ export default function GetInvolved() {
 					contact='munconcretetoboggan@gmail.com'
 					date='2018'
     		    />
-    		    <TeamCard
-    		        name='Paradigm Engineering'
-    		        title=''
-    		        logo='/res/team_logos/paradigm.png'
-    		        text=''
+				<TeamCard
+    		        name='Chem-E-Car'
+    		        title='Chemical Powered Car'
+    		        logo='/res/team_logos/chemecar.png'
+    		        text='MUN Chem-E-Car is designing and building a shoe-box sized car that runs solely on chemical reactions. The car will then compete by travelling a set distance in a set time period. Besides competing in this competition, we are also striving to break barriers and stigmas to show both potential engineering students and the public what precisely the Process/Chemical engineering industry does to benefit their everyday lives.'
     		        link=''
-    		        instagram='https://www.instagram.com/paradigm_engineering/'
-					contact='hello@paradigmhyperloop.com'
-					date='2016'
+					contact='memorialchemecar@gmail.com'
+					instagram='https://www.instagram.com/memorialchemecar/'
+					date='2020'
+    		    />
+				<TeamCard
+    		        name='Iceberg ASV'
+    		        title='Autonomous Surface Vehicle'
+    		        logo='/res/team_logos/icebergasv.png'
+    		        text=''
+    		        link='https://icebergasv.ca/'
+    		        date='2021'
+					contact='info@icebergasv.ca'
+    		    />
+				<TeamCard
+    		        name='MUN RoboSub'
+    		        title='Autonomous Underwater Vehicle'
+    		        logo='/res/team_logos/robosub.png'
+    		        text=''
+    		        link='https://sites.google.com/mun.ca/mun-robosub/home'
+					contact='robosubmun@gmail.com'
+					date='2021'
     		    />
     		    <TeamCard
     		        name='MUN E-Motorsports'
@@ -63,25 +103,6 @@ export default function GetInvolved() {
     		        date='2022'
     		    />
     		    <TeamCard
-    		        name='MUN RoboSub'
-    		        title='Autonomous Underwater Vehicle'
-    		        logo='/res/team_logos/robosub.png'
-    		        text=''
-    		        link='https://sites.google.com/mun.ca/mun-robosub/home'
-					contact='robosubmun@gmail.com'
-    		    />
-    		    <TeamCard
-    		        name='MUN Sailbot'
-    		        title='Autonomous Sailboat'
-    		        logo='/res/team_logos/sailbot.png'
-    		        text=''
-    		        link=''
-					contact='munsailbot@gmail.com'
-					facebook='https://www.facebook.com/munsailbot/'
-					instagram='https://www.instagram.com/munsailbot/'
-					linkedin='https://www.linkedin.com/company/mun-sailbot/?originalSubdomain=pe'
-    		    />
-    		    <TeamCard
     		        name='Phoenix Aerospace'
     		        title='Drones'
     		        logo='/res/team_logos/phoenix.png'
@@ -89,26 +110,7 @@ export default function GetInvolved() {
     		        link=''
 					contact='Phoenixuav.mun@gmail.com'
 					facebook='https://www.facebook.com/munphoenixareospace/'
-    		        date='2021'
-    		    />
-    		    <TeamCard
-    		        name='Chem-E-Car'
-    		        title='Chemical Powered Car'
-    		        logo='/res/team_logos/chemecar.png'
-    		        text='MUN Chem-E-Car is designing and building a shoe-box sized car that runs solely on chemical reactions. The car will then compete by travelling a set distance in a set time period. Besides competing in this competition, we are also striving to break barriers and stigmas to show both potential engineering students and the public what precisely the Process/Chemical engineering industry does to benefit their everyday lives.'
-    		        link=''
-					contact='memorialchemecar@gmail.com'
-					instagram='https://www.instagram.com/memorialchemecar/'
-					date='2020'
-    		    />
-    		    <TeamCard
-    		        name='Iceberg ASV'
-    		        title='Autonomous Surface Vehicle'
-    		        logo='/res/team_logos/icebergasv.png'
-    		        text=''
-    		        link='https://icebergasv.ca/'
-    		        date='2021'
-					contact='info@icebergasv.ca'
+    		        date='2022'
     		    />
     		    <TeamCard
     		        name='F1 Electric'
@@ -138,6 +140,7 @@ export default function GetInvolved() {
 					logo='/res/team_logos/robogals.jpg'
 					text=''
 					link=''
+					date='2019'
 				/>
 				<TeamCard
 					name='WISE Undergraduate Society'
@@ -147,6 +150,7 @@ export default function GetInvolved() {
 					link='https://wisenl.ca/wiseus/'
 					facebook='https://www.facebook.com/WISEUndergradSociety/'
 					contact='wiseus15@gmail.com'
+					date='2008'
 
 				/>
 				<TeamCard
