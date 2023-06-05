@@ -41,13 +41,13 @@ export const Navbar = () => {
 				{/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
 				<div className={`${active ? '' : 'hidden'}   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
 					<div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
+						{/* <motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
 							<Link href='/'>
 								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
 									Home
 								</div>
 							</Link>
-						</motion.div>
+						</motion.div> */}
 						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
 							<Link href='/aboutus'>
 								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
@@ -56,14 +56,14 @@ export const Navbar = () => {
 							</Link>
 						</motion.div>
 						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
-							<Link href='/'>
+							<Link href='/academics'>
 								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
 									Academics
 								</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
-							<Link href='/calendar'>
+							<Link href='/events'>
 								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
 									Events
 								</div>

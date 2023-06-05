@@ -79,7 +79,7 @@ export default function GetInvolved() {
     		        name='Iceberg ASV'
     		        title='Autonomous Surface Vehicle'
     		        logo='/res/team_logos/icebergasv.png'
-    		        text=''
+    		        text='Iceberg ASV is a student-led design team that designs and builds an autonomous surface vehicle (ASV) to compete in RoboBoat, an annual competition held by RoboNation. Hull design, controls, power distribution and computer vision are just some of the areas that RoboBoat entails. Consisting of thirteen members ranging across multiple engineering disciplines, commerce and marine institute, Iceberg encourages interdisciplinary work to maximize learning for all team members.'
     		        link='https://icebergasv.ca/'
     		        date='2021'
 					contact='info@icebergasv.ca'
