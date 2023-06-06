@@ -3,111 +3,109 @@ import {TeamCard} from '../../components/TeamCard';
 
 export default function GetInvolved() {
 	return (
-		<main className='pl-20 pr-20'>
-			<h1 className='font-mono text-black text-5xl font-extrabold underline pt-10'>Competitive Teams</h1>
-    		<div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 pt-5 pb-10'>
-    		    <TeamCard
-    		        name='Eastern Edge Robotics'
-    		        title='Underwater Remotely Operated Vehicle'
-    		        logo='/res/team_logos/eastern_edge.png'
-    		        text="Eastern Edge designs, builds, and operates remotely operated vehicles (ROVs) to complete a series of challenging tasks. The competition encourages innovation, problem-solving, and teamwork, as members navigate the ROV through complex underwater missions. From engineering the ROV's structure and electronics to programming its controls, Eastern Edge demonstrates a wide range of technical expertise."
-    		        link='https://easternedgerobotics.com'
-    		        linkedin='https://www.linkedin.com/company/easternedgerobotics/'
-    		        instagram='https://www.instagram.com/easternedgerobo/'
-    		        facebook='https://www.facebook.com/easternedgerobotics'
-    		        twitter='https://twitter.com/easternedgerobo'
-					contact='easternedgerobo@gmail.com'
-    		        date="2002"
-    		    />
-    		    <TeamCard
-    		        name='Memorial Baja Racing'
-    		        title='Single Seat Off-Road Vehicle'
-    		        logo='/res/team_logos/baja.png'
-    		        text='Memorial Baja is a student team building an off-road racing vehicle. They handle marketing, engineering design, and provide a positive learning experience. A Baja SAE vehicle is a lightweight racer under 500 pounds, reaching speeds up to 50 km/h. Teams design and build the vehicle from scratch, following sound engineering practices.'
-    		        link='https://memorialbaja.ca/'
-    		        linkedin='https://www.linkedin.com/company/memorialbaja/'
-    		        instagram='https://www.instagram.com/memorialbaja/'
-    		        facebook='https://www.facebook.com/memorialbaja/'
-    		        date="2009"
-					contact='memorialbaja@gmail.com'
-
-    		    />
+		<main>
+			<div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 pt-5 pb-10'>
 				<TeamCard
-    		        name='MUN Sailbot'
-    		        title='Autonomous Sailboat'
-    		        logo='/res/team_logos/sailbot.png'
-    		        text=''
-    		        link=''
+					name='Eastern Edge Robotics'
+					title='Underwater Remotely Operated Vehicle'
+					logo='/res/team_logos/eastern_edge.png'
+					text="Eastern Edge designs, builds, and operates remotely operated vehicles (ROVs) to complete a series of challenging tasks. The competition encourages innovation, problem-solving, and teamwork, as members navigate the ROV through complex underwater missions. From engineering the ROV's structure and electronics to programming its controls, Eastern Edge demonstrates a wide range of technical expertise."
+					link='https://easternedgerobotics.com'
+					linkedin='https://www.linkedin.com/company/easternedgerobotics/'
+					instagram='https://www.instagram.com/easternedgerobo/'
+					facebook='https://www.facebook.com/easternedgerobotics'
+					twitter='https://twitter.com/easternedgerobo'
+					contact='easternedgerobo@gmail.com'
+					date="2002"
+				/>
+				<TeamCard
+					name='Memorial Baja Racing'
+					title='Single Seat Off-Road Vehicle'
+					logo='/res/team_logos/baja.png'
+					text='Memorial Baja is a student team building an off-road racing vehicle. They handle marketing, engineering design, and provide a positive learning experience. A Baja SAE vehicle is a lightweight racer under 500 pounds, reaching speeds up to 50 km/h. Teams design and build the vehicle from scratch, following sound engineering practices.'
+					link='https://memorialbaja.ca/'
+					linkedin='https://www.linkedin.com/company/memorialbaja/'
+					instagram='https://www.instagram.com/memorialbaja/'
+					facebook='https://www.facebook.com/memorialbaja/'
+					date="2009"
+					contact='memorialbaja@gmail.com'
+				/>
+				<TeamCard
+					name='MUN Sailbot'
+					title='Autonomous Sailboat'
+					logo='/res/team_logos/sailbot.png'
+					text=''
+					link=''
 					contact='munsailbot@gmail.com'
 					facebook='https://www.facebook.com/munsailbot/'
 					instagram='https://www.instagram.com/munsailbot/'
 					linkedin='https://www.linkedin.com/company/mun-sailbot/?originalSubdomain=pe'
 					date='2009'
-    		    />
+				/>
 				<TeamCard
-    		        name='Paradigm Engineering'
-    		        title=''
-    		        logo='/res/team_logos/paradigm.png'
-    		        text=''
-    		        link=''
-    		        instagram='https://www.instagram.com/paradigm_engineering/'
+					name='Paradigm Engineering'
+					title=''
+					logo='/res/team_logos/paradigm.png'
+					text=''
+					link=''
+					instagram='https://www.instagram.com/paradigm_engineering/'
 					contact='hello@paradigmhyperloop.com'
 					date='2016'
-    		    />
-    		    <TeamCard
-    		        name='Concrete Toboggan'
-    		        title=''
-    		        logo='/res/team_logos/concrete.png'
-    		        text=''
-    		        link='https://www.engr.mun.ca/ConcreteToboggan/'
+				/>
+				<TeamCard
+					name='Concrete Toboggan'
+					title=''
+					logo='/res/team_logos/concrete.png'
+					text=''
+					link='https://www.engr.mun.ca/ConcreteToboggan/'
 					instagram='https://www.instagram.com/mun_concrete_toboggan'
 					facebook='https://www.facebook.com/profile.php?id=100076112047631'
 					contact='munconcretetoboggan@gmail.com'
 					date='2018'
-    		    />
+				/>
 				<TeamCard
-    		        name='Chem-E-Car'
-    		        title='Chemical Powered Car'
-    		        logo='/res/team_logos/chemecar.png'
-    		        text='MUN Chem-E-Car is designing and building a shoe-box sized car that runs solely on chemical reactions. The car will then compete by travelling a set distance in a set time period. Besides competing in this competition, we are also striving to break barriers and stigmas to show both potential engineering students and the public what precisely the Process/Chemical engineering industry does to benefit their everyday lives.'
-    		        link=''
+					name='Chem-E-Car'
+					title='Chemical Powered Car'
+					logo='/res/team_logos/chemecar.png'
+					text='MUN Chem-E-Car is designing and building a shoe-box sized car that runs solely on chemical reactions. The car will then compete by travelling a set distance in a set time period. Besides competing in this competition, we are also striving to break barriers and stigmas to show both potential engineering students and the public what precisely the Process/Chemical engineering industry does to benefit their everyday lives.'
+					link=''
 					contact='memorialchemecar@gmail.com'
 					instagram='https://www.instagram.com/memorialchemecar/'
 					date='2020'
-    		    />
+				/>
 				<TeamCard
-    		        name='Iceberg ASV'
-    		        title='Autonomous Surface Vehicle'
-    		        logo='/res/team_logos/icebergasv.png'
-    		        text='Iceberg ASV is a student-led design team that designs and builds an autonomous surface vehicle (ASV) to compete in RoboBoat, an annual competition held by RoboNation. Hull design, controls, power distribution and computer vision are just some of the areas that RoboBoat entails. Consisting of thirteen members ranging across multiple engineering disciplines, commerce and marine institute, Iceberg encourages interdisciplinary work to maximize learning for all team members.'
-    		        link='https://icebergasv.ca/'
-    		        date='2021'
+					name='Iceberg ASV'
+					title='Autonomous Surface Vehicle'
+					logo='/res/team_logos/icebergasv.png'
+					text='Iceberg ASV is a student-led design team that designs and builds an autonomous surface vehicle (ASV) to compete in RoboBoat, an annual competition held by RoboNation. Hull design, controls, power distribution and computer vision are just some of the areas that RoboBoat entails. Consisting of thirteen members ranging across multiple engineering disciplines, commerce and marine institute, Iceberg encourages interdisciplinary work to maximize learning for all team members.'
+					link='https://icebergasv.ca/'
+					date='2021'
 					contact='info@icebergasv.ca'
-    		    />
+				/>
 				<TeamCard
-    		        name='MUN RoboSub'
-    		        title='Autonomous Underwater Vehicle'
-    		        logo='/res/team_logos/robosub.png'
-    		        text=''
-    		        link='https://sites.google.com/mun.ca/mun-robosub/home'
+					name='MUN RoboSub'
+					title='Autonomous Underwater Vehicle'
+					logo='/res/team_logos/robosub.png'
+					text=''
+					link='https://sites.google.com/mun.ca/mun-robosub/home'
 					contact='robosubmun@gmail.com'
 					date='2021'
-    		    />
-    		    <TeamCard
-    		        name='MUN E-Motorsports'
-    		        title='Autonomous Electric Vehicle'
-    		        logo='/res/team_logos/munemotorsports.png'
-    		        text=''
-    		        link='https://munemotorsports.com'
-    		        linkedin='https://www.linkedin.com/company/fmuntenth/'
-    		        date='2022'
-    		    />
-    		    <TeamCard
-    		        name='Phoenix Aerospace'
-    		        title='Drones'
-    		        logo='/res/team_logos/phoenix.png'
-    		        text=''
-    		        link=''
+				/>
+				<TeamCard
+					name='MUN E-Motorsports'
+					title='Autonomous Electric Vehicle'
+					logo='/res/team_logos/munemotorsports.png'
+					text=''
+					link='https://munemotorsports.com'
+					linkedin='https://www.linkedin.com/company/fmuntenth/'
+					date='2022'
+				/>
+				<TeamCard
+					name='Phoenix Aerospace'
+					title='Drones'
+					logo='/res/team_logos/phoenix.png'
+					text=''
+					link=''
 					contact='Phoenixuav.mun@gmail.com'
 					facebook='https://www.facebook.com/munphoenixareospace/'
     		        date='2022'
@@ -156,7 +154,6 @@ export default function GetInvolved() {
 					facebook='https://www.facebook.com/WISEUndergradSociety/'
 					contact='wiseus15@gmail.com'
 					date='2008'
-
 				/>
 				<TeamCard
 					name='Google Developers Club'
@@ -219,7 +216,6 @@ export default function GetInvolved() {
 					text='The Tetra Society is an award-winning charity dedicated to assisting people with disabilities achieve an independent and fulfilling life in the community. Tetra recruits skilled volunteer engineers, technicians, health professionals, and any “MacGyver types” to design, make, or modify assistive devices or the environment for people with disabilities.'
 					link='https://tetrasociety.org/'
 					facebook='https://www.facebook.com/groups/250387475027356/'
-
 				/>
 			</div>
 		</main>

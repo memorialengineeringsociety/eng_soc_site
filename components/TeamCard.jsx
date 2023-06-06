@@ -1,13 +1,12 @@
 export function TeamCard(props) {
 	return (
-		<div className='flex flex-col ml-5 mr-5'>
-    		<div className='flex flex-col place-items-center rounded-2xl border border-black '>
-    		    <img src={props.logo} alt={props.name} className='bg-grey-300 sm:h-96 p-2 sm:p-5 object-contain'/>
-    		    <div className='flex flex-col place-items-center bg-stone-300 rounded-b-2xl min-w-full'>
-    		        <h1 className='text-4xl text-black font-extrabold text-center'>{props.name}</h1>
-    		        <h1 className='text-2xl text-black font-extrabold text-center'>{props.title}</h1>
+		<div className='flex flex-col ml-5 mr-5 place-items-center rounded-2xl borde drop-shadow-2xl '>
+    		    <img src={props.logo} alt={props.name} className=' bg-grey-300 sm:h-96 p-2 sm:p-5 object-contain'/>
+    		    <div className='flex flex-col place-items-center bg-stone-400 min-h-[370px] rounded-b-2xl min-w-full'>
+    		        <h1 className='pt-4 text-4xl font-extrabold text-center'>{props.name}</h1>
+    		        <h1 className='text-2xl text-stone-600 font-extrabold text-center'>{props.title}</h1>
     		        {props.date ?
-    		            <h1 className='text-lg text-black font-bold text-center'>Founded: {props.date}</h1>
+    		            <h1 className='text-lg font-bold text-stone-700 text-center'>Founded: {props.date}</h1>
     		        : null}
     		        <p className='pl-4 pr-4 text-center text-black'>{props.text}</p>
     		        <div className='flex justify-center gap-x-3 p-5'>
@@ -62,7 +61,6 @@ export function TeamCard(props) {
                 		}
     		        </div>
     		    </div>
-    		</div>
 		</div>
 	)
 }
