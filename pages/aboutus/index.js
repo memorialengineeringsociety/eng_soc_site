@@ -4,7 +4,7 @@ import {MemberCard} from '../../components/MemberCard';
 export default function AboutUs() {
 	return (
         <main className='lg:flex'>
-            <div id='soca' className='p-20 lg:w-1/2 space-y-4'>
+            <div id='soca' className='p-5 md:p-20 lg:w-1/2 space-y-4'>
                 <h1 className='text-black font-ops text-5xl text-center'>Society A</h1>
                 <MemberCard
                     title='President'
@@ -119,8 +119,8 @@ export default function AboutUs() {
 
 
             </div>
-            <div id='socb' className='p-20 w-1/2 space-y-4'>
-            <h1 className='text-black font-ops text-5xl text-center'>Society B</h1>
+            <div id='socb' className='p-5 md:p-20 lg:w-1/2 space-y-4'>
+                <h1 className='text-black font-ops text-5xl text-center'>Society B</h1>
                 <MemberCard
                     title='President'
                     name='Ben Oates'

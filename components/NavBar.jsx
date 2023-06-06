@@ -50,28 +50,28 @@ export const Navbar = () => {
 						</motion.div> */}
 						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
 							<Link href='/aboutus'>
-								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
+								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
 									About
 								</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
 							<Link href='/academics'>
-								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
+								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
 									Academics
 								</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
 							<Link href='/events'>
-								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
+								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
 									Events
 								</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
 							<Link href='/getinvolved'>
-								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
+								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
 									Get Involved
 								</div>
 							</Link>

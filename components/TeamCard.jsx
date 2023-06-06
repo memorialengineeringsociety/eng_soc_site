@@ -1,7 +1,7 @@
 export function TeamCard(props) {
 	return (
 		<div className='flex flex-col ml-5 mr-5 place-items-center rounded-2xl borde drop-shadow-2xl '>
-    		    <img src={props.logo} alt={props.name} className=' bg-grey-300 sm:h-96 p-2 sm:p-5 object-contain'/>
+    		    <img src={props.logo} alt={props.name} className=' bg-grey-300 sm:h-96 p-2 sm:p-5 object-contain hover:scale-105 transition'/>
     		    <div className='flex flex-col place-items-center bg-stone-400 min-h-[370px] rounded-b-2xl min-w-full'>
     		        <h1 className='pt-4 text-4xl font-extrabold text-center font-ops'>{props.name}</h1>
     		        <h1 className='text-2xl text-stone-600 font-extrabold text-center font-gold_bold'>{props.title}</h1>
@@ -53,8 +53,8 @@ export function TeamCard(props) {
     		                </a>: null
     		            }
 						{props.contact ?
-							<a href="mailto: {props.contact}"class="p-2 bg-black font-semibold text-white inline-flex items-center space-x-2 rounded hover:animate-pulse">
-								<svg class="w-5 h-5 fill-current" role="img" viewBox="0 0 8 6" xmlns="http://www.w3.org/2000/svg">
+							<a href="mailto: {props.contact}"className="p-2 bg-black font-semibold text-white inline-flex items-center space-x-2 rounded hover:animate-pulse">
+								<svg className="w-5 h-5 fill-current" role="img" viewBox="0 0 8 6" xmlns="http://www.w3.org/2000/svg">
 								<g><path d="m0 0h8v6h-8zm.75 .75v4.5h6.5v-4.5zM0 0l4 3 4-3v1l-4 3-4-3z"></path></g>
 								</svg>
 							</a>: null

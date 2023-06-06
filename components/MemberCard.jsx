@@ -2,11 +2,11 @@ export function MemberCard(props) {
 	return (
         <div className="rounded-3xl p-3 bg-stone-400">
             <div className="flex flex-col place-items-center xl:flex-row xl:justify-evenly gap-5">
-                <img src={props.photo} alt={props.name} className="w-1/4 h-1/4 rounded-full border-8 border-mun-burgundy"/>
+                <img src={props.photo} alt={props.name} className="md:w-1/4 rounded-full border-8 border-mun-burgundy"/>
                 <div className="flex flex-col justify-evenly w-3/4">
-                    <h1 className="text-4xl text-black text-center font-bold underline font-ops">{props.title}</h1>
-                    <h1 className="text-5xl text-white text-center font-gold_bold">{props.name}</h1>
-                    <h1 className="text-2xl text-black text-center font-gold">{props.program}</h1>
+                    <h1 className="text-2xl md:text-4xl text-black text-center font-bold underline font-ops">{props.title}</h1>
+                    <h1 className="text-3xl md:text-5xl text-white text-center font-gold_bold">{props.name}</h1>
+                    <h1 className="text-lg md:text-2xl text-black text-center font-gold">{props.program}</h1>
                     <div className='flex justify-center gap-x-3 p-5 rounded-full'>
                         {props.link ? 
                             <a href={props.link} className="bg-stone-300 p-2 font-semibold text-black inline-flex items-center space-x-2 rounded hover:animate-pulse">
