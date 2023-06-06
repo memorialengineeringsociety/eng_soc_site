@@ -1,20 +1,27 @@
 export function MemberCard(props) {
 	return (
-        <div className="rounded-xl border-2 p-3">
-            <div className="flex justify-center gap-5">
+        <div className="rounded-3xl p-3 bg-gray-200">
+            <div className="flex justify-evenly gap-5">
                 <img src={props.photo} alt={props.name} className="w-1/4 h-1/4 rounded-full border-8 border-mun-burgundy"/>
                 <div className="flex flex-col justify-evenly">
-                    <h1 className="text-3xl text-black text-center font-bold underline">{props.title}</h1>
+                    <h1 className="text-4xl text-black text-center font-bold underline">{props.title}</h1>
                     <h1 className="text-5xl text-black text-center">{props.name}</h1>
                     <h1 className="text-2xl text-black text-center">{props.program}</h1>
-                    <div className='flex justify-center gap-x-3 p-5'>
+                    <div className='flex justify-center gap-x-3 p-5 rounded-full'>
                         {props.link ? 
-                            <a href={props.link} className="bg-stone-200 p-2 font-semibold text-black inline-flex items-center space-x-2 rounded hover:animate-pulse">
+                            <a href={props.link} className="bg-stone-300 p-2 font-semibold text-black inline-flex items-center space-x-2 rounded hover:animate-pulse">
                                 <svg className="w-19 h-5 fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <g><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 16.057v-3.057h2.994c-.059 1.143-.212 2.24-.456 3.279-.823-.12-1.674-.188-2.538-.222zm1.957 2.162c-.499 1.33-1.159 2.497-1.957 3.456v-3.62c.666.028 1.319.081 1.957.164zm-1.957-7.219v-3.015c.868-.034 1.721-.103 2.548-.224.238 1.027.389 2.111.446 3.239h-2.994zm0-5.014v-3.661c.806.969 1.471 2.15 1.971 3.496-.642.084-1.3.137-1.971.165zm2.703-3.267c1.237.496 2.354 1.228 3.29 2.146-.642.234-1.311.442-2.019.607-.344-.992-.775-1.91-1.271-2.753zm-7.241 13.56c-.244-1.039-.398-2.136-.456-3.279h2.994v3.057c-.865.034-1.714.102-2.538.222zm2.538 1.776v3.62c-.798-.959-1.458-2.126-1.957-3.456.638-.083 1.291-.136 1.957-.164zm-2.994-7.055c.057-1.128.207-2.212.446-3.239.827.121 1.68.19 2.548.224v3.015h-2.994zm1.024-5.179c.5-1.346 1.165-2.527 1.97-3.496v3.661c-.671-.028-1.329-.081-1.97-.165zm-2.005-.35c-.708-.165-1.377-.373-2.018-.607.937-.918 2.053-1.65 3.29-2.146-.496.844-.927 1.762-1.272 2.753zm-.549 1.918c-.264 1.151-.434 2.36-.492 3.611h-3.933c.165-1.658.739-3.197 1.617-4.518.88.361 1.816.67 2.808.907zm.009 9.262c-.988.236-1.92.542-2.797.9-.89-1.328-1.471-2.879-1.637-4.551h3.934c.058 1.265.231 2.488.5 3.651zm.553 1.917c.342.976.768 1.881 1.257 2.712-1.223-.49-2.326-1.211-3.256-2.115.636-.229 1.299-.435 1.999-.597zm9.924 0c.7.163 1.362.367 1.999.597-.931.903-2.034 1.625-3.257 2.116.489-.832.915-1.737 1.258-2.713zm.553-1.917c.27-1.163.442-2.386.501-3.651h3.934c-.167 1.672-.748 3.223-1.638 4.551-.877-.358-1.81-.664-2.797-.9zm.501-5.651c-.058-1.251-.229-2.46-.492-3.611.992-.237 1.929-.546 2.809-.907.877 1.321 1.451 2.86 1.616 4.518h-3.933z"></path></g>
                                 </svg>
                             </a> : null
                         }
+                        {props.contact ?
+							<a href="mailto: {props.contact}"class="p-2 bg-black font-semibold text-white inline-flex items-center space-x-2 rounded hover:animate-pulse">
+								<svg class="w-5 h-5 fill-current" role="img" viewBox="0 0 8 6" xmlns="http://www.w3.org/2000/svg">
+								<g><path d="m0 0h8v6h-8zm.75 .75v4.5h6.5v-4.5zM0 0l4 3 4-3v1l-4 3-4-3z"></path></g>
+								</svg>
+							</a>: null
+                		}
                         {props.linkedin ?
                             <a href={props.linkedin} className="bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded hover:animate-pulse">
                                 <svg className="w-5 h-5 fill-current" role="img" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +40,10 @@ export function MemberCard(props) {
                 </div>
                 
             </div>
-            <p className="text-black p-5">{props.about}</p>
+            {props.about ?
+                <p className="text-black p-5">{props.about}</p>
+            : <p className="text-black p-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a velit vehicula, tincidunt lacus eget, fringilla lorem. Etiam at fermentum lorem. Vivamus eleifend ex vitae nulla gravida, eget ultrices est luctus. Donec elit metus, sagittis in sapien ac, tincidunt tincidunt enim. Nam ullamcorper nibh nulla, sit amet faucibus turpis euismod eget. Donec arcu ipsum, dapibus a eleifend at, pellentesque id magna. Nam quis hendrerit mauris, vel commodo justo. Nam accumsan lectus vulputate lorem sagittis pretium a quis nisi. Praesent consequat lacus rutrum ante suscipit, nec porttitor sapien consequat. Vestibulum interdum tristique sodales. Maecenas suscipit id metus a facilisis. Nam vitae nulla sit amet eros molestie faucibus id et dui. Etiam dictum odio nec velit ornare pharetra. Pellentesque facilisis nisi quis aliquam mollis. Proin id sapien ut arcu varius feugiat eget at leo. Vestibulum vitae arcu faucibus, dictum lorem non, blandit lectus. </p>}
+            
         </div>
     )
 }
