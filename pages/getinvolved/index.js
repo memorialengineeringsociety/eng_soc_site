@@ -118,6 +118,7 @@ export default function GetInvolved() {
     		        logo='/res/team_logos/fsae.jpg'
     		        text=''
     		        link=''
+					linkedin='https://www.linkedin.com/company/memorial-racing-formula-sae-electric/'
     		        date='2023'
     		    />
     		</div>
@@ -136,11 +137,15 @@ export default function GetInvolved() {
 				/>
 				<TeamCard
 					name='Robogals'
-					title=''
-					logo='/res/team_logos/robogals.jpg'
-					text=''
-					link=''
-					date='2019'
+					// title='Engage, Inspire, Empower the Future of STEM'
+					logo='/res/team_logos/robogals.png'
+					text='Robogals is a student-led volunteer organization with chapters across the world, working with a common goal to increase the participation of female and gender diverse youth in engineering and technology-related industries. Through educational workshops and events, Robogals MUN Chapter seek to encourage female identifying and gender diverse youth to pursue higher education and careers in traditionally male-dominated fields by cultivating self confidence and providing mentorship.'
+					link='https://robogals.org/locations/north-america-na/memorial-university-of-newfoundland-%E2%80%8B/'
+					facebook='https://www.facebook.com/robogalsmun/'
+					linkedin='https://www.linkedin.com/company/robogals-munchapter/'
+					twitter='https://twitter.com/RobogalsM'
+					instagram='https://www.instagram.com/mun.robogals/'
+					date='2020'
 				/>
 				<TeamCard
 					name='WISE Undergraduate Society'
