@@ -25,3 +25,18 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@font-face {
+  font-family: "BlackOpsOne-Regular";
+  src: url("BlackOpsOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Goldman-Regular";
+  src: url("Goldman-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Goldman-Bold";
+  src: url("Goldman-Bold.ttf");
+}

@@ -4,6 +4,7 @@ import {TeamCard} from '../../components/TeamCard';
 export default function GetInvolved() {
 	return (
 		<main>
+			<h1 className='text-black text-5xl font-extrabold underline pt-10 font-ops text-center'>Competitive Teams</h1>
 			<div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 pt-5 pb-10'>
 				<TeamCard
 					name='Eastern Edge Robotics'
@@ -117,11 +118,11 @@ export default function GetInvolved() {
     		        text=''
     		        link=''
 					linkedin='https://www.linkedin.com/company/memorial-racing-formula-sae-electric/'
-    		        date='2023'
+    		        date='2022'
     		    />
     		</div>
-			<h1 className='font-mono text-black text-5xl font-extrabold underline pt-10'>Non-Competitive Organizations</h1>
-			<div class='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 pt-5 pb-10'>
+			<h1 className='text-black text-5xl font-extrabold underline pt-10 font-ops text-center'>Non-Competitive Organizations</h1>
+			<div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 pt-5 pb-10'>
 				<TeamCard
 					name='Engineers Without Borders'
 					title=''
@@ -175,6 +176,7 @@ export default function GetInvolved() {
 					instagram='https://www.instagram.com/nsbe.mun'
 					facebook='https://www.facebook.com/NSBE-MUN-102221058869179/'
 					contact='nsbemun@gmail.com'
+					date='2020'
 				/>
 				<TeamCard
 					name='IEEE Student Branch'
@@ -218,6 +220,14 @@ export default function GetInvolved() {
 					facebook='https://www.facebook.com/groups/250387475027356/'
 				/>
 			</div>
+			<h1 className='text-black text-5xl font-extrabold underline pt-10 font-ops text-center'>Volunteering Oppertunities</h1>
+			<h2 className='text-black text-2xl font-bold font-ops text-center'>Engineering Volunteer Network</h2>
+			<p className='text-black pl-96 pr-96'>Memorial Engineering Student Society is dedicated to uplifting not only our student body but also our community. We believe one of the fundamental ways of giving back comes through volunteering. We want to ensure it is always an accessible option for our students. We've created a space for students, clubs, companies, or individuals to bring forward volunteering opportunities or any little thing they need help with! You’ll fill the below form, giving us dates, number of volunteers required and any other relevant info! We’ll take this information and contact the keen students who have signed up and get back to you.​</p>
+			<div className='flex justify-center'>
+				<button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-10 ml-96 mr-96 mb-10 transition' onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSd6bapES16a9c40zQUhLsR4OoZJD2FBJ_PfZA6cje3WJosRXw/viewform', '_blank')}>Volunteer Request Form</button>
+				<button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-10 ml-96 mr-96 mb-10 transition' onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeneWqIDHKuxzMUeHK9Zz7jpy0DBfJN4ZwlPBustCRZR1b1-A/viewform', '_blank')}>Volunteer Sign-Up Form</button>
+			</div>
+			<p className='text-black pl-96 pr-96'>​Volunteers from MUN Engineering Societies A and B had the distinct honour of helping Make a Wish Canada grant Jenna’s wish - a wheelchair accessible swing set! After a couple phone calls, a group of volunteers came together and managed to assemble Jenna’s swing in one evening. Many, many thanks to Dr. Stephen Bruneau with the Faculty and Natalie Ryan of Make a Wish for bringing this opportunity our students.</p>
 		</main>
 	)
 }

@@ -3,9 +3,9 @@ import {MemberCard} from '../../components/MemberCard';
 
 export default function AboutUs() {
 	return (
-        <main className='flex'>
-            <div id='soca' className='p-20 w-1/2 space-y-4'>
-                <h1 className='text-black'>Society A</h1>
+        <main className='lg:flex'>
+            <div id='soca' className='p-20 lg:w-1/2 space-y-4'>
+                <h1 className='text-black font-ops text-5xl text-center'>Society A</h1>
                 <MemberCard
                     title='President'
                     name='Ava Gogal'
@@ -14,7 +14,7 @@ export default function AboutUs() {
                     photo=''
                     link=''
                     linkedin=''
-                    instagram=''
+                    instagram='https://www.instagram.com/avaflorencegogal'
                 />
                 <MemberCard
                     title='VP Academic'
@@ -24,7 +24,7 @@ export default function AboutUs() {
                     photo=''
                     link=''
                     linkedin=''
-                    instagram=''
+                    instagram='https://www.instagram.com/hannahclairedoyle'
                 />
                 <MemberCard
                     title='VP Finance'
@@ -34,17 +34,17 @@ export default function AboutUs() {
                     photo=''
                     link=''
                     linkedin=''
-                    instagram=''
+                    instagram='https://www.instagram.com/michael_mallay18'
                 />
                 <MemberCard
                     title='VP External'
                     name='Sophia White'
                     program='Electrical Engineering'
                     about=''
-                    photo=''
+                    photo='/res/members/a2023/sophia_white.png'
                     link=''
                     linkedin=''
-                    instagram=''
+                    instagram='https://www.instagram.com/sophiacwhite'
                 />
                 <MemberCard
                     title='VP Internal'
@@ -54,14 +54,14 @@ export default function AboutUs() {
                     photo=''
                     link=''
                     linkedin=''
-                    instagram=''
+                    instagram='https://www.instagram.com/jacobgillis13'
                 />
                 <MemberCard
                     title='Director of Communications'
                     name='Russell Corbett'
                     program='Computer Engineering'
                     about=''
-                    photo='/res/members/a2023/russell_white_bg.jpg'
+                    photo='/res/members/a2023/russell_corbett.jpg'
                     link='https://russellcorbett.ca/'
                     linkedin='https://www.linkedin.com/in/russell-corbett'
                     instagram='https://www.instagram.com/russell_corbett'
@@ -74,7 +74,7 @@ export default function AboutUs() {
                     photo=''
                     link=''
                     linkedin=''
-                    instagram=''
+                    instagram='https://www.instagram.com/katewilliams13'
                 />
                 <MemberCard
                     title='Director of Social Events'
@@ -84,7 +84,7 @@ export default function AboutUs() {
                     photo=''
                     link=''
                     linkedin=''
-                    instagram=''
+                    instagram='https://www.instagram.com/kait.abbott'
                 />
                 <MemberCard
                     title='Director of Sports'
@@ -94,7 +94,7 @@ export default function AboutUs() {
                     photo=''
                     link=''
                     linkedin=''
-                    instagram=''
+                    instagram='https://www.instagram.com/elibrown.4'
                 />
                 <MemberCard
                     title='Director of Co-op'
@@ -120,7 +120,7 @@ export default function AboutUs() {
 
             </div>
             <div id='socb' className='p-20 w-1/2 space-y-4'>
-                <h1 className='text-black'>Society B</h1>
+            <h1 className='text-black font-ops text-5xl text-center'>Society B</h1>
                 <MemberCard
                     title='President'
                     name='Ben Oates'

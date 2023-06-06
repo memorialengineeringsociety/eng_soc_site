@@ -17,7 +17,7 @@ export const Navbar = () => {
 			<nav className='flex items-center sticky top-0 z-50 flex-wrap bg-soc-red p-3 '>
 				<Link href='/'>
 					<div className='inline-flex items-center p-2 mr-4 '>
-						<span className='md:text-xl text-sm text-white font-bold tracking-wide'>
+						<span className='md:text-3xl text-sm text-white font-bold tracking-wide font-ops'>
 							MUN ENGINEERING SOCIETY
 						</span>
 					</div>

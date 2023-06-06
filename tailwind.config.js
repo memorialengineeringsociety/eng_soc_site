@@ -16,6 +16,11 @@ module.exports = {
         'mun-burgundy': '#923343',
         'mun-grey': '#737577',
         'soc-red': '#862633'
+      },
+      fontFamily:{
+				ops: ['BlackOpsOne-Regular', 'opentype'],
+        gold: ['Goldman-Regular', 'opentype'],
+        gold_bold: ['Goldman-Bold', 'opentype'],
       }
     },
   },

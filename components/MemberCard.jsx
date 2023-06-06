@@ -1,12 +1,12 @@
 export function MemberCard(props) {
 	return (
-        <div className="rounded-3xl p-3 bg-gray-200">
-            <div className="flex justify-evenly gap-5">
+        <div className="rounded-3xl p-3 bg-stone-400">
+            <div className="flex flex-col place-items-center xl:flex-row xl:justify-evenly gap-5">
                 <img src={props.photo} alt={props.name} className="w-1/4 h-1/4 rounded-full border-8 border-mun-burgundy"/>
-                <div className="flex flex-col justify-evenly">
-                    <h1 className="text-4xl text-black text-center font-bold underline">{props.title}</h1>
-                    <h1 className="text-5xl text-black text-center">{props.name}</h1>
-                    <h1 className="text-2xl text-black text-center">{props.program}</h1>
+                <div className="flex flex-col justify-evenly w-3/4">
+                    <h1 className="text-4xl text-black text-center font-bold underline font-ops">{props.title}</h1>
+                    <h1 className="text-5xl text-white text-center font-gold_bold">{props.name}</h1>
+                    <h1 className="text-2xl text-black text-center font-gold">{props.program}</h1>
                     <div className='flex justify-center gap-x-3 p-5 rounded-full'>
                         {props.link ? 
                             <a href={props.link} className="bg-stone-300 p-2 font-semibold text-black inline-flex items-center space-x-2 rounded hover:animate-pulse">
@@ -16,8 +16,8 @@ export function MemberCard(props) {
                             </a> : null
                         }
                         {props.contact ?
-							<a href="mailto: {props.contact}"class="p-2 bg-black font-semibold text-white inline-flex items-center space-x-2 rounded hover:animate-pulse">
-								<svg class="w-5 h-5 fill-current" role="img" viewBox="0 0 8 6" xmlns="http://www.w3.org/2000/svg">
+							<a href="mailto: {props.contact}"className="p-2 bg-black font-semibold text-white inline-flex items-center space-x-2 rounded hover:animate-pulse">
+								<svg className="w-5 h-5 fill-current" role="img" viewBox="0 0 8 6" xmlns="http://www.w3.org/2000/svg">
 								<g><path d="m0 0h8v6h-8zm.75 .75v4.5h6.5v-4.5zM0 0l4 3 4-3v1l-4 3-4-3z"></path></g>
 								</svg>
 							</a>: null
