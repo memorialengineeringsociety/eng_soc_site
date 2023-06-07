@@ -6,12 +6,13 @@ export default function AboutUs() {
         <main className='lg:flex'>
             <div id='soca' className='p-5 md:p-20 lg:w-1/2 space-y-4'>
                 <h1 className='text-black font-ops text-5xl text-center'>Society A</h1>
+                <h2 className='text-black font-ops text-3xl text-center'>2023 - 2025</h2>
                 <MemberCard
                     title='President'
                     name='Ava Gogal'
                     program='Mechanical Engineering'
                     about=''
-                    photo=''
+                    photo='/res/members/a2023/ava.jpeg'
                     link=''
                     linkedin=''
                     instagram='https://www.instagram.com/avaflorencegogal'
@@ -21,7 +22,7 @@ export default function AboutUs() {
                     name='Hannah Doyle'
                     program='Mechanical Engineering'
                     about=''
-                    photo=''
+                    photo='/res/members/a2023/hannah.jpg'
                     link=''
                     linkedin=''
                     instagram='https://www.instagram.com/hannahclairedoyle'
@@ -41,7 +42,7 @@ export default function AboutUs() {
                     name='Sophia White'
                     program='Electrical Engineering'
                     about=''
-                    photo='/res/members/a2023/sophia_white.png'
+                    photo='/res/members/a2023/sophia.png'
                     link=''
                     linkedin=''
                     instagram='https://www.instagram.com/sophiacwhite'
@@ -60,8 +61,8 @@ export default function AboutUs() {
                     title='Director of Communications'
                     name='Russell Corbett'
                     program='Computer Engineering'
-                    about=''
-                    photo='/res/members/a2023/russell_corbett.jpg'
+                    about='Meet Russell Corbett, a dedicated Term IV Computer Engineering student at Memorial University of Newfoundland. With a strong problem-solving mindset and a curious nature, Russell values time management and organization to effectively balance his academic and extracurricular commitments. He thrives on new challenges and enjoys finding innovative solutions. As a team player, he highly regards the ideas and experiences of others. Russell has gained valuable technical experience through his roles as a System Analyst at Bell Canada Enterprises, a Co-op Engineering Student at Avalon Controls Ltd., and a High School Summer Intern at Celtx. In these positions, he contributed to automation, system documentation, networking upgrades, and IT hardware installations. Russells passion for engineering extends to his involvement in various engineering teams, including Eastern Edge Robotics, MUN E-Motorsports, and the Engineering Student Society, where he holds positions such as Chief Technology Officer - Software, Software Team Member, and Director of Communications, respectively. Furthermore, Russell has undertaken several personal projects, such as designing a Smart Home system, creating his personal portfolio website using AstroJS and Tailwind, developing a poker score tracker application, establishing a makerspace for 3D printing and electronics testing, and designing an Engineering One survival game. Outside of his academic and technical pursuits, Russell actively participates in volunteering initiatives like Relay for Life, dedicating his efforts to honoring his loved ones affected by cancer. Through his dedication to engineering, technical expertise, and commitment to making a positive impact, Russell Corbett embodies a driven and versatile individual with a promising future.'
+                    photo='/res/members/a2023/russell.jpg'
                     link='https://russellcorbett.ca/'
                     linkedin='https://www.linkedin.com/in/russell-corbett'
                     instagram='https://www.instagram.com/russell_corbett'
@@ -81,7 +82,7 @@ export default function AboutUs() {
                     name='Kait Abbott'
                     program='Mechanical Engineering'
                     about=''
-                    photo=''
+                    photo='/res/members/a2023/kait.jpg'
                     link=''
                     linkedin=''
                     instagram='https://www.instagram.com/kait.abbott'
@@ -91,7 +92,7 @@ export default function AboutUs() {
                     name='Eli Brown'
                     program='Electrical Engineering'
                     about=''
-                    photo=''
+                    photo='/res/members/a2023/eli.JPG'
                     link=''
                     linkedin=''
                     instagram='https://www.instagram.com/elibrown.4'
@@ -101,7 +102,7 @@ export default function AboutUs() {
                     name='Harnoor Singh'
                     program='Computer Engineering'
                     about=''
-                    photo=''
+                    photo='/res/members/a2023/harnoor.jpg'
                     link=''
                     linkedin=''
                     instagram=''
@@ -121,6 +122,7 @@ export default function AboutUs() {
             </div>
             <div id='socb' className='p-5 md:p-20 lg:w-1/2 space-y-4'>
                 <h1 className='text-black font-ops text-5xl text-center'>Society B</h1>
+                <h2 className='text-black font-ops text-3xl text-center'>2022 - 2024</h2>
                 <MemberCard
                     title='President'
                     name='Ben Oates'
