@@ -112,12 +112,14 @@ export default function GetInvolved() {
     		        date='2022'
     		    />
     		    <TeamCard
-    		        name='F1 Electric'
-    		        title='Electric Formula 1 Car'
+    		        name='Memorial FSAE'
+    		        title='Fully Electric Formula Style Vehicle'
     		        logo='/res/team_logos/fsae.png'
-    		        text=''
+    		        text='Memorial Formula SAE is responsible for the research, design, fabrication, and operation of Memorial Univeristy’s first all-electric human operated formula one vehicle. The team will be competing in an SAE international competition where they will undergo events including endurance, auto-cross, and skid pad tests as well as showcasing their design and cost evaluation presentations. This team has a diverse make-up of students across various disciplines and gives students an opportunity to apply what they learn in the classroom to a real project. This team gives students the opportunity to develop many needed skills such as their communication, teamwork, and technical abilities.'
     		        link=''
 					linkedin='https://www.linkedin.com/company/memorial-racing-formula-sae-electric/'
+					instagram='https://www.instagram.com/memorialfsae/'
+					contact='memorialfsaee@gmail.com'
     		        date='2022'
     		    />
     		</div>
