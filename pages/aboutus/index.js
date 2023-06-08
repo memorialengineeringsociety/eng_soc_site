@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import {MemberCard} from '../../components/MemberCard';
+import jsonData from 'public/res/research/pastsociety.json';
+
+const data = jsonData;
 
 export default function AboutUs() {
 	return (
         <main className='lg:flex'>
             <div id='soca' className='p-5 md:p-20 lg:w-1/2 space-y-4'>
-                <h1 className='text-black font-ops text-5xl text-center'>Society A</h1>
+                <h1 className='text-black font-ops text-5xl text-center'>17th Society A</h1>
                 <h2 className='text-black font-ops text-3xl text-center'>2023 - 2025</h2>
                 <MemberCard
                     title='President'
@@ -72,7 +75,7 @@ export default function AboutUs() {
                     name='Kate Williams'
                     program='Electrical Engineering'
                     about=''
-                    photo=''
+                    photo='/res/members/a2023/kate.jpg'
                     link=''
                     linkedin=''
                     instagram='https://www.instagram.com/katewilliams13'
@@ -117,11 +120,10 @@ export default function AboutUs() {
                     linkedin=''
                     instagram=''
                 />
-
-
+                <SocietyData societies={data.societyA} />
             </div>
             <div id='socb' className='p-5 md:p-20 lg:w-1/2 space-y-4'>
-                <h1 className='text-black font-ops text-5xl text-center'>Society B</h1>
+                <h1 className='text-black font-ops text-5xl text-center'>16th Society B</h1>
                 <h2 className='text-black font-ops text-3xl text-center'>2022 - 2024</h2>
                 <MemberCard
                     title='President'
@@ -179,15 +181,15 @@ export default function AboutUs() {
                     instagram=''
                 />
                 <MemberCard
-                        title='Director of Communications'
-                        name='Veronica Naterer'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/b2022/veronica_naterer.png'
-                        link=''
-                        contact='communications.munengsocb@gmail.com'
-                        linkedin=''
-                        instagram=''
+                    title='Director of Communications'
+                    name='Veronica Naterer'
+                    program='Mechanical Engineering'
+                    about=''
+                    photo='/res/members/b2022/veronica_naterer.png'
+                    link=''
+                    contact='communications.munengsocb@gmail.com'
+                    linkedin=''
+                    instagram=''
                 />
                 <MemberCard
                     title='Director of Outreach'
@@ -244,7 +246,50 @@ export default function AboutUs() {
                     linkedin=''
                     instagram=''
                 />
+                <SocietyData societies={data.societyB} />
+                <SocietyData societies={data.society} />
             </div>
         </main>
-        )
+    )
 }
+
+function SocietyData({ societies }) {
+    return (
+      <div>
+        {Object.entries(societies).map(([society, societyData]) => {
+            console.log(society)
+          if (societyData.title !== '17th Society A' && societyData.title !== '16th Society B') {
+            return (
+              <div key={society} className='bg-stone-400 rounded-3xl mt-3'>
+                <h2 className="text-black text-4xl text-center font-ops">{societyData.title}</h2>
+                <h3 className="text-black text-2xl text-center font-ops">{societyData.years}</h3>
+                {Object.entries(societyData).map(([position, name]) => {
+                    if (position !== 'title' && position !== 'years' && position !== 'members') {
+                        return (
+                            <p className="text-black text-xl font-gold text-center" key={position}>
+                            <span>{position}: </span><span className='text-white'>{name}</span>
+                            </p>
+                        );
+                    }
+                    if (position === 'members') {
+                        return (
+                            <div>
+                                <h3 className="text-black text-xl text-center font-gold">Members</h3>
+                                {name.map((item, index) => (
+                                <div className='text-white text-xl font-gold text-center' key={index}>{item}</div>
+                                ))}
+                            </div>
+                        )
+                    }
+                return null;
+                })}
+              </div>
+            );
+          }
+          return null;
+        })}
+      </div>
+    );
+  }
+  
+

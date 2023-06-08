@@ -148,7 +148,7 @@ export default function GetInvolved() {
 						/>
 						<TeamCard
 							name='Robogals'
-							// title='Engage, Inspire, Empower the Future of STEM'
+							title='Empowering the Future of STEM'
 							logo='/res/team_logos/robogals.png'
 							text='Robogals is a student-led volunteer organization with chapters across the world, working with a common goal to increase the participation of female and gender diverse youth in engineering and technology-related industries. Through educational workshops and events, Robogals MUN Chapter seek to encourage female identifying and gender diverse youth to pursue higher education and careers in traditionally male-dominated fields by cultivating self confidence and providing mentorship.'
 							link='https://robogals.org/locations/north-america-na/memorial-university-of-newfoundland-%E2%80%8B/'
@@ -249,3 +249,6 @@ export default function GetInvolved() {
 		</main>
 	)
 }
+
+
+

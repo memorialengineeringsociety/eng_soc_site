@@ -1,0 +1,154 @@
+{
+    "societyA": {
+      "16th": {
+        "title": "17th Society A",
+        "years": "2023 - 2025",
+        "President": "Ava Gogal",
+        "VP External": "Sophia White",
+        "VP Internal": "Jacob Gillis",
+        "VP Finance": "Michael Mallay",
+        "VP Academic": "Hannah Doyle",
+        "Director of Social Events": "Kait Abbott",
+        "Director of Sports": "Eli Brown",
+        "Director of Co-op": "Harnoor Singh",
+        "Director of Outreach": "Kate Williams",
+        "Director of Communications": "Russell Corbett",
+        "Director of International Representation": "Abdelrahman Mohamed"
+      },
+      "15th": {
+        "title": "16th Society A",
+        "years": "2021 - 2023",
+        "President": "Madison Squires",
+        "VP External": "Holly Clarke",
+        "VP Internal": "Aaron Greenland",
+        "VP Finance": "Cameron King",
+        "VP Academic": "Andrew Stone",
+        "Director of Social Events": "Nina Verster",
+        "Director of Sports": "Mia Gaudet",
+        "Director of Co-op": "Kareem Zeair",
+        "Director of Outreach": "Paulina Alhassan",
+        "Director of Communications": "Jadzia Penney",
+        "Director of International Representation": "Zarin Tasnim"
+      },
+      "14th":{
+        "title": "15th Society A",
+        "years": "2019 - 2021",
+        "President": "Cait Chapman",
+        "VP Finance": "Davyani Vasta",
+        "VP External": "Daniel Stark"
+      }
+    },
+    "societyB": {
+      "16th": {
+        "title": "16th Society B",
+        "years": "2022 - 2024",
+        "President": "Ben Oates",
+        "VP External": "Kathleen Curran",
+        "VP Internal": "Matthew Rogers",
+        "VP Finance": "Nadia Marmouche",
+        "VP Academic": "Fares Khalil",
+        "Director of Social Events": "Abby Sparrow",
+        "Director of Sports": "Nathan Flynn",
+        "Director of Co-op": "Jordan Careen",
+        "Director of Outreach": "Paige Bodnar",
+        "Director of Communications": "Veronica Naterer",
+        "Director of International Representation": "Sayed Ahmed"
+      },
+      "15th": {
+        "title": "15th Society B",
+        "years": "2020 - 2022",
+        "President": "Billy Barnes",
+        "VP Academic": "Erin Burt",
+        "VP External": "Stephanie Cater",
+        "VP Internal": "Jenna Power",
+        "VP Finance": "Brooke Warren",
+        "Director of Communications": "Maria Blake",
+        "Director of International Representation": "Nuru Kimaryo",
+        "Director of Social Events": "Emily Stokes",
+        "Director of Co-op": "Clara Phillips",
+        "Director of Sustainability": "Samantha Hallett",
+        "Director of Sports": "Michael Johnson",
+        "Director of Outreach": "Emily Delaney"
+      },
+      "14th": {
+        "title": "14th Society B",
+        "years": "2018 - 2020",
+        "President": "Stephanie Adey",
+        "VP Academic": "Jillian Breau",
+        "VP External": "Rowan Meaney",
+        "VP Internal": "Angela Greene",
+        "VP Finance": "Matthew Hickey",
+        "Director of Co-op": "Victoria Whitten",
+        "Director of High School Outreach": "Jill Doyle",
+        "Director of Social Events": "Katie Brenton",
+        "Director of Competitions": "Nada Nasr",
+        "Director of Sports": "Logan Collier"
+      }
+    },
+    "society": {
+        "35th": {
+            "title": "35th Society",
+            "years": "1968 - 1969",
+            "members": ["Harold Norman Miles", "Harold Ross Penney"]
+          },
+        "28th": {
+            "title": "28th Society",
+            "years": "1961 - 1962",
+            "members": ["Graham R. Skanes", "Nelson Gerald Bishop", "Michael Francis Blackmore", "Edwin Dennis Colbourne"]
+        },
+        "27th": {
+            "title": "27th Society",
+            "years": "1960 - 1961",
+            "members": ["Kingsley Butt", "David Humber"]
+        },
+        "20th": {
+            "title": "20th Society",
+            "years": "1953 - 1954",
+            "President": "Ray Gosine",
+            "Vice President": "Aidan Ryan",
+            "Secretary": "William Squires",
+            "Engineering Representative in the Athletic Union": "John Cahill"
+        },
+        "6th": {
+            "title": "6th Society",
+            "years": "1939 - 1940",
+            "President": "Doug Jamieson",
+            "Vice-President": "Richard Garland",
+            "Secretary": "Fred Milley"
+        },
+        "5th": {
+            "title": "5th Society",
+            "years": "1938 - 1939",
+            "President": "William C. Brown",
+            "Vice-President": "Angus MacKenzie"
+        },
+        "4th": {
+            "title": "4th Society",
+            "years": "1937 - 1938",
+            "President": "Balfour 'Dick' Duder",
+            "Vice-President": "R. F. Martin",
+            "Secretary": "F. H. Clark"
+        },
+        "3rd": {
+            "title": "3rd Society",
+            "years": "1936 - 1937",
+            "President": "Ted Cheeseman",
+            "Vice-President": "Balfour 'Dick' Duder",
+            "Secretary": "E. Henley"
+        },
+        "2nd": {
+            "title": "2nd Society",
+            "years": "1935 - 1936",
+            "President": "Tom Woods",
+            "Vice President": "Eric Reeves",
+            "Secretary": "Mundon Bishop"
+        },
+        "1st": {
+            "title": "The First Engineering Society",
+            "years": "1934 - 1935",
+            "President": "Owen Smith",
+            "Secretary": "John J. Moakler"
+        }
+    }
+  }
+  
