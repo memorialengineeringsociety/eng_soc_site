@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:digitalocean": "npm install --production=false && npm run build && npm ci"
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
