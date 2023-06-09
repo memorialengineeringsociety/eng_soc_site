@@ -6,13 +6,12 @@ export default function GetInvolved() {
 	return (
 		<main className=''>
 			<div className='hidden xl:flex w-full justify-evenly'>
-				<a className='w-1/3 flex justify-center p-5 border-4 border-black'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Competitive Teams</h1></a>
-				<a className='w-1/3 flex justify-center p-5 border-4 border-black'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Non-Competitive Organizations</h1></a>
-				<a className='w-1/3 flex justify-center p-5 border-4 border-black'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Volunteering Oppertunities</h1></a>
+				<a className='w-1/3 flex justify-center p-5'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Competitive Teams</h1></a>
+				<a className='w-1/3 flex justify-center p-5'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Non-Competitive Organizations</h1></a>
+				<a className='w-1/3 flex justify-center p-5'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Volunteering Oppertunities</h1></a>
 			</div>
 			<div className='xl:flex overflow-auto snap-mandatory snap-x'>
 				<section id='team' className='min-w-full snap-center'>
-					<h1 className='text-black text-5xl font-extrabold underline pt-10 font-ops text-center'>Competitive Teams</h1>
 					<div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 pt-5 pb-10'>
 						<TeamCard
 							name='Eastern Edge Robotics'
@@ -133,7 +132,6 @@ export default function GetInvolved() {
 					</div>
 				</section>
 				<section id='organization' className='min-w-full snap-center'>
-					<h1 className='text-black text-5xl font-extrabold underline pt-10 font-ops text-center'>Non-Competitive Organizations</h1>
 					<div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 pt-5 pb-10'>
 						<TeamCard
 							name='Engineers Without Borders'
@@ -235,14 +233,13 @@ export default function GetInvolved() {
 				</section>
 				<section id='volunteer' className='min-w-full flex justify-center snap-center'>
 					<div className='w-1/2'>
-						<h1 className='text-black text-3xl xl:text-5xl font-extrabold underline xl:pt-10 font-ops text-center'>Volunteering Oppertunities</h1>
 						<h2 className='text-black text-2xl font-bold font-ops text-center'>Engineering Volunteer Network</h2>
 						<p className='text-black'>Memorial Engineering Student Society is dedicated to uplifting not only our student body but also our community. We believe one of the fundamental ways of giving back comes through volunteering. We want to ensure it is always an accessible option for our students. We've created a space for students, clubs, companies, or individuals to bring forward volunteering opportunities or any little thing they need help with! You’ll fill the below form, giving us dates, number of volunteers required and any other relevant info! We’ll take this information and contact the keen students who have signed up and get back to you.​</p>
 						<div className='flex justify-center pt-5 pb-5 gap-x-10'>
 							<button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition' onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSd6bapES16a9c40zQUhLsR4OoZJD2FBJ_PfZA6cje3WJosRXw/viewform', '_blank')}>Volunteer Request Form</button>
 							<button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition' onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeneWqIDHKuxzMUeHK9Zz7jpy0DBfJN4ZwlPBustCRZR1b1-A/viewform', '_blank')}>Volunteer Sign-Up Form</button>
 						</div>
-						<p className='text-black'>​Volunteers from MUN Engineering Societies A and B had the distinct honour of helping Make a Wish Canada grant Jenna’s wish - a wheelchair accessible swing set! After a couple phone calls, a group of volunteers came together and managed to assemble Jenna’s swing in one evening. Many, many thanks to Dr. Stephen Bruneau with the Faculty and Natalie Ryan of Make a Wish for bringing this opportunity our students.</p>
+						<p className='text-black'>Volunteers from MUN Engineering Societies A and B had the distinct honour of helping Make a Wish Canada grant Jenna’s wish - a wheelchair accessible swing set! After a couple phone calls, a group of volunteers came together and managed to assemble Jenna’s swing in one evening. Many, many thanks to Dr. Stephen Bruneau with the Faculty and Natalie Ryan of Make a Wish for bringing this opportunity our students.</p>
 					</div>
 				</section>
 			</div>
