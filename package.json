@@ -7,8 +7,9 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "lint": "next lint",
-    "build:digitalocean": "npm install --production=false && npm run build && npm ci"
+    "build:css": "postcss styles/tailwind.css -o styles/main.css",
+    "build:watch": "postcss styles/tailwind.css -o styles/main.css --watch",
+    "prod:build": "NODE_ENV=production yarn run build:css && yarn run build"
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
