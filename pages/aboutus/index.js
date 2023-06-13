@@ -15,7 +15,7 @@ export default function AboutUs() {
                         title='President'
                         name='Ava Gogal'
                         program='Mechanical Engineering'
-                        about='I am a big fan of D-Day'
+                        about=''
                         photo='/res/members/a2023/ava.jpeg'
                         link=''
                         linkedin=''
