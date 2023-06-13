@@ -1,8 +1,8 @@
 export function TeamCard(props) {
 	return (
-		<div className='flex flex-col ml-5 mr-5 place-items-center rounded-2xl borde drop-shadow-2xl '>
+		<div className='flex flex-col ml-5 mr-5 place-items-center rounded-2xl drop-shadow-2xl '>
     		    <img src={props.logo} alt={props.name} className=' bg-grey-300 sm:h-96 p-2 sm:p-5 object-contain hover:scale-105 transition'/>
-    		    <div className='flex flex-col place-items-center bg-stone-400 min-h-[480px] rounded-b-2xl min-w-full'>
+    		    <div className='flex flex-col place-items-center bg-stone-400 min-h-[420px] rounded-b-2xl min-w-full'>
     		        <h1 className='pt-4 text-4xl font-extrabold text-center font-ops'>{props.name}</h1>
     		        <h1 className='text-2xl text-stone-600 font-extrabold text-center font-gold_bold'>{props.title}</h1>
     		        {props.date ?
