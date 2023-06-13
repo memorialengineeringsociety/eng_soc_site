@@ -1,4 +1,4 @@
-FROM node:19.5.0-alpine AS builder
+FROM node:16 AS builder
 WORKDIR /app
 COPY . .
 RUN npm install && npm run build && npm run export
