@@ -93,7 +93,7 @@ export default function GetInvolved() {
 						<TeamCard
 							name='MUN RoboSub'
 							title='Autonomous Underwater Vehicle'
-							logo='/res/team_logos/robosub.png'
+							logo='/res/team_logos/robosub.PNG'
 							text=''
 							link='https://sites.google.com/mun.ca/mun-robosub/home'
 							contact='robosubmun@gmail.com'
