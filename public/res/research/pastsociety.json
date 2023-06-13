@@ -1,7 +1,7 @@
 {
     "societyA": {
-      "16th": {
-        "title": "17th Society A",
+      "24th": {
+        "title": "24th Society A",
         "years": "2023 - 2025",
         "President": "Ava Gogal",
         "VP External": "Sophia White",
@@ -15,8 +15,8 @@
         "Director of Communications": "Russell Corbett",
         "Director of International Representation": "Abdelrahman Mohamed"
       },
-      "15th": {
-        "title": "16th Society A",
+      "23rd": {
+        "title": "23th Society A",
         "years": "2021 - 2023",
         "President": "Madison Squires",
         "VP External": "Holly Clarke",
@@ -30,8 +30,8 @@
         "Director of Communications": "Jadzia Penney",
         "Director of International Representation": "Zarin Tasnim"
       },
-      "14th":{
-        "title": "14th Society A",
+      "22nd": {
+        "title": "22th Society A",
         "years": "2019 - 2021",
         "President": "Cait Chapman",
         "VP External": "Daniel Stark",
@@ -46,42 +46,35 @@
         "Director of International Representation": "Dani Amisi",
         "Director of Sustainability": "Miriam Simmons"
       },
-      "13th": {
-        "title": "13th Society A",
+      "21st": {
+        "title": "21th Society A",
         "years": "2017 - 2019",
         "President": "Greg Coates"
       },
-      "1998 Year": {
-        "title": "1998 Year",
-        "years": "1996 - 1998",
-        "President": "Kathy Brett"
+      "10th": {
+        "title": "10th Society A",
+        "years": "1995-1997",
+        "President": "Derek Butler"
       },
-      "1996 Year": {
-        "title": "1996 Year",
-        "years": "1994-1996",
-        "President": "Barry Parsons",
-        "VP-External": "Steve Forward",
-        "VP-Finance": "Steve Wall"
+      "9th": {
+        "title": "9th Society A",
+        "years": "1993-1995",
+        "President": "Karen Harper"
       },
-      "1994 Year": {
-        "title": "1994 Year",
-        "years": "1994-1996",
-        "President": "Hedley Coish"
-      },
-      "1990 Year": {
-        "title": "1990 Year",
-        "years": "1990 - 1992",
+      "7th": {
+        "title": "7th Society A",
+        "years": "1989 - 1991",
         "VP-External": "Paul Greene"
       },
-      "1987 Year": {
-        "title": "1987 Year",
+      "6th": {
+        "title": "6th Society A",
         "years": "1987 - 1989",
         "President": "Bill Sullivan"
       }
     },
     "societyB": {
-      "16th": {
-        "title": "16th Society B",
+      "23rd": {
+        "title": "23rd Society B",
         "years": "2022 - 2024",
         "President": "Ben Oates",
         "VP External": "Kathleen Curran",
@@ -95,8 +88,8 @@
         "Director of Communications": "Veronica Naterer",
         "Director of International Representation": "Sayed Ahmed"
       },
-      "15th": {
-        "title": "15th Society B",
+      "22nd": {
+        "title": "22nd Society B",
         "years": "2020 - 2022",
         "President": "Billy Barnes",
         "VP Academic": "Erin Burt",
@@ -111,8 +104,8 @@
         "Director of Sports": "Michael Johnson",
         "Director of Outreach": "Emily Delaney"
       },
-      "14th": {
-        "title": "14th Society B",
+      "21st": {
+        "title": "21st Society B",
         "years": "2018 - 2020",
         "President": "Stephanie Adey",
         "VP Academic": "Jillian Breau",
@@ -125,16 +118,28 @@
         "Director of Competitions": "Nada Nasr",
         "Director of Sports": "Logan Collier"
       },
-      "2011 Year": {
-        "title": "2011 Year",
-        "years": "2011 - 2013",
+      "17th": {
+        "title": "17th Society B",
+        "years": "2010 - 2012",
         "VP-External": "Stephanie Walsh",
         "VP-Social": "Nick Robbins"
       },
-      "1996 Year": {
-        "title": "1996 Year",
+      "10th": {
+        "title": "10th Society B",
+        "years": "1996 - 1998",
+        "President": "Kathy Brett"
+      },
+      "9th": {
+        "title": "9th Society B",
         "years": "1994-1996",
-        "President": "Derek Butler"
+        "President": "Barry Parsons",
+        "VP-External": "Steve Forward",
+        "VP-Finance": "Steve Wall"
+      },
+      "8th": {
+        "title": "8th Society B",
+        "years": "1992-1994",
+        "President": "Hedley Coish"
       }
     },
     "society": {
@@ -164,15 +169,13 @@
             "title": "25th Society",
             "years": "1958 - 1959",
             "Executive": "William R. Brown",
-            "Members": "Sherwin T. Nugent"
+            "members": ["Sherwin T. Nugent"]
         },
         "24th": {
             "title": "24th Society",
             "years": "1957 - 1958",
-            "President": "",
             "Vice-President": "D. Garth Evely",
-            "Secretary": "",
-            "Members": "Roger G. March, Edwin J. Snook, Sherwin T. Nugent, Alfred F. G. Brown, Harvey Hiscock"
+            "members": ["Roger G. March", "Edwin J. Snook", "Sherwin T. Nugent", "Alfred F. G. Brown", "Harvey Hiscock"]
         },
         "23rd": {
             "title": "23rd Society",
@@ -181,14 +184,14 @@
             "Vice-President": "Leslie D. Baikie",
             "Secretary": "Clyde Green",
             "Executive": "T. David Carmichael",
-            "Members": "Roger G. March, Edwin J. Snook, Arthur D. Burden, Sherwin T. Nugent, Alfred F. G. Brown, Harve"
+            "members": ["Roger G. March", "Edwin J. Snook", "Arthur D. Burden", "Sherwin T. Nugent", "Alfred F. G. Brown", "Harvey Hiscock"]
         },
         "22nd" :{
             "title": "22nd Society",
             "years": "1955 - 1956",
             "President": "Robert R Andrews",
             "Executive": "Roland Avery, T. David Carmichael",
-            "Members": "Roger G. March, Edwin J. Snook, Arthur D. Burden, Sherwin T. Nugent, Alfred F. G. Brown"
+            "members": ["Roger G. March", "Edwin J. Snook", "Arthur D. Burden", "Sherwin T. Nugent", "Alfred F. G. Brown"]
         },
         "21st": {
             "title": "21st Society",
@@ -197,7 +200,7 @@
             "Vice-President": "David Spurell",
             "Secretary-Treasurer": "Graham Skanes",
             "Executive": "T. David Carmichael",
-            "Members:": "William Newman, Roger G. March, Edwin J. Snook, Arthur D. Burden"
+            "members:": ["William Newman", "Roger G. March", "Edwin J. Snook", "Arthur D. Burden"]
         },
         "20th": {
             "title": "20th Society",
@@ -206,7 +209,7 @@
             "Vice-President": "Aidan Ryan",
             "Secretary": "William Squires",
             "Engineering Representative in the Athletic Union": "John Cahill",
-            "Members:": "William Newman"
+            "members:": ["William Newman"]
         },
         "19th": {
             "title": "19th Society",
@@ -216,7 +219,7 @@
             "Treasurer": "Wilson Boyles",
             "Representative in Athletics": "Bruce Pardy",
             "Smokers Committee": "Aiden Ryan, Lawrence Fahey, and George Banfield",
-            "Members:": "William Newman"
+            "members:": ["William Newman"]
 
         },
         "18th": {
