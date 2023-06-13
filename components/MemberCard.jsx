@@ -42,8 +42,7 @@ export function MemberCard(props) {
             </div>
             {props.about ?
                 <p className="text-black p-5">{props.about}</p>
-            : <p className="text-black p-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a velit vehicula, tincidunt lacus eget, fringilla lorem. Etiam at fermentum lorem. Vivamus eleifend ex vitae nulla gravida, eget ultrices est luctus. Donec elit metus, sagittis in sapien ac, tincidunt tincidunt enim. Nam ullamcorper nibh nulla, sit amet faucibus turpis euismod eget. Donec arcu ipsum, dapibus a eleifend at, pellentesque id magna. Nam quis hendrerit mauris, vel commodo justo. Nam accumsan lectus vulputate lorem sagittis pretium a quis nisi. Praesent consequat lacus rutrum ante suscipit, nec porttitor sapien consequat. Vestibulum interdum tristique sodales. Maecenas suscipit id metus a facilisis. Nam vitae nulla sit amet eros molestie faucibus id et dui. Etiam dictum odio nec velit ornare pharetra. Pellentesque facilisis nisi quis aliquam mollis. Proin id sapien ut arcu varius feugiat eget at leo. Vestibulum vitae arcu faucibus, dictum lorem non, blandit lectus. </p>}
-            
+            : <p className="text-black p-5">This is where the Bio will be</p>}
         </div>
     )
 }

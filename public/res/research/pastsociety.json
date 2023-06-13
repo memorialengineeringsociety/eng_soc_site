@@ -31,11 +31,52 @@
         "Director of International Representation": "Zarin Tasnim"
       },
       "14th":{
-        "title": "15th Society A",
+        "title": "14th Society A",
         "years": "2019 - 2021",
         "President": "Cait Chapman",
+        "VP External": "Daniel Stark",
+        "VP Internal": "Chloe Farrell",
         "VP Finance": "Davyani Vasta",
-        "VP External": "Daniel Stark"
+        "VP Academic": "Erin Maher",
+        "Director of Social Events": "Andrew Troake",
+        "Director of Sports": "Rachel Coombs",
+        "Director of Co-op": "Jacob Metcalfe",
+        "Director of Outreach": "Megan Spencer",
+        "Director of Communications": "Kennedy Menchington",
+        "Director of International Representation": "Dani Amisi",
+        "Director of Sustainability": "Miriam Simmons"
+      },
+      "13th": {
+        "title": "13th Society A",
+        "years": "2017 - 2019",
+        "President": "Greg Coates"
+      },
+      "1998 Year": {
+        "title": "1998 Year",
+        "years": "1996 - 1998",
+        "President": "Kathy Brett"
+      },
+      "1996 Year": {
+        "title": "1996 Year",
+        "years": "1994-1996",
+        "President": "Barry Parsons",
+        "VP-External": "Steve Forward",
+        "VP-Finance": "Steve Wall"
+      },
+      "1994 Year": {
+        "title": "1994 Year",
+        "years": "1994-1996",
+        "President": "Hedley Coish"
+      },
+      "1990 Year": {
+        "title": "1990 Year",
+        "years": "1990 - 1992",
+        "VP-External": "Paul Greene"
+      },
+      "1987 Year": {
+        "title": "1987 Year",
+        "years": "1987 - 1989",
+        "President": "Bill Sullivan"
       }
     },
     "societyB": {
@@ -83,6 +124,17 @@
         "Director of Social Events": "Katie Brenton",
         "Director of Competitions": "Nada Nasr",
         "Director of Sports": "Logan Collier"
+      },
+      "2011 Year": {
+        "title": "2011 Year",
+        "years": "2011 - 2013",
+        "VP-External": "Stephanie Walsh",
+        "VP-Social": "Nick Robbins"
+      },
+      "1996 Year": {
+        "title": "1996 Year",
+        "years": "1994-1996",
+        "President": "Derek Butler"
       }
     },
     "society": {
@@ -90,6 +142,13 @@
             "title": "35th Society",
             "years": "1968 - 1969",
             "members": ["Harold Norman Miles", "Harold Ross Penney", "Gordon E. Bownes", "Marvin H. Pelley", "Douglas Smith", "Hugh M. Snow"]
+          },
+          "34th": {
+            "title": "34th Society",
+            "years": "1967 - 1968",
+            "President": "Norman B. Cook",
+            "Treasurer": "Tom Poynter",
+            "Executive": "William R. Garland"
           },
         "28th": {
             "title": "28th Society",

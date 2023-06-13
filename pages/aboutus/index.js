@@ -247,7 +247,7 @@ export default function AboutUs() {
                     instagram=''
                 />
                 <SocietyData societies={data.societyB} />
-                <SocietyData societies={data.society} />
+                {/* <SocietyData societies={data.society} /> */}
             </div>
         </main>
     )

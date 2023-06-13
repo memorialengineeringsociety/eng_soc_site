@@ -8,7 +8,7 @@ export default function GetInvolved() {
 			<div className='hidden xl:flex w-full justify-evenly'>
 				<a className='w-1/3 flex justify-center p-5'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Competitive Teams</h1></a>
 				<a className='w-1/3 flex justify-center p-5'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Non-Competitive Organizations</h1></a>
-				<a className='w-1/3 flex justify-center p-5'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Volunteering Oppertunities</h1></a>
+				<a className='w-1/3 flex justify-center p-5'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Volunteering Opportunities</h1></a>
 			</div>
 			<div className='xl:flex overflow-auto snap-mandatory snap-x'>
 				<section id='team' className='min-w-full snap-center'>
