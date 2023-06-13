@@ -9,7 +9,7 @@ export default function AboutUs() {
         <main>
             <section id='current_society' className='lg:flex'>
                 <div id='soca' className='p-5 md:p-20 lg:w-1/2 space-y-4'>
-                    <h1 className='text-black font-ops text-5xl text-center'>17th Society A</h1>
+                    <h1 className='text-black font-ops text-5xl text-center'>24th Society A</h1>
                     <h2 className='text-black font-ops text-3xl text-center'>2023 - 2025</h2>
                     <MemberCard
                         title='President'
@@ -123,7 +123,7 @@ export default function AboutUs() {
                     />
                 </div>
                 <div id='socb' className='p-5 md:p-20 lg:w-1/2 space-y-4'>
-                    <h1 className='text-black font-ops text-5xl text-center'>16th Society B</h1>
+                    <h1 className='text-black font-ops text-5xl text-center'>23rd Society B</h1>
                     <h2 className='text-black font-ops text-3xl text-center'>2022 - 2024</h2>
                     <MemberCard
                         title='President'
