@@ -10,4 +10,8 @@ const nextConfig = {
   images.unoptimized = true,
 };
 
-module.exports = nextConfig;
+const images: {
+  unoptimized: true,
+},
+
+module.exports = nextConfig, images;
