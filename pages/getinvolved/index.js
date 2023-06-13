@@ -1,14 +1,15 @@
 import Image from 'next/image'
 import {TeamCard} from '../../components/TeamCard';
+import Link from 'next/link';
 
 
 export default function GetInvolved() {
 	return (
 		<main className=''>
 			<div className='hidden xl:flex w-full justify-evenly'>
-				<a className='w-1/3 flex justify-center p-5'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Competitive Teams</h1></a>
-				<a className='w-1/3 flex justify-center p-5'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Non-Competitive Organizations</h1></a>
-				<a className='w-1/3 flex justify-center p-5'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Volunteering Opportunities</h1></a>
+				<Link className='w-1/3 flex justify-center p-5' href='#team'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Competitive Teams</h1></Link>
+				<Link className='w-1/3 flex justify-center p-5' href='#organization'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Non-Competitive Organizations</h1></Link>
+				<Link className='w-1/3 flex justify-center p-5' href='#volunteer'><h1 className='text-black text-3xl font-extrabold underline font-ops'>Volunteering Opportunities</h1></Link>
 			</div>
 			<div className='xl:flex overflow-auto snap-mandatory snap-x'>
 				<section id='team' className='min-w-full snap-center'>
@@ -246,6 +247,4 @@ export default function GetInvolved() {
 		</main>
 	)
 }
-
-
 
