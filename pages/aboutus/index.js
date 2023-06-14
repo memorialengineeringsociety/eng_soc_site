@@ -116,7 +116,7 @@ export default function AboutUs() {
                         name='Abdelrahman Mohamed'
                         program='Process Engineering'
                         about=''
-                        photo=''
+                        photo='/res/members/a2023/abdelrahman.jpg'
                         link=''
                         linkedin=''
                         instagram=''
