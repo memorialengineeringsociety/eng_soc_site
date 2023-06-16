@@ -56,7 +56,7 @@ export default function AboutUs() {
                         name='Jacob Gillis'
                         program='Electrical Engineering'
                         about=''
-                        photo='/res/members/a2023/jacob.jpg'
+                        photo='/res/members/a2023/jacob.PNG'
                         link=''
                         linkedin=''
                         instagram='https://www.instagram.com/jacobgillis13'
