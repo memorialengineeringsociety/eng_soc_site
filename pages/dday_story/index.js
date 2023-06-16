@@ -4,25 +4,25 @@ export default function DDay_Story() {
 	return (
         <main className='flex flex-col place-items-center'>
             <PopupWarning/>
-            <section id='story_of_dday' className="w-3/4 space-y-3 flex flex-col place-items-center">
+            <section id='story_of_dday' className="w-3/4 space-y-3 flex flex-col place-items-center mb-5 mt-5">
                 <h1 className="font-bold text-black text-5xl font-gold_bold text-center">The Story of D-Day</h1>
                 <h2 className="font-bold text-black text-3xl font-gold text-center">By: Bob Tancock - Class of 1975</h2>
-                <h3 className="font-bold text-black text-xl font-gold text-center">May 20, 1999</h3>
+                <h3 className="font-bold text-black text-xl font-gold text-center">Written: May 20, 1999</h3>
                 <p className="text-black">There are many different stories told about the beginning of D–Day. With the 25th anniversary upon us, I am compelled to tell my version. I was there when it started and was directly involved with the events that lead up to the historic event.</p>
                 <h4 className="font-bold text-black text-lg font-gold text-center">D–DAY Summer 1974 - The Water Fights</h4>
                 <p className="text-black text-justify">It was Term 7 for us, the summer of 1974. We were the 2nd group to graduate from the newly accredited engineering school; Class of ’75. We were only 2 terms away and it seemed like were in university forever. That summer was one of the hottest in years and being bored, we would do anything for a bit of fun.</p>
                 <p className="text-black text-justify">Well, it all started with water pistol fights in class and in the hallways. Somehow it escalated to the fire hoses. We were told to take it outside.... so we did. Derick, being the enthusiast he is, cranked it up a notch. When no one was looking, buckets of ice cold water shot from 3rd story windows, drenching anyone and everyone. The hotter it was, the less you wore, the colder the water was when it hit you. You couldn’t catch him! When you least expected it, you got dumped on. This went on for 2 – 3 weeks.</p>
                 <div className='flex flex-col xl:flex-row justify-evenly space-y-4'>
-                    <img className="rounded-lg xl:w-1/3 shadow-xl" src="../res/first_dday/image-000.png"></img>
-                    <img className="rounded-lg xl:w-1/3 shadow-xl" src="../res/first_dday/image-001.png"></img>
+                    <img className="rounded-lg xl:w-1/3 shadow-xl" src="../res/first_dday/img64.jpg"></img>
+                    <img className="rounded-lg xl:w-1/3 shadow-xl" src="../res/first_dday/img66.jpg"></img>
                 </div>
                 <h4 className="font-bold text-black text-lg font-gold text-center">The Crucifixion</h4>
                 <p className="text-black text-justify">Enough was enough! There was a secret conspiracy to get Derick, to avenge the soaked books and notes. To make him pay for those chilling downpours. Now I didn’t hang around with Dick, nor were we good friends at the time. I love a bit of fun like most. But when I heard there was a plot to crucify him, well I was concerned. I didn’t want to see anyone hurt.....</p>
                 <p className="text-black text-justify">With a surprise attack, the conspirators nabbed him! They tied him to a makeshift cross (a small platform was attached for him to stand on).</p>
-                <img className="rounded-lg" src="../res/first_dday/image-003.png"></img>
+                <img className="rounded-lg" src="../res/first_dday/img7.jpg"></img>
                 <p className="text-black text-justify">A large crowd formed as they hung him over the retaining wall between the Science building and the old Library. There, anyone who wanted revenge poured ice cold water over him.</p>
                 <p className="text-black text-justify">Well, Derick took it pretty good at first. But after a couple of hours, the water was cold and with a wind blowing, he was getting pissed. After several blessings, the boys decided to carry Derick and his cross throughout the campus. I made sure I was positioned directly under it at all times. I didn’t want an accident.</p>
-                <img className="rounded-lg" src="../res/first_dday/image-002.png"></img>
+                <img className="rounded-lg" src="../res/first_dday/img5.jpg"></img>
                 <p className="text-black text-justify">After disrupting classes and professors alike, we ended up tying him and the cross to the volley ball net in the Thompson’s Student Centre gym. With an audience now, Derick was in his element. “Forgive them, they know not what they do,” were his taunts. Then he asked for a ceremonial “toke.” With security guards everywhere, someone handed him a lit joint. As he smoked it and blessed us, again, I could see he was planning the next move.</p>
 
                 <h4 className="font-bold text-black text-lg font-gold text-center">Flour Power</h4>
@@ -39,9 +39,9 @@ export default function DDay_Story() {
                 <p className="text-black text-justify">You know the end of the story. It couldn’t just end with our suspension. Bruneau called us in when he returned and told us the yarn about the University of Toronto rocket launching when he was a student there. Apparently, the nuts and bolts were all loosened the night before by parties unknown. When it was ignited, instead of going up, the rocket just trembled and fell apart, much to the shock of its creators. The Design Criteria of any practical joke is “not to get caught.”</p>
                 <p className="text-black text-justify">OK. Let’s come up with the best one yet. We had full support of the student body, with the exception of one “Black September,” as we called our only Arab. How could we get the whole faculty at the same time? Secretly, the word was passed around. One morning, without any warning, all students would boycott class for the whole day. A plaque was made in welding class, inscribed with “D–Day, Engineering Class 1974.” Booze and food were stockpiled and we waited for the moment of truth....</p>
 
-                <img className="rounded-lg" src="../res/first_dday/image-005.png"></img>
+                <img className="rounded-lg" src="../res/first_dday/img20.jpg"></img>
                 <p className="text-black text-justify">D–Day Arrived !!! Down Marine Drive, in behind where Jeff Sterling years later built a house, we found an open field by the ocean. There we had our BBQ, tug-of-war fights, beer shampoos and our D–Day ceremony. In the rocks, we grouted our steel plaque, for all time to witness.</p>
-                <img className="rounded-lg" src="../res/first_dday/image-006.png"></img>
+                <img className="rounded-lg" src="../res/first_dday/img22.jpg"></img>
                 <p className="text-black text-justify">Summer ended, the last work term came & went, Term 8, no time for jokes. Our thoughts were to our future career and for many, marriage and kids. Our D–Day came and went, only once. 6 years later, I met a couple of recent MUN graduates in Ontario. One story lead to another, and they mentioned this “D–Day” thing that happened every semester. Even the Commerce students were getting into it.</p>
                 <p className="text-black text-justify">When I asked them how it started, no one knew. “D–Day? Doesn’t that stand for Drunk Day?” they stated all knowingly. “NO BY’ ! It was Dick’s idea.”</p>
                 <p className="text-black text-justify">HAVE A GOOD ONE..........</p>
