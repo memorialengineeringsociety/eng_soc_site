@@ -41,8 +41,8 @@ export function MemberCard(props) {
                 
             </div>
             {props.about ?
-                <p className="text-black p-5">{props.about}</p>
-            : <p className="text-black p-5">This is where the Bio will be</p>}
+                <p className="text-black p-5 text-justify">{props.about}</p>
+            : <p className="text-black p-5 text-justify">This is where the Bio will be</p>}
         </div>
     )
 }
