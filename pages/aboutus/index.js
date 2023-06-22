@@ -15,7 +15,7 @@ export default function AboutUs() {
                         title='President'
                         name='Ava Gogal'
                         program='Mechanical Engineering'
-                        about=''
+                        about="Hello! I'm Ava, and I'm thrilled to announce that I will be serving as the President of Society 'A' for the next two years. I feel incredibly fortunate to have the opportunity to work with such a passionate and motivated group of individuals. Allow me to introduce myself further. In high school, I was elected as the student council president, where I gained valuable experience in this leadership position. During my time at MUN, I have actively participated in multiple technical student design teams, which have greatly contributed to my personal growth as a student. I have always been an adventurous person, seeking experiences that push me out of my comfort zone. Whether it's performing on stage or indulging in exhilarating activities like skydiving, I thrive on the thrill of new challenges. As the President of Society 'A', I am brimming with exciting ideas and initiatives. My goal is to make the next few years the most memorable and successful for our society.. I cannot wait to see what we will achieve together!"
                         photo='/res/members/a2023/ava.jpeg'
                         link=''
                         linkedin=''
@@ -35,7 +35,7 @@ export default function AboutUs() {
                         title='VP Finance'
                         name='Michael Mallay'
                         program='Electrical Engineering'
-                        about=''
+                        about="Hello! My name is  Michael Mallay. Currently, I serve as the Vice President of Finance for MUN Engineering Society 'A', where I play a crucial role in managing the organization's financial aspects. Additionally, I am the Electrical and Finance Lead for MUN E-Motorsports, where I'm involved in the exciting project of designing an autonomous go-kart. Apart from my professional endeavors, I have a passion for cooking, finding joy in experimenting with new recipes and flavors. Sports have always been a significant part of my life, and I relish the thrill of competition and teamwork. Moreover, I have an ardent love for cars and electronics, fascinated by their engineering and technological advancements. I want to leverage my strong organizational skills to benefit the Society and contribute to its growth and success. Drawing from my previous experience, I have honed my financial expertise while building budgets for FMUNTENTH. During that time, I booked flights, arranged accommodations, managed transportation, and handled various other financial responsibilities. Being part of teams has been a consistent theme throughout my life, whether it is sports, student council, or design teams. I believe in the power of collaboration and understand the value of working together towards a common goal. With my dedication, leadership qualities, and diverse background, I am committed to making a positive impact in both my professional and personal pursuits."
                         photo='/res/members/a2023/michael.jpg'
                         link=''
                         linkedin=''
@@ -65,7 +65,7 @@ export default function AboutUs() {
                         title='Director of Communications'
                         name='Russell Corbett'
                         program='Computer Engineering'
-                        about="Hello! My name is Russell Corbett and I am a Term IV Computer Engineer. I enjoy finding innovative solutions while balancing my academic pursuits and extracurricular commitments. I am a tech enthusiast and an avid basketball player, I mean, with this height, it's mandatory. The weather is fine up here and yes, I can reach the top shelf for you. In my free time, I enjoy going on drives, biking, and investigating history (Fun fact: I have traced my family back to 1590!) I strive to develop my technical skills in engineering teams like Eastern Edge Robotics and MUN E-Motorsports as Software Lead and a member of the software team respectively. I am the Technical Lead of the MUN Relay for Life Committee where I volunteer my time to fundraise for cancer research. Additionally, I actively engage in other volunteering initiatives like Mount Pearl Lions Club, First Lego League, and the MATE ROV Regional. I undertake personal projects such as designing Smart Home systems and creating websites for my own portfolio as well as many student organizations. My goal in society will be to connect more students to events going on throughout the campus and keep you up to date on all the fun stuff coming up!"
+                        about="Hello! My name is Russell Corbett. I enjoy finding innovative solutions while balancing my academic pursuits and extracurricular commitments. I am a tech enthusiast and an avid basketball player, I mean, with this height, it's mandatory. The weather is fine up here and yes, I can reach the top shelf for you. In my free time, I enjoy going on drives, biking, and investigating history (Fun fact: I have traced my family back to 1590!) I strive to develop my technical skills in engineering teams like Eastern Edge Robotics and MUN E-Motorsports as Software Lead and a member of the software team respectively. I am the Technical Lead of the MUN Relay for Life Committee where I volunteer my time to fundraise for cancer research. Additionally, I actively engage in other volunteering initiatives like Mount Pearl Lions Club, First Lego League, and the MATE ROV Regional. I undertake personal projects such as designing Smart Home systems and creating websites for my own portfolio as well as many student organizations. My goal in society will be to connect more students to events going on throughout the campus and keep you up to date on all the fun stuff coming up!"
                         photo='/res/members/a2023/russell.jpg'
                         link='https://russellcorbett.ca/'
                         linkedin='https://www.linkedin.com/in/russell-corbett'
@@ -129,7 +129,7 @@ export default function AboutUs() {
                         title='President'
                         name='Ben Oates'
                         program='Mechanical Engineering'
-                        about=''
+                        about='Hey guys! I’m proud to serve as your President of Society B. I’m in Mechanical, class of 2025. If I’m not in the Society room or studying in the basement of the engineering building, you can find me in the Baja garage, out for a hike, at the cabin, or down at Quidi Vidi Brewery. Fun fact about me is that I can play the accordion! If you ever have any questions or concerns about all things Soc B, please feel free to shoot me an email or come see me in person. Looking forward to serving you & delivering good times!'
                         photo='/res/members/b2022/ben_oates.jpeg'
                         link=''
                         contact='president.munengsocb@gmail.com'
@@ -140,7 +140,7 @@ export default function AboutUs() {
                         title='VP Academic'
                         name='Fares Khalil'
                         program='Computer Engineering'
-                        about=''
+                        about='I like travelling so much. When I was in Egypt, I visited a lot of places all the way to Aswan in Upper Egypt and Sharm El Sheikh in Sinai. When I came to Canada, I still visited a lot of placed from St. John’s to Calgary. I am hoping I will be able to go all the way to Vancouver and visit more places all around the world!'
                         photo='/res/members/b2022/fares_khalil.jpeg'
                         link=''
                         contact='academic.munengsocb@gmail.com'
@@ -162,7 +162,7 @@ export default function AboutUs() {
                         title='VP External'
                         name='Kathleen Curran'
                         program='Mechanical Engineering'
-                        about=''
+                        about="Hi! I'm the Vice President External of Society B. I'm in the Mechanical Engineering class of 2025, and I'm also the class representative! I travel across Canada to represent the best interests of MUN Engineering at conferences and meetings. You'll usually find me studying in the mech room, or at the rink - I love to figure skate. Shoot me an email anytime with questions or concerns, or to attend a conference!"
                         photo='/res/members/b2022/kathleen_curran.jpeg'
                         link=''
                         contact='external.munengsocb@gmail.com'
@@ -195,7 +195,7 @@ export default function AboutUs() {
                         title='Director of Outreach'
                         name='Paige Bodnar'
                         program='Ocean and Naval Architectural Engineering'
-                        about=''
+                        about="Hi! I’m Paige Bodnar - director of outreach! I’m a senior ONAE student who is maybe slightly obsessed with boats and the ocean. My hobbies are centered around cool things outside. My job is to spread the word about MUN engineering and make it as accessible as possible. You can usually find me in the ONAE room, I promise I’m not that far out(of)reach!"
                         photo='/res/members/b2022/paige_bodnar.jpeg'
                         link=''
                         contact='outreach.munengsocb@gmail.com'
