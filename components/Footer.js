@@ -1,6 +1,6 @@
 export function Footer(props) {
     return(
-        <footer className="bottom-0 left-0 z-20 p-4 w-full border-t shadow flex items-center justify-between bg-stone-800 border-gray-600">
+        <footer className="bottom-0 left-0 z-20 p-4 w-full border-t shadow flex items-center justify-between flex-col md:flex-row bg-stone-800 border-gray-600">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" className="hover:underline">MUN Engineering Student Society</a>. All Rights Reserved.</span>
             <div className="space-x-2">
                 <a href={"/links"} className="bg-soc-red p-2 font-semibold text-white inline-flex items-center space-x-2 rounded hover:animate-pulse">

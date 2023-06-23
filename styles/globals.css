@@ -40,3 +40,13 @@ body {
   font-family: "Goldman-Bold";
   src: url("Goldman-Bold.ttf");
 }
+
+@font-face {
+  font-family: "MavenPro-Regular";
+  src: url("MavenPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "MavenPro-Medium";
+  src: url("MavenPro-Medium.ttf");
+}

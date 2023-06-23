@@ -44,7 +44,7 @@ function Navigation() {
 
   return (
     <div className="xl:flex xl:flex-col items-center">
-      <div className="flex flex-col lg:flex-row w-full justify-evenly bg-stone-400 pt-3 pb-3 rounded-b-3xl">
+      <div className="flex flex-col sticky top-20 z-50 lg:flex-row w-full justify-evenly bg-stone-400 pt-3 pb-5 rounded-b-3xl border-t-2 border-black">
         <button
           className={`xl:w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
             currentButton === 1 ? 'xl:scale-125 underline text-black' : ''

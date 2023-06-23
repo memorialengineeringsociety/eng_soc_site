@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { useState } from 'react';
 import {MemberCard} from '../../components/MemberCard';
 import pastMembers from 'public/res/research/societymembers.json';
 import currentMembers from 'public/res/current_society.json';
@@ -8,24 +9,61 @@ const current = currentMembers;
 
 export default function AboutUs() {
 	return (
-        <main>
-            
+      <main className="">
+        <div className="absolute">
+            <img src='../res/backgrounds/cubes.png' className="w-screen opacity-10" />
+            <img src='../res/backgrounds/cubes.png' className="w-screen opacity-10" />
+            <img src='../res/backgrounds/cubes.png' className="w-screen opacity-10" />
+            <img src='../res/backgrounds/cubes.png' className="w-screen opacity-10" />
+            <img src='../res/backgrounds/cubes.png' className="w-screen opacity-10" />
+        </div>
+        <div className="relative z-10">
             <section id='current_society' className='lg:flex'>
                 <CurrentSociety society={current.socA} />
                 <CurrentSociety society={current.socB} />
             </section>
             <section id='past_society'>
-                <div id='A&B' className='lg:flex lg:justify-evenly'>
+                <ShowPastSociety />
+            </section>
+        </div>
+        </main>
+    )
+}
+
+function ShowPastSociety() {
+    const [currentView, setCurrentView] = useState(1);
+    return (
+        <div className="xl:flex xl:flex-col items-center">
+          <div className="flex flex-center">
+            <button
+              className={`font-extrabold font-ops transition-transform ${
+                currentView === 1 ? 'xl:scale-125 text-black' : 'hidden'
+              }`}
+              onClick={() => setCurrentView(2)}
+            >
+                Show Past Societies
+            </button>
+            <button
+              className={`font-extrabold font-ops transition-transform ${
+                currentView === 2 ? 'xl:scale-125 text-black' : 'hidden'
+              }`}
+              onClick={() => setCurrentView(1)}
+            >
+                Hide Past Societies
+            </button>
+            </div>
+            <div className={`transition-opacity ${currentView === 2 ? 'block opacity-100' : 'hidden opacity-0'} delay-200`}>
+                <div id='A&B' className='lg:flex lg:justify-evenly gap-x-5'>
                     <PastSocietyData societies={past.societyA} />
                     <PastSocietyData societies={past.societyB} />
                 </div>
                 <div id='pre-degree' className='lg:flex lg:justify-center'>
                     <PastSocietyData societies={past.society} className='w-1/3' />
                 </div>
-            </section>
-        </main>
-    )
-}
+		    </div>
+        </div>
+)}
+    
 
 function PastSocietyData({ societies }) {
     return (
@@ -68,8 +106,10 @@ function PastSocietyData({ societies }) {
   function CurrentSociety ({ society }) {
     return (
         <div id={society} className='p-5 md:p-20 lg:w-1/2 space-y-4'>
-            <h1 className='text-black font-ops text-5xl text-center'>{society.title}</h1>
-            <h2 className='text-black font-ops text-3xl text-center'>{society.years}</h2>
+        <div>
+            <h1 className='text-black font-ops text-5xl bg-white border-t-4 border-l-4 border-r-4 rounded-t-3xl border-soc-red text-center'>{society.title}</h1>
+            <h2 className='text-black font-ops text-3xl bg-white border-b-4 border-l-4 border-r-4 rounded-b-3xl border-soc-red text-center'>{society.years}</h2>
+        </div>
         {Object.entries(society).map(([position, info]) => {
             if (position !== 'title' && position !== 'years') {
             return (
@@ -89,4 +129,4 @@ function PastSocietyData({ societies }) {
         })}
         </div>
     )
-    }
+}
