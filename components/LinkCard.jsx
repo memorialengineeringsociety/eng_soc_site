@@ -1,6 +1,6 @@
 export function LinkCard(props) {
 	return (
-        <a href={props.link} className='group border border-white hover:bg-white w-3/4 rounded-3xl p-5 lg:w-1/3 transition-colors'>
+        <a href={props.link} target='_blank'className='group border border-white hover:bg-white w-3/4 rounded-3xl p-5 lg:w-1/3 transition-colors'>
             <div className="flex items-center justify-evenly">
                 {props.image ? 
                 <img src={props.image} className="h-12 lg:h-24"/>
