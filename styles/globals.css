@@ -16,6 +16,12 @@
   }
 }
 
+.repeating-bg {
+  background-color: #ffffff; /* Fallback background color */
+  background-image: url('../public/res/backgrounds/cubes.png'); /* Path to your image file */
+  background-repeat: repeat;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

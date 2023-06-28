@@ -8,7 +8,7 @@ const data = jsonData;
 
 export default function GetInvolved() {
 	return (
-		<main className=''>
+		<main className='repeating-bg'>
 			<Navigation />
 		</main>
 	)
@@ -79,7 +79,7 @@ function Navigation() {
 		  <Groups type={data.organization} />
         </div>
         <div className={`transition-opacity flex justify-center ${currentButton === 3 ? 'block opacity-100' : 'hidden opacity-0'} delay-200`}>
-			<div className='w-1/2'>
+			<div className='w-1/2 min-h-screen'>
 				<h2 className='text-black text-2xl font-bold font-ops text-center'>Engineering Volunteer Network</h2>
 				<p className='text-black'>Memorial Engineering Student Society is dedicated to uplifting not only our student body but also our community. We believe one of the fundamental ways of giving back comes through volunteering. We want to ensure it is always an accessible option for our students. We've created a space for students, clubs, companies, or individuals to bring forward volunteering opportunities or any little thing they need help with! You’ll fill the below form, giving us dates, number of volunteers required and any other relevant info! We’ll take this information and contact the keen students who have signed up and get back to you.​</p>
 				<div className='flex justify-center pt-5 pb-5 gap-x-10'>

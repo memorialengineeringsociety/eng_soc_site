@@ -9,23 +9,24 @@ const current = currentMembers;
 
 export default function AboutUs() {
 	return (
-      <main className="">
-        <div className="absolute">
-            <img src='../res/backgrounds/cubes.png' className="w-screen opacity-10" />
-            <img src='../res/backgrounds/cubes.png' className="w-screen opacity-10" />
-            <img src='../res/backgrounds/cubes.png' className="w-screen opacity-10" />
-            <img src='../res/backgrounds/cubes.png' className="w-screen opacity-10" />
-            <img src='../res/backgrounds/cubes.png' className="w-screen opacity-10" />
-        </div>
-        <div className="relative z-10">
-            <section id='current_society' className='lg:flex'>
-                <CurrentSociety society={current.socA} />
-                <CurrentSociety society={current.socB} />
-            </section>
-            <section id='past_society'>
-                <ShowPastSociety />
-            </section>
-        </div>
+        <main className="repeating-bg">
+            <div id='descriptions'>
+                <p className='text-black font-maven text-2xl'>Our organization, as outlined in the provided bylaws, is a student society dedicated to fostering a vibrant academic and social community within the field of engineering. We operate under an executive structure comprised of various officers who are responsible for specific roles and responsibilities. The executive positions include Vice-Presidents in different domains such as Academic, External, Finance, and Internal, along with Junior Vice-Presidents and a Chief Returning Officer.</p>
+                <p className='text-black font-maven text-2xl'>Overall, our organization's mission is to provide a supportive and enriching environment for engineering students. Through our elected executives, dedicated volunteers, and engagement with the student body, we strive to enhance academic experiences, organize impactful events, and promote the welfare of our members. By adhering to our bylaws and fostering a culture of inclusivity and student involvement, we aim to create a thriving community within the field of engineering.</p>
+            </div>
+            <div className="relative z-10">
+                <section id='current_society' className='lg:flex'>
+                    <CurrentSociety society={current.socA} />
+                    <CurrentSociety society={current.socB} />
+                </section>
+                <section id='documents' className='flex justify-center'>
+                    <a href="../res/documents/Engineering Society Constitution.pdf" className='border-2 border-soc-red bg-white rounded-l-full text-black font-ops text-3xl p-4'>View Constitution</a>
+                    <a href="../res/documents/Society Executive Position Descriptions 2023.pdf" className='border-2 border-soc-red bg-white rounded-r-full text-black font-ops text-3xl p-4'>View Execuitive Position Role Descriptions</a>
+                </section>
+                <section id='past_society'>
+                    <ShowPastSociety />
+                </section>
+            </div>
         </main>
     )
 }

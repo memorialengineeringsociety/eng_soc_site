@@ -2,25 +2,26 @@ import {LinkCard} from '../../components/LinkCard';
 
 export default function Events() {
 	return (
-        <main className='flex flex-col gap-y-3 place-items-center p-3 bg-gradient-to-b from-blue-400 to-blue-950 min-h-screen'>
-            <LinkCard
-                title='Summer Softball Registration'
-                description=''
-                link='https://docs.google.com/forms/d/e/1FAIpQLSdDcNQ2kFZEIcJgKsgIVRjHmg3FPk6cPRk0toGM3_DGH7APhA/viewform?usp=sf_link'
-                image='../res/events/softball.png'
-            />
-            <LinkCard
-                title='MUN Engineering Society'
-                description='The official website of the MUN Engineering Society'
-                link='https://munengsociety.ca'
-                image=''
-            />
-            <LinkCard
-                title='MUN Engineering Society'
-                description=''
-                link='https://munengsociety.ca'
-                image=''
-            />
+        <main className='bg-gradient-to-b from-blue-400 to-blue-950'>
+            <section className='pt-5 flex flex-col justify-center'>
+                <img src='../res/soc_round_logo.png' className='h-48 mx-auto rounded-full' />
+                <h1 className='text-white font-gold_bold text-4xl text-center'>@munengsoc</h1>
+                <h1 className='text-white font-gold text-2xl text-center'>MUN Engineering Undergraduate Society</h1>
+            </section>
+            <section className='flex flex-col gap-y-3 place-items-center p-3 min-h-screen'>
+                <LinkCard
+                    title='Faculty Website'
+                    description=''
+                    link='https://www.mun.ca/engineering/'
+                    image=''
+                />
+                <LinkCard
+                    title='Councilling Services'
+                    description=''
+                    link='https://www.mun.ca/studentwellness/supports-services/index.php'
+                    image=''
+                />
+            </section>
         </main>
     )
 }
