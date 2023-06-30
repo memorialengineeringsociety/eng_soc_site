@@ -10,12 +10,12 @@ const current = currentMembers;
 export default function AboutUs() {
 	return (
         <main className="repeating-bg">
-            <div id='descriptions'>
-                <p className='text-black font-maven text-2xl hidden'>Our organization, as outlined in the provided bylaws, is a student society dedicated to fostering a vibrant academic and social community within the field of engineering. We operate under an executive structure comprised of various officers who are responsible for specific roles and responsibilities. The executive positions include Vice-Presidents in different domains such as Academic, External, Finance, and Internal, along with Junior Vice-Presidents and a Chief Returning Officer.</p>
-                <p className='text-black font-maven text-2xl hidden'>Overall, our organization's mission is to provide a supportive and enriching environment for engineering students. Through our elected executives, dedicated volunteers, and engagement with the student body, we strive to enhance academic experiences, organize impactful events, and promote the welfare of our members. By adhering to our bylaws and fostering a culture of inclusivity and student involvement, we aim to create a thriving community within the field of engineering.</p>
+            <div id='descriptions' className='flex flex-col place-items-center pt-4'>
+                <h1 className='text-8xl text-center font-ops text-black hidden'>About Us</h1>
+                <p className='text-black font-maven text-2xl text-justify w-11/12 bg-white rounded-3xl p-2 border-4 border-soc-red'>MUN Engineering Society is a dynamic and motivated group that serves as a strong voice and support system for engineering students. Internally, we cultivate a sense of unity and camaraderie among our members, providing a platform for students to collaborate, share ideas, and address their concerns. Externally, we actively engage with faculty,  industry professionals, and student organizations, to advocate for the needs and aspirations of engineering students. We strive to enhance opportunities for internships, co-op placements, and networking events, facilitating academic and professional growth. Our society prioritizes effective communication and aims to foster transparent dialogue between students and faculty, ensuring a fulfilling and inclusive learning experience for all. With a strong dedication to making a positive impact, we aim to create an empowered and thriving engineering community at MUN. </p>
             </div>
-            <div className="relative z-10">
-                <section id='current_society' className='lg:flex'>
+            <div className="">
+                <section id='current_society' className='pt-5 lg:flex justify-evenly'>
                     <CurrentSociety society={current.socA} />
                     <CurrentSociety society={current.socB} />
                 </section>
@@ -106,28 +106,28 @@ function PastSocietyData({ societies }) {
 
   function CurrentSociety ({ society }) {
     return (
-        <div id={society} className='p-5 md:p-20 lg:w-1/2 space-y-4'>
-        <div>
-            <h1 className='text-black font-ops text-5xl bg-white border-t-4 border-l-4 border-r-4 rounded-t-3xl border-soc-red text-center'>{society.title}</h1>
-            <h2 className='text-black font-ops text-3xl bg-white border-b-4 border-l-4 border-r-4 rounded-b-3xl border-soc-red text-center'>{society.years}</h2>
-        </div>
-        {Object.entries(society).map(([position, info]) => {
-            if (position !== 'title' && position !== 'years') {
-            return (
-                <MemberCard
-                        title={position}
-                        name={info.name}
-                        program={info.program}
-                        about={info.about}
-                        photo={info.photo}
-                        link={info.link}
-                        contact={info.contact}
-                        linkedin={info.linkedin}
-                        instagram={info.instagram}
-                    />
-            )
-            }
-        })}
+        <div id={society} className='space-y-4 lg:w-5/12'>
+          <div>
+              <h1 className='text-black font-ops text-5xl bg-white border-t-4 border-l-4 border-r-4 rounded-t-3xl border-soc-red text-center'>{society.title}</h1>
+              <h2 className='text-black font-ops text-3xl bg-white border-b-4 border-l-4 border-r-4 rounded-b-3xl border-soc-red text-center'>{society.years}</h2>
+          </div>
+          {Object.entries(society).map(([position, info]) => {
+              if (position !== 'title' && position !== 'years') {
+              return (
+                  <MemberCard
+                          title={position}
+                          name={info.name}
+                          program={info.program}
+                          about={info.about}
+                          photo={info.photo}
+                          link={info.link}
+                          contact={info.contact}
+                          linkedin={info.linkedin}
+                          instagram={info.instagram}
+                      />
+              )
+              }
+          })}
         </div>
     )
 }
