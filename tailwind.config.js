@@ -21,6 +21,8 @@ module.exports = {
 				ops: ['BlackOpsOne-Regular', 'opentype'],
         gold: ['Goldman-Regular', 'opentype'],
         gold_bold: ['Goldman-Bold', 'opentype'],
+        maven: ['MavenPro-Regular', 'opentype'],
+        maven_medium: ['MavenPro-Medium', 'opentype']
       }
     },
   },

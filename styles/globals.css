@@ -16,6 +16,12 @@
   }
 }
 
+.repeating-bg {
+  background-color: #ffffff; /* Fallback background color */
+  background-image: url('../public/res/backgrounds/cubes.png'); /* Path to your image file */
+  background-repeat: repeat;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -39,4 +45,14 @@ body {
 @font-face {
   font-family: "Goldman-Bold";
   src: url("Goldman-Bold.ttf");
+}
+
+@font-face {
+  font-family: "MavenPro-Regular";
+  src: url("MavenPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "MavenPro-Medium";
+  src: url("MavenPro-Medium.ttf");
 }

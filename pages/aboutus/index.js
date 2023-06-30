@@ -1,271 +1,75 @@
 import Image from 'next/image'
+import { useState } from 'react';
 import {MemberCard} from '../../components/MemberCard';
-import jsonData from 'public/res/research/pastsociety.json';
+import pastMembers from 'public/res/research/societymembers.json';
+import currentMembers from 'public/res/current_society.json';
 
-const data = jsonData;
+const past = pastMembers;
+const current = currentMembers;
 
 export default function AboutUs() {
 	return (
-        <main>
-            <section id='current_society' className='lg:flex'>
-                <div id='soca' className='p-5 md:p-20 lg:w-1/2 space-y-4'>
-                    <h1 className='text-black font-ops text-5xl text-center'>24th Society A</h1>
-                    <h2 className='text-black font-ops text-3xl text-center'>2023 - 2025</h2>
-                    <MemberCard
-                        title='President'
-                        name='Ava Gogal'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/a2023/ava.jpeg'
-                        link=''
-                        linkedin=''
-                        instagram='https://www.instagram.com/avaflorencegogal'
-                    />
-                    <MemberCard
-                        title='VP Academic'
-                        name='Hannah Doyle'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/a2023/hannah.jpg'
-                        link=''
-                        linkedin=''
-                        instagram='https://www.instagram.com/hannahclairedoyle'
-                    />
-                    <MemberCard
-                        title='VP Finance'
-                        name='Michael Mallay'
-                        program='Electrical Engineering'
-                        about=''
-                        photo='/res/members/a2023/michael.jpg'
-                        link=''
-                        linkedin=''
-                        instagram='https://www.instagram.com/michael_mallay18'
-                    />
-                    <MemberCard
-                        title='VP External'
-                        name='Sophia White'
-                        program='Electrical Engineering'
-                        about=''
-                        photo='/res/members/a2023/sophia.png'
-                        link=''
-                        linkedin=''
-                        instagram='https://www.instagram.com/sophiacwhite'
-                    />
-                    <MemberCard
-                        title='VP Internal'
-                        name='Jacob Gillis'
-                        program='Electrical Engineering'
-                        about=''
-                        photo='/res/members/a2023/jacob.jpg'
-                        link=''
-                        linkedin=''
-                        instagram='https://www.instagram.com/jacobgillis13'
-                    />
-                    <MemberCard
-                        title='Director of Communications'
-                        name='Russell Corbett'
-                        program='Computer Engineering'
-                        // about='Meet Russell Corbett, a dedicated Term IV Computer Engineering student at Memorial University of Newfoundland. With a strong problem-solving mindset and a curious nature, Russell values time management and organization to effectively balance his academic and extracurricular commitments. He thrives on new challenges and enjoys finding innovative solutions. As a team player, he highly regards the ideas and experiences of others. Russell has gained valuable technical experience through his roles as a System Analyst at Bell Canada Enterprises, a Co-op Engineering Student at Avalon Controls Ltd., and a High School Summer Intern at Celtx. In these positions, he contributed to automation, system documentation, networking upgrades, and IT hardware installations. Russells passion for engineering extends to his involvement in various engineering teams, including Eastern Edge Robotics, MUN E-Motorsports, and the Engineering Student Society, where he holds positions such as Chief Technology Officer - Software, Software Team Member, and Director of Communications, respectively. Furthermore, Russell has undertaken several personal projects, such as designing a Smart Home system, creating his personal portfolio website using AstroJS and Tailwind, developing a poker score tracker application, establishing a makerspace for 3D printing and electronics testing, and designing an Engineering One survival game. Outside of his academic and technical pursuits, Russell actively participates in volunteering initiatives like Relay for Life, dedicating his efforts to honoring his loved ones affected by cancer. Through his dedication to engineering, technical expertise, and commitment to making a positive impact, Russell Corbett embodies a driven and versatile individual with a promising future.'
-                        photo='/res/members/a2023/russell.jpg'
-                        link='https://russellcorbett.ca/'
-                        linkedin='https://www.linkedin.com/in/russell-corbett'
-                        instagram='https://www.instagram.com/russell_corbett'
-                    />
-                    <MemberCard
-                        title='Director of Outreach'
-                        name='Kate Williams'
-                        program='Electrical Engineering'
-                        about=''
-                        photo='/res/members/a2023/kate.jpg'
-                        link=''
-                        linkedin=''
-                        instagram='https://www.instagram.com/katewilliams13'
-                    />
-                    <MemberCard
-                        title='Director of Social Events'
-                        name='Kait Abbott'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/a2023/kait.jpg'
-                        link=''
-                        linkedin=''
-                        instagram='https://www.instagram.com/kait.abbott'
-                    />
-                    <MemberCard
-                        title='Director of Sports'
-                        name='Eli Brown'
-                        program='Electrical Engineering'
-                        about=''
-                        photo='/res/members/a2023/eli.JPG'
-                        link=''
-                        linkedin=''
-                        instagram='https://www.instagram.com/elibrown.4'
-                    />
-                    <MemberCard
-                        title='Director of Co-op'
-                        name='Harnoor Singh'
-                        program='Computer Engineering'
-                        about=''
-                        photo='/res/members/a2023/harnoor.jpg'
-                        link=''
-                        linkedin=''
-                        instagram=''
-                    />
-                    <MemberCard
-                        title='Director of International Representation'
-                        name='Abdelrahman Mohamed'
-                        program='Process Engineering'
-                        about=''
-                        photo='/res/members/a2023/abdelrahman.jpg'
-                        link=''
-                        linkedin=''
-                        instagram=''
-                    />
-                </div>
-                <div id='socb' className='p-5 md:p-20 lg:w-1/2 space-y-4'>
-                    <h1 className='text-black font-ops text-5xl text-center'>23rd Society B</h1>
-                    <h2 className='text-black font-ops text-3xl text-center'>2022 - 2024</h2>
-                    <MemberCard
-                        title='President'
-                        name='Ben Oates'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/b2022/ben_oates.jpeg'
-                        link=''
-                        contact='president.munengsocb@gmail.com'
-                        linkedin='https://www.linkedin.com/in/benjamin-oates-02/'
-                        instagram='https://www.instagram.com/boates02'
-                    />
-                    <MemberCard
-                        title='VP Academic'
-                        name='Fares Khalil'
-                        program='Computer Engineering'
-                        about=''
-                        photo='/res/members/b2022/fares_khalil.jpeg'
-                        link=''
-                        contact='academic.munengsocb@gmail.com'
-                        linkedin=''
-                        instagram=''
-                    />
-                    <MemberCard
-                        title='VP Finance'
-                        name='Nadia Marmouche'
-                        program='Process Engineering'
-                        about=''
-                        photo='/res/members/b2022/nadia_marmouche.jpeg'
-                        link=''
-                        contact='finance.munengsocb@gmail.com'
-                        linkedin=''
-                        instagram=''
-                    />
-                    <MemberCard
-                        title='VP External'
-                        name='Kathleen Curran'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/b2022/kathleen_curran.jpeg'
-                        link=''
-                        contact='external.munengsocb@gmail.com'
-                        linkedin=''
-                        instagram=''
-                    />
-                    <MemberCard
-                        title='VP Internal'
-                        name='Matthew Rogers'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/b2022/matthew_rogers.jpeg'
-                        contact='internal.munengsocb@gmail.com'
-                        link=''
-                        linkedin=''
-                        instagram=''
-                    />
-                    <MemberCard
-                        title='Director of Communications'
-                        name='Veronica Naterer'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/b2022/veronica_naterer.png'
-                        link=''
-                        contact='communications.munengsocb@gmail.com'
-                        linkedin=''
-                        instagram=''
-                    />
-                    <MemberCard
-                        title='Director of Outreach'
-                        name='Paige Bodnar'
-                        program='Ocean and Naval Architectural Engineering'
-                        about=''
-                        photo='/res/members/b2022/paige_bodnar.jpeg'
-                        link=''
-                        contact='outreach.munengsocb@gmail.com'
-                        linkedin=''
-                        instagram=''
-                    />
-                    <MemberCard
-                        title='Director of Social Events'
-                        name='Abby Sparrow'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/b2022/abby_sparrow.jpeg'
-                        link=''
-                        contact='events.munengsocb@gmail.com'
-                        linkedin=''
-                        instagram=''
-                    />
-                    <MemberCard
-                        title='Director of Sports'
-                        name='Nathan Flynn'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/b2022/nathan_flynn.jpeg'
-                        link=''
-                        contact='sports.munengsocb@gmail.com'
-                        linkedin=''
-                        instagram=''
-                    />
-                    <MemberCard
-                        title='Director of Co-op'
-                        name='Jordan Careen'
-                        program='Mechanical Engineering'
-                        about=''
-                        photo='/res/members/b2022/jordan_careen.jpeg'
-                        link=''
-                        contact='coop.munengsocb@gmail.com'
-                        linkedin=''
-                        instagram=''
-                    />
-                    <MemberCard
-                        title='Director of International Representation'
-                        name='Sayed Ahmed'
-                        program='Civil Engineering'
-                        about=''
-                        photo='/res/members/b2022/sayed_ahmed.jpeg'
-                        link=''
-                        contact='outreach.munengsocb@gmail.com'
-                        linkedin=''
-                        instagram=''
-                    />
-                </div>
-            </section>
-            <section id='past_society'>
-                <div id='A&B' className='lg:flex lg:justify-evenly'>
-                    <SocietyData societies={data.societyA} />
-                    <SocietyData societies={data.societyB} />
-                </div>
-                <div id='pre-degree' className='lg:flex lg:justify-center'>
-                    <SocietyData societies={data.society} className='w-1/3' />
-                </div>
-            </section>
+        <main className="repeating-bg">
+            <div id='descriptions' className='flex flex-col place-items-center pt-4'>
+                <h1 className='text-8xl text-center font-ops text-black hidden'>About Us</h1>
+                <p className='text-black font-maven text-2xl text-justify w-11/12 bg-white rounded-3xl p-2 border-4 border-soc-red'>MUN Engineering Society is a dynamic and motivated group that serves as a strong voice and support system for engineering students. Internally, we cultivate a sense of unity and camaraderie among our members, providing a platform for students to collaborate, share ideas, and address their concerns. Externally, we actively engage with faculty,  industry professionals, and student organizations, to advocate for the needs and aspirations of engineering students. We strive to enhance opportunities for internships, co-op placements, and networking events, facilitating academic and professional growth. Our society prioritizes effective communication and aims to foster transparent dialogue between students and faculty, ensuring a fulfilling and inclusive learning experience for all. With a strong dedication to making a positive impact, we aim to create an empowered and thriving engineering community at MUN. </p>
+            </div>
+            <div className="">
+                <section id='current_society' className='pt-5 lg:flex justify-evenly'>
+                    <CurrentSociety society={current.socA} />
+                    <CurrentSociety society={current.socB} />
+                </section>
+                <section id='documents' className='flex justify-center'>
+                    <a href="../res/documents/Engineering Society Constitution.pdf" target='_blank' className='border-2 border-soc-red bg-white rounded-l-full text-black font-ops text-3xl p-4'>View Constitution</a>
+                    <a href="../res/documents/Society Executive Position Descriptions 2023.pdf" target='_blank' className='border-2 border-soc-red bg-white rounded-r-full text-black font-ops text-3xl p-4'>View Execuitive Position Role Descriptions</a>
+                </section>
+                <section id='past_society' className='pb-4'>
+                    <ShowPastSociety />
+                </section>
+            </div>
         </main>
     )
 }
 
-function SocietyData({ societies }) {
+function ShowPastSociety() {
+    const [currentView, setCurrentView] = useState(1);
+    return (
+        <div className="xl:flex xl:flex-col items-center">
+          <div className="flex flex-center">
+            <button
+              className={`rounded-full p-1 border-2 bg-white border-soc-red mt-2 font-extrabold font-ops transition-transform ${
+                currentView === 1 ? 'xl:scale-125 text-black' : 'hidden'
+              }`}
+              onClick={() => setCurrentView(2)}
+            >
+                Show Past Societies
+            </button>
+            <button
+              className={`rounded-full p-1 border-2 bg-white border-soc-red mt-2 font-extrabold font-ops transition-transform ${
+                currentView === 2 ? 'xl:scale-125 text-black' : 'hidden'
+              }`}
+              onClick={() => setCurrentView(1)}
+            >
+                Hide Past Societies
+            </button>
+            </div>
+            <div className={`transition-opacity ${currentView === 2 ? 'block opacity-100' : 'hidden opacity-0'} delay-200`}>
+                <div id='A&B' className='lg:flex lg:justify-evenly gap-x-5'>
+                    <PastSocietyData societies={past.societyA} />
+                    <PastSocietyData societies={past.societyB} />
+                </div>
+                <div id='pre-degree' className='lg:flex lg:justify-center'>
+                    <PastSocietyData societies={past.society} className='w-1/3' />
+                </div>
+		    </div>
+        </div>
+)}
+    
+
+function PastSocietyData({ societies }) {
     return (
       <div>
         {Object.entries(societies).map(([society, societyData]) => {
-            console.log(society)
           if (societyData.title !== '24th Society A' && societyData.title !== '23rd Society B') {
             return (
               <div key={society} className='bg-stone-400 rounded-3xl mt-3 p-2'>
@@ -299,5 +103,31 @@ function SocietyData({ societies }) {
       </div>
     );
   }
-  
 
+  function CurrentSociety ({ society }) {
+    return (
+        <div id={society} className='space-y-4 lg:w-5/12'>
+          <div>
+              <h1 className='text-black font-ops text-5xl bg-white border-t-4 border-l-4 border-r-4 rounded-t-3xl border-soc-red text-center'>{society.title}</h1>
+              <h2 className='text-black font-ops text-3xl bg-white border-b-4 border-l-4 border-r-4 rounded-b-3xl border-soc-red text-center'>{society.years}</h2>
+          </div>
+          {Object.entries(society).map(([position, info]) => {
+              if (position !== 'title' && position !== 'years') {
+              return (
+                  <MemberCard
+                          title={position}
+                          name={info.name}
+                          program={info.program}
+                          about={info.about}
+                          photo={info.photo}
+                          link={info.link}
+                          contact={info.contact}
+                          linkedin={info.linkedin}
+                          instagram={info.instagram}
+                      />
+              )
+              }
+          })}
+        </div>
+    )
+}

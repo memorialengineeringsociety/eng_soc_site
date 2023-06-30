@@ -14,7 +14,7 @@ export const Navbar = () => {
 
 	return (
 		<>
-			<nav className='flex items-center sticky top-0 z-50 flex-wrap bg-soc-red p-3 '>
+			<nav className='flex items-center sticky top-0 z-50 flex-wrap bg-soc-red p-3 border-b-4 border-black'>
 				<Link href='/'>
 					<div className='inline-flex items-center p-2 mr-4 '>
 						<span className='md:text-3xl text-sm text-white font-bold tracking-wide font-ops'>
@@ -66,6 +66,13 @@ export const Navbar = () => {
 							<Link href='/events'>
 								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
 									Events
+								</div>
+							</Link>
+						</motion.div>
+						<motion.div className="py-2"whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} >
+							<Link href='/news'>
+								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>
+									News
 								</div>
 							</Link>
 						</motion.div>
