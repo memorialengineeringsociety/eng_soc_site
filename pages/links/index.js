@@ -22,7 +22,7 @@ export default function Events() {
                     image=''
                 />
                 <LinkCard
-                    title='Councilling Services'
+                    title='Counselling Services'
                     description=''
                     link='https://www.mun.ca/studentwellness/supports-services/index.php'
                     image=''
