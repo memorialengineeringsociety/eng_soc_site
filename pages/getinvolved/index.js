@@ -46,24 +46,24 @@ function Navigation() {
     <div className="xl:flex xl:flex-col items-center">
       <div className="flex flex-col sticky top-20 pl-20 pr-20 z-50 lg:flex-row w-full justify-evenly bg-stone-400 border-b-2 border-black pt-3 pb-5 rounded-b-3xl">
         <button
-          className={`xl:w-1/3 xl:text-3xl font-extrabold text-white font-ops transition-transform ${
-            currentButton === 1 ? 'xl:scale-125 underline text-black' : ''
+          className={`xl:w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
+            currentButton === 1 ? 'xl:scale-125 underline text-black' : 'text-white'
           }`}
           onClick={() => setCurrentButton(1)}
         >
           Competitive Teams
         </button>
         <button
-          className={`xl:w-1/3 xl:text-3xl font-extrabold text-white font-ops transition-transform ${
-            currentButton === 2 ? 'xl:scale-125 underline text-black' : ''
+          className={`xl:w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
+            currentButton === 2 ? 'xl:scale-125 underline text-black' : 'text-white'
           }`}
           onClick={() => setCurrentButton(2)}
         >
           Organizations
         </button>
         <button
-          className={`xl:w-1/3 xl:text-3xl font-extrabold text-white font-ops transition-transform ${
-            currentButton === 3 ? 'xl:scale-125 underline text-black' : ''
+          className={`xl:w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
+            currentButton === 3 ? 'xl:scale-125 underline text-black' : 'text-white'
           }`}
           onClick={() => setCurrentButton(3)}
         >
