@@ -19,11 +19,11 @@ export default function AboutUs() {
                     <CurrentSociety society={current.socA} />
                     <CurrentSociety society={current.socB} />
                 </section>
-                <section id='documents' className='flex justify-center'>
-                    <a href="../res/documents/Engineering Society Constitution.pdf" target='_blank' className='border-2 border-soc-red bg-white rounded-l-full text-black font-ops text-3xl p-4'>View Constitution</a>
-                    <a href="../res/documents/Society Executive Position Descriptions 2023.pdf" target='_blank' className='border-2 border-soc-red bg-white rounded-r-full text-black font-ops text-3xl p-4'>View Execuitive Position Role Descriptions</a>
+                <section id='documents' className='flex justify-center mt-4'>
+                    <a href="../res/documents/Engineering Society Constitution.pdf" target='_blank' className='border-2 border-soc-red bg-white rounded-l-full text-black font-ops lg:text-3xl p-4'>View Constitution</a>
+                    <a href="../res/documents/Society Executive Position Descriptions 2023.pdf" target='_blank' className='border-2 border-soc-red bg-white rounded-r-full text-black font-ops lg:text-3xl p-4'>View Execuitive Position Role Descriptions</a>
                 </section>
-                <section id='past_society' className='pb-4'>
+                <section id='past_society' className='pb-4 flex justify-center'>
                     <ShowPastSociety />
                 </section>
             </div>
@@ -106,7 +106,7 @@ function PastSocietyData({ societies }) {
 
   function CurrentSociety ({ society }) {
     return (
-        <div id={society} className='space-y-4 lg:w-5/12'>
+        <div id={society} className='space-y-4 lg:w-5/12 p-2'>
           <div>
               <h1 className='text-black font-ops text-5xl bg-white border-t-4 border-l-4 border-r-4 rounded-t-3xl border-soc-red text-center'>{society.title}</h1>
               <h2 className='text-black font-ops text-3xl bg-white border-b-4 border-l-4 border-r-4 rounded-b-3xl border-soc-red text-center'>{society.years}</h2>
