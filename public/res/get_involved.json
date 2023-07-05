@@ -86,7 +86,7 @@
                 "name": "",
                 "title": "Autonomous Electric Vehicle",
                 "logo": "/res/team_logos/munemotorsports.png",
-                "text": "",
+                "text": "MUN-E-Motorsports is developing a Mario-style go-kart for autonomous racing in the Autonomous Carting Series at the University of Purdue in West Lafayette, Indiana. The team consists of ten junior students specializing in Computer Engineering, Electrical Engineering, and Computer Science. They share a competitive spirit, passion for autonomous navigation, electric motorsports, County Line BBQ restaurant, and the Iron Rattler roller coaster.",
                 "link": "https://munemotorsports.com",
                 "linkedin": "https://www.linkedin.com/company/fmuntenth/",
                 "date": "2022"
@@ -113,7 +113,7 @@
     },
     "organization": {
         "Engineers Without Borders": {
-          "title": "",
+          "title": "Engineering Global Change Together",
           "logo": "/res/team_logos/ewb.png",
           "text": "Engineers Without Borders is a non-profit organization that works to improve the quality of life in developing countries. The Memorial University chapter of EWB is a student-run organization that works to raise awareness of global issues and to raise funds for EWB projects.",
           "link": "https://www.ewb.ca/en/",
@@ -134,7 +134,7 @@
           "date": "2020"
         },
         "WISE Undergraduate Society": {
-          "title": "",
+          "title": "Inspiring Women in STEM",
           "logo": "/res/team_logos/wise.png",
           "text": "The WISE Undergraduate Society (WISE US) is dedicated to supporting female engineers and scientists as they embark on their journey to becoming professionals in their field of interest. Through various workshops, lunch & learns, networking opportunities, mentoring activities, and social events, the goal of WISE US is to help students develop into successful women in the workplace after graduating.",
           "link": "https://wisenl.ca/wiseus/",
@@ -153,7 +153,7 @@
           "linkedin": "https://www.linkedin.com/company/dscmun/"
         },
         "National Society of Black Engineers": {
-          "title": "",
+          "title": "Empowering, Innovating, Advancing, Unity",
           "logo": "/res/team_logos/nsbe.png",
           "text": "NSBE MUN is the Memorial University chapter of the National Society of Black Engineers. At NSBE MUN, we hope to foster a community to support black identifying students (and ethnic minorities) participating in the Memorials Engineering program",
           "instagram": "https://www.instagram.com/nsbe.mun",
