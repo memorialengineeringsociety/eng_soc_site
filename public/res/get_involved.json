@@ -1,115 +1,114 @@
 {
     "competitive": {
         "Eastern Edge Robotics": {
-                "title": "Underwater Remotely Operated Vehicle",
-                "logo": "/res/team_logos/eastern_edge.png",
-                "text": "Eastern Edge designs, builds, and operates remotely operated vehicles (ROVs) to complete a series of challenging tasks. The competition encourages innovation, problem-solving, and teamwork, as members navigate the ROV through complex underwater missions. From engineering the ROV's structure and electronics to programming its controls, Eastern Edge demonstrates a wide range of technical expertise.",
-                "link": "https://easternedgerobotics.com",
-                "linkedin": "https://www.linkedin.com/company/easternedgerobotics/",
-                "instagram": "https://www.instagram.com/easternedgerobo/",
-                "facebook": "https://www.facebook.com/easternedgerobotics",
-                "twitter": "https://twitter.com/easternedgerobo",
-                "discord": "",
-                "contact": "easternedgerobo@gmail.com",
-                "date": "2002"
-            },
-            "Memorial Baja Racing": {
-                "title": "Single Seat Off-Road Vehicle",
-                "logo": "/res/team_logos/baja.png",
-                "text": "Memorial Baja is a student team building an off-road racing vehicle. They handle marketing, engineering design, and provide a positive learning experience. A Baja SAE vehicle is a lightweight racer under 500 pounds, reaching speeds up to 50 km/h. Teams design and build the vehicle from scratch, following sound engineering practices.",
-                "link": "https://memorialbaja.ca/",
-                "linkedin": "https://www.linkedin.com/company/memorialbaja/",
-                "instagram": "https://www.instagram.com/memorialbaja/",
-                "facebook": "https://www.facebook.com/memorialbaja/",
-                "twitter": "",
-                "discord": "",
-                "date": "2009",
-                "contact": "memorialbaja@gmail.com"
-            },
-            "MUN Sailbot": {
-                "title": "Autonomous Sailboat",
-                "logo": "/res/team_logos/sailbot.png",
-                "text": "",
-                "link": "",
-                "contact": "munsailbot@gmail.com",
-                "facebook": "https://www.facebook.com/munsailbot/",
-                "instagram": "https://www.instagram.com/munsailbot/",
-                "linkedin": "https://www.linkedin.com/company/mun-sailbot/?originalSubdomain=pe",
-                "date": "2009"
-            },
-            "Paradigm Engineering": {
-                "title": "",
-                "logo": "/res/team_logos/paradigm.png",
-                "text": "Paradigm Engineering is a student group focused on has competing in the International Ground Vehicle Competition (IGVC). IGVC AutoNav competition tasks teams with building a fully autonomous vehicle to navigate around a track. Paradigm previously competed in the SpaceX Hyperloop Competition and the Boeing Company Boeing Competition, notably placing 2nd in 2017 and 8th in 2019.",
-                "link": "",
-                "instagram": "https://www.instagram.com/paradigm_engineering/",
-                "contact": "hello@paradigmhyperloop.com",
-                "date": "2016"
-            },
-            "Concrete Toboggan": {
-                "title": "",
-                "logo": "/res/team_logos/concrete.png",
-                "text": "",
-                "link": "https://www.engr.mun.ca/ConcreteToboggan/",
-                "instagram": "https://www.instagram.com/mun_concrete_toboggan",
-                "facebook": "https://www.facebook.com/profile.php?id=100076112047631",
-                "contact": "munconcretetoboggan@gmail.com",
-                "date": "2018"
-            },
-            "Chem-E-Car": {
-                "title": "Chemical Powered Car",
-                "logo": "/res/team_logos/chemecar.png",
-                "text": "MUN Chem-E-Car is designing and building a shoe-box sized car that runs solely on chemical reactions. The car will then compete by travelling a set distance in a set time period. Besides competing in this competition, we are also striving to break barriers and stigmas to show both potential engineering students and the public what precisely the Process/Chemical engineering industry does to benefit their everyday lives.",
-                "link": "",
-                "contact": "memorialchemecar@gmail.com",
-                "instagram": "https://www.instagram.com/memorialchemecar/",
-                "date": "2020"
-            },
-            "Iceberg ASV": {
-                "title": "Autonomous Surface Vehicle",
-                "logo": "/res/team_logos/icebergasv.png",
-                "text": "Iceberg ASV is a student-led design team that designs and builds an autonomous surface vehicle (ASV) to compete in RoboBoat, an annual competition held by RoboNation. Hull design, controls, power distribution and computer vision are just some of the areas that RoboBoat entails. Consisting of thirteen members ranging across multiple engineering disciplines, commerce and marine institute, Iceberg encourages interdisciplinary work to maximize learning for all team members.",
-                "link": "https://icebergasv.ca/",
-                "date": "2021",
-                "contact": "info@icebergasv.ca"
-            },
-            "MUN RoboSub": {
-                "name": "MUN RoboSub",
-                "title": "Autonomous Underwater Vehicle",
-                "logo": "/res/team_logos/robosub.PNG",
-                "text": "",
-                "link": "https://sites.google.com/mun.ca/mun-robosub/home",
-                "contact": "robosubmun@gmail.com",
-                "date": "2021"
-            },
-            "MUN E-Motorsports": {
-                "name": "",
-                "title": "Autonomous Electric Vehicle",
-                "logo": "/res/team_logos/munemotorsports.png",
-                "text": "MUN-E-Motorsports is developing a Mario-style go-kart for autonomous racing in the Autonomous Carting Series at the University of Purdue in West Lafayette, Indiana. The team consists of ten junior students specializing in Computer Engineering, Electrical Engineering, and Computer Science. They share a competitive spirit, passion for autonomous navigation, electric motorsports, County Line BBQ restaurant, and the Iron Rattler roller coaster.",
-                "link": "https://munemotorsports.com",
-                "linkedin": "https://www.linkedin.com/company/fmuntenth/",
-                "date": "2022"
-            },
-            "Phoenix Aerospace": {
-                "title": "Radio Controlled Electric Aircraft",
-                "logo": "/res/team_logos/phoenix.png",
-                "text": "Phoenix Aerospace consists of a dedicated group of aspiring post-secondary students passionately involved in the design and manufacturing of aircrafts. Being the only aerospace student team at MUN, both classroom education and hands-on experience are combined to seamlessly navigate through challenges of aerodynamics, materials, and systems integration. With each prototype, the team gains invaluable insights and problem-solving skills, fostering a culture of innovation and resilience.",
-                "link": "",
-                "contact": "phoenixuav.mun@gmail.com",
-                "facebook": "https://www.facebook.com/munphoenixareospace/",
-                "date": "2022"
-            },
-            "Memorial FSAE": {
-                "title": "Fully Electric Formula Style Vehicle",
-                "logo": "/res/team_logos/fsae.png",
-                "text": "Memorial Formula SAE is responsible for the research, design, fabrication, and operation of Memorial Univeristy’s first all-electric human operated formula one vehicle. The team will be competing in an SAE international competition where they will undergo events including endurance, auto-cross, and skid pad tests as well as showcasing their design and cost evaluation presentations. This team has a diverse make-up of students across various disciplines and gives students an opportunity to apply what they learn in the classroom to a real project. This team gives students the opportunity to develop many needed skills such as their communication, teamwork, and technical abilities.",
-                "link": "",
-                "linkedin": "https://www.linkedin.com/company/memorial-racing-formula-sae-electric/",
-                "instagram": "https://www.instagram.com/memorialfsae/",
-                "contact": "memorialfsaee@gmail.com",
-                "date": "2022"
-            }
+            "title": "Underwater Remotely Operated Vehicle",
+            "logo": "/res/team_logos/eastern_edge.png",
+            "text": "Eastern Edge designs, builds, and operates remotely operated vehicles (ROVs) to complete a series of challenging tasks. The competition encourages innovation, problem-solving, and teamwork, as members navigate the ROV through complex underwater missions. From engineering the ROV's structure and electronics to programming its controls, Eastern Edge demonstrates a wide range of technical expertise.",
+            "link": "https://easternedgerobotics.com",
+            "linkedin": "https://www.linkedin.com/company/easternedgerobotics/",
+            "instagram": "https://www.instagram.com/easternedgerobo/",
+            "facebook": "https://www.facebook.com/easternedgerobotics",
+            "twitter": "https://twitter.com/easternedgerobo",
+            "discord": "",
+            "contact": "easternedgerobo@gmail.com",
+            "date": "2002"
+        },
+        "Memorial Baja Racing": {
+            "title": "Single Seat Off-Road Vehicle",
+            "logo": "/res/team_logos/baja.png",
+            "text": "Memorial Baja is a student team building an off-road racing vehicle. They handle marketing, engineering design, and provide a positive learning experience. A Baja SAE vehicle is a lightweight racer under 500 pounds, reaching speeds up to 50 km/h. Teams design and build the vehicle from scratch, following sound engineering practices.",
+            "link": "https://memorialbaja.ca/",
+            "linkedin": "https://www.linkedin.com/company/memorialbaja/",
+            "instagram": "https://www.instagram.com/memorialbaja/",
+            "facebook": "https://www.facebook.com/memorialbaja/",
+            "twitter": "",
+            "discord": "",
+            "date": "2009",
+            "contact": "memorialbaja@gmail.com"
+        },
+        "MUN Sailbot": {
+            "title": "Autonomous Sailboat",
+            "logo": "/res/team_logos/sailbot.png",
+            "text": "",
+            "link": "",
+            "contact": "munsailbot@gmail.com",
+            "facebook": "https://www.facebook.com/munsailbot/",
+            "instagram": "https://www.instagram.com/munsailbot/",
+            "linkedin": "https://www.linkedin.com/company/mun-sailbot/?originalSubdomain=pe",
+            "date": "2009"
+        },
+        "Paradigm Engineering": {
+            "title": "",
+            "logo": "/res/team_logos/paradigm.png",
+            "text": "Paradigm Engineering is a student group focused on has competing in the International Ground Vehicle Competition (IGVC). IGVC AutoNav competition tasks teams with building a fully autonomous vehicle to navigate around a track. Paradigm previously competed in the SpaceX Hyperloop Competition and the Boeing Company Boeing Competition, notably placing 2nd in 2017 and 8th in 2019.",
+            "link": "",
+            "instagram": "https://www.instagram.com/paradigm_engineering/",
+            "contact": "hello@paradigmhyperloop.com",
+            "date": "2016"
+        },
+        "Concrete Toboggan": {
+            "title": "",
+            "logo": "/res/team_logos/concrete.png",
+            "text": "",
+            "link": "https://www.engr.mun.ca/ConcreteToboggan/",
+            "instagram": "https://www.instagram.com/mun_concrete_toboggan",
+            "facebook": "https://www.facebook.com/profile.php?id=100076112047631",
+            "contact": "munconcretetoboggan@gmail.com",
+            "date": "2018"
+        },
+        "Chem-E-Car": {
+            "title": "Chemical Powered Car",
+            "logo": "/res/team_logos/chemecar.png",
+            "text": "MUN Chem-E-Car is designing and building a shoe-box sized car that runs solely on chemical reactions. The car will then compete by travelling a set distance in a set time period. Besides competing in this competition, we are also striving to break barriers and stigmas to show both potential engineering students and the public what precisely the Process/Chemical engineering industry does to benefit their everyday lives.",
+            "link": "",
+            "contact": "memorialchemecar@gmail.com",
+            "instagram": "https://www.instagram.com/memorialchemecar/",
+            "date": "2020"
+        },
+        "Iceberg ASV": {
+            "title": "Autonomous Surface Vehicle",
+            "logo": "/res/team_logos/icebergasv.png",
+            "text": "Iceberg ASV is a student-led design team that designs and builds an autonomous surface vehicle (ASV) to compete in RoboBoat, an annual competition held by RoboNation. Hull design, controls, power distribution and computer vision are just some of the areas that RoboBoat entails. Consisting of thirteen members ranging across multiple engineering disciplines, commerce and marine institute, Iceberg encourages interdisciplinary work to maximize learning for all team members.",
+            "link": "https://icebergasv.ca/",
+            "date": "2021",
+            "contact": "info@icebergasv.ca"
+        },
+        "MUN RoboSub": {
+            "title": "Autonomous Underwater Vehicle",
+            "logo": "/res/team_logos/robosub.PNG",
+            "text": "",
+            "link": "https://sites.google.com/mun.ca/mun-robosub/home",
+            "contact": "robosubmun@gmail.com",
+            "date": "2021"
+        },
+        "MUN E-Motorsports": {
+            "name": "",
+            "title": "Autonomous Electric Vehicle",
+            "logo": "/res/team_logos/munemotorsports.png",
+            "text": "MUN-E-Motorsports is developing a Mario-style go-kart for autonomous racing in the Autonomous Carting Series at the University of Purdue in West Lafayette, Indiana. The team consists of ten junior students specializing in Computer Engineering, Electrical Engineering, and Computer Science. They share a competitive spirit, passion for autonomous navigation, electric motorsports, County Line BBQ restaurant, and the Iron Rattler roller coaster.",
+            "link": "https://munemotorsports.com",
+            "linkedin": "https://www.linkedin.com/company/fmuntenth/",
+            "date": "2022"
+        },
+        "Phoenix Aerospace": {
+            "title": "Radio Controlled Electric Aircraft",
+            "logo": "/res/team_logos/phoenix.png",
+            "text": "Phoenix Aerospace consists of a dedicated group of aspiring post-secondary students passionately involved in the design and manufacturing of aircrafts. Being the only aerospace student team at MUN, both classroom education and hands-on experience are combined to seamlessly navigate through challenges of aerodynamics, materials, and systems integration. With each prototype, the team gains invaluable insights and problem-solving skills, fostering a culture of innovation and resilience.",
+            "link": "",
+            "contact": "phoenixuav.mun@gmail.com",
+            "facebook": "https://www.facebook.com/munphoenixareospace/",
+            "date": "2022"
+        },
+        "Memorial FSAE": {
+            "title": "Fully Electric Formula Style Vehicle",
+            "logo": "/res/team_logos/fsae.png",
+            "text": "Memorial Formula SAE is responsible for the research, design, fabrication, and operation of Memorial Univeristy’s first all-electric human operated formula one vehicle. The team will be competing in an SAE international competition where they will undergo events including endurance, auto-cross, and skid pad tests as well as showcasing their design and cost evaluation presentations. This team has a diverse make-up of students across various disciplines and gives students an opportunity to apply what they learn in the classroom to a real project. This team gives students the opportunity to develop many needed skills such as their communication, teamwork, and technical abilities.",
+            "link": "",
+            "linkedin": "https://www.linkedin.com/company/memorial-racing-formula-sae-electric/",
+            "instagram": "https://www.instagram.com/memorialfsae/",
+            "contact": "memorialfsaee@gmail.com",
+            "date": "2022"
+        }
     },
     "organization": {
         "Engineers Without Borders": {
@@ -196,7 +195,8 @@
           "link": "https://tetrasociety.org/",
           "facebook": "https://www.facebook.com/groups/250387475027356/"
         }
-      }
+    }
 }
+
 
           
