@@ -10,6 +10,12 @@ export default function Events() {
             </section>
             <section className='flex flex-col gap-y-3 place-items-center p-3 min-h-screen'>
                 <LinkCard
+                    title="Professor's Appreciation Award"
+                    description=''
+                    link='https://docs.google.com/forms/d/e/1FAIpQLSe7sDYTyXxOrJS8XAqDWVg1i24yQ14q1eUaTd4gayCeDoFTQA/viewform?usp=sf_link'
+                    image=''
+                />
+		<LinkCard
                     title='Fall 2023 D-Day Mug Design Contest'
                     description=''
                     link='https://docs.google.com/forms/d/1KYdXAvXpR7TomDo688FYIBlB7JL8OcRqObAH4NAUZ0M/edit'
