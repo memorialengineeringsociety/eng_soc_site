@@ -42,6 +42,11 @@ function Groups({ type }) {
 function Navigation() {
   const [currentButton, setCurrentButton] = useState(1);
 
+  const handleButtonClick = (buttonNumber) => {
+    setCurrentButton(buttonNumber);
+    scrollToTop();
+  };
+
   return (
     <div className="xl:flex xl:flex-col items-center">
       <div className="flex flex-col sticky top-[76px] xl:top-[92px] pl-20 pr-20 z-40 lg:flex-row w-full justify-evenly bg-stone-400 border-b-2 border-black pt-3 pb-5 rounded-b-3xl">
@@ -49,7 +54,7 @@ function Navigation() {
           className={`xl:w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
             currentButton === 1 ? 'xl:scale-125 underline text-black' : 'text-white'
           }`}
-          onClick={() => setCurrentButton(1)}
+          onClick={() => handleButtonClick(1)}
         >
           Competitive Teams
         </button>
@@ -57,7 +62,7 @@ function Navigation() {
           className={`xl:w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
             currentButton === 2 ? 'xl:scale-125 underline text-black' : 'text-white'
           }`}
-          onClick={() => setCurrentButton(2)}
+          onClick={() => handleButtonClick(2)}
         >
           Organizations
         </button>
@@ -65,7 +70,7 @@ function Navigation() {
           className={`xl:w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
             currentButton === 3 ? 'xl:scale-125 underline text-black' : 'text-white'
           }`}
-          onClick={() => setCurrentButton(3)}
+          onClick={() => handleButtonClick(3)}
         >
           Volunteering Opportunities
         </button>
@@ -93,3 +98,10 @@ function Navigation() {
     </div>
   );
 }
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+};
