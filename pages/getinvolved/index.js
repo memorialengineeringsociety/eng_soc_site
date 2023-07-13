@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Image from 'next/image'
 import {TeamCard} from '../../components/TeamCard';
+import Parallax from '../../components/Parallax';
 import jsonData from 'public/res/get_involved.json';
 
 const data = jsonData;

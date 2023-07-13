@@ -56,3 +56,13 @@ body {
   font-family: "MavenPro-Medium";
   src: url("MavenPro-Medium.ttf");
 }
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 3s forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
