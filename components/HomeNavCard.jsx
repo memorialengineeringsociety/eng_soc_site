@@ -34,7 +34,7 @@ export default function SlideshowComponent(props) {
     return (
         <div className="p-6 w-96 bg-stone-400 shadow rounded-2xl flex flex-col items-center space-y-4 border-4 border-black">
             <h2 className="text-4xl font-bold font-gold_bold text-white">{props.title}</h2>
-            <button onClick={nextSlide} className='border-4 border-white rounded-xl'>
+            <button onClick={nextSlide} className='w-full border-4 border-white rounded-2xl'>
                 <motion.img
                     src={images[slideIndex]}
                     key={slideIndex}
