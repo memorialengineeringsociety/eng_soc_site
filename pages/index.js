@@ -12,8 +12,8 @@ export default function Home() {
 		<main className='flex flex-col repeating-bg min-h-screen overflow-hidden'>
 			<Parallax image='/res/location/engineering_building.jpeg'>
 				<div className='flex flex-col md:flex-row justify-between'>
-					<div className=''>
-						<img src='/res/logos/soc_round_logo.png' className='rounded-full h-4/5 p-5 md:p-20' />
+					<div className='flex justify-center'>
+						<img src='/res/logos/soc_round_logo.png' className='rounded-full w-1/2 md:w-auto md:h-4/5 p-5 md:p-20' />
 					</div>
 					<div className='space-y-5 md:space-y-10 p-10 md:mt-10'>
 						<h1 className='text-white font-gold text-3xl xl:text-5xl 2xl:text-7xl text-center md:text-right'>1200+ Students</h1>
