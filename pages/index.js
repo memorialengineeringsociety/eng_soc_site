@@ -9,7 +9,7 @@ import getImagePaths from '/components/getImagePaths';
 
 export default function Home() {
 	return (
-		<main className='flex flex-col repeating-bg min-h-screen'>
+		<main className='flex flex-col repeating-bg min-h-screen overflow-hidden'>
 			<Parallax image='/res/location/engineering_building.jpeg'>
 				<div className='flex flex-col md:flex-row justify-between'>
 					<div className=''>
