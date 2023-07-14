@@ -31,7 +31,7 @@ export default function Home() {
 				<p className="text-base sm:text-lg text-black">We are delighted to have you here. Explore and enjoy our cool features!</p>
 				<button className="px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-700 transition-all">Explore Now</button>
 			</div> */}
-			<div className='flex flex-col lg:flex-row place-items-center space-y-5 lg:space-y-0 pb-5 pt-5 justify-evenly'>
+			<div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center gap-y-5 xl:gap-y-0 pb-5 pt-5 justify-evenly'>
 				<SlideshowComponent 
 					title='Academics'
 					href='/academics'
