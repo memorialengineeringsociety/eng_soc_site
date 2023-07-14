@@ -33,6 +33,7 @@ function Groups({ type }) {
 							discord={team_data.discord}
 							contact={team_data.contact}
 							date={team_data.date}
+              disciplines={team_data.disciplines}
 					/>
 				);
 			})}

@@ -5,8 +5,6 @@ import Disciplines from '/components/Disciplines';
 import SlideshowComponent from '/components/HomeNavCard';
 import getImagePaths from '/components/getImagePaths';
 
-  
-
 export default function Home() {
 	return (
 		<main className='flex flex-col repeating-bg min-h-screen overflow-hidden'>

@@ -11,7 +11,8 @@
             "twitter": "https://twitter.com/easternedgerobo",
             "discord": "",
             "contact": "easternedgerobo@gmail.com",
-            "date": "2002"
+            "date": "2002",
+            "disciplines":"mtero"
         },
         "Memorial Baja Racing": {
             "title": "Single Seat Off-Road Vehicle",
@@ -24,7 +25,8 @@
             "twitter": "",
             "discord": "",
             "date": "2009",
-            "contact": "memorialbaja@gmail.com"
+            "contact": "memorialbaja@gmail.com",
+            "disciplines":"mter"
         },
         "MUN Sailbot": {
             "title": "Autonomous Sailboat",
@@ -35,7 +37,9 @@
             "facebook": "https://www.facebook.com/munsailbot/",
             "instagram": "https://www.instagram.com/munsailbot/",
             "linkedin": "https://www.linkedin.com/company/mun-sailbot/?originalSubdomain=pe",
-            "date": "2009"
+            "date": "2009",
+            "disciplines":"mero"
+
         },
         "Paradigm Engineering": {
             "title": "",
@@ -44,7 +48,8 @@
             "link": "",
             "instagram": "https://www.instagram.com/paradigm_engineering/",
             "contact": "hello@paradigmhyperloop.com",
-            "date": "2016"
+            "date": "2016",
+            "disciplines":"mter"
         },
         "Concrete Toboggan": {
             "title": "",
@@ -54,7 +59,8 @@
             "instagram": "https://www.instagram.com/mun_concrete_toboggan",
             "facebook": "https://www.facebook.com/profile.php?id=100076112047631",
             "contact": "munconcretetoboggan@gmail.com",
-            "date": "2018"
+            "date": "2018",
+            "disciplines":"mc"
         },
         "Chem-E-Car": {
             "title": "Chemical Powered Car",
@@ -63,7 +69,8 @@
             "link": "",
             "contact": "memorialchemecar@gmail.com",
             "instagram": "https://www.instagram.com/memorialchemecar/",
-            "date": "2020"
+            "date": "2020",
+            "disciplines":"merp"
         },
         "Iceberg ASV": {
             "title": "Autonomous Surface Vehicle",
@@ -71,7 +78,8 @@
             "text": "Iceberg ASV is a student-led design team that designs and builds an autonomous surface vehicle (ASV) to compete in RoboBoat, an annual competition held by RoboNation. Hull design, controls, power distribution and computer vision are just some of the areas that RoboBoat entails. Consisting of thirteen members ranging across multiple engineering disciplines, commerce and marine institute, Iceberg encourages interdisciplinary work to maximize learning for all team members.",
             "link": "https://icebergasv.ca/",
             "date": "2021",
-            "contact": "info@icebergasv.ca"
+            "contact": "info@icebergasv.ca",
+            "disciplines":"mero"
         },
         "MUN RoboSub": {
             "title": "Autonomous Underwater Vehicle",
@@ -79,7 +87,8 @@
             "text": "",
             "link": "https://sites.google.com/mun.ca/mun-robosub/home",
             "contact": "robosubmun@gmail.com",
-            "date": "2021"
+            "date": "2021",
+            "disciplines":"tero"
         },
         "MUN E-Motorsports": {
             "name": "",
@@ -88,7 +97,8 @@
             "text": "MUN-E-Motorsports is developing a Mario-style go-kart for autonomous racing in the Autonomous Carting Series at the University of Purdue in West Lafayette, Indiana. The team consists of ten junior students specializing in Computer Engineering, Electrical Engineering, and Computer Science. They share a competitive spirit, passion for autonomous navigation, electric motorsports, County Line BBQ restaurant, and the Iron Rattler roller coaster.",
             "link": "https://munemotorsports.com",
             "linkedin": "https://www.linkedin.com/company/fmuntenth/",
-            "date": "2022"
+            "date": "2022",
+            "disciplines":"er"
         },
         "Phoenix Aerospace": {
             "title": "Radio Controlled Electric Aircraft",
@@ -97,7 +107,8 @@
             "link": "",
             "contact": "phoenixuav.mun@gmail.com",
             "facebook": "https://www.facebook.com/munphoenixareospace/",
-            "date": "2022"
+            "date": "2022",
+            "disciplines":"mter"
         },
         "Memorial FSAE": {
             "title": "Fully Electric Formula Style Vehicle",
@@ -107,7 +118,8 @@
             "linkedin": "https://www.linkedin.com/company/memorial-racing-formula-sae-electric/",
             "instagram": "https://www.instagram.com/memorialfsae/",
             "contact": "memorialfsaee@gmail.com",
-            "date": "2022"
+            "date": "2022",
+            "disciplines":"mter"
         },
         "White Cap Sailing": {
             "title": "Developing a Sustainable Foiling Moth",
@@ -117,7 +129,8 @@
             "linkedin": "https://www.linkedin.com/company/white-cap-sailing/",
             "instagram": "https://www.instagram.com/whitecapsailing/",
             "contact": "admin@whitecapsailing.com",
-            "date": "2023"
+            "date": "2023",
+            "disciplines":"o"
         }
     },
     "organization": {
