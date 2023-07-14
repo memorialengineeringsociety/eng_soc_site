@@ -65,8 +65,8 @@ export default function Home() {
 					images={[        
 						'../res/get_involved/eastern_edge_presentation_2023.jpg',
 						'../res/get_involved/eastern_edge_deck_2023.jpg',
-						'../res/get_involved/eastern_edge_presentation_2023.jpg',
-						'../res/get_involved/eastern_edge_deck_2023.jpg',]}
+						'../res/get_involved/concrete_tbog_team.png',
+					]}
 					/>
 			</div>
 		</main>
