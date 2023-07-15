@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import {LinkCard} from '../../components/LinkCard';
 
 export default function Events() {
@@ -9,6 +10,12 @@ export default function Events() {
                 <h1 className='text-white font-gold text-lg lg:text-2xl text-center'>MUN Engineering Undergraduate Society</h1>
             </section>
             <section className='flex flex-col gap-y-3 place-items-center p-3 min-h-screen'>
+                <LinkCard
+                    title='Soccer Registration Form'
+                    description=''
+                    link='https://docs.google.com/forms/d/e/1FAIpQLSfEsOPwHqsRCYyDr0p6pblW5_V6sCmaxuBCzkZYvzTEoQV6GA/viewform?usp=sf_link'
+                    image=''
+                />
                 <LinkCard
                     title="Professor's Appreciation Award"
                     description=''
