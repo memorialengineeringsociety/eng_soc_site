@@ -10,6 +10,18 @@ const data = jsonData;
 export default function GetInvolved() {
 	return (
 		<main className='repeating-bg'>
+      <Parallax image='../res/get_involved/eastern_edge_presentation_2023.jpg'>
+        <div className='flex flex-col items-center pt-5 lg:pt-20 h-full text-white text-center'>
+          <h1 className='text-4xl lg:text-8xl font-bold font-ops'>Get Involved</h1>
+          <div className='p-8 lg:p-20 space-y-5 text-lg lg:text-3xl font-bold font-gold'>
+            <p>As technology continues to advance at an accelerated pace, student-led initiatives play a pivotal role in fostering innovation and inspiring the next generation of engineers and scientists. </p>
+            <p>These multidisciplinary teams undertake a wide array of projects, ranging from the construction of sustainable sailboats, development of autonomous vehicles, to the design of lightweight racers and chemical-powered cars. </p>
+            <p>Such endeavors not only enhance technical skills, but also encourage teamwork, problem-solving, and communication abilities, preparing students for future careers in various industries.</p>          
+          </div>
+          <h2 className='hidden lg:block text-4xl font-bold font-ops'>Join a team, organization, or volunteer!</h2>
+        </div>
+      </Parallax>
+      <div id='paralaxdivider' className='h-5 bg-gradient-to-b from-soc-red to-stone-400  border-t-4 border-black'/>
 			<Navigation />
 		</main>
 	)
@@ -51,9 +63,9 @@ function Navigation() {
 
   return (
     <div className="xl:flex xl:flex-col items-center">
-      <div className="flex flex-col sticky top-[76px] xl:top-[92px] pl-20 pr-20 z-40 lg:flex-row w-full justify-evenly bg-stone-400 border-b-2 border-black pt-3 pb-5 rounded-b-3xl">
+      <div id='subnavbar' className="flex gap-x-3 sticky top-[76px] xl:top-[92px] lg:pl-20 lg:pr-20 z-40 w-full justify-evenly bg-stone-400 border-b-2 border-black lg:pt-3 lg:pb-5 rounded-b-3xl">
         <button
-          className={`xl:w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
+          className={`w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
             currentButton === 1 ? 'xl:scale-125 underline text-black' : 'text-white'
           }`}
           onClick={() => handleButtonClick(1)}
@@ -61,7 +73,7 @@ function Navigation() {
           Competitive Teams
         </button>
         <button
-          className={`xl:w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
+          className={`w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
             currentButton === 2 ? 'xl:scale-125 underline text-black' : 'text-white'
           }`}
           onClick={() => handleButtonClick(2)}
@@ -69,7 +81,7 @@ function Navigation() {
           Organizations
         </button>
         <button
-          className={`xl:w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
+          className={`w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${
             currentButton === 3 ? 'xl:scale-125 underline text-black' : 'text-white'
           }`}
           onClick={() => handleButtonClick(3)}
@@ -86,7 +98,7 @@ function Navigation() {
 		  <Groups type={data.organization} />
         </div>
         <div className={`transition-opacity flex justify-center ${currentButton === 3 ? 'block opacity-100' : 'hidden opacity-0'} delay-200`}>
-			<div className='w-1/2 min-h-screen'>
+			<div className='w-1/2 min-h-screen pt-20'>
 				<h2 className='text-black text-2xl font-bold font-ops text-center'>Engineering Volunteer Network</h2>
 				<p className='text-black'>Memorial Engineering Student Society is dedicated to uplifting not only our student body but also our community. We believe one of the fundamental ways of giving back comes through volunteering. We want to ensure it is always an accessible option for our students. We've created a space for students, clubs, companies, or individuals to bring forward volunteering opportunities or any little thing they need help with! You’ll fill the below form, giving us dates, number of volunteers required and any other relevant info! We’ll take this information and contact the keen students who have signed up and get back to you.​</p>
 				<div className='flex justify-center pt-5 pb-5 gap-x-10'>
@@ -102,8 +114,8 @@ function Navigation() {
 }
 
 const scrollToTop = () => {
-  window.scrollTo({
-    top: 0,
+  const element = document.getElementById("paralaxdivider");
+  element.scrollIntoView({
     behavior: "smooth"
   });
 };

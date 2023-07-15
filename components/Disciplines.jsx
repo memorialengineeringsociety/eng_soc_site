@@ -6,7 +6,7 @@ const Disciplines = () => {
 
     const fadeInElements = () => {
       for (let i = 0; i < disciplineItems.length; i++) {
-        const delay = i * 400; // Delay each element by 1 second
+        const delay = i * 300; // Delay each element by 1 second
         setTimeout(() => {
           disciplineItems[i].classList.add('fade-in');
         }, delay);
