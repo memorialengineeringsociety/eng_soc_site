@@ -1,4 +1,5 @@
-{"socA": {
+{
+  "socA": {
     "title": "24th Society A",
     "years": "2023 - 2025",
     "President": {
@@ -112,129 +113,129 @@
       "instagram": ""
     }
   },
-"socB": {
+  "socB": {
     "title": "23rd Society B",
     "years": "2022 - 2024",
     "President": {
-        "title": "President",
-        "name": "Ben Oates",
-        "program": "Mechanical Engineering",
-        "about": "Hey guys! I'm proud to serve as your President of Society B. I'm in Mechanical, class of 2025. If I'm not in the Society room or studying in the basement of the engineering building, you can find me in the Baja garage, out for a hike, at the cabin, or down at Quidi Vidi Brewery. Fun fact about me is that I can play the accordion! If you ever have any questions or concerns about all things Soc B, please feel free to shoot me an email or come see me in person. Looking forward to serving you & delivering good times!",
-        "photo": "/res/members/b2022/ben_oates.jpeg",
-        "link": "",
-        "contact": "president.munengsocb@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/benjamin-oates-02/",
-        "instagram": "https://www.instagram.com/boates02"
+      "title": "President",
+      "name": "Ben Oates",
+      "program": "Mechanical Engineering",
+      "about": "Hey guys! I'm proud to serve as your President of Society B. I'm in Mechanical, class of 2025. If I'm not in the Society room or studying in the basement of the engineering building, you can find me in the Baja garage, out for a hike, at the cabin, or down at Quidi Vidi Brewery. Fun fact about me is that I can play the accordion! If you ever have any questions or concerns about all things Soc B, please feel free to shoot me an email or come see me in person. Looking forward to serving you & delivering good times!",
+      "photo": "/res/members/b2022/ben_oates.jpeg",
+      "link": "",
+      "contact": "president.munengsocb@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/benjamin-oates-02/",
+      "instagram": "https://www.instagram.com/boates02"
     },
     "VP Academic": {
-        "title": "VP Academic",
-        "name": "Fares Khalil",
-        "program": "Computer Engineering",
-        "about": "I like travelling so much. When I was in Egypt, I visited a lot of places all the way to Aswan in Upper Egypt and Sharm El Sheikh in Sinai. When I came to Canada, I still visited a lot of placed from St. John's to Calgary. I am hoping I will be able to go all the way to Vancouver and visit more places all around the world!",
-        "photo": "/res/members/b2022/fares_khalil.jpeg",
-        "link": "",
-        "contact": "academic.munengsocb@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/fares-khalil/",
-        "instagram": ""
+      "title": "VP Academic",
+      "name": "Fares Khalil",
+      "program": "Computer Engineering",
+      "about": "I like travelling so much. When I was in Egypt, I visited a lot of places all the way to Aswan in Upper Egypt and Sharm El Sheikh in Sinai. When I came to Canada, I still visited a lot of placed from St. John's to Calgary. I am hoping I will be able to go all the way to Vancouver and visit more places all around the world!",
+      "photo": "/res/members/b2022/fares_khalil.jpeg",
+      "link": "",
+      "contact": "academic.munengsocb@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/fares-khalil/",
+      "instagram": ""
     },
     "VP Finance": {
-        "title": "VP Finance",
-        "name": "Nadia Marmouche",
-        "program": "Process Engineering",
-        "about": "",
-        "photo": "/res/members/b2022/nadia_marmouche.jpeg",
-        "link": "",
-        "contact": "finance.munengsocb@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/nadia-marmouche/",
-        "instagram": ""
+      "title": "VP Finance",
+      "name": "Nadia Marmouche",
+      "program": "Process Engineering",
+      "about": "",
+      "photo": "/res/members/b2022/nadia_marmouche.jpeg",
+      "link": "",
+      "contact": "finance.munengsocb@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/nadia-marmouche/",
+      "instagram": ""
     },
     "VP External": {
-        "title": "VP External",
-        "name": "Kathleen Curran",
-        "program": "Mechanical Engineering",
-        "about": "Hi! I'm the Vice President External of Society B. I'm in the Mechanical Engineering class of 2025, and I'm also the class representative! I travel across Canada to represent the best interests of MUN Engineering at conferences and meetings. You'll usually find me studying in the mech room, or at the rink - I love to figure skate. Shoot me an email anytime with questions or concerns, or to attend a conference!",
-        "photo": "/res/members/b2022/kathleen_curran.jpeg",
-        "link": "",
-        "contact": "external.munengsocb@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/kathleencurrann/",
-        "instagram": ""
+      "title": "VP External",
+      "name": "Kathleen Curran",
+      "program": "Mechanical Engineering",
+      "about": "Hi! I'm the Vice President External of Society B. I'm in the Mechanical Engineering class of 2025, and I'm also the class representative! I travel across Canada to represent the best interests of MUN Engineering at conferences and meetings. You'll usually find me studying in the mech room, or at the rink - I love to figure skate. Shoot me an email anytime with questions or concerns, or to attend a conference!",
+      "photo": "/res/members/b2022/kathleen_curran.jpeg",
+      "link": "",
+      "contact": "external.munengsocb@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/kathleencurrann/",
+      "instagram": ""
     },
     "VP Internal": {
-        "title": "VP Internal",
-        "name": "Matthew Rogers",
-        "program": "Mechanical Engineering",
-        "about": "",
-        "photo": "/res/members/b2022/matthew_rogers.jpeg",
-        "contact": "internal.munengsocb@gmail.com",
-        "link": "",
-        "linkedin": "https://www.linkedin.com/in/matthew-rogers-a25929198/",
-        "instagram": ""
+      "title": "VP Internal",
+      "name": "Matthew Rogers",
+      "program": "Mechanical Engineering",
+      "about": "",
+      "photo": "/res/members/b2022/matthew_rogers.jpeg",
+      "contact": "internal.munengsocb@gmail.com",
+      "link": "",
+      "linkedin": "https://www.linkedin.com/in/matthew-rogers-a25929198/",
+      "instagram": ""
     },
     "Director of Communications": {
-        "title": "Director of Communications",
-        "name": "Veronica Naterer",
-        "program": "Mechanical Engineering",
-        "about": "",
-        "photo": "/res/members/b2022/veronica_naterer.png",
-        "link": "",
-        "contact": "communications.munengsocb@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/veronicanaterer/",
-        "instagram": ""
+      "title": "Director of Communications",
+      "name": "Veronica Naterer",
+      "program": "Mechanical Engineering",
+      "about": "",
+      "photo": "/res/members/b2022/veronica_naterer.png",
+      "link": "",
+      "contact": "communications.munengsocb@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/veronicanaterer/",
+      "instagram": ""
     },
     "Director of Outreach": {
-        "title": "Director of Outreach",
-        "name": "Paige Bodnar",
-        "program": "Ocean and Naval Architectural Engineering",
-        "about": "Hi! I'm Paige Bodnar - director of outreach! I'm a senior ONAE student who is maybe slightly obsessed with boats and the ocean. My hobbies are centered around cool things outside. My job is to spread the word about MUN engineering and make it as accessible as possible. You can usually find me in the ONAE room, I promise I'm not that far out(of)reach!",
-        "photo": "/res/members/b2022/paige_bodnar.jpeg",
-        "link": "",
-        "contact": "outreach.munengsocb@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/paige-bodnar-77293018a/",
-        "instagram": ""
+      "title": "Director of Outreach",
+      "name": "Paige Bodnar",
+      "program": "Ocean and Naval Architectural Engineering",
+      "about": "Hi! I'm Paige Bodnar - director of outreach! I'm a senior ONAE student who is maybe slightly obsessed with boats and the ocean. My hobbies are centered around cool things outside. My job is to spread the word about MUN engineering and make it as accessible as possible. You can usually find me in the ONAE room, I promise I'm not that far out(of)reach!",
+      "photo": "/res/members/b2022/paige_bodnar.jpeg",
+      "link": "",
+      "contact": "outreach.munengsocb@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/paige-bodnar-77293018a/",
+      "instagram": ""
     },
     "Director of Social Events": {
-        "title": "Director of Social Events",
-        "name": "Abby Sparrow",
-        "program": "Mechanical Engineering",
-        "about": "",
-        "photo": "/res/members/b2022/abby_sparrow.jpeg",
-        "link": "",
-        "contact": "events.munengsocb@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/abby-sparrow-023004220/",
-        "instagram": ""
+      "title": "Director of Social Events",
+      "name": "Abby Sparrow",
+      "program": "Mechanical Engineering",
+      "about": "",
+      "photo": "/res/members/b2022/abby_sparrow.jpeg",
+      "link": "",
+      "contact": "events.munengsocb@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/abby-sparrow-023004220/",
+      "instagram": ""
     },
     "Director of Sports": {
-        "title": "Director of Sports",
-        "name": "Nathan Flynn",
-        "program": "Mechanical Engineering",
-        "about": "",
-        "photo": "/res/members/b2022/nathan_flynn.jpeg",
-        "link": "",
-        "contact": "sports.munengsocb@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/nathan-john-flynn/",
-        "instagram": ""
+      "title": "Director of Sports",
+      "name": "Nathan Flynn",
+      "program": "Mechanical Engineering",
+      "about": "",
+      "photo": "/res/members/b2022/nathan_flynn.jpeg",
+      "link": "",
+      "contact": "sports.munengsocb@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/nathan-john-flynn/",
+      "instagram": ""
     },
     "Director of Co-op": {
-        "title": "Director of Co-op",
-        "name": "Jordan Careen",
-        "program": "Mechanical Engineering",
-        "about": "",
-        "photo": "/res/members/b2022/jordan_careen.jpeg",
-        "link": "",
-        "contact": "coop.munengsocb@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/jordancareen/",
-        "instagram": ""
+      "title": "Director of Co-op",
+      "name": "Jordan Careen",
+      "program": "Mechanical Engineering",
+      "about": "",
+      "photo": "/res/members/b2022/jordan_careen.jpeg",
+      "link": "",
+      "contact": "coop.munengsocb@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/jordancareen/",
+      "instagram": ""
     },
     "Director of International Representation": {
-        "title": "Director of International Representation",
-        "name": "Sayed Ahmed",
-        "program": "Civil Engineering",
-        "about": "",
-        "photo": "/res/members/b2022/sayed_ahmed.jpeg",
-        "link": "",
-        "contact": "outreach.munengsocb@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/sayed-ahmed-sxa3b/",
-        "instagram": ""
+      "title": "Director of International Representation",
+      "name": "Sayed Ahmed",
+      "program": "Civil Engineering",
+      "about": "",
+      "photo": "/res/members/b2022/sayed_ahmed.jpeg",
+      "link": "",
+      "contact": "outreach.munengsocb@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/sayed-ahmed-sxa3b/",
+      "instagram": ""
     }
-}
+  }
 }

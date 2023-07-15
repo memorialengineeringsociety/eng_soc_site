@@ -1,358 +1,401 @@
 {
-    "societyA": {
-      "24th": {
-        "title": "24th Society A",
-        "years": "2023 - 2025",
-        "President": "Ava Gogal",
-        "VP External": "Sophia White",
-        "VP Internal": "Jacob Gillis",
-        "VP Finance": "Michael Mallay",
-        "VP Academic": "Hannah Doyle",
-        "Director of Social Events": "Kait Abbott",
-        "Director of Sports": "Eli Brown",
-        "Director of Co-op": "Harnoor Singh",
-        "Director of Outreach": "Kate Williams",
-        "Director of Communications": "Russell Corbett",
-        "Director of International Representation": "Abdelrahman Mohamed"
-      },
-      "23rd": {
-        "title": "23th Society A",
-        "years": "2021 - 2023",
-        "President": "Madison Squires",
-        "VP External": "Holly Clarke",
-        "VP Internal": "Aaron Greenland",
-        "VP Finance": "Cameron King",
-        "VP Academic": "Andrew Stone",
-        "Director of Social Events": "Nina Verster",
-        "Director of Sports": "Mia Gaudet",
-        "Director of Co-op": "Kareem Zeair",
-        "Director of Outreach": "Paulina Alhassan",
-        "Director of Communications": "Jadzia Penney",
-        "Director of International Representation": "Zarin Tasnim"
-      },
-      "22nd": {
-        "title": "22th Society A",
-        "years": "2019 - 2021",
-        "President": "Cait Chapman",
-        "VP External": "Daniel Stark",
-        "VP Internal": "Chloe Farrell",
-        "VP Finance": "Davyani Vasta",
-        "VP Academic": "Erin Maher",
-        "Director of Social Events": "Andrew Troake",
-        "Director of Sports": "Rachel Coombs",
-        "Director of Co-op": "Jacob Metcalfe",
-        "Director of Outreach": "Megan Spencer",
-        "Director of Communications": "Kennedy Menchington",
-        "Director of International Representation": "Dani Amisi",
-        "Director of Sustainability": "Miriam Simmons"
-      },
-      "21st": {
-        "title": "21st Society A",
-        "years": "2017 - 2019",
-        "President": "Greg Coates"
-      },
-      "10th": {
-        "title": "10th Society A",
-        "years": "1995-1997",
-        "President": "Derek Butler"
-      },
-      "9th": {
-        "title": "9th Society A",
-        "years": "1993-1995",
-        "President": "Karen Harper"
-      },
-      "7th": {
-        "title": "7th Society A",
-        "years": "1989 - 1991",
-        "VP-External": "Paul Greene"
-      },
-      "6th": {
-        "title": "6th Society A",
-        "years": "1987 - 1989",
-        "President": "Bill Sullivan"
-      }
+  "societyA": {
+    "24th": {
+      "title": "24th Society A",
+      "years": "2023 - 2025",
+      "President": "Ava Gogal",
+      "VP External": "Sophia White",
+      "VP Internal": "Jacob Gillis",
+      "VP Finance": "Michael Mallay",
+      "VP Academic": "Hannah Doyle",
+      "Director of Social Events": "Kait Abbott",
+      "Director of Sports": "Eli Brown",
+      "Director of Co-op": "Harnoor Singh",
+      "Director of Outreach": "Kate Williams",
+      "Director of Communications": "Russell Corbett",
+      "Director of International Representation": "Abdelrahman Mohamed"
     },
-    "societyB": {
-      "23rd": {
-        "title": "23rd Society B",
-        "years": "2022 - 2024",
-        "President": "Ben Oates",
-        "VP External": "Kathleen Curran",
-        "VP Internal": "Matthew Rogers",
-        "VP Finance": "Nadia Marmouche",
-        "VP Academic": "Fares Khalil",
-        "Director of Social Events": "Abby Sparrow",
-        "Director of Sports": "Nathan Flynn",
-        "Director of Co-op": "Jordan Careen",
-        "Director of Outreach": "Paige Bodnar",
-        "Director of Communications": "Veronica Naterer",
-        "Director of International Representation": "Sayed Ahmed"
-      },
-      "22nd": {
-        "title": "22nd Society B",
-        "years": "2020 - 2022",
-        "President": "Billy Barnes",
-        "VP Academic": "Erin Burt",
-        "VP External": "Stephanie Cater",
-        "VP Internal": "Jenna Power",
-        "VP Finance": "Brooke Warren",
-        "Director of Communications": "Maria Blake",
-        "Director of International Representation": "Nuru Kimaryo",
-        "Director of Social Events": "Emily Stokes",
-        "Director of Co-op": "Clara Phillips",
-        "Director of Sustainability": "Samantha Hallett",
-        "Director of Sports": "Michael Johnson",
-        "Director of Outreach": "Emily Delaney"
-      },
-      "21st": {
-        "title": "21st Society B",
-        "years": "2018 - 2020",
-        "President": "Stephanie Adey",
-        "VP Academic": "Jillian Breau",
-        "VP External": "Rowan Meaney",
-        "VP Internal": "Angela Greene",
-        "VP Finance": "Matthew Hickey",
-        "Director of Co-op": "Victoria Whitten",
-        "Director of High School Outreach": "Jill Doyle",
-        "Director of Social Events": "Katie Brenton",
-        "Director of Competitions": "Nada Nasr",
-        "Director of Sports": "Logan Collier"
-      },
-      "17th": {
-        "title": "17th Society B",
-        "years": "2010 - 2012",
-        "VP-External": "Stephanie Walsh",
-        "VP-Social": "Nick Robbins"
-      },
-      "10th": {
-        "title": "10th Society B",
-        "years": "1996 - 1998",
-        "President": "Kathy Brett"
-      },
-      "9th": {
-        "title": "9th Society B",
-        "years": "1994-1996",
-        "President": "Barry Parsons",
-        "VP-External": "Steve Forward",
-        "VP-Finance": "Steve Wall"
-      },
-      "8th": {
-        "title": "8th Society B",
-        "years": "1992-1994",
-        "President": "Hedley Coish"
-      }
+    "23rd": {
+      "title": "23th Society A",
+      "years": "2021 - 2023",
+      "President": "Madison Squires",
+      "VP External": "Holly Clarke",
+      "VP Internal": "Aaron Greenland",
+      "VP Finance": "Cameron King",
+      "VP Academic": "Andrew Stone",
+      "Director of Social Events": "Nina Verster",
+      "Director of Sports": "Mia Gaudet",
+      "Director of Co-op": "Kareem Zeair",
+      "Director of Outreach": "Paulina Alhassan",
+      "Director of Communications": "Jadzia Penney",
+      "Director of International Representation": "Zarin Tasnim"
     },
-    "society": {
-        "35th": {
-            "title": "35th Society",
-            "years": "1968 - 1969",
-            "members": ["Harold Norman Miles", "Harold Ross Penney", "Gordon E. Bownes", "Marvin H. Pelley", "Douglas Smith", "Hugh M. Snow"]
-          },
-          "34th": {
-            "title": "34th Society",
-            "years": "1967 - 1968",
-            "President": "Norman B. Cook",
-            "Treasurer": "Tom Poynter",
-            "Executive": "William R. Garland"
-          },
-        "28th": {
-            "title": "28th Society",
-            "years": "1961 - 1962",
-            "members": ["Graham R. Skanes", "Nelson Gerald Bishop", "Michael Francis Blackmore", "Edwin Dennis Colbourne"]
-        },
-        "27th": {
-            "title": "27th Society",
-            "years": "1960 - 1961",
-            "members": ["Kingsley Butt", "David Humber"]
-        },
-        "25th": {
-            "title": "25th Society",
-            "years": "1958 - 1959",
-            "Executive": "William R. Brown",
-            "members": ["Sherwin T. Nugent"]
-        },
-        "24th": {
-            "title": "24th Society",
-            "years": "1957 - 1958",
-            "Vice-President": "D. Garth Evely",
-            "members": ["Roger G. March", "Edwin J. Snook", "Sherwin T. Nugent", "Alfred F. G. Brown", "Harvey Hiscock"]
-        },
-        "23rd": {
-            "title": "23rd Society",
-            "years": "1956 - 1957",
-            "President": "Thomas G. Moore",
-            "Vice-President": "Leslie D. Baikie",
-            "Secretary": "Clyde Green",
-            "Executive": "T. David Carmichael",
-            "members": ["Roger G. March", "Edwin J. Snook", "Arthur D. Burden", "Sherwin T. Nugent", "Alfred F. G. Brown", "Harvey Hiscock"]
-        },
-        "22nd" :{
-            "title": "22nd Society",
-            "years": "1955 - 1956",
-            "President": "Robert R Andrews",
-            "Executive": "Roland Avery, T. David Carmichael",
-            "members": ["Roger G. March", "Edwin J. Snook", "Arthur D. Burden", "Sherwin T. Nugent", "Alfred F. G. Brown"]
-        },
-        "21st": {
-            "title": "21st Society",
-            "years": "1954 - 1955",
-            "President": "Frederick J. Bradbrook",
-            "Vice-President": "David Spurell",
-            "Secretary-Treasurer": "Graham Skanes",
-            "Executive": "T. David Carmichael",
-            "members:": ["William Newman", "Roger G. March", "Edwin J. Snook", "Arthur D. Burden"]
-        },
-        "20th": {
-            "title": "20th Society",
-            "years": "1953 - 1954",
-            "President": "Ray Gosine",
-            "Vice-President": "Aidan Ryan",
-            "Secretary": "William Squires",
-            "Engineering Representative in the Athletic Union": "John Cahill",
-            "members:": ["William Newman"]
-        },
-        "19th": {
-            "title": "19th Society",
-            "years": "1952 - 1953",
-            "President": "Tom G. Whelan",
-            "Secretary": "Fred Powell , Ray Gosine",
-            "Treasurer": "Wilson Boyles",
-            "Representative in Athletics": "Bruce Pardy",
-            "Smokers Committee": "Aiden Ryan, Lawrence Fahey, and George Banfield",
-            "members:": ["William Newman"]
-
-        },
-        "18th": {
-            "title": "18th Society",
-            "years": "1951 - 1952",
-            "President": "Duncan Sharpe",
-            "Secretary": "Bruce Doody",
-            "Representative in Athletics": "G. Staples",
-            "Smokers Committee": "Linegar, Whalen, and Ryan"
-        },
-        "17th": {
-            "title": "17th Society",
-            "years": "1950 - 1951",
-            "President": "M. Tomlinson (1st Semester), Duncan Sharpe (2nd Semester)",
-            "Vice-President": "Duncan Sharpe (1st Semester)",
-            "Secretary": "Bud Lang",
-            "Representative in Athletics": "A. Mills",
-            "Cap and Gown Representative": "M. Tomlinson (2nd Semester)"
-          },
-        "16th": {
-            "title": "16th Society",
-            "years": "1949 - 1950",
-            "President": "Cyril R. Elliott",
-            "Secretary-Treasurer": "D. Sharpe",
-            "Representative in Athletics": "F. Taylor, B. Smith (Replacement)",
-            "Cap and Gown Representative": "G. Whelan, H. Hinton (Replacement)",
-            "Smoker Committee": "E. Mercer, E. Payne, R. Pearce"
-          },
-        "15th": {
-            "title": "15th Society",
-            "years": "1948 - 1949",
-            "President": "Roy W. Myers",
-            "Vice-President": "H. Chafe",
-            "Secretary": "K. Barrett"
-        },
-        "14th": {
-            "title": "14th Society",
-            "years": "1947 - 1948",
-            "President": "George K. Wells",
-            "Vice-President": "R. Gilbert",
-            "Secretary": "M. O'Flaherty",
-            "Representitve in Athletics": "C. Vivian"
-        },
-        "13th": {
-            "title": "13th Society",
-            "years": "1946 - 1947",
-            "President": "Harold W. Lilly",
-            "Vice-President": "William Mitchell",
-            "Secretary": "R. Gilbert",
-            "Representitve in Athletics": "L. Levitz"
-          },
-        "12th": {
-            "title": "12th Society",
-            "years": "1945 - 1946",
-            "President": "F. D. Butler",
-            "Vice-President": "Rober P. Hunt",
-            "Secretary": "Harold Lilly",
-            "Representitve in Athletics": "Douglas C. Hookey"
-        },
-        "11th": {
-            "title": "11th Society",
-            "years": "1944 - 1945",
-            "President": "Boyd King (Sept-Dec), Roland H. Blackmore (Jan-May)",
-            "Vice-President": "John Henderson (Sept-Dec), L. C. Flett (Jan-May)",
-            "Secretary": "Milton Green"
-        },
-        "10th": {
-            "title": "10th Society",
-            "years": "1943 - 1944",
-            "President": "Brian Higgins",
-            "Vice-President": "Joseph Quigley"
-        },
-        "9th":{
-            "title": "9th Society",
-            "years": "1942 - 1943",
-            "President": "Edward 'Ted' Tuff",
-            "Secretary": "Boyd King",
-            "Athletic Officer": "Brian Higgins"
-        },
-        "8th": {
-            "title": "8th Society",
-            "years": "1941 - 1942",
-            "President": "Fabian Kennedy, Lloyd Johnson (After Kennedy Left)",
-            "Vice-President": "Edward 'Ted' Tuff",
-            "Secretary": "Brian E. Higgins"
-        },
-        "7th": {
-            "title": "7th Society",
-            "years": "1940 - 1941",
-            "President": "Richard Garland",
-            "Vice-President": "Robert MacLellan",
-            "Secretary": "Edward 'Ted' Tuff"
-          },
-        "6th": {
-            "title": "6th Society",
-            "years": "1939 - 1940",
-            "President": "Doug Jamieson",
-            "Vice-President": "Richard Garland",
-            "Secretary": "Fred Milley"
-        },
-        "5th": {
-            "title": "5th Society",
-            "years": "1938 - 1939",
-            "President": "William C. Brown",
-            "Vice-President": "Angus MacKenzie"
-        },
-        "4th": {
-            "title": "4th Society",
-            "years": "1937 - 1938",
-            "President": "Balfour 'Dick' Duder",
-            "Vice-President": "R. F. Martin",
-            "Secretary": "F. H. Clark"
-        },
-        "3rd": {
-            "title": "3rd Society",
-            "years": "1936 - 1937",
-            "President": "Ted Cheeseman",
-            "Vice-President": "Balfour 'Dick' Duder",
-            "Secretary": "E. Henley"
-        },
-        "2nd": {
-            "title": "2nd Society",
-            "years": "1935 - 1936",
-            "President": "Tom Woods",
-            "Vice President": "Eric Reeves",
-            "Secretary": "Mundon Bishop"
-        },
-        "1st": {
-            "title": "The First Engineering Society",
-            "years": "1934 - 1935",
-            "President": "Owen Smith",
-            "Secretary": "John J. Moakler"
-        }
+    "22nd": {
+      "title": "22th Society A",
+      "years": "2019 - 2021",
+      "President": "Cait Chapman",
+      "VP External": "Daniel Stark",
+      "VP Internal": "Chloe Farrell",
+      "VP Finance": "Davyani Vasta",
+      "VP Academic": "Erin Maher",
+      "Director of Social Events": "Andrew Troake",
+      "Director of Sports": "Rachel Coombs",
+      "Director of Co-op": "Jacob Metcalfe",
+      "Director of Outreach": "Megan Spencer",
+      "Director of Communications": "Kennedy Menchington",
+      "Director of International Representation": "Dani Amisi",
+      "Director of Sustainability": "Miriam Simmons"
+    },
+    "21st": {
+      "title": "21st Society A",
+      "years": "2017 - 2019",
+      "President": "Greg Coates"
+    },
+    "10th": {
+      "title": "10th Society A",
+      "years": "1995-1997",
+      "President": "Derek Butler"
+    },
+    "9th": {
+      "title": "9th Society A",
+      "years": "1993-1995",
+      "President": "Karen Harper"
+    },
+    "7th": {
+      "title": "7th Society A",
+      "years": "1989 - 1991",
+      "VP-External": "Paul Greene"
+    },
+    "6th": {
+      "title": "6th Society A",
+      "years": "1987 - 1989",
+      "President": "Bill Sullivan"
+    }
+  },
+  "societyB": {
+    "23rd": {
+      "title": "23rd Society B",
+      "years": "2022 - 2024",
+      "President": "Ben Oates",
+      "VP External": "Kathleen Curran",
+      "VP Internal": "Matthew Rogers",
+      "VP Finance": "Nadia Marmouche",
+      "VP Academic": "Fares Khalil",
+      "Director of Social Events": "Abby Sparrow",
+      "Director of Sports": "Nathan Flynn",
+      "Director of Co-op": "Jordan Careen",
+      "Director of Outreach": "Paige Bodnar",
+      "Director of Communications": "Veronica Naterer",
+      "Director of International Representation": "Sayed Ahmed"
+    },
+    "22nd": {
+      "title": "22nd Society B",
+      "years": "2020 - 2022",
+      "President": "Billy Barnes",
+      "VP Academic": "Erin Burt",
+      "VP External": "Stephanie Cater",
+      "VP Internal": "Jenna Power",
+      "VP Finance": "Brooke Warren",
+      "Director of Communications": "Maria Blake",
+      "Director of International Representation": "Nuru Kimaryo",
+      "Director of Social Events": "Emily Stokes",
+      "Director of Co-op": "Clara Phillips",
+      "Director of Sustainability": "Samantha Hallett",
+      "Director of Sports": "Michael Johnson",
+      "Director of Outreach": "Emily Delaney"
+    },
+    "21st": {
+      "title": "21st Society B",
+      "years": "2018 - 2020",
+      "President": "Stephanie Adey",
+      "VP Academic": "Jillian Breau",
+      "VP External": "Rowan Meaney",
+      "VP Internal": "Angela Greene",
+      "VP Finance": "Matthew Hickey",
+      "Director of Co-op": "Victoria Whitten",
+      "Director of High School Outreach": "Jill Doyle",
+      "Director of Social Events": "Katie Brenton",
+      "Director of Competitions": "Nada Nasr",
+      "Director of Sports": "Logan Collier"
+    },
+    "17th": {
+      "title": "17th Society B",
+      "years": "2010 - 2012",
+      "VP-External": "Stephanie Walsh",
+      "VP-Social": "Nick Robbins"
+    },
+    "10th": {
+      "title": "10th Society B",
+      "years": "1996 - 1998",
+      "President": "Kathy Brett"
+    },
+    "9th": {
+      "title": "9th Society B",
+      "years": "1994-1996",
+      "President": "Barry Parsons",
+      "VP-External": "Steve Forward",
+      "VP-Finance": "Steve Wall"
+    },
+    "8th": {
+      "title": "8th Society B",
+      "years": "1992-1994",
+      "President": "Hedley Coish"
+    }
+  },
+  "society": {
+    "35th": {
+      "title": "35th Society",
+      "years": "1968 - 1969",
+      "members": [
+        "Harold Norman Miles",
+        "Harold Ross Penney",
+        "Gordon E. Bownes",
+        "Marvin H. Pelley",
+        "Douglas Smith",
+        "Hugh M. Snow"
+      ]
+    },
+    "34th": {
+      "title": "34th Society",
+      "years": "1967 - 1968",
+      "President": "Norman B. Cook",
+      "Treasurer": "Tom Poynter",
+      "Executive": "William R. Garland"
+    },
+    "28th": {
+      "title": "28th Society",
+      "years": "1961 - 1962",
+      "members": [
+        "Graham R. Skanes",
+        "Nelson Gerald Bishop",
+        "Michael Francis Blackmore",
+        "Edwin Dennis Colbourne"
+      ]
+    },
+    "27th": {
+      "title": "27th Society",
+      "years": "1960 - 1961",
+      "members": [
+        "Kingsley Butt",
+        "David Humber"
+      ]
+    },
+    "25th": {
+      "title": "25th Society",
+      "years": "1958 - 1959",
+      "Executive": "William R. Brown",
+      "members": [
+        "Sherwin T. Nugent"
+      ]
+    },
+    "24th": {
+      "title": "24th Society",
+      "years": "1957 - 1958",
+      "Vice-President": "D. Garth Evely",
+      "members": [
+        "Roger G. March",
+        "Edwin J. Snook",
+        "Sherwin T. Nugent",
+        "Alfred F. G. Brown",
+        "Harvey Hiscock"
+      ]
+    },
+    "23rd": {
+      "title": "23rd Society",
+      "years": "1956 - 1957",
+      "President": "Thomas G. Moore",
+      "Vice-President": "Leslie D. Baikie",
+      "Secretary": "Clyde Green",
+      "Executive": "T. David Carmichael",
+      "members": [
+        "Roger G. March",
+        "Edwin J. Snook",
+        "Arthur D. Burden",
+        "Sherwin T. Nugent",
+        "Alfred F. G. Brown",
+        "Harvey Hiscock"
+      ]
+    },
+    "22nd": {
+      "title": "22nd Society",
+      "years": "1955 - 1956",
+      "President": "Robert R Andrews",
+      "Executive": "Roland Avery, T. David Carmichael",
+      "members": [
+        "Roger G. March",
+        "Edwin J. Snook",
+        "Arthur D. Burden",
+        "Sherwin T. Nugent",
+        "Alfred F. G. Brown"
+      ]
+    },
+    "21st": {
+      "title": "21st Society",
+      "years": "1954 - 1955",
+      "President": "Frederick J. Bradbrook",
+      "Vice-President": "David Spurell",
+      "Secretary-Treasurer": "Graham Skanes",
+      "Executive": "T. David Carmichael",
+      "members:": [
+        "William Newman",
+        "Roger G. March",
+        "Edwin J. Snook",
+        "Arthur D. Burden"
+      ]
+    },
+    "20th": {
+      "title": "20th Society",
+      "years": "1953 - 1954",
+      "President": "Ray Gosine",
+      "Vice-President": "Aidan Ryan",
+      "Secretary": "William Squires",
+      "Engineering Representative in the Athletic Union": "John Cahill",
+      "members:": [
+        "William Newman"
+      ]
+    },
+    "19th": {
+      "title": "19th Society",
+      "years": "1952 - 1953",
+      "President": "Tom G. Whelan",
+      "Secretary": "Fred Powell , Ray Gosine",
+      "Treasurer": "Wilson Boyles",
+      "Representative in Athletics": "Bruce Pardy",
+      "Smokers Committee": "Aiden Ryan, Lawrence Fahey, and George Banfield",
+      "members:": [
+        "William Newman"
+      ]
+    },
+    "18th": {
+      "title": "18th Society",
+      "years": "1951 - 1952",
+      "President": "Duncan Sharpe",
+      "Secretary": "Bruce Doody",
+      "Representative in Athletics": "G. Staples",
+      "Smokers Committee": "Linegar, Whalen, and Ryan"
+    },
+    "17th": {
+      "title": "17th Society",
+      "years": "1950 - 1951",
+      "President": "M. Tomlinson (1st Semester), Duncan Sharpe (2nd Semester)",
+      "Vice-President": "Duncan Sharpe (1st Semester)",
+      "Secretary": "Bud Lang",
+      "Representative in Athletics": "A. Mills",
+      "Cap and Gown Representative": "M. Tomlinson (2nd Semester)"
+    },
+    "16th": {
+      "title": "16th Society",
+      "years": "1949 - 1950",
+      "President": "Cyril R. Elliott",
+      "Secretary-Treasurer": "D. Sharpe",
+      "Representative in Athletics": "F. Taylor, B. Smith (Replacement)",
+      "Cap and Gown Representative": "G. Whelan, H. Hinton (Replacement)",
+      "Smoker Committee": "E. Mercer, E. Payne, R. Pearce"
+    },
+    "15th": {
+      "title": "15th Society",
+      "years": "1948 - 1949",
+      "President": "Roy W. Myers",
+      "Vice-President": "H. Chafe",
+      "Secretary": "K. Barrett"
+    },
+    "14th": {
+      "title": "14th Society",
+      "years": "1947 - 1948",
+      "President": "George K. Wells",
+      "Vice-President": "R. Gilbert",
+      "Secretary": "M. O'Flaherty",
+      "Representitve in Athletics": "C. Vivian"
+    },
+    "13th": {
+      "title": "13th Society",
+      "years": "1946 - 1947",
+      "President": "Harold W. Lilly",
+      "Vice-President": "William Mitchell",
+      "Secretary": "R. Gilbert",
+      "Representitve in Athletics": "L. Levitz"
+    },
+    "12th": {
+      "title": "12th Society",
+      "years": "1945 - 1946",
+      "President": "F. D. Butler",
+      "Vice-President": "Rober P. Hunt",
+      "Secretary": "Harold Lilly",
+      "Representitve in Athletics": "Douglas C. Hookey"
+    },
+    "11th": {
+      "title": "11th Society",
+      "years": "1944 - 1945",
+      "President": "Boyd King (Sept-Dec), Roland H. Blackmore (Jan-May)",
+      "Vice-President": "John Henderson (Sept-Dec), L. C. Flett (Jan-May)",
+      "Secretary": "Milton Green"
+    },
+    "10th": {
+      "title": "10th Society",
+      "years": "1943 - 1944",
+      "President": "Brian Higgins",
+      "Vice-President": "Joseph Quigley"
+    },
+    "9th": {
+      "title": "9th Society",
+      "years": "1942 - 1943",
+      "President": "Edward 'Ted' Tuff",
+      "Secretary": "Boyd King",
+      "Athletic Officer": "Brian Higgins"
+    },
+    "8th": {
+      "title": "8th Society",
+      "years": "1941 - 1942",
+      "President": "Fabian Kennedy, Lloyd Johnson (After Kennedy Left)",
+      "Vice-President": "Edward 'Ted' Tuff",
+      "Secretary": "Brian E. Higgins"
+    },
+    "7th": {
+      "title": "7th Society",
+      "years": "1940 - 1941",
+      "President": "Richard Garland",
+      "Vice-President": "Robert MacLellan",
+      "Secretary": "Edward 'Ted' Tuff"
+    },
+    "6th": {
+      "title": "6th Society",
+      "years": "1939 - 1940",
+      "President": "Doug Jamieson",
+      "Vice-President": "Richard Garland",
+      "Secretary": "Fred Milley"
+    },
+    "5th": {
+      "title": "5th Society",
+      "years": "1938 - 1939",
+      "President": "William C. Brown",
+      "Vice-President": "Angus MacKenzie"
+    },
+    "4th": {
+      "title": "4th Society",
+      "years": "1937 - 1938",
+      "President": "Balfour 'Dick' Duder",
+      "Vice-President": "R. F. Martin",
+      "Secretary": "F. H. Clark"
+    },
+    "3rd": {
+      "title": "3rd Society",
+      "years": "1936 - 1937",
+      "President": "Ted Cheeseman",
+      "Vice-President": "Balfour 'Dick' Duder",
+      "Secretary": "E. Henley"
+    },
+    "2nd": {
+      "title": "2nd Society",
+      "years": "1935 - 1936",
+      "President": "Tom Woods",
+      "Vice President": "Eric Reeves",
+      "Secretary": "Mundon Bishop"
+    },
+    "1st": {
+      "title": "The First Engineering Society",
+      "years": "1934 - 1935",
+      "President": "Owen Smith",
+      "Secretary": "John J. Moakler"
     }
   }
-  
+}
