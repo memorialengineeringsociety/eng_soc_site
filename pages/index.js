@@ -54,7 +54,7 @@ export default function Home() {
 					title='News'
 					href='/news'
 					delay='5000'
-					images={[]}
+					images={['../res/news/eastern_edge_win_2023.JPG']}
 					/>
 				<SlideshowComponent 
 					title='Get Involved'
