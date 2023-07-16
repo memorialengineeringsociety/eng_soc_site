@@ -1,9 +1,9 @@
 export function NothingHereYet(props) {
 	return (
-		<div className="flex flex-col items-center justify-center w-full h-full mt-20 ">
-			<div className="bg-white rounded-3xl border-4 border-mun-burgundy p-5">
-				<h1 className="text-2xl lg:text-4xl font-bold text-mun-burgundy text-center">Nothing here yet!</h1>
-				<p className="text-lg lg:text-2xl font-semibold text-black text-center">Check back soon for more content.</p>
+		<div className="mt-20 flex h-full w-full flex-col items-center justify-center ">
+			<div className="rounded-3xl border-4 border-mun-burgundy bg-white p-5">
+				<h1 className="text-center text-2xl font-bold text-mun-burgundy lg:text-4xl">Nothing here yet!</h1>
+				<p className="text-center text-lg font-semibold text-black lg:text-2xl">Check back soon for more content.</p>
 			</div>
 		</div>
 	);

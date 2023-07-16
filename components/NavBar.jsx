@@ -14,45 +14,45 @@ export const Navbar = () => {
 
 	return (
 		<>
-			<nav className="flex items-center sticky top-0 z-50 flex-wrap bg-mun-burgundy p-3 border-b-4 border-black">
+			<nav className="sticky top-0 z-50 flex flex-wrap items-center border-b-4 border-black bg-mun-burgundy p-3">
 				<Link href="/">
-					<div className="inline-flex items-center p-2 mr-4 ">
-						<span className="text-md md:text-lg lg:text-xl xl:text-3xl text-white font-bold tracking-wide font-ops">MUN ENGINEERING SOCIETY</span>
+					<div className="mr-4 inline-flex items-center p-2 ">
+						<span className="text-md font-ops font-bold tracking-wide text-white md:text-lg lg:text-xl xl:text-3xl">MUN ENGINEERING SOCIETY</span>
 					</div>
 				</Link>
 				<motion.div className="ml-auto" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-					<button className=" inline-flex p-3 hover:bg-mun-burgundy rounded lg:hidden text-white outline-none" onClick={handleClick}>
-						<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					<button className=" inline-flex rounded p-3 text-white outline-none hover:bg-mun-burgundy lg:hidden" onClick={handleClick}>
+						<svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 							<NavbarHamburger isOpen={active} />
 						</svg>
 					</button>
 				</motion.div>
 				{/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
-				<div className={`${active ? "" : "hidden"}   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
-					<div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto z-50">
+				<div className={`${active ? "" : "hidden"}   w-full lg:inline-flex lg:w-auto lg:flex-grow`}>
+					<div className="z-50 flex w-full flex-col items-start lg:ml-auto lg:inline-flex  lg:h-auto lg:w-auto lg:flex-row lg:items-center">
 						<motion.div className="py-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} onClick={handleClick}>
 							<Link href="/aboutus">
-								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-lg xl:text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>About</div>
+								<div className={`w-full items-center justify-center rounded px-3 py-2 font-gold text-lg font-bold text-white hover:bg-mun-burgundy hover:text-white lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>About</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} onClick={handleClick}>
 							<Link href="/academics">
-								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-lg xl:text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>Academics</div>
+								<div className={`w-full items-center justify-center rounded px-3 py-2 font-gold text-lg font-bold text-white hover:bg-mun-burgundy hover:text-white lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>Academics</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} onClick={handleClick}>
 							<Link href="/events">
-								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-lg xl:text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>Events</div>
+								<div className={`w-full items-center justify-center rounded px-3 py-2 font-gold text-lg font-bold text-white hover:bg-mun-burgundy hover:text-white lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>Events</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} onClick={handleClick}>
 							<Link href="/news">
-								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-lg xl:text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>News</div>
+								<div className={`w-full items-center justify-center rounded px-3 py-2 font-gold text-lg font-bold text-white hover:bg-mun-burgundy hover:text-white lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>News</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} onClick={handleClick}>
 							<Link href="/getinvolved">
-								<div className={`lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-gold text-lg xl:text-2xl font-bold items-center justify-center hover:bg-mun-burgundy hover:text-white ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>Get Involved</div>
+								<div className={`w-full items-center justify-center rounded px-3 py-2 font-gold text-lg font-bold text-white hover:bg-mun-burgundy hover:text-white lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`}>Get Involved</div>
 							</Link>
 						</motion.div>
 					</div>

@@ -27,7 +27,7 @@ export const LoginForm = () => {
 	};
 
 	return (
-		<div className="p-10 bg-blue-600 rounded-xl">
+		<div className="rounded-xl bg-blue-600 p-10">
 			<form onSubmit={handleSubmit} className="flex flex-col">
 				<label className="text-black">
 					Email or username
