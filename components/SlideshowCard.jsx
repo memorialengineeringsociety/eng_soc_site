@@ -44,7 +44,7 @@ export default function SlideshowComponent(props) {
                     className="h-60 w-full object-cover rounded-xl"
                 />
             </button>
-            <p className="text-gray-500 text-center">{props.description}</p>
+            <p className="text-black text-center">{props.description}</p>
             <Link href={props.href}>
                 <p className="bg-mun-burgundy text-white px-4 py-2 rounded-md font-gold">Navigate to Page</p>
             </Link>

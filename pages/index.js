@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React, { Component } from 'react';
 import Parallax from '/components/Parallax';
 import Disciplines from '/components/Disciplines';
-import SlideshowComponent from '/components/HomeNavCard';
+import SlideshowComponent from '/components/SlideshowCard';
 import getImagePaths from '/components/getImagePaths';
 
 export default function Home() {
