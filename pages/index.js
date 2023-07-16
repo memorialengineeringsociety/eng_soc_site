@@ -22,7 +22,7 @@ export default function Home() {
 					</div>
 				</div>
 			</Parallax>
-			<div className='h-10 bg-soc-red border-t-4 border-b-4 border-black'/>
+			<div className='h-10 bg-mun-burgundy border-t-4 border-b-4 border-black'/>
 			<Disciplines />
 			{/* <div className="text-center py-8 space-y-4">
 				<h1 className="text-2xl sm:text-4xl font-semibold text-black">Welcome to Our Website</h1>

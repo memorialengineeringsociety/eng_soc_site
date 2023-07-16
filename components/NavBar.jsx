@@ -14,7 +14,7 @@ export const Navbar = () => {
 
 	return (
 		<>
-			<nav className='flex items-center sticky top-0 z-50 flex-wrap bg-soc-red p-3 border-b-4 border-black'>
+			<nav className='flex items-center sticky top-0 z-50 flex-wrap bg-mun-burgundy p-3 border-b-4 border-black'>
 				<Link href='/'>
 					<div className='inline-flex items-center p-2 mr-4 '>
 						<span className='text-md md:text-lg lg:text-xl xl:text-3xl text-white font-bold tracking-wide font-ops'>

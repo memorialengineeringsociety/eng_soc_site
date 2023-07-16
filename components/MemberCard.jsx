@@ -1,6 +1,6 @@
 export function MemberCard(props) {
 	return (
-        <div className="rounded-3xl p-3 bg-stone-400 border-4 border-soc-red">
+        <div className="rounded-3xl p-3 bg-stone-400 border-4 border-mun-burgundy">
             <div className="flex flex-col place-items-center xl:flex-row xl:justify-evenly gap-5">
                 <img className="object-cover w-40 h-40 object-top p-1 rounded-full ring-2 ring-mun-burgundy" src={props.photo} alt={props.name}/>
                 <div className="flex flex-col justify-evenly w-3/4">

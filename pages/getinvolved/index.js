@@ -21,7 +21,7 @@ export default function GetInvolved() {
           <h2 className='hidden lg:block text-4xl font-bold font-ops'>Join a team, organization, or volunteer!</h2>
         </div>
       </Parallax>
-      <div id='paralaxdivider' className='h-5 bg-gradient-to-b from-soc-red to-stone-400  border-t-4 border-black'/>
+      <div id='paralaxdivider' className='h-5 bg-gradient-to-b from-mun-burgundy to-stone-400  border-t-4 border-black'/>
 			<Navigation />
 		</main>
 	)
