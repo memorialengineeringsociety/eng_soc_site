@@ -37,44 +37,44 @@ const Disciplines = () => {
 	}, []);
 
 	return (
-		<div id="disciplines" className="reveal hidden space-x-3 overflow-hidden p-4 lg:flex">
-			<a id="mechanical" className="fade-ins flex h-40 w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-red-600 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
+		<div id="disciplines" className="reveal grid grid-cols-3 gap-x-3 gap-y-3 overflow-hidden p-4 lg:flex">
+			<a id="mechanical" className="fade-ins flex h-40 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-red-600 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105 lg:w-1/7">
 				<span className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
 					build
 				</span>
 				<h1 className="pointer-events-none font-gold text-white xl:text-xl 2xl:text-3xl">Mechanical</h1>
 			</a>
-			<a id="mechatronics" className="fade-ins flex h-40 w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black  bg-blue-500 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
+			<a id="mechatronics" className="fade-ins flex h-40 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-blue-500  opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105 lg:w-1/7">
 				<span className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
 					precision_manufacturing
 				</span>
 				<h1 className="pointer-events-none font-gold text-white xl:text-xl 2xl:text-3xl">Mechatronics</h1>
 			</a>
-			<a id="civil" className="fade-ins flex h-40 w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black  bg-gray-600 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
+			<a id="civil" className="fade-ins flex h-40 lg:w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black  bg-gray-600 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
 				<span className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
 					construction
 				</span>
 				<h1 className="pointer-events-none font-gold text-white xl:text-xl 2xl:text-3xl">Civil</h1>
 			</a>
-			<a id="electrical" className="fade-ins flex h-40 w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-yellow-300 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
+			<a id="electrical" className="fade-ins flex h-40 lg:w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-yellow-300 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
 				<span className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
 					bolt
 				</span>
 				<h1 className="pointer-events-none font-gold text-white xl:text-xl 2xl:text-3xl">Electrical</h1>
 			</a>
-			<a id="computer" className="fade-ins flex h-40 w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-orange-500 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
+			<a id="computer" className="fade-ins flex h-40 lg:w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-orange-500 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
 				<span className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
 					memory
 				</span>
 				<h1 className="pointer-events-none font-gold text-white xl:text-xl 2xl:text-3xl">Computer</h1>
 			</a>
-			<a id="ocean-naval" className="fade-ins flex h-40 w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-green-600 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
+			<a id="ocean-naval" className="fade-ins flex h-40 lg:w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-green-600 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
 				<p className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
 					directions_boat
 				</p>
 				<h1 className="pointer-events-none font-gold text-white xl:text-xl 2xl:text-3xl">Ocean Naval</h1>
 			</a>
-			<a id="process" className="fade-ins flex h-40 w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-pink-500 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
+			<a id="process" className="fade-ins col-start-2 lg:col-start-auto flex h-40 lg:w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-pink-500 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
 				<span className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
 					science
 				</span>
