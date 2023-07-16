@@ -31,23 +31,11 @@ export const LoginForm = () => {
 			<form onSubmit={handleSubmit} className="flex flex-col">
 				<label className="text-black">
 					Email or username
-					<input
-						name="emailOrUsername"
-						type="text"
-						value={emailOrUsername}
-						onChange={handleInputChange}
-						className="text-black"
-					/>
+					<input name="emailOrUsername" type="text" value={emailOrUsername} onChange={handleInputChange} className="text-black" />
 				</label>
 				<label className="text-black">
 					Password
-					<input
-						name="password"
-						type="password"
-						value={password}
-						onChange={handleInputChange}
-						className="text-black"
-					/>
+					<input name="password" type="password" value={password} onChange={handleInputChange} className="text-black" />
 				</label>
 				<button type="submit">Log in</button>
 			</form>

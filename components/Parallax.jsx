@@ -23,9 +23,7 @@ const Parallax = ({ children, image }) => {
 					transform: `translateY(${scrollPosition * 0.5}px)`,
 				}}
 			/>
-			<div className="relative h-full w-full bg-black bg-opacity-50">
-				{children}
-			</div>
+			<div className="relative h-full w-full bg-black bg-opacity-50">{children}</div>
 		</div>
 	);
 };
