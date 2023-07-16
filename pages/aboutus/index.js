@@ -15,9 +15,8 @@ export default function AboutUs() {
               <div className='flex flex-col items-center pt-5 lg:pt-20 h-full text-white text-center'>
                 <h1 className='text-4xl lg:text-8xl font-bold font-ops'>About Us</h1>
                 <div className='p-8 lg:p-20 space-y-5 text-lg lg:text-3xl font-bold font-gold'>
-                  <p>MUN Engineering Society is a dynamic and motivated group that serves as a strong voice and support system for engineering students. Internally, we cultivate a sense of unity and camaraderie among our members, providing a platform for students to collaborate, share ideas, and address their concerns.</p>
-                  <p>Externally, we actively engage with faculty, industry professionals, and student organizations, to advocate for the needs and aspirations of engineering students. We strive to enhance opportunities for internships, co-op placements, and networking events, facilitating academic and professional growth.</p>
-                  <p>Our society prioritizes effective communication and aims to foster transparent dialogue between students and faculty, ensuring a fulfilling and inclusive learning experience for all. With a strong dedication to making a positive impact, we aim to create an empowered and thriving engineering community at MUN.</p>          
+                  <p>MUN Engineering Society is a dynamic and motivated group that serves as a strong voice and support system for engineering students. Our society prioritizes effective communication and aims to foster transparent dialogue between students and faculty, ensuring a fulfilling and inclusive learning experience for all. With a strong dedication to making a positive impact, we aim to create an empowered and thriving engineering community at MUN.</p>
+                  <p>Internally, we cultivate a sense of unity and camaraderie among our members, providing a platform for students to collaborate, share ideas, and address their concerns. Externally, we actively engage with faculty, industry professionals, and student organizations, to advocate for the needs and aspirations of engineering students. We strive to enhance opportunities for internships, co-op placements, and networking events, facilitating academic and professional growth.</p>         
                 </div>
             </div>
             </Parallax>

@@ -3,7 +3,7 @@ export function Footer(props) {
         <footer className="bottom-0 left-0 z-20 p-4 w-full border-t shadow flex items-center justify-between flex-col md:flex-row bg-stone-800 border-gray-600">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" className="hover:underline">MUN Engineering Student Society</a>. All Rights Reserved.</span>
             <div className="space-x-2">
-                <a href={"/links"} className="bg-soc-red p-2 font-semibold text-white inline-flex items-center space-x-2 rounded hover:animate-pulse">
+                <a href={"/links"} className="bg-mun-burgundy p-2 font-semibold text-white inline-flex items-center space-x-2 rounded hover:animate-pulse">
                     <svg className="w-5 h-5 fill-current" role="img" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <g><path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/> <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/></g>
                     </svg>
