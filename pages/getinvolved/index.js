@@ -12,7 +12,7 @@ export default function GetInvolved() {
 			<Parallax image="../res/get_involved/eastern_edge_presentation_2023.jpg">
 				<div className="flex flex-col items-center pt-5 lg:pt-20 h-full text-white text-center">
 					<h1 className="text-4xl lg:text-8xl font-bold font-ops">Get Involved</h1>
-					<div className="p-8 lg:p-20 space-y-5 text-lg lg:text-3xl font-bold font-gold">
+					<div className="p-8 lg:p-20 space-y-5 text-md md:text-lg lg:text-3xl font-bold font-gold">
 						<p>As technology continues to advance at an accelerated pace, student-led initiatives play a pivotal role in fostering innovation and inspiring the next generation of engineers and scientists. </p>
 						<p>These multidisciplinary teams undertake a wide array of projects, ranging from the construction of sustainable sailboats, development of autonomous vehicles, to the design of lightweight racers and chemical-powered cars. </p>
 						<p>Such endeavors not only enhance technical skills, but also encourage teamwork, problem-solving, and communication abilities, preparing students for future careers in various industries.</p>
@@ -47,13 +47,13 @@ function Navigation() {
 	return (
 		<div className="xl:flex xl:flex-col items-center">
 			<div id="subnavbar" className="flex gap-x-3 sticky top-[76px] xl:top-[92px] lg:pl-20 lg:pr-20 z-40 w-full justify-evenly bg-stone-400 border-b-2 border-black lg:pt-3 lg:pb-5 rounded-b-3xl">
-				<button className={`w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${currentButton === 1 ? "xl:scale-125 underline text-black" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+				<button className={`w-1/3 p-2 text-sm md:text-xl xl:text-3xl font-extrabold font-ops transition-transform ${currentButton === 1 ? "xl:scale-125 underline text-black" : "text-white"}`} onClick={() => handleButtonClick(1)}>
 					Competitive Teams
 				</button>
-				<button className={`w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${currentButton === 2 ? "xl:scale-125 underline text-black" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+				<button className={`w-1/3 p-2 text-sm md:text-xl xl:text-3xl font-extrabold font-ops transition-transform ${currentButton === 2 ? "xl:scale-125 underline text-black" : "text-white"}`} onClick={() => handleButtonClick(2)}>
 					Organizations
 				</button>
-				<button className={`w-1/3 xl:text-3xl font-extrabold font-ops transition-transform ${currentButton === 3 ? "xl:scale-125 underline text-black" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+				<button className={`w-1/3 p-2 text-sm md:text-xl xl:text-3xl font-extrabold font-ops transition-transform ${currentButton === 3 ? "xl:scale-125 underline text-black" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					Volunteering Opportunities
 				</button>
 			</div>
