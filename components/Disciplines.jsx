@@ -48,7 +48,7 @@ const Disciplines = () => {
 				<span className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
 					precision_manufacturing
 				</span>
-				<h1 className="pointer-events-none font-gold text-white xl:text-xl 2xl:text-3xl">Mechatronics</h1>
+				<h1 className="pointer-events-none font-gold text-white text-sm md:text-md xl:text-xl 2xl:text-3xl">Mechatronics</h1>
 			</a>
 			<a id="civil" className="fade-ins flex h-40 lg:w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black  bg-gray-600 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
 				<span className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
@@ -72,7 +72,7 @@ const Disciplines = () => {
 				<p className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
 					directions_boat
 				</p>
-				<h1 className="pointer-events-none font-gold text-white xl:text-xl 2xl:text-3xl">Ocean Naval</h1>
+				<h1 className="text-center pointer-events-none font-gold text-white xl:text-xl 2xl:text-3xl">Ocean Naval</h1>
 			</a>
 			<a id="process" className="fade-ins col-start-2 lg:col-start-auto flex h-40 lg:w-1/7 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-pink-500 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105">
 				<span className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>

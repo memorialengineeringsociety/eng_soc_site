@@ -20,7 +20,7 @@ export default function AboutUs() {
 					</div>
 				</div>
 			</Parallax>
-
+			<div className="h-10 border-b-4 border-t-4 border-black bg-mun-burgundy" />
 			<div className="">
 				<section id="current_society" className="justify-evenly pt-5 lg:flex">
 					<CurrentSociety society={current.socA} />
