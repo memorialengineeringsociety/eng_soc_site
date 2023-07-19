@@ -41,32 +41,56 @@ function Navigation() {
 
 	const handleButtonClick = (buttonNumber) => {
 		setCurrentButton(buttonNumber);
-		scrollToTop();
+		if (window.innerWidth >= 1024) {
+			scrollToTopD();
+		}
+		else {		
+			scrollToTopM();
+		};
 	};
 
 	return (
 		<div className="items-center xl:flex xl:flex-col">
 			<div id="subnavbar" className="sticky top-[76px] z-40 flex w-full justify-evenly gap-x-3 rounded-b-3xl border-b-2 border-black bg-stone-400 lg:pb-5 lg:pl-20 lg:pr-20 lg:pt-3 xl:top-[92px]">
-				<button className={`w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+				<button className={`hidden lg:block w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
 					Competitive Teams
 				</button>
-				<button className={`w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+				<button className={`hidden lg:block w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
 					Organizations
 				</button>
-				<button className={`w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+				<button className={`hidden lg:block w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					Volunteering Opportunities
+				</button>
+
+				<button className={`w-1/3 p-2 lg:hidden font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
+						emoji_events
+					</span>
+				</button>
+				<button className={`w-1/3 p-2 lg:hidden font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
+						diversity_3
+					</span>
+				</button>
+				<button className={`w-1/3 p-2 lg:hidden font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
+						volunteer_activism
+					</span>
 				</button>
 			</div>
 
 			<div className="mt-4">
 				<div className={`transition-opacity ${currentButton === 1 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
+					<h1 className='text-black text-center font-ops text-4xl underline lg:hidden'>Competitive Teams</h1>
 					<Groups type={data.competitive} />
 				</div>
 				<div className={`transition-opacity ${currentButton === 2 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
+					<h1 className='text-black text-center font-ops text-4xl underline lg:hidden'>Organizations</h1>
 					<Groups type={data.organization} />
 				</div>
-				<div className={`flex justify-center transition-opacity ${currentButton === 3 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
-					<div className="min-h-screen w-1/2 pt-20">
+				<div className={`transition-opacity ${currentButton === 3 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
+					<h1 className='text-black text-center font-ops text-4xl underline lg:hidden'>Volunteering Opportunities</h1>
+					<div className="flex flex-col min-h-screen ml-5 mr-5 pt-5">
 						<h2 className="text-center font-ops text-2xl font-bold text-black">Engineering Volunteer Network</h2>
 						<p className="text-black">Memorial Engineering Student Society is dedicated to uplifting not only our student body but also our community. We believe one of the fundamental ways of giving back comes through volunteering. We want to ensure it is always an accessible option for our students. We've created a space for students, clubs, companies, or individuals to bring forward volunteering opportunities or any little thing they need help with! You’ll fill the below form, giving us dates, number of volunteers required and any other relevant info! We’ll take this information and contact the keen students who have signed up and get back to you.​</p>
 						<div className="flex justify-center gap-x-10 pb-5 pt-5">
@@ -85,9 +109,19 @@ function Navigation() {
 	);
 }
 
-const scrollToTop = () => {
+const scrollToTopD = () => {
 	const element = document.getElementById("paralaxdivider");
 	element.scrollIntoView({
 		behavior: "smooth",
 	});
+};
+
+const scrollToTopM = () => {
+    const element = document.getElementById("paralaxdivider");
+    const rect = element.getBoundingClientRect();
+    const offset = rect.top + window.scrollY;
+    window.scrollTo({
+        top: offset - 50,  // 50 pixels above the element
+        behavior: "smooth"
+    });
 };
