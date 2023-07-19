@@ -3,7 +3,7 @@ import Image from "next/image";
 import { NothingHereYet } from "../../components/NothingHereYet";
 import { Coop } from "@/components/academics/coop";
 import { EDI } from "@/components/academics/edi";
-import { Support } from "@/components/academics/support";
+import { Support } from "../../components/academics/support";
 import Parallax from "@/components/Parallax";
 
 export default function GetInvolved() {
