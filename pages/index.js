@@ -11,14 +11,14 @@ export default function Home() {
 			<Parallax image="/res/location/engineering_building.jpeg">
 				<div className="flex flex-col justify-between md:flex-row">
 					<div className="flex justify-center">
-						<img src="/res/logos/soc_round_logo.png" className="w-1/2 rounded-full p-5 md:h-4/5 md:w-auto md:p-20" />
+						<img src="/res/logos/logo_concept.png" className="rounded-full p-5 md:h-4/5 md:w-auto md:p-20" />
 					</div>
 					<div className="space-y-5 p-10 md:mt-10 md:space-y-10">
-						<h1 className="text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">1200+ Students</h1>
-						<h1 className="text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">20+ Groups</h1>
-						<h1 className="text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">7 Disciplines</h1>
-						<h1 className="text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">2 Societies</h1>
-						<h1 className="w-auto text-center font-gold_bold text-4xl text-white md:text-right xl:text-6xl 2xl:text-8xl">1 Community</h1>
+						<h1 className="text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl whitespace-nowrap">1200+ Students</h1>
+						<h1 className="text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl whitespace-nowrap">20+ Groups</h1>
+						<h1 className="text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl whitespace-nowrap">7 Disciplines</h1>
+						<h1 className="text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl whitespace-nowrap">2 Societies</h1>
+						<h1 className="w-auto text-center font-gold_bold text-4xl text-white md:text-right xl:text-6xl 2xl:text-8xl whitespace-nowrap">1 Community</h1>
 					</div>
 				</div>
 			</Parallax>
