@@ -3,7 +3,7 @@ import PopupWarning from "../../components/PopUpWarning";
 export default function DDay_Story() {
 	return (
 		<main className="flex flex-col place-items-center">
-			<PopupWarning title='Disclaimer' text='The following includes content that is a product of its time and does not align with the values or norms of the current society. We strongly disagree with its viewpoints and encourage readers to approach this material with caution. It is crucial to recognize that societal attitudes and perspectives evolve over time, and this content serves as a reflection of past beliefs, behaviors, and cultural practices. We urge you to view this content critically, considering the progress and social change that has likely taken place since its creation.'/>
+			<PopupWarning title="Disclaimer" text="The following includes content that is a product of its time and does not align with the values or norms of the current society. We strongly disagree with its viewpoints and encourage readers to approach this material with caution. It is crucial to recognize that societal attitudes and perspectives evolve over time, and this content serves as a reflection of past beliefs, behaviors, and cultural practices. We urge you to view this content critically, considering the progress and social change that has likely taken place since its creation." />
 			<section id="story_of_dday" className="mb-5 mt-5 flex w-3/4 flex-col place-items-center space-y-3">
 				<h1 className="text-center font-gold_bold text-5xl font-bold text-black">The Story of D-Day</h1>
 				<h2 className="text-center font-gold text-3xl font-bold text-black">By: Bob Tancock - Class of 1975</h2>

@@ -11,8 +11,8 @@ export default function GetInvolved() {
 		<main className="repeating-bg">
 			<Parallax image="../res/get_involved/eastern_edge_presentation_2023.jpg">
 				<div className="flex h-full flex-col items-center pt-5 text-center text-white lg:pt-20">
-					<h1 className="font-ops text-4xl font-bold lg:text-8xl">Get Involved</h1>
-					<div className="text-md space-y-5 p-8 font-gold font-bold md:text-lg lg:p-20 lg:text-3xl">
+					<h1 className="font-ops text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">Get Involved</h1>
+					<div className="text-md space-y-5 p-8 font-gold font-bold md:text-xl lg:p-20 xl:text-2xl 2xl:text-3xl">
 						<p>As technology continues to advance at an accelerated pace, student-led initiatives play a pivotal role in fostering innovation and inspiring the next generation of engineers and scientists. </p>
 						<p>These multidisciplinary teams undertake a wide array of projects, ranging from the construction of sustainable sailboats, development of autonomous vehicles, to the design of lightweight racers and chemical-powered cars. </p>
 						<p>Such endeavors not only enhance technical skills, but also encourage teamwork, problem-solving, and communication abilities, preparing students for future careers in various industries.</p>
@@ -43,36 +43,35 @@ function Navigation() {
 		setCurrentButton(buttonNumber);
 		if (window.innerWidth >= 1024) {
 			scrollToTopD();
-		}
-		else {		
+		} else {
 			scrollToTopM();
-		};
+		}
 	};
 
 	return (
 		<div className="items-center xl:flex xl:flex-col">
 			<div id="subnavbar" className="sticky top-[76px] z-40 flex w-full justify-evenly gap-x-3 rounded-b-3xl border-b-2 border-black bg-stone-400 lg:pb-5 lg:pl-20 lg:pr-20 lg:pt-3 xl:top-[92px]">
-				<button className={`hidden lg:block w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+				<button className={`hidden w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:block xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
 					Competitive Teams
 				</button>
-				<button className={`hidden lg:block w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+				<button className={`hidden w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:block xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
 					Organizations
 				</button>
-				<button className={`hidden lg:block w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+				<button className={`hidden w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:block xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					Volunteering Opportunities
 				</button>
 
-				<button className={`w-1/3 p-2 lg:hidden font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+				<button className={`w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:hidden xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
 					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
 						emoji_events
 					</span>
 				</button>
-				<button className={`w-1/3 p-2 lg:hidden font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+				<button className={`w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:hidden xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
 					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
 						diversity_3
 					</span>
 				</button>
-				<button className={`w-1/3 p-2 lg:hidden font-ops text-sm font-extrabold transition-transform md:text-xl xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+				<button className={`w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:hidden xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
 						volunteer_activism
 					</span>
@@ -81,16 +80,16 @@ function Navigation() {
 
 			<div className="mt-4">
 				<div className={`transition-opacity ${currentButton === 1 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
-					<h1 className='text-black text-center font-ops text-4xl underline lg:hidden'>Competitive Teams</h1>
+					<h1 className="text-center font-ops text-4xl text-black underline lg:hidden">Competitive Teams</h1>
 					<Groups type={data.competitive} />
 				</div>
 				<div className={`transition-opacity ${currentButton === 2 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
-					<h1 className='text-black text-center font-ops text-4xl underline lg:hidden'>Organizations</h1>
+					<h1 className="text-center font-ops text-4xl text-black underline lg:hidden">Organizations</h1>
 					<Groups type={data.organization} />
 				</div>
 				<div className={`transition-opacity ${currentButton === 3 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
-					<h1 className='text-black text-center font-ops text-4xl underline lg:hidden'>Volunteering Opportunities</h1>
-					<div className="flex flex-col min-h-screen ml-5 mr-5 pt-5">
+					<h1 className="text-center font-ops text-4xl text-black underline lg:hidden">Volunteering Opportunities</h1>
+					<div className="ml-5 mr-5 flex min-h-screen flex-col pt-5">
 						<h2 className="text-center font-ops text-2xl font-bold text-black">Engineering Volunteer Network</h2>
 						<p className="text-black">Memorial Engineering Student Society is dedicated to uplifting not only our student body but also our community. We believe one of the fundamental ways of giving back comes through volunteering. We want to ensure it is always an accessible option for our students. We've created a space for students, clubs, companies, or individuals to bring forward volunteering opportunities or any little thing they need help with! You’ll fill the below form, giving us dates, number of volunteers required and any other relevant info! We’ll take this information and contact the keen students who have signed up and get back to you.​</p>
 						<div className="flex justify-center gap-x-10 pb-5 pt-5">
@@ -117,11 +116,11 @@ const scrollToTopD = () => {
 };
 
 const scrollToTopM = () => {
-    const element = document.getElementById("paralaxdivider");
-    const rect = element.getBoundingClientRect();
-    const offset = rect.top + window.scrollY;
-    window.scrollTo({
-        top: offset - 50,  // 50 pixels above the element
-        behavior: "smooth"
-    });
+	const element = document.getElementById("paralaxdivider");
+	const rect = element.getBoundingClientRect();
+	const offset = rect.top + window.scrollY;
+	window.scrollTo({
+		top: offset - 50, // 50 pixels above the element
+		behavior: "smooth",
+	});
 };

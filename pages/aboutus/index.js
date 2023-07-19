@@ -13,8 +13,8 @@ export default function AboutUs() {
 		<main className="repeating-bg">
 			<Parallax image="/res/members/group/aces_2022.png">
 				<div className="flex h-full flex-col items-center pt-5 text-center text-white lg:pt-20">
-					<h1 className="font-ops text-4xl font-bold lg:text-8xl">About Us</h1>
-					<div className="space-y-5 p-8 font-gold text-sm font-bold md:text-lg lg:p-20 lg:text-3xl">
+					<h1 className="font-ops text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">About Us</h1>
+					<div className="space-y-5 p-8 font-gold text-sm font-bold md:text-lg lg:p-20 lg:text-xl xl:text-2xl 2xl:text-3xl">
 						<p>MUN Engineering Society is a dynamic and motivated group that serves as a strong voice and support system for engineering students. Our society prioritizes effective communication and aims to foster transparent dialogue between students and faculty, ensuring a fulfilling and inclusive learning experience for all. With a strong dedication to making a positive impact, we aim to create an empowered and thriving engineering community at MUN.</p>
 						<p>Internally, we cultivate a sense of unity and camaraderie among our members, providing a platform for students to collaborate, share ideas, and address their concerns. Externally, we actively engage with faculty, industry professionals, and student organizations, to advocate for the needs and aspirations of engineering students. We strive to enhance opportunities for internships, co-op placements, and networking events, facilitating academic and professional growth.</p>
 					</div>
@@ -112,8 +112,8 @@ function CurrentSociety({ society }) {
 	return (
 		<div id={society} className="space-y-4 p-2 lg:w-5/12">
 			<div>
-				<h1 className="rounded-t-3xl border-l-4 border-r-4 border-t-4 border-mun-burgundy bg-white text-center font-ops text-5xl text-black">{society.title}</h1>
-				<h2 className="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-mun-burgundy bg-white text-center font-ops text-3xl text-black">{society.years}</h2>
+				<h1 className="rounded-t-3xl border-l-4 border-r-4 border-t-4 border-mun-burgundy bg-white text-center font-ops text-4xl xl:text-5xl text-black">{society.title}</h1>
+				<h2 className="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-mun-burgundy bg-white text-center font-ops text-2xl xl:text-3xl text-black">{society.years}</h2>
 			</div>
 			{Object.entries(society).map(([position, info]) => {
 				if (position !== "title" && position !== "years") {
