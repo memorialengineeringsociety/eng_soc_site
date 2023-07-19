@@ -3,7 +3,6 @@ import Image from "next/image";
 import { NothingHereYet } from "../../components/NothingHereYet";
 import { Coop } from "@/components/academics/coop";
 import { EDI } from "@/components/academics/edi";
-import { Support } from "../../components/academics/support";
 import Parallax from "@/components/Parallax";
 
 export default function GetInvolved() {
@@ -72,7 +71,7 @@ function Navigation() {
 					<Coop />
 				</div>
 				<div className={`transition-opacity ${currentButton === 2 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
-					<Support />
+					{/* <Support /> */}
 				</div>
 				<div className={`transition-opacity${currentButton === 3 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
 					<EDI />
