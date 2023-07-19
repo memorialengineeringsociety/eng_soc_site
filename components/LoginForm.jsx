@@ -30,7 +30,7 @@ export const LoginForm = () => {
 		<div className="rounded-xl bg-blue-600 p-10">
 			<form onSubmit={handleSubmit} className="flex flex-col">
 				<label className="text-black">
-					Email or username
+					Email or Username
 					<input name="emailOrUsername" type="text" value={emailOrUsername} onChange={handleInputChange} className="text-black" />
 				</label>
 				<label className="text-black">
