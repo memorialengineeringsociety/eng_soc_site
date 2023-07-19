@@ -74,7 +74,7 @@ export const Navbar = () => {
 		<>
 			<nav className="sticky top-0 z-50 flex flex-wrap items-center lg:justify-between border-b-4 border-black bg-mun-burgundy p-3">
 				<Link href="/" onClick={handleClickClose}>
-					<div className="mr-4 inline-flex items-center p-4">
+					<div className="inline-flex items-center p-4">
 						<span className="text-md font-ops font-bold tracking-wide text-white md:text-lg lg:text-xl xl:text-3xl">MUN ENGINEERING SOCIETY</span>
 					</div>
 				</Link>
