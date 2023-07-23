@@ -68,7 +68,7 @@ const Disciplines = () => {
 				</span>
 				<h1 className="pointer-events-none font-gold text-white xl:text-xl 2xl:text-3xl">Electrical</h1>
 			</a>
-			<a id="computer" href="/computer" className="fade-ins flex h-40 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-orange-500 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105 lg:w-1/7">
+			<a id="computer" className="fade-ins flex h-40 flex-col place-items-center justify-center space-y-2 rounded-2xl border-4 border-black bg-orange-500 opacity-0 transition-transform hover:scale-105 hover:shadow-lg hover:brightness-105 lg:w-1/7">
 				<span className="material-icons pointer-events-none" style={{ fontSize: "80px" }}>
 					memory
 				</span>
