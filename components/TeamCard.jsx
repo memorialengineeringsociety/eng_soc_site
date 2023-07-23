@@ -1,12 +1,14 @@
+import Image from "next/image";
+
 export function TeamCard(props) {
 	return (
 		<div className="ml-5 mr-5 flex flex-col place-items-center rounded-2xl drop-shadow-2xl ">
 			{props.link ? (
 				<a href={props.link}>
-					<img src={props.logo} alt={props.name} className=" bg-grey-300 object-contain p-2 transition hover:scale-105 sm:h-96 sm:p-5" />
+					<Image src={props.logo} alt={props.name} className="bg-grey-300 object-contain p-2 transition hover:scale-105 sm:h-96 sm:p-5" width={500} height={200} />
 				</a>
 			) : (
-				<img src={props.logo} alt={props.name} className=" bg-grey-300 object-contain p-2 transition hover:scale-105 sm:h-96 sm:p-5" />
+				<Image src={props.logo} alt={props.name} className="bg-grey-300 object-contain p-2 transition hover:scale-105 sm:h-96 sm:p-5" width={500} height={200}/>
 			)}
 			<section className="flex min-h-[460px] w-full flex-col justify-between rounded-b-2xl bg-stone-400">
 				<div className="flex min-w-full flex-col place-items-center">

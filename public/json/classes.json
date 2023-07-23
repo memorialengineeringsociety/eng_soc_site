@@ -1,0 +1,139 @@
+{
+	"engi_one": {
+		"ENGI 1010": {
+			"name": "Foundations of Programming"
+		},
+		"ENGI 1020": {
+			"name": "Engineering Statics"
+		},
+		"ENGI 1030": {
+			"name": "Engineering Graphics and Design"
+		},
+		"ENGI 1040": {
+			"name": "Thinking Like an Engineer"
+		},
+		"MATH 1000": {
+			"name": "Calculus I"
+		},
+		"MATH 1001": {
+			"name": "Calculus II"
+		},
+		"MATH 2050": {
+			"name": "Linear Algebra I"
+		},
+		"PHYS 1050": {
+			"name": "Physics I"
+		},
+		"PHYS 1051": {
+			"name": "Physics II"
+		},
+		"CHEM 1050": {
+			"name": "Chemistry I"
+		},
+		"CHOICE": {
+			"ENGL 1090": {
+				"name": "Introduction to Academic Writing"
+			}
+		}
+	},
+    "mechanical":{
+        "term3":{
+
+        },
+        "term4":{
+
+        },
+        "term5":{
+
+        },
+        "term6":{
+
+        },
+        "term7":{
+
+        },
+        "term8":{
+
+        }
+    },
+    "mechatronics":{
+        "term3":{
+
+        },
+        "term4":{
+
+        },
+        "term5":{
+
+        },
+        "term6":{
+
+        },
+        "term7":{
+
+        },
+        "term8":{
+
+        }
+    },
+    "civil":{
+        "term3":{
+
+        },
+        "term4":{
+
+        },
+        "term5":{
+
+        },
+        "term6":{
+
+        },
+        "term7":{
+
+        },
+        "term8":{
+
+        }
+    },
+    "electrical":{
+        "term3":{
+
+        },
+        "term4":{
+
+        },
+        "term5":{
+
+        },
+        "term6":{
+
+        },
+        "term7":{
+
+        },
+        "term8":{
+
+        }
+    },
+    "computer":{
+        "term3":{
+
+        },
+        "term4":{
+
+        },
+        "term5":{
+
+        },
+        "term6":{
+
+        },
+        "term7":{
+
+        },
+        "term8":{
+
+        }
+    }
+}

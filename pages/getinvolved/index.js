@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { TeamCard } from "../../components/TeamCard";
 import Parallax from "../../components/Parallax";
-import jsonData from "public/res/get_involved.json";
+import jsonData from "public/json/get_involved.json";
 
 const data = jsonData;
 
@@ -51,13 +51,13 @@ function Navigation() {
 	return (
 		<div className="items-center xl:flex xl:flex-col">
 			<div id="subnavbar" className="sticky top-[76px] z-40 flex w-full justify-evenly gap-x-3 rounded-b-3xl border-b-2 border-black bg-stone-400 lg:pb-5 lg:pl-20 lg:pr-20 lg:pt-3 xl:top-[92px]">
-				<button className={`hidden w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:block xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+				<button className={`hidden w-1/3 whitespace-nowrap p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:block xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
 					Competitive Teams
 				</button>
-				<button className={`hidden w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:block xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+				<button className={`hidden w-1/3 whitespace-nowrap p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:block xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
 					Organizations
 				</button>
-				<button className={`hidden w-1/3 p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:block xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+				<button className={`hidden w-1/3 whitespace-nowrap p-2 font-ops text-sm font-extrabold transition-transform md:text-xl lg:block xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					Volunteering Opportunities
 				</button>
 

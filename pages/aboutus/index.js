@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { useState } from "react";
 import { MemberCard } from "../../components/MemberCard";
-import pastMembers from "public/res/research/societymembers.json";
-import currentMembers from "public/res/current_society.json";
+import pastMembers from "public/json/societymembers.json";
+import currentMembers from "public/json/current_society.json";
 import Parallax from "../../components/Parallax";
 
 const past = pastMembers;
