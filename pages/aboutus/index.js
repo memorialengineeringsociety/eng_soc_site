@@ -31,7 +31,7 @@ export default function AboutUs() {
 						View Constitution
 					</a>
 					<a href="../res/documents/Society Executive Position Descriptions 2023.pdf" target="_blank" className="rounded-r-full border-2 border-mun-burgundy bg-white p-4 font-ops text-black lg:text-3xl">
-						View Execuitive Position Role Descriptions
+						View Executive Position Role Descriptions
 					</a>
 				</section>
 				<section id="past_society" className="flex justify-center pb-4">
