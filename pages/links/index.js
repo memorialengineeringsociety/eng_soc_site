@@ -10,6 +10,7 @@ export default function Events() {
 				<h1 className="text-center font-gold text-lg text-white lg:text-2xl">MUN Engineering Undergraduate Society</h1>
 			</section>
 			<section className="flex min-h-screen flex-col place-items-center gap-y-3 p-3">
+				<LinkCard title="D-Day Song Requests" description="" link="https://docs.google.com/forms/d/1CJ30Uh4W7eXCFGOOcIfaZ15-W4D5c4d80H2x-p9txZY/edit" image="" />
 				<LinkCard title="Society B Junior VP External By-Election" description="" link="https://docs.google.com/forms/d/e/1FAIpQLSeA29VG7-13R_Uo4Jo-3TZgb4jQHFrEl8Ai4onOGEG6533cCQ/viewform?vc=0&c=0&w=1&flr=0" image="" />
 				<LinkCard title="ESPN Mentee Sign Up" description="" link="https://docs.google.com/forms/d/e/1FAIpQLSca-oEKiC05jHVY-DvjPXBE5RR5pEfD6bYGEsjnpnyI_Ayd0Q/viewform?usp=sf_link" image="" />
 				<LinkCard title="EPSN Mentor Sign Up" description="" link="https://docs.google.com/forms/d/e/1FAIpQLScO4zJypp7VDY-5swV1oJGByWpmfXdG1n8VBSByMheQNYApOw/viewform?usp=sf_link" image="" />
