@@ -36,104 +36,188 @@
 			}
 		}
 	},
-    "mechanical":{
-        "term3":{
-
+	"mechanical": {
+		"term3": {},
+		"term4": {},
+		"term5": {},
+		"term6": {},
+		"term7": {},
+		"term8": {}
+	},
+	"mechatronics": {
+		"term3": {},
+		"term4": {},
+		"term5": {},
+		"term6": {},
+		"term7": {},
+		"term8": {}
+	},
+	"civil": {
+		"term3": {},
+		"term4": {},
+		"term5": {},
+		"term6": {},
+		"term7": {},
+		"term8": {}
+	},
+	"electrical": {
+		"term3": {},
+		"term4": {},
+		"term5": {},
+		"term6": {},
+		"term7": {},
+		"term8": {}
+	},
+	"computer": {
+		"term3": {
+			"ECE 3300": {
+				"name": "Circuit Analysis",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ECE 3400": {
+				"name": "Foundations of Programming",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ECE 3500": {
+				"name": "Digital Logic",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ENGI 3101": {
+				"name": "Engineering Professionalism I",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ENGI 3424": {
+				"name": "Engineering Mathematics",
+				"credits": "4",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"PHYS 3000": {
+				"name": "Physics of Device Materials",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			}
+		},
+		"term4": {
+			"ECE 4110": {
+				"name": "Discrete Mathematics for Computer Engineering",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ECE 4300": {
+				"name": "Electronic Circuits I",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ECE 4400": {
+				"name": "Data Structures",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ECE 4500": {
+				"name": "Microprocessors",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ENGI 4600": {
+				"name": "Introduction to Systems and Signals",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			}
+		},
+		"term5": {
+            "ECE 5010": {
+                "name": "Software Design",
+                "credits": "3",
+                "description": "",
+                "difficulty": "",
+                "tips&tricks": ""
+            },
+            "ECE 5100": {
+                "name": "Probability and Random Processes",
+                "credits": "3",
+                "description": "",
+                "difficulty": "",
+                "tips&tricks": ""
+            },
+            "ECE 5200": {
+                "name": "Control Systems I",
+                "credits": "3",
+                "description": "",
+                "difficulty": "",
+                "tips&tricks": ""
+            },
+            "ECE 5400": {
+                "name": "Algorithms: Correctness and Complexity",
+                "credits": "3",
+                "description": "",
+                "difficulty": "",
+                "tips&tricks": ""
+            },
+            "ECE 5500": {
+                "name": "Digital Systems",
+                "credits": "3",
+                "description": "",
+                "difficulty": "",
+                "tips&tricks": ""
+            }
         },
-        "term4":{
-
+		"term6": {
+            "ECE 6400": {
+                "name": "Software Development Practice",
+                "credits": "3",
+                "description": "",
+                "difficulty": "",
+                "tips&tricks": ""
+            },
+            "ECE 6500": {
+                "name": "Computer Architecture",
+                "credits": "3",
+                "description": "",
+                "difficulty": "",
+                "tips&tricks": ""
+            },
+            "ECE 6600": {
+                "name": "Communication Principles",
+                "credits": "3",
+                "description": "",
+                "difficulty": "",
+                "tips&tricks": ""
+            },
+            "ECE 6610": {
+                "name": "Communication Networks",
+                "credits": "3",
+                "description": "",
+                "difficulty": "",
+                "tips&tricks": ""
+            }
         },
-        "term5":{
-
-        },
-        "term6":{
-
-        },
-        "term7":{
-
-        },
-        "term8":{
-
-        }
-    },
-    "mechatronics":{
-        "term3":{
-
-        },
-        "term4":{
-
-        },
-        "term5":{
-
-        },
-        "term6":{
-
-        },
-        "term7":{
-
-        },
-        "term8":{
-
-        }
-    },
-    "civil":{
-        "term3":{
-
-        },
-        "term4":{
-
-        },
-        "term5":{
-
-        },
-        "term6":{
-
-        },
-        "term7":{
-
-        },
-        "term8":{
-
-        }
-    },
-    "electrical":{
-        "term3":{
-
-        },
-        "term4":{
-
-        },
-        "term5":{
-
-        },
-        "term6":{
-
-        },
-        "term7":{
-
-        },
-        "term8":{
-
-        }
-    },
-    "computer":{
-        "term3":{
-
-        },
-        "term4":{
-
-        },
-        "term5":{
-
-        },
-        "term6":{
-
-        },
-        "term7":{
-
-        },
-        "term8":{
-
-        }
-    }
+		"term7": {},
+		"term8": {}
+	}
 }
