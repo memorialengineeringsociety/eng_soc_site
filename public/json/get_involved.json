@@ -1,5 +1,19 @@
 {
   "competitive": {
+    "Enactus Memorial":{
+      "title": "Student-Led Entrepreneurship Ventures",
+      "logo": "/res/team_logos/enactus.png",
+      "text": "Enactus Memorial is a student-led organization striving to support our community through social entrepreneurship. Our team of student, academic and business leaders use entrepreneurial principles to address social issues.",
+      "link": "https://www.enactusmemorial.org/",
+      "linkedin": "",
+      "instagram": "https://www.instagram.com/enactusmemorial",
+      "facebook": "",
+      "twitter": "",
+      "discord": "",
+      "contact": "",
+      "date": "1992",
+      "disciplines": "mteropc"
+    },
     "Eastern Edge Robotics": {
       "title": "Underwater Remotely Operated Vehicle",
       "logo": "/res/team_logos/eastern_edge.png",
