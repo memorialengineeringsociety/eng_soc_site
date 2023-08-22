@@ -109,11 +109,14 @@ function PastSocietyData({ societies }) {
 }
 
 function CurrentSociety({ society }) {
+	const myString = society.title;
+	const targetCharacter = "A";
+	const which = myString.includes(targetCharacter);
 	return (
 		<div id={society} className="space-y-4 p-2 lg:w-5/12">
-			<div>
-				<h1 className="rounded-t-3xl border-l-4 border-r-4 border-t-4 border-mun-burgundy bg-white text-center font-ops text-4xl xl:text-5xl text-black">{society.title}</h1>
-				<h2 className="rounded-b-3xl border-b-4 border-l-4 border-r-4 border-mun-burgundy bg-white text-center font-ops text-2xl xl:text-3xl text-black">{society.years}</h2>
+			<div className="rounded-3xl border-4 border-mun-burgundy bg-white flex flex-col place-items-center">
+				{which ? <img src="/res/logos/society-a.png" className="w-1/2"></img> : <img src="/res/logos/society-b.png" className="w-1/2"></img>}
+				{/* <h2 className="text-center font-gold_bold text-2xl xl:text-3xl text-mun-burgundy">{society.years}</h2> */}
 			</div>
 			{Object.entries(society).map(([position, info]) => {
 				if (position !== "title" && position !== "years") {

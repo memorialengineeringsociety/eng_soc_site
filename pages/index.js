@@ -11,8 +11,7 @@ export default function Home() {
 			<Parallax image="/res/location/engineering_building.jpeg">
 				<div className="flex flex-col justify-between md:flex-row">
 					<div className="flex flex-col">
-						<img src="/res/logos/logo_concept.png" className="rounded-full object-contain p-5 md:h-4/5 md:w-auto md:pl-20 md:pr-20 md:pt-10" />
-						<h1 className="hidden text-center font-gold_bold text-3xl text-mun-burgundy lg:text-6xl">MUN Engineering Society</h1>
+						<img src="/res/logos/logo_concept.png" className="transition-all object-contain hover:scale-105 p-5 md:h-4/5 md:w-auto md:pl-20 md:pr-20 md:pt-10" />
 					</div>
 					<div className="space-y-5 p-10 md:mt-10 md:space-y-10">
 						<h1 className="whitespace-nowrap text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">1200+ Students</h1>
