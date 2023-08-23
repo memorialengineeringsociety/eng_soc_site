@@ -49,7 +49,7 @@ export function MemberCard(props) {
 					</div>
 				</div>
 			</div>
-			{props.about ? <ShowMoreText text={props.about} /> : <p className="p-5 text-justify text-black"></p>}
+			{props.about ? <ShowMoreText text={props.about} /> :null}
 		</div>
 	);
 }
