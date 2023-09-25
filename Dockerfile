@@ -1,10 +1,21 @@
-FROM node:16 AS builder
-WORKDIR /app
-COPY . .
-RUN npm install && npm run build && npm run export
+FROM node:16
 
-FROM nginx:alpine
-WORKDIR /usr/share/nginx/html
-RUN rm -rf ./*
-COPY --from=builder /app/out .
-ENTRYPOINT ["nginx", "-g", "daemon off;"]
+ENV PORT 3000
+
+# Create app directory
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+# Installing dependencies
+COPY package*.json /usr/src/app/
+RUN npm install
+
+# Copying source files
+COPY . /usr/src/app
+
+# Building app
+RUN npm run build
+EXPOSE 3000
+
+# Running the app
+CMD "npm" "run" "start"
