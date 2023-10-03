@@ -38,6 +38,7 @@ function Groups({ type }) {
 
 function Navigation() {
 	const [currentButton, setCurrentButton] = useState(1);
+	const [showPastTeams, setShowPastTeams] = useState(false);
 
 	const handleButtonClick = (buttonNumber) => {
 		setCurrentButton(buttonNumber);
@@ -81,7 +82,11 @@ function Navigation() {
 			<div className="mt-4">
 				<div className={`transition-opacity ${currentButton === 1 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
 					<h1 className="text-center font-ops text-4xl text-black underline lg:hidden">Competitive Teams</h1>
-					<Groups type={data.competitive} />
+					<Groups type={data.current_competitive} />
+					<div className="flex flex-col justify-center place-items-center">
+						<button className='bg-black lg:w-1/3 rounded-full p-5 text-xl lg:text-3xl font-ops mb-5' onClick={() => setShowPastTeams(!showPastTeams)}>{showPastTeams ? "Hide Past Teams" : "Show Past Teams"}</button>
+						{showPastTeams && <Groups type={data.past_competitive} />}
+					</div>
 				</div>
 				<div className={`transition-opacity ${currentButton === 2 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
 					<h1 className="text-center font-ops text-4xl text-black underline lg:hidden">Organizations</h1>
