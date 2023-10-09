@@ -15,6 +15,7 @@ export default function Events() {
 				<LinkCard title="Class of 2028 Facebook Group" description="" link="https://m.facebook.com/groups/763757462139761/?ref=share&mibextid=S66gvF" image="" />
 				<LinkCard title="Faculty Website" description="" link="https://www.mun.ca/engineering/" image="" />
 				<LinkCard title="Counselling Services" description="" link="https://www.mun.ca/studentwellness/supports-services/index.php" image="" />
+				<LinkCard title="Professor's Appreciation Award" description="" link="https://docs.google.com/forms/d/e/1FAIpQLSfHdqHc-iI1v6IDTkIUjPIdB4qFZ5tfrVSFNUHKMiYj1rKKYA/viewform?usp=sharing" image="" />
 			</section>
 		</main>
 	);
