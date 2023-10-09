@@ -11,6 +11,7 @@ export default function Events() {
 			</section>
 			<section className="flex min-h-screen flex-col place-items-center gap-y-3 p-3">
 				<LinkCard title="Eastern Edge Bus Crawl" description="" link="https://forms.gle/uNg4t1UM9F6YeAKv9" image="" />
+				<LinkCard title="Patagonia Order Form" description="" link="https://docs.google.com/forms/d/e/1FAIpQLSdphowbJgaiVkwCfUslh0w9xXpM9G20VIgZ2t-H_boepsZYQA/viewform?usp=sf_link" image="" />
 				{/* <LinkCard title="Class Representative Voting Ballot" description="" link="https://docs.google.com/forms/d/e/1FAIpQLSfuseF1RpOCPJyLI6uY3HjkARZ9sqgWVh6Mq59FEkzeaJ2N3w/closedform" /> */}
 				{/* <LinkCard title="Industry Lecture Series Sign Up" description="" link="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfKFpfaoMI6L7rPwjDgcmxu_UpIN0QR2hPKrPVxeuNvcw4L0Q/viewform?usp=sf_link" image="" /> */}
 				<LinkCard title="Class of 2028 Facebook Group" description="" link="https://m.facebook.com/groups/763757462139761/?ref=share&mibextid=S66gvF" image="" />
