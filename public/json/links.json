@@ -1,4 +1,9 @@
 {
+	"Movember Donation" {
+		"description": "",
+		"link": "https://ca.movember.com/team/2451927?utm_medium=share&utm_source=dynamic&utm_campaign=qr-code",
+		"image": ""
+	},
 	"Engineering Competition Registration": {
 		"description": "",
 		"link": "https://docs.google.com/forms/d/e/1FAIpQLSfLR3s-Q6XMeNALaFgPA3EjtEBT5XO5lmSwuF6qw5I80wOiuQ/viewform?usp=sf_link",
@@ -12,6 +17,11 @@
 	"D-Day Mug Competition": {
 		"description": "Submissions due on November 1st!",
 		"link": "https://forms.gle/aSgtXHJ95MAPMWtf9",
+		"image": ""
+	},
+	"Relay for Life" {
+		"description": "",
+		"link": "https://www.relayforlife.ca/mun",
 		"image": ""
 	},
 	"IEEE Xtreme Food Registration": {
