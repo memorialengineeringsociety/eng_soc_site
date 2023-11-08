@@ -63,16 +63,6 @@
       "date": "2018",
       "disciplines": "mc"
     },
-    "Chem-E-Car": {
-      "title": "Chemical Powered Car",
-      "logo": "/res/team_logos/chemecar.png",
-      "text": "MUN Chem-E-Car is designing and building a shoe-box sized car that runs solely on chemical reactions. The car will then compete by travelling a set distance in a set time period. Besides competing in this competition, we are also striving to break barriers and stigmas to show both potential engineering students and the public what precisely the Process/Chemical engineering industry does to benefit their everyday lives.",
-      "link": "",
-      "contact": "memorialchemecar@gmail.com",
-      "instagram": "https://www.instagram.com/memorialchemecar/",
-      "date": "2020",
-      "disciplines": "merp"
-    },
     "Iceberg ASV": {
       "title": "Autonomous Surface Vehicle",
       "logo": "/res/team_logos/icebergasv.png",
@@ -82,15 +72,6 @@
       "contact": "info@icebergasv.ca",
       "disciplines": "mero"
     },
-    "MUN RoboSub": {
-      "title": "Autonomous Underwater Vehicle",
-      "logo": "/res/team_logos/robosub.PNG",
-      "text": "",
-      "link": "https://sites.google.com/mun.ca/mun-robosub/home",
-      "contact": "robosubmun@gmail.com",
-      "date": "2021",
-      "disciplines": "tero"
-    },
     "Phoenix Aerospace": {
       "title": "Radio Controlled Electric Aircraft",
       "logo": "/res/team_logos/phoenix.png",
@@ -98,17 +79,6 @@
       "link": "",
       "contact": "phoenixuav.mun@gmail.com",
       "facebook": "https://www.facebook.com/munphoenixareospace/",
-      "date": "2022",
-      "disciplines": "mter"
-    },
-    "Memorial FSAE": {
-      "title": "Fully Electric Formula Style Vehicle",
-      "logo": "/res/team_logos/fsae.png",
-      "text": "Memorial Formula SAE is responsible for the research, design, fabrication, and operation of Memorial Univeristy’s first all-electric human operated formula one vehicle. The team will be competing in an SAE international competition where they will undergo events including endurance, auto-cross, and skid pad tests as well as showcasing their design and cost evaluation presentations. This team has a diverse make-up of students across various disciplines and gives students an opportunity to apply what they learn in the classroom to a real project.",
-      "link": "",
-      "linkedin": "https://www.linkedin.com/company/memorial-racing-formula-sae-electric/",
-      "instagram": "https://www.instagram.com/memorialfsae/",
-      "contact": "memorialfsaee@gmail.com",
       "date": "2022",
       "disciplines": "mter"
     },
@@ -158,8 +128,27 @@
       "facebook": "https://www.facebook.com/munsailbot/",
       "instagram": "https://www.instagram.com/munsailbot/",
       "linkedin": "https://www.linkedin.com/company/mun-sailbot/?originalSubdomain=pe",
-      "date": "2009",
+      "date": "2009-2023",
       "disciplines": "mero"
+    },
+    "Chem-E-Car": {
+      "title": "Chemical Powered Car",
+      "logo": "/res/team_logos/chemecar.png",
+      "text": "MUN Chem-E-Car is designing and building a shoe-box sized car that runs solely on chemical reactions. The car will then compete by travelling a set distance in a set time period. Besides competing in this competition, we are also striving to break barriers and stigmas to show both potential engineering students and the public what precisely the Process/Chemical engineering industry does to benefit their everyday lives.",
+      "link": "",
+      "contact": "memorialchemecar@gmail.com",
+      "instagram": "https://www.instagram.com/memorialchemecar/",
+      "date": "2020-2023",
+      "disciplines": "merp"
+    },
+    "MUN RoboSub": {
+      "title": "Autonomous Underwater Vehicle",
+      "logo": "/res/team_logos/robosub.PNG",
+      "text": "",
+      "link": "https://sites.google.com/mun.ca/mun-robosub/home",
+      "contact": "robosubmun@gmail.com",
+      "date": "2021-2023",
+      "disciplines": "tero"
     },
     "FMUNTENTH": {
       "name": "",
@@ -170,6 +159,17 @@
       "linkedin": "https://www.linkedin.com/company/fmuntenth/",
       "date": "2022-2023",
       "disciplines": "er"
+    },
+    "Memorial FSAE": {
+      "title": "Fully Electric Formula Style Vehicle",
+      "logo": "/res/team_logos/fsae.png",
+      "text": "Memorial Formula SAE is responsible for the research, design, fabrication, and operation of Memorial Univeristy’s first all-electric human operated formula one vehicle. The team will be competing in an SAE international competition where they will undergo events including endurance, auto-cross, and skid pad tests as well as showcasing their design and cost evaluation presentations. This team has a diverse make-up of students across various disciplines and gives students an opportunity to apply what they learn in the classroom to a real project.",
+      "link": "",
+      "linkedin": "https://www.linkedin.com/company/memorial-racing-formula-sae-electric/",
+      "instagram": "https://www.instagram.com/memorialfsae/",
+      "contact": "memorialfsaee@gmail.com",
+      "date": "2022-2023",
+      "disciplines": "mter"
     },
     "MUN E-Motorsports": {
       "name": "",
