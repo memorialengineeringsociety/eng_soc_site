@@ -1,34 +1,3 @@
 {
-    "Iceberg ASV Fall Bash": {
-        "name": "Iceberg ASV Fall Bash",
-        "organizer": "iceberg",
-        "date": "October 13, 2023 @ 8pm",
-        "location": "Rob Roy Patio",
-        "cost": "$10.00",
-        "age": "19+",
-        "description": "All proceeds will go towards the cost of traveling to our competition in Florida in February 2024!",
-        "image": "https://drive.google.com/uc?export=view&id=1uKab4LieIyP6Sc6h0y4gjOrDNMJGBN8u"
-    },
-    "Eastern Edge Boo-ze Crawl": {
-        "name": "Eastern Edge Boo-ze Crawl",
-        "organizer": "edge",
-        "alt_name": "Bus Crawl",
-        "date": "October 21, 2023 @ 8pm",
-        "location": "Breezeway Entrance",
-        "cost": "$20.00",
-        "age": "19+",
-        "description": "Eastern Edge is hosting a bus crawl just in time for Halloween!! Come on out, have some spooky fun, and support the team!",
-        "image": "https://drive.google.com/uc?export=view&id=1E-5d3t_hx7cuZQW5lbSl6WNIxe1vVu9i",
-        "link": "https://forms.gle/uNg4t1UM9F6YeAKv9"
-    },
-    "Engineering Grad Committee Halloween Bash": {
-        "name": "Engineering Grad Committee Halloween Bash",
-        "organizer": "grad",
-        "date": "October 28, 2023",
-        "location": "",
-        "cost": "",
-        "age": "",
-        "description": "",
-        "image": ""
-    }
+    
 }
