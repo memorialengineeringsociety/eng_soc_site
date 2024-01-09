@@ -3,12 +3,16 @@ import Image from "next/image";
 import { TeamCard } from "../../components/TeamCard";
 import Parallax from "../../components/Parallax";
 import jsonData from "public/json/get_involved.json";
+import Head from 'next/head'
 
 const data = jsonData;
 
 export default function GetInvolved() {
 	return (
 		<main className="repeating-bg">
+						<Head>
+				<title> MUN Eng Society | Get Involved</title>
+			</Head>
 			<Parallax image="../res/get_involved/eastern_edge_presentation_2023.jpg">
 				<div className="flex h-full flex-col items-center pt-5 text-center text-white lg:pt-20">
 					<h1 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">Get Involved</h1>

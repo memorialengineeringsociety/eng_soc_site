@@ -4,6 +4,7 @@ import { MemberCard } from "../../components/MemberCard";
 import pastMembers from "public/json/societymembers.json";
 import currentMembers from "public/json/current_society.json";
 import Parallax from "../../components/Parallax";
+import Head from 'next/head'
 
 const past = pastMembers;
 const current = currentMembers;
@@ -11,6 +12,9 @@ const current = currentMembers;
 export default function AboutUs() {
 	return (
 		<main className="repeating-bg">
+			<Head>
+				<title> MUN Eng Society | About Us</title>
+			</Head>
 			<Parallax image="/res/members/group/aces_2022.png">
 				<div className="flex h-full flex-col items-center pt-5 text-center text-white lg:pt-20">
 					<h1 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">About Us</h1>

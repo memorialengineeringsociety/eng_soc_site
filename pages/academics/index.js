@@ -2,10 +2,14 @@ import { useState } from "react";
 import Image from "next/image";
 import { NothingHereYet } from "../../components/NothingHereYet";
 import Parallax from "../../components/Parallax";
+import Head from 'next/head'
 
 export default function GetInvolved() {
 	return (
 		<main className="repeating-bg">
+			<Head>
+				<title> MUN Eng Society | Academics</title>
+			</Head>
 			<Parallax image="../res/academics/essc-f2022.png">
 				<div className="flex flex-col items-center pt-5 text-center text-white lg:pt-20">
 					<h1 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">Academics</h1>

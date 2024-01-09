@@ -4,10 +4,14 @@ import Parallax from "/components/Parallax";
 import Disciplines from "/components/Disciplines";
 import SlideshowComponent from "/components/SlideshowCard";
 import getImagePaths from "/components/getImagePaths";
+import Head from 'next/head'
 
 export default function Home() {
 	return (
 		<main className="repeating-bg flex min-h-screen flex-col overflow-hidden">
+						<Head>
+				<title> MUN Engineering Society</title>
+			</Head>
 			<Parallax image="/res/location/engineering_building.jpeg">
 				<div className="flex flex-col justify-between md:flex-row">
 					<div className="flex flex-col">
