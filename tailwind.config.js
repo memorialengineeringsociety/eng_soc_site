@@ -17,7 +17,8 @@ module.exports = {
       },
       colors: {
         'mun-burgundy': '#832633',
-        'mun-grey': '#63666A'
+        'mun-grey': '#63666A',
+        'mun-gold': "#EAAB00"
       },
       fontFamily:{
 				ops: ['BlackOpsOne-Regular', 'opentype'],
