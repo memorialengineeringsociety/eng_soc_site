@@ -12,9 +12,9 @@ export function TeamCard(props) {
 			)}
 			<section className="flex min-h-[460px] w-full flex-col justify-between rounded-b-2xl bg-stone-400">
 				<div className="flex min-w-full flex-col place-items-center">
-					<h1 className="pt-4 text-center font-ops text-4xl font-extrabold">{props.name}</h1>
-					<h1 className="text-center font-gold_bold text-2xl font-extrabold text-stone-600">{props.title}</h1>
-					{props.date ? <h1 className="text-center font-gold text-lg font-bold text-stone-700">Founded: {props.date}</h1> : null}
+					<h1 className="pt-4 text-center font-norwester text-4xl font-extrabold">{props.name}</h1>
+					<h1 className="text-center font-norwester text-2xl font-extrabold text-stone-600">{props.title}</h1>
+					{props.date ? <h1 className="text-center font-norwester text-lg font-bold text-stone-700">Founded: {props.date}</h1> : null}
 					<p className="pl-4 pr-4 text-center text-black">{props.text}</p>
 					<div className="flex justify-center gap-x-3 p-5">
 						{props.link ? (

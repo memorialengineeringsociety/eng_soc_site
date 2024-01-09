@@ -14,11 +14,11 @@ export default function Home() {
 						<img src="/res/logos/full.png" className="transition-all object-contain hover:scale-105 p-5 md:h-4/5 md:w-auto md:pl-20 md:pr-20 md:pt-10" />
 					</div>
 					<div className="space-y-5 p-10 md:mt-10 md:space-y-10">
-						<h1 className="whitespace-nowrap text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">1200+ Students</h1>
-						<h1 className="whitespace-nowrap text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">20+ Groups</h1>
-						<h1 className="whitespace-nowrap text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">7 Disciplines</h1>
-						<h1 className="whitespace-nowrap text-center font-gold text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">2 Societies</h1>
-						<h1 className="w-auto whitespace-nowrap text-center font-gold_bold text-4xl text-white md:text-right xl:text-6xl 2xl:text-8xl">1 Community</h1>
+						<h1 className="whitespace-nowrap text-center font-norwester tracking-wider text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">1200+ Students</h1>
+						<h1 className="whitespace-nowrap text-center font-norwester tracking-wider text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">20+ Groups</h1>
+						<h1 className="whitespace-nowrap text-center font-norwester tracking-wider text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">7 Disciplines</h1>
+						<h1 className="whitespace-nowrap text-center font-norwester tracking-wider text-3xl text-white md:text-right xl:text-5xl 2xl:text-7xl">2 Societies</h1>
+						<h1 className="w-auto whitespace-nowrap text-center font-norwester tracking-wider text-4xl text-white md:text-right xl:text-6xl 2xl:text-8xl">1 Community</h1>
 					</div>
 				</div>
 			</Parallax>
@@ -26,15 +26,15 @@ export default function Home() {
 			<Disciplines />
 			<div className="ml-2 mr-2 mt-4 justify-evenly space-y-4 rounded-3xl border-4 border-black bg-stone-400 py-8 sm:ml-8 sm:mr-8 lg:ml-20 lg:mr-20 xl:flex">
 				<div className="space-y-10">
-					<h1 className="text-center font-gold_bold text-2xl font-semibold text-black underline sm:text-4xl">Welcome to Our Website!</h1>
-					<p className="ml-2 mr-2 rounded-2xl font-gold text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Welcome to the Memorial University Engineering Society website, a vibrant and diverse community that brings together students from various engineering disciplines.</p>
-					<p className="ml-2 mr-2 rounded-2xl font-gold text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Our society is a hub of innovation and learning, home to a multitude of groups each contributing to a dynamic and enriching environment.</p>
-					<p className="ml-2 mr-2 rounded-2xl font-gold text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">We are united by our shared passion for engineering and our commitment to fostering a collaborative and inclusive space.</p>
-					<p className="ml-2 mr-2 rounded-2xl font-gold text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Whether you're a current student seeking to engage with like-minded peers, a prospective student exploring the possibilities of an engineering education, or simply an enthusiast interested in the field, we warmly invite you to explore our site.</p>
-					<p className="ml-2 mr-2 rounded-2xl font-gold text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Delve into the wealth of resources we offer, learn more about our groups and their activities, and discover how you can get involved.</p>
-					<p className="ml-2 mr-2 rounded-2xl font-gold text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Our mission is to foster innovation, collaboration, and excellence in the field of engineering. We believe in the power of community and the importance of shared knowledge.</p>
-					<p className="ml-2 mr-2 rounded-2xl font-gold text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">As you navigate through our site, we hope you will be inspired by the opportunities that await you here.</p>
-					<p className="ml-2 mr-2 rounded-2xl font-gold text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Join us as we continue to shape the future of engineering, pushing boundaries and driving change. We look forward to welcoming you into our community and embarking on this exciting journey together.</p>
+					<h1 className="text-center font-norwester text-2xl font-semibold text-black underline sm:text-4xl">Welcome to Our Website!</h1>
+					<p className="ml-2 mr-2 rounded-2xl font-norwester text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Welcome to the Memorial University Engineering Society website, a vibrant and diverse community that brings together students from various engineering disciplines.</p>
+					<p className="ml-2 mr-2 rounded-2xl font-norwester text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Our society is a hub of innovation and learning, home to a multitude of groups each contributing to a dynamic and enriching environment.</p>
+					<p className="ml-2 mr-2 rounded-2xl font-norwester text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">We are united by our shared passion for engineering and our commitment to fostering a collaborative and inclusive space.</p>
+					<p className="ml-2 mr-2 rounded-2xl font-norwester text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Whether you're a current student seeking to engage with like-minded peers, a prospective student exploring the possibilities of an engineering education, or simply an enthusiast interested in the field, we warmly invite you to explore our site.</p>
+					<p className="ml-2 mr-2 rounded-2xl font-norwester text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Delve into the wealth of resources we offer, learn more about our groups and their activities, and discover how you can get involved.</p>
+					<p className="ml-2 mr-2 rounded-2xl font-norwester text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Our mission is to foster innovation, collaboration, and excellence in the field of engineering. We believe in the power of community and the importance of shared knowledge.</p>
+					<p className="ml-2 mr-2 rounded-2xl font-norwester text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">As you navigate through our site, we hope you will be inspired by the opportunities that await you here.</p>
+					<p className="ml-2 mr-2 rounded-2xl font-norwester text-lg text-black transition-transform lg:ml-20 lg:mr-20 lg:text-2xl lg:hover:scale-105">Join us as we continue to shape the future of engineering, pushing boundaries and driving change. We look forward to welcoming you into our community and embarking on this exciting journey together.</p>
 				</div>
 				<div className="flex justify-evenly gap-x-5 p-16 xl:flex-col">
 					<img src="/res/logos/soc_round_logo.png" className="h-24 rounded-full border-4 border-white xl:h-auto" />

@@ -8,8 +8,8 @@ export default function GetInvolved() {
 		<main className="repeating-bg">
 			<Parallax image="../res/academics/essc-f2022.png">
 				<div className="flex flex-col items-center pt-5 text-center text-white lg:pt-20">
-					<h1 className="font-ops text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">Academics</h1>
-					<div className="md:text-md space-y-5 pl-2 pr-2 pt-4 font-gold text-sm font-bold md:p-8 md:text-xl lg:p-20 xl:text-2xl 2xl:text-3xl">
+					<h1 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">Academics</h1>
+					<div className="md:text-md space-y-5 pl-2 pr-2 pt-4 font-norwester text-sm font-bold md:p-8 md:text-xl lg:p-20 xl:text-2xl 2xl:text-3xl">
 						<p>The Memorial University Engineering Society is more than just a student leadership group - it's a community dedicated to supporting its members throughout their engineering journey.</p>
 						<p>From the moment you join, the society provides a wealth of resources designed to enhance your learning experience. This includes access to academic support services, mentorship programs, and opportunities to engage in innovative projects.</p>
 						<p>Moreover, the society fosters a collaborative environment where students can share ideas, learn from each other, and build lasting relationships. Through various events and activities, students can connect with their peers, network with industry professionals, and gain valuable insights into the engineering field.</p>
@@ -38,26 +38,26 @@ function Navigation() {
 	return (
 		<div className="items-center xl:flex xl:flex-col">
 			<div className="sticky top-[76px] z-40 flex w-full justify-evenly gap-x-3 rounded-b-3xl border-b-2 border-black bg-stone-400 lg:pb-5 lg:pl-20 lg:pr-20 lg:pt-3 xl:top-[92px]">
-				<button className={`hidden font-ops font-extrabold transition-transform lg:block xl:w-1/3 xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/3 xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
 					Co-op
 				</button>
-				<button className={`hidden font-ops font-extrabold transition-transform lg:block xl:w-1/3 xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/3 xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
 					Support
 				</button>
-				<button className={`hidden font-ops font-extrabold transition-transform lg:block xl:w-1/3 xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/3 xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					Equity, Diversity, and Inclusion
 				</button>
-				<button className={`pt-2 font-ops font-extrabold transition-transform lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+				<button className={`pt-2 font-norwester font-extrabold transition-transform lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
 					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
 						work
 					</span>
 				</button>
-				<button className={`pt-2 font-ops font-extrabold transition-transform lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+				<button className={`pt-2 font-norwester font-extrabold transition-transform lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
 					<span className="material-icons  pointer-events-none" style={{ fontSize: "40px" }}>
 						contact_support
 					</span>
 				</button>
-				<button className={`pt-2 font-ops font-extrabold transition-transform lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+				<button className={`pt-2 font-norwester font-extrabold transition-transform lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
 						diversity_2
 					</span>

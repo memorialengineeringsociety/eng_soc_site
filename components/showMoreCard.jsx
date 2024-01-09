@@ -11,7 +11,7 @@ const ShowMoreText = (props) => {
 
 	return (
 		<div className="">
-			<p className="pt-2 text-center font-gold_bold text-lg text-black underline lg:pt-0">Bio</p>
+			<p className="pt-2 text-center font-norwester text-lg text-black underline lg:pt-0">Bio</p>
 			<p className="pb-5 pl-5 pr-5 text-justify font-maven text-black">
 				{textToDisplay}{" "}
 				{

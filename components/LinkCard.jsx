@@ -30,9 +30,9 @@ export function LinkCard(props) {
 			<div className="flex items-center justify-evenly">
 				{props.image ? <img src={props.image} className="h-12 lg:h-24" /> : null}
 				<div className="text-center">
-					<h1 className="font-ops text-lg font-bold text-white group-hover:text-black lg:text-2xl">{props.title}</h1>
-					{props.description ? <p className="text-md font-gold text-white group-hover:text-black lg:text-xl">{props.description}</p> : null}
-					{countdown !== null && <p className="text-md font-gold text-white group-hover:text-black lg:text-xl">{formatCountdown(countdown)}</p>}
+					<h1 className="font-norwester text-lg font-bold text-white group-hover:text-black lg:text-2xl">{props.title}</h1>
+					{props.description ? <p className="text-md font-norwester text-white group-hover:text-black lg:text-xl">{props.description}</p> : null}
+					{countdown !== null && <p className="text-md font-norwester text-white group-hover:text-black lg:text-xl">{formatCountdown(countdown)}</p>}
 				</div>
 			</div>
 		</a>

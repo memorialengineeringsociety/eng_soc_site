@@ -24,7 +24,8 @@ module.exports = {
         gold: ['Goldman-Regular', 'opentype'],
         gold_bold: ['Goldman-Bold', 'opentype'],
         maven: ['MavenPro-Regular', 'opentype'],
-        maven_medium: ['MavenPro-Medium', 'opentype']
+        maven_medium: ['MavenPro-Medium', 'opentype'],
+        norwester: ['Norwester', 'opentype']
       }
     },
   },
