@@ -2,10 +2,24 @@ import Link from "next/link";
 import { LinkCard } from "../../components/LinkCard";
 import jsonData from "public/json/links.json";
 import Head from 'next/head'
-
-const data = jsonData;
+import Papa from 'papaparse';
+import { useEffect, useState } from 'react';
 
 export default function Events() {
+	const [data, setData] = useState(null);
+
+    useEffect(() => {
+        fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vR83XwKx-73K3XbnY1-1ejMyRL2VpCCAt7seGKR9v_w_8T-frVnd4efvHiifYidClQfyd1UwjEqIiV0/pub?output=csv')
+            .then(response => response.text())
+            .then(data => {
+                const results = Papa.parse(data, { header: true });
+                setData(results.data);
+				console.log(results.data)
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    }, []);
 	return (
 		<main className="bg-gradient-to-b from-blue-400 to-blue-950">
 						<Head>
@@ -17,8 +31,8 @@ export default function Events() {
 				<h1 className="text-center font-norwester text-lg text-white lg:text-2xl">MUN Engineering Undergraduate Society</h1>
 			</section>
 			<section className="flex min-h-screen flex-col place-items-center gap-y-3 p-3">
-				{Object.entries(data).map(([event, event_data]) => {
-					return <LinkCard title={event} description={event_data.description} link={event_data.link} image={event_data.image}/>;
+				{data && Object.entries(data).map(([event, event_data]) => {
+					return <LinkCard title={event_data.Title} description={event_data.Description} link={event_data.Link} image={event_data.ImageLink}/>;
 				})}
 			</section>
 		</main>
