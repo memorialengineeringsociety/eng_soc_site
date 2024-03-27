@@ -5,7 +5,7 @@ import Head from 'next/head'
 export default function News() {
 	return (
 		<main className="flex repeating-bg min-h-screen">
-						<Head>
+			<Head>
 				<title> MUN Eng Society | News</title>
 			</Head>
 			<NothingHereYet />
