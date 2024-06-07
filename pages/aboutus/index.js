@@ -75,7 +75,7 @@ function PastSocietyData({ societies }) {
 	return (
 		<div>
 			{Object.entries(societies).map(([society, societyData]) => {
-				if (societyData.title !== "24th Society A" && societyData.title !== "23rd Society B") {
+				if (societyData.title !== "24th Society A" && societyData.title !== "24th Society B") {
 					return (
 						<div key={society} className="mt-3 rounded-3xl bg-stone-400 p-2">
 							<h2 className="text-center font-norwester text-4xl text-black">{societyData.title}</h2>
