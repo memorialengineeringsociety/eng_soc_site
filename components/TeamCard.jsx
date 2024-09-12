@@ -91,7 +91,7 @@ export function TeamCard(props) {
 								</div>
 							) : null}
 							{props.disciplines.includes("t") ? (
-								<div className="flex h-10 w-10 place-items-center justify-center rounded-2xl border-2 border-black bg-blue-500 brightness-90 transition-transform hover:scale-105 hover:brightness-100 2xl:w-14">
+								<div className="flex h-10 w-10 place-items-center justify-center rounded-2xl border-2 border-black bg-green-600 brightness-90 transition-transform hover:scale-105 hover:brightness-100 2xl:w-14">
 									<span className="material-icons pointer-events-none">precision_manufacturing</span>
 								</div>
 							) : null}
@@ -111,7 +111,7 @@ export function TeamCard(props) {
 								</div>
 							) : null}
 							{props.disciplines.includes("o") ? (
-								<div className="flex h-10 w-10 place-items-center justify-center rounded-2xl border-2 border-black bg-green-600 brightness-90 transition-transform hover:scale-105 hover:brightness-100 2xl:w-14">
+								<div className="flex h-10 w-10 place-items-center justify-center rounded-2xl border-2 border-black bg-blue-500 brightness-90 transition-transform hover:scale-105 hover:brightness-100 2xl:w-14">
 									<span className="material-icons pointer-events-none">directions_boat</span>
 								</div>
 							) : null}
