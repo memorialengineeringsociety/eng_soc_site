@@ -15,7 +15,7 @@ const Parallax = ({ children, image }) => {
 	}, []);
 
 	return (
-		<div className="relative h-screen w-screen overflow-hidden">
+		<div className="relative h-screen w-full overflow-hidden min-h-fit">
 			<div
 				className="absolute h-full w-full bg-cover bg-center"
 				style={{

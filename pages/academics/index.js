@@ -13,7 +13,7 @@ export default function GetInvolved() {
 			<Parallax image="../res/academics/essc-f2022.png">
 				<div className="flex flex-col items-center pt-5 text-center text-white lg:pt-20">
 					<h1 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">Academics</h1>
-					<div className="md:text-md space-y-5 pl-2 pr-2 pt-4 font-norwester text-sm font-bold md:p-8 md:text-xl lg:p-20 xl:text-2xl 2xl:text-3xl">
+					<div className="md:text-md space-y-5 pl-2 pr-2 pt-4 font-norwester text-sm font-bold md:p-8 md:text-xl lg:p-12 xl:text-2xl 2xl:text-3xl">
 						<p>The Memorial University Engineering Society is more than just a student leadership group - it's a community dedicated to supporting its members throughout their engineering journey.</p>
 						<p>From the moment you join, the society provides a wealth of resources designed to enhance your learning experience. This includes access to academic support services, mentorship programs, and opportunities to engage in innovative projects.</p>
 						<p>Moreover, the society fosters a collaborative environment where students can share ideas, learn from each other, and build lasting relationships. Through various events and activities, students can connect with their peers, network with industry professionals, and gain valuable insights into the engineering field.</p>
@@ -68,9 +68,9 @@ function Navigation() {
 				</button>
 			</div>
 
-			<div className="lg:mt-16">
-				<div className={`transition-opacity ${currentButton === 1 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
-					<div className="p-6">
+			<div className="lg:mt-16 justify-items-center">
+				<div className={`transition-opacity ${currentButton === 1 ? "block opacity-100" : "hidden opacity-0"} delay-200 w-5/6 lg:w-2/3`}>
+					<div className="p-6 min-h-fit  justify-center">
 						<h1 className="mb-4 text-2xl font-bold text-black">Get the most out of your co-op experience</h1>
 						<p className="mb-4 text-black">Students from Memorial University's Bachelor of Engineering co-operative program are fortunate to have the opportunity to combine academic and practical education through a series of 4 month work terms. While the Co-op Handbook contains most information, this page is to be used as an additional resource to help you navigate the co-op office's expectations.</p>
 
@@ -82,6 +82,10 @@ function Navigation() {
 							<li>Work Term 4</li>
 							<li>Work Terms 5/6</li>
 						</ul>
+
+						<div className="w-full justify-center flex mb-7">
+						<img src="../res/academics/asmce.png" alt="Map with the FEAS Co-op representatives" width="600"></img>
+						</div>
 
 						<h2 className="mb-2 text-lg font-semibold text-black">Important Dates for FALL 2022 Work Term</h2>
 						<ul className="mb-4 list-inside list-disc text-black">
@@ -114,7 +118,7 @@ function Navigation() {
 						</p>
 					</div>
 				</div>
-				<div className={`transition-opacity ${currentButton === 2 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
+				<div className={`transition-opacity ${currentButton === 2 ? "block opacity-100" : "hidden opacity-0"} delay-200 w-5/6 lg:w-2/3 `}>
 					<div className="p-6">
 						<h1 className="mb-4 text-2xl font-bold text-black">Cahill Engineering One Student Success Centre</h1>
 						<p className="mb-4 text-black">There's a reason everyone gets the 'look to your left, look to your right' speech when you join engineering... do not be those guys! The Engineering One Help Centre is a great chance to learn all that course material that you're struggling with. (Pro tip: start trying to actually learn that material, oh, you know, not the night before your big midterm or final... just trust me on this).</p>
@@ -153,7 +157,7 @@ function Navigation() {
 						<p className="mb-4 text-black">Student Affairs and Services administers the Scholarships and Awards Program for the University, distributes out-of-Province Financial Aid, and emergency financial aid.</p>
 					</div>
 				</div>
-				<div className={`min-h-screen transition-opacity${currentButton === 3 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
+				<div className={`transition-opacity${currentButton === 3 ? "block opacity-100" : "hidden opacity-0"} min-h-fit pb-10 delay-200 `}>
 					<NothingHereYet />
 				</div>
 			</div>

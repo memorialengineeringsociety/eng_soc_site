@@ -96,9 +96,9 @@ function Navigation() {
 					<h1 className="text-center font-norwester text-4xl text-black underline lg:hidden">Organizations</h1>
 					<Groups type={data.organization} />
 				</div>
-				<div className={`transition-opacity ${currentButton === 3 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
+				<div className={`transition-opacity ${currentButton === 3 ? "block opacity-100" : "hidden opacity-0"} delay-200 justify-items-center`}>
 					<h1 className="text-center font-norwester text-4xl text-black underline lg:hidden">Volunteering Opportunities</h1>
-					<div className="ml-5 mr-5 flex min-h-screen flex-col pt-5">
+					<div className="ml-5 mr-5 pb-10 flex min-h-fit flex-col pt-5 w-3/4 lg:w-3/5">
 						<h2 className="text-center font-norwester text-2xl font-bold text-black">Engineering Volunteer Network</h2>
 						<p className="text-black">Memorial Engineering Student Society is dedicated to uplifting not only our student body but also our community. We believe one of the fundamental ways of giving back comes through volunteering. We want to ensure it is always an accessible option for our students. We've created a space for students, clubs, companies, or individuals to bring forward volunteering opportunities or any little thing they need help with! You’ll fill the below form, giving us dates, number of volunteers required and any other relevant info! We’ll take this information and contact the keen students who have signed up and get back to you.​</p>
 						<div className="flex justify-center gap-x-10 pb-5 pt-5">

@@ -81,20 +81,20 @@
       "facebook": "https://www.facebook.com/munphoenixareospace/",
       "date": "2022",
       "disciplines": "mter"
-    },
+    }
+  },
+  "past_competitive": {
     "Force Seven Sailing": {
       "title": "Developing a Sustainable Foiling Moth",
       "logo": "/res/team_logos/force_seven.png",
-      "text": "Force 7 Sailing is a cooperative student design team at Memorial University of Newfoundland and Dalhousie University. Force 7 will be designing, building and sailing a foiling moth class sailboat for the Foiling SuMoth Challenge in Italy. This challenge is a unique opportunity to compete both Academically and Athletically as one of our members will be sailing! We currently have students from multiple majors, such as Ocean and Naval Architectural, Mechanical, Chemical and Environmental Engineering, as well as Ocean Sciences.",
+      "text": "Force 7 Sailing was a cooperative student design team at Memorial University of Newfoundland and Dalhousie University. Force 7 designed, built and sailed a foiling moth class sailboat for the Foiling SuMoth Challenge in Italy. This challenge is a unique opportunity to compete both Academically and Athletically!",
       "link": "https://force7sailing.ca/",
       "linkedin": "https://www.linkedin.com/company/white-cap-sailing/",
       "instagram": "https://www.instagram.com/force7sailing/",
       "contact": "media@force7sailing.com",
-      "date": "2023",
+      "date": "2023 - 2025",
       "disciplines": "om"
-    }
-  },
-  "past_competitive": {
+    },
     "Memorial Racing Team": {
       "title": "Formula One Vehicle",
       "logo": "/res/team_logos/memorialracingteam.png",
@@ -109,7 +109,7 @@
     },
     "MUN Concrete Canoe": {
       "title": "",
-      "logo": "",
+      "logo": "/res/logos/soc_round_logo.png",
       "text": "",
       "link": "",
       "contact": "",

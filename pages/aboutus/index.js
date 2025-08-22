@@ -26,11 +26,7 @@ export default function AboutUs() {
 			</Parallax>
 			<div className="h-10 border-b-4 border-t-4 border-black bg-mun-burgundy" />
 			<div className="">
-				<section id="current_society" className="justify-evenly pt-5 lg:flex">
-					<CurrentSociety society={current.socA} />
-					<CurrentSociety society={current.socB} />
-				</section>
-				<section id="documents" className="mt-4 flex justify-center">
+				<section id="documents" className="mt-7 mb-1 flex justify-center">
 					<a href="../res/documents/Engineering Society Constitution.pdf" target="_blank" className="rounded-l-full border-2 border-mun-burgundy bg-white p-4 font-norwester text-black lg:text-3xl">
 						View Constitution
 					</a>
@@ -38,6 +34,12 @@ export default function AboutUs() {
 						View Executive Position Role Descriptions
 					</a>
 				</section>
+
+				<section id="current_society" className="justify-evenly pt-5 lg:flex">
+					<CurrentSociety society={current.socA} />
+					<CurrentSociety society={current.socB} />
+				</section>
+				
 				<section id="past_society" className="flex justify-center pb-4">
 					<ShowPastSociety />
 				</section>
@@ -75,7 +77,7 @@ function PastSocietyData({ societies }) {
 	return (
 		<div>
 			{Object.entries(societies).map(([society, societyData]) => {
-				if (societyData.title !== "24th Society A" && societyData.title !== "24th Society B") {
+				if (societyData.title !== "25th Society A" && societyData.title !== "24th Society B") {
 					return (
 						<div key={society} className="mt-3 rounded-3xl bg-stone-400 p-2">
 							<h2 className="text-center font-norwester text-4xl text-black">{societyData.title}</h2>
