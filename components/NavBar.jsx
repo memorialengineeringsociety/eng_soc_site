@@ -109,16 +109,16 @@ export const Navbar = () => {
 							</Link>
 						</motion.div>
 						<motion.div className="py-2" variants={itemVariants}>
-							<Link href="/news">
+							<Link href="/getinvolved">
 								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-widest text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
-									News
+									Get Involved
 								</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2" variants={itemVariants}>
-							<Link href="/getinvolved">
+							<Link href="/news">
 								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-widest text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
-									Get Involved
+									News
 								</div>
 							</Link>
 						</motion.div>
@@ -139,7 +139,7 @@ export const NavbarHamburger = (props) => {
 	}
 	return (
 		<>
-			<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+			<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h36M4 12h36M4 18h36" />
 		</>
 	);
 };

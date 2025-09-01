@@ -9,7 +9,7 @@ export default function DDay_Story() {
 			</Head>
 			{/* <PopupWarning title="Disclaimer" text="The following includes content that is a product of its time and does not align with the values or norms of the current society. We strongly disagree with its viewpoints and encourage readers to approach this material with caution. It is crucial to recognize that societal attitudes and perspectives evolve over time, and this content serves as a reflection of past beliefs, behaviors, and cultural practices. We urge you to view this content critically, considering the progress and social change that has likely taken place since its creation." /> */}
 			<section id="story_of_dday" className="mb-5 mt-5 flex w-3/4 flex-col place-items-center space-y-3">
-				<h1 className="text-center font-norwester text-5xl font-bold text-black">The Story of D-Day</h1>
+				<h3 className="text-center font-norwester text-5xl font-bold text-black">The Story of D-Day</h3>
 				<h2 className="text-center font-norwester text-3xl font-bold text-black">By: Bob Tancock - Class of 1975</h2>
 				<h3 className="text-center font-norwester text-xl font-bold text-black">2024 Revision</h3>
 				<p className="text-black">There are many different stories told about the beginning of D–Day. With the 50th anniversary upon us, I am compelled to tell my version. I was there when it started and was directly involved with the events that lead up to the historic event.</p>

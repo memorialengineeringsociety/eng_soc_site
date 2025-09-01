@@ -14,14 +14,13 @@ export default function GetInvolved() {
 				<title> MUN Eng Society | Get Involved</title>
 			</Head>
 			<Parallax image="../res/get_involved/eastern_edge_presentation_2023.jpg">
-				<div className="flex h-full flex-col items-center pt-5 text-center text-white lg:pt-20">
-					<h1 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">Get Involved</h1>
-					<div className="text-md space-y-5 p-8 font-norwester font-bold md:text-xl lg:p-20 xl:text-2xl 2xl:text-3xl">
-						<p>As technology continues to advance at an accelerated pace, student-led initiatives play a pivotal role in fostering innovation and inspiring the next generation of engineers and scientists. </p>
-						<p>These multidisciplinary teams undertake a wide array of projects, ranging from the construction of sustainable sailboats, development of autonomous vehicles, to the design of lightweight racers and chemical-powered cars. </p>
-						<p>Such endeavors not only enhance technical skills, but also encourage teamwork, problem-solving, and communication abilities, preparing students for future careers in various industries.</p>
+				<div className="flex h-fit flex-col items-center pt-5 text-center text-white lg:pt-20">
+					<h3 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">GET INVOLVED</h3>
+					<div className="text-center text-md space-y-5 p-8 font-maven md:text-xl lg:p-20 xl:text-2xl 2xl:text-3xl">
+						<p className="text-shadow-lg text-justify">&emsp;As technology continues to advance at an accelerated pace, student-led initiatives play a pivotal role in fostering innovation and inspiring the next generation of engineers and scientists.</p>
+						<p className="text-shadow-lg text-justify">&emsp;These multidisciplinary teams undertake a wide array of projects, ranging from the construction of sustainable sailboats, development of autonomous vehicles, to the design of lightweight racers and chemical-powered cars. Such endeavors not only enhance technical skills, but also encourage teamwork, problem-solving, and communication abilities, preparing students for future careers in various industries.</p>
 					</div>
-					<h2 className="hidden font-norwester text-4xl font-bold lg:block">Join a team, organization, or volunteer!</h2>
+					<h2 className="hidden lg:mb-10 font-maven_medium text-4xl lg:block">Join a team, organization, or volunteer!</h2>
 				</div>
 			</Parallax>
 			<div id="paralaxdivider" className="h-5 border-t-4 border-black bg-gradient-to-b  from-mun-burgundy to-stone-400" />
@@ -83,9 +82,9 @@ function Navigation() {
 				</button>
 			</div>
 
-			<div className="mt-4">
+			<div className="mt-4 w-full">
 				<div className={`transition-opacity ${currentButton === 1 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
-					<h1 className="text-center font-norwester text-4xl text-black underline lg:hidden">Competitive Teams</h1>
+					<h3 className="text-center font-norwester text-4xl text-black underline lg:hidden">Competitive Teams</h3>
 					<Groups type={data.current_competitive} />
 					<div className="flex flex-col justify-center place-items-center">
 						<button className='bg-black lg:w-1/3 rounded-full p-5 text-xl lg:text-3xl font-norwester mb-5' onClick={() => setShowPastTeams(!showPastTeams)}>{showPastTeams ? "Hide Past Teams" : "Show Past Teams"}</button>
@@ -93,13 +92,34 @@ function Navigation() {
 					</div>
 				</div>
 				<div className={`transition-opacity ${currentButton === 2 ? "block opacity-100" : "hidden opacity-0"} delay-200`}>
-					<h1 className="text-center font-norwester text-4xl text-black underline lg:hidden">Organizations</h1>
+					<h3 className="text-center font-norwester text-4xl text-black underline lg:hidden">Organizations</h3>
 					<Groups type={data.organization} />
 				</div>
 				<div className={`transition-opacity ${currentButton === 3 ? "block opacity-100" : "hidden opacity-0"} delay-200 justify-items-center`}>
-					<h1 className="text-center font-norwester text-4xl text-black underline lg:hidden">Volunteering Opportunities</h1>
+					<h3 className="text-center font-norwester text-4xl text-black underline lg:hidden">Volunteering Opportunities</h3>
 					<div className="ml-5 mr-5 pb-10 flex min-h-fit flex-col pt-5 w-3/4 lg:w-3/5">
-						<h2 className="text-center font-norwester text-2xl font-bold text-black">Engineering Volunteer Network</h2>
+						<h2 className="text-center pb-5 font-norwester text-2xl font-bold text-black">Student Volunteer Bureau</h2>
+						
+						<p className="text-black">Volunteering is an excellent opportunity for students to build their experience in leadership roles while also providing a beneficial service to others in their communities. It is a fulfilling pursuit that has also proven useful when looking for Work Terms, as it is experience recognized by employers. Volunteering is simple; give it a shot!</p><br></br>
+						<p className="text-black">The Student Volunteer Bureau is an organization within MUN that organizes the Volunteer Incentive Program (VIP), which aims to recognize and reward student efforts to volunteer. Students can unlock different tiers depending on their volunteering experience and involvement. Find more about it in the link below:</p>
+						
+						<div className="w-full justify-center flex mt-5 mb-2">
+							<button className="justify-center rounded-full lg:w-1/3 md:w-1/3 w-3/4 bg-blue-500 px-4 py-2 font-bold text-white transition hover:bg-blue-700" onClick={() => window.open("https://www.mun.ca/volunteer/", "_blank")}>
+								Volunteer Incentive Program
+							</button>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+}
+
+/*	
+	old volunteering text
+	<h2 className="text-center font-norwester text-2xl font-bold text-black">Engineering Volunteer Network</h2>
 						<p className="text-black">Memorial Engineering Student Society is dedicated to uplifting not only our student body but also our community. We believe one of the fundamental ways of giving back comes through volunteering. We want to ensure it is always an accessible option for our students. We've created a space for students, clubs, companies, or individuals to bring forward volunteering opportunities or any little thing they need help with! You’ll fill the below form, giving us dates, number of volunteers required and any other relevant info! We’ll take this information and contact the keen students who have signed up and get back to you.​</p>
 						<div className="flex justify-center gap-x-10 pb-5 pt-5">
 							<button className="rounded-full bg-blue-500 px-4 py-2 font-bold text-white transition hover:bg-blue-700" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSd6bapES16a9c40zQUhLsR4OoZJD2FBJ_PfZA6cje3WJosRXw/viewform", "_blank")}>
@@ -110,12 +130,7 @@ function Navigation() {
 							</button>
 						</div>
 						<p className="text-black">Volunteers from MUN Engineering Societies A and B had the distinct honour of helping Make a Wish Canada grant Jenna’s wish - a wheelchair accessible swing set! After a couple phone calls, a group of volunteers came together and managed to assemble Jenna’s swing in one evening. Many, many thanks to Dr. Stephen Bruneau with the Faculty and Natalie Ryan of Make a Wish for bringing this opportunity our students.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	);
-}
+*/
 
 const scrollToTopD = () => {
 	const element = document.getElementById("paralaxdivider");

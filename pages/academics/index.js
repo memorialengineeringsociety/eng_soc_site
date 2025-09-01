@@ -12,12 +12,10 @@ export default function GetInvolved() {
 			</Head>
 			<Parallax image="../res/academics/essc-f2022.png">
 				<div className="flex flex-col items-center pt-5 text-center text-white lg:pt-20">
-					<h1 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">Academics</h1>
-					<div className="md:text-md space-y-5 pl-2 pr-2 pt-4 font-norwester text-sm font-bold md:p-8 md:text-xl lg:p-12 xl:text-2xl 2xl:text-3xl">
-						<p>The Memorial University Engineering Society is more than just a student leadership group - it's a community dedicated to supporting its members throughout their engineering journey.</p>
-						<p>From the moment you join, the society provides a wealth of resources designed to enhance your learning experience. This includes access to academic support services, mentorship programs, and opportunities to engage in innovative projects.</p>
-						<p>Moreover, the society fosters a collaborative environment where students can share ideas, learn from each other, and build lasting relationships. Through various events and activities, students can connect with their peers, network with industry professionals, and gain valuable insights into the engineering field.</p>
-						<p>Ultimately, the society is committed to helping you succeed, providing the tools, guidance, and support you need to reach your academic and career goals.</p>
+					<h3 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">ACADEMICS</h3>
+					<div className="text-center text-md space-y-5 p-8 font-maven md:text-xl lg:p-20 xl:text-2xl 2xl:text-3xl">
+						<p className="text-shadow-lg text-justify">&emsp;The Memorial University Engineering Society is more than just a student leadership group - it's a community dedicated to supporting its members throughout their engineering journey.</p>
+						<p className="text-shadow-lg text-justify">&emsp;From the moment you join, the society provides a wealth of resources designed to enhance your learning experience. This includes access to academic support services, mentorship programs, and opportunities to engage in innovative projects. Moreover, the society fosters a collaborative environment where students can share ideas, learn from each other, and build lasting relationships. Through various events and activities, students can connect with their peers, network with industry professionals, and gain valuable insights into the engineering field. Ultimately, the society is committed to helping you succeed, providing the tools, guidance, and support you need to reach your academic and career goals.</p>
 					</div>
 				</div>
 			</Parallax>
@@ -71,31 +69,21 @@ function Navigation() {
 			<div className="lg:mt-16 justify-items-center">
 				<div className={`transition-opacity ${currentButton === 1 ? "block opacity-100" : "hidden opacity-0"} delay-200 w-5/6 lg:w-2/3`}>
 					<div className="p-6 min-h-fit  justify-center">
-						<h1 className="mb-4 text-2xl font-bold text-black">Get the most out of your co-op experience</h1>
+						<h3 className="mb-4 text-2xl font-bold text-black">Get the most out of your co-op experience</h3>
 						<p className="mb-4 text-black">Students from Memorial University's Bachelor of Engineering co-operative program are fortunate to have the opportunity to combine academic and practical education through a series of 4 month work terms. While the Co-op Handbook contains most information, this page is to be used as an additional resource to help you navigate the co-op office's expectations.</p>
 
-						<p className="mb-2 text-black">You can also reference the co-op office's work term guides here:</p>
-						<ul className="mb-4 list-inside list-disc text-black">
-							<li>Work Term 1</li>
-							<li>Work Term 2</li>
-							<li>Work Term 3</li>
-							<li>Work Term 4</li>
-							<li>Work Terms 5/6</li>
-						</ul>
-
-						<div className="w-full justify-center flex mb-7">
-						<img src="../res/academics/asmce.png" alt="Map with the FEAS Co-op representatives" width="600"></img>
+						<p className="mb-4 text-black">Information regarding important dates for Work Terms and their course outlines can be found in the following link:</p>
+						
+						<div className="w-full justify-center flex mt-6 mb-6">
+							<button className="justify-center rounded-full w-fit bg-blue-500 px-4 py-2 font-bold text-white transition hover:bg-blue-700" onClick={() => window.open("https://www.mun.ca/coop/programs/engineering/work-term-dates-and-forms/", "_blank")}>
+								Work Term Dates and Forms
+							</button>
 						</div>
 
-						<h2 className="mb-2 text-lg font-semibold text-black">Important Dates for FALL 2022 Work Term</h2>
-						<ul className="mb-4 list-inside list-disc text-black">
-							<li>Monday, 29 August 2022: Fall Work Term begins. Complete Work Term Confirmation online in MyMUNLife.</li>
-							<li>Friday, 23 September 2022: Deadline for submission of Work Term Objectives. Submit this form.</li>
-							<li>Friday, 21 October 2022: Deadline for submission of Work Report Outline. Complete online in MyMUNLife.</li>
-							<li>Wednesday, 21 December 2022: Work Term officially ends and deadline for the submission of evaluation forms and communications component documents. Note: If mailing forms/reports, the postmark date will be recorded as the received date.</li>
-							<li>Tuesday, 5 January 2023: Academic courses begin for Fall 2021.</li>
-							<li>5, 9-11 January 2023: Oral presentations. Students should be prepared to present at this time. Arrangements to be confirmed with your Academic Staff Member in Cooperative Education.</li>
-						</ul>
+						<p className="mb-4 text-black">If you want to do a Work Term outside of the province (even internationally), we recommend contacting the ASMs-CE (Co-op Office staff) responsible for the province or country you aim to work with. They can provide more information on things you may need to do before going there, work terms available there, acommodations, etc. Their contact information can be found in the Co-op office website linked above.</p>
+						<div className="w-full justify-center flex mb-7">
+							<img src="../res/academics/asmce.png" alt="Map with the FEAS Co-op representatives" width="600"></img>
+						</div>
 
 						<h2 className="mb-2 text-lg font-semibold text-black">How to claim work-terms towards your P.Eng</h2>
 						<p className="mb-4 text-black">On behalf of PEGNL, Mark Fewer held an information session on March 15, 2017, to talk about claiming undergraduate work experience towards your Professional License.</p>
@@ -120,7 +108,7 @@ function Navigation() {
 				</div>
 				<div className={`transition-opacity ${currentButton === 2 ? "block opacity-100" : "hidden opacity-0"} delay-200 w-5/6 lg:w-2/3 `}>
 					<div className="p-6">
-						<h1 className="mb-4 text-2xl font-bold text-black">Cahill Engineering One Student Success Centre</h1>
+						<h3 className="mb-4 text-2xl font-bold text-black">Cahill Engineering One Student Success Centre</h3>
 						<p className="mb-4 text-black">There's a reason everyone gets the 'look to your left, look to your right' speech when you join engineering... do not be those guys! The Engineering One Help Centre is a great chance to learn all that course material that you're struggling with. (Pro tip: start trying to actually learn that material, oh, you know, not the night before your big midterm or final... just trust me on this).</p>
 
 						<h2 className="mb-2 text-lg font-semibold text-black">Math Help Centres</h2>

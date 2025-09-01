@@ -4,7 +4,7 @@
       "title": "Student-Led Entrepreneurship Ventures",
       "logo": "/res/team_logos/enactus.png",
       "text": "Enactus Memorial is a student-led organization striving to support our community through social entrepreneurship. Our team of student, academic and business leaders use entrepreneurial principles to address social issues.",
-      "link": "https://www.enactusmemorial.org/",
+      "link": "https://enactusmemorial.com/?page_id=33",
       "linkedin": "",
       "instagram": "https://www.instagram.com/enactusmemorial",
       "facebook": "",
@@ -32,7 +32,7 @@
       "title": "Single Seat Off-Road Vehicle",
       "logo": "/res/team_logos/baja.png",
       "text": "Memorial Baja is a student team building an off-road racing vehicle. They handle marketing, engineering design, and provide a positive learning experience. A Baja SAE vehicle is a lightweight racer under 500 pounds, reaching speeds up to 50 km/h. Teams design and build the vehicle from scratch, following sound engineering practices.",
-      "link": "https://memorialbaja.ca/",
+      "link": "",
       "linkedin": "https://www.linkedin.com/company/memorialbaja/",
       "instagram": "https://www.instagram.com/memorialbaja/",
       "facebook": "https://www.facebook.com/memorialbaja/",
@@ -46,22 +46,11 @@
       "title": "",
       "logo": "/res/team_logos/paradigm.png",
       "text": "Paradigm Engineering, a diverse student group from Memorial University of Newfoundland and Labrador (MUN), is dedicated to creating autonomous racing vehicles for competitions. Comprising three engineering sub-teams and a group for administrative and digital tasks, the team aims to advance Newfoundland and MUN in autonomous vehicle research. Their upcoming challenge is the Purdue University evGrand Prix in Indiana in May 2024, where they'll compete in designing fully autonomous racing go-karts. This project, covering machine learning, drive algorithms, electrical power distribution, PCB design, and mechanical design, not only offers the team valuable experience but also contributes to shaping the future of the autonomous and robotics industries in the province.",
-      "link": "https://www.munparadigm.com",
-      "instagram": "https://www.instagram.com/paradigm_engineering/",
-      "contact": "hello@paradigmhyperloop.com",
+      "link": "https://munparadigm.com/",
+      "instagram": "https://www.instagram.com/paradigm_mun/",
+      "contact": "team@paradigmhyperloop.com",
       "date": "2016",
       "disciplines": "mter"
-    },
-    "Concrete Toboggan": {
-      "title": "",
-      "logo": "/res/team_logos/concrete.png",
-      "text": "",
-      "link": "https://www.engr.mun.ca/ConcreteToboggan/",
-      "instagram": "https://www.instagram.com/mun_concrete_toboggan",
-      "facebook": "https://www.facebook.com/profile.php?id=100076112047631",
-      "contact": "munconcretetoboggan@gmail.com",
-      "date": "2018",
-      "disciplines": "mc"
     },
     "Iceberg ASV": {
       "title": "Autonomous Surface Vehicle",
@@ -72,6 +61,17 @@
       "contact": "info@icebergasv.ca",
       "disciplines": "mero"
     },
+    "Concrete Toboggan": {
+      "title": "",
+      "logo": "/res/team_logos/concrete.png",
+      "text": "",
+      "link": "",
+      "instagram": "https://www.instagram.com/mun_concrete_toboggan",
+      "facebook": "https://www.facebook.com/profile.php?id=100076112047631",
+      "contact": "munconcretetoboggan@gmail.com",
+      "date": "2018-2025",
+      "disciplines": "mc"
+    },
     "Phoenix Aerospace": {
       "title": "Radio Controlled Electric Aircraft",
       "logo": "/res/team_logos/phoenix.png",
@@ -80,6 +80,54 @@
       "contact": "phoenixuav.mun@gmail.com",
       "facebook": "https://www.facebook.com/munphoenixareospace/",
       "date": "2022",
+      "disciplines": "mter"
+    },
+    "Sidus Robotics": {
+      "title": "Mars Rover",
+      "logo": "/res/team_logos/sidus_robotics.png",
+      "text": "Sidus Robotics is Memorial University's first-ever Mars rover design team, comprised of a diverse group of students from engineering, computer science, and business.",
+      "link": "https://sidusrobotics.ca/",
+      "facebook": "https://www.facebook.com/profile.php?id=61564453277253&rdid=qvLfboStdpNW6ghT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F157vVRRxHz%2F#",
+      "linkedin": "https://www.linkedin.com/company/sidus-robotics/",
+      "instagram": "https://www.instagram.com/sidusrobotics/",
+      "contact": "sidusrobotics@gmail.com",
+      "date": "2024",
+      "disciplines": "mter"
+    },
+    "Concrete Canoe": {
+      "title": "",
+      "logo": "/res/team_logos/concrete_canoe.png",
+      "text": "MUN concrete Canoe is a student design team of passionate civil engineering students from Memorial University of Newfoundland, committed to designing, constructing, and racing an exceptional 20-foot-long concrete canoe.",
+      "link": "",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/company/mun-concrete-canoe/?fbclid=PAZXh0bgNhZW0CMTEAAadUBo2hyF-buSqSjdpeIY2-d2BlUNmp7ezA1PnHUqE4GyFYfsHGZ9JxISB4uA_aem_AEaRfQ2NAO5V1RHE14nJIg",
+      "instagram": "https://www.instagram.com/munconcretecanoe/",
+      "contact": "",
+      "date": "2024",
+      "disciplines": "mc"
+    },
+    "Valiant Aerotech": {
+      "title": "Aerospace Engineering Design Team",
+      "logo": "/res/team_logos/valiant.png",
+      "text": "Valiant Aerotech is an aerospace engineering student design team at Memorial University of Newfoundland passionate about advancing unmanned aerial vehicle (UAV) technology through creativity, teamwork, and hands-on engineering.",
+      "link": "",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/company/valiant-aerotech/",
+      "instagram": "https://www.instagram.com/valiantaerotech/",
+      "contact": "",
+      "date": "2025",
+      "disciplines": "mter"
+    },
+    "Horizon Aerospace": {
+      "title": "Aerospace Engineering Design Team",
+      "logo": "/res/team_logos/horizon.jpg",
+      "text": "Horizon Aerospace is Memorial University's first rocket design team operating under the Student Design Hub of the Faculty of Engineering and Applied Sciences.",
+      "link": "https://www.horizon-aerospace.ca/",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/company/horizon-aerospace-rocketry/",
+      "instagram": "https://www.instagram.com/horizon_aerospace_/",
+      "contact": "",
+      "date": "2025",
       "disciplines": "mter"
     }
   },
@@ -190,14 +238,14 @@
       "link": "https://www.ewb.ca/en/",
       "contact": "mun@ewb.ca",
       "instagram": "https://www.instagram.com/ewb_mun/",
-      "discord": "https://discord.gg/vFs8GrN4N8/",
+      "discord": "",
       "facebook": "https://www.facebook.com/ewbmun/"
     },
     "Robogals": {
       "title": "Empowering the Future of STEM",
       "logo": "/res/team_logos/robogals.png",
       "text": "Robogals is a student-led volunteer organization with chapters across the world, working with a common goal to increase the participation of female and gender diverse youth in engineering and technology-related industries. Through educational workshops and events, Robogals MUN Chapter seek to encourage female identifying and gender diverse youth to pursue higher education and careers in traditionally male-dominated fields by cultivating self confidence and providing mentorship.",
-      "link": "https://robogals.org/locations/north-america-na/memorial-university-of-newfoundland-%E2%80%8B/",
+      "link": "https://www.robogalsmun.org/",
       "facebook": "https://www.facebook.com/robogalsmun/",
       "linkedin": "https://www.linkedin.com/company/robogals-munchapter/",
       "twitter": "https://twitter.com/RobogalsM",
@@ -213,12 +261,22 @@
       "contact": "wiseus15@gmail.com",
       "date": "2008"
     },
+    "10am @ MUN": {
+      "title": "Socratica node at MUN",
+      "logo": "/res/team_logos/10am.png",
+      "text": "An open space for any type of creation to happen. Weekly sessions are held for anybody to work on anything except school work. Collaboration and sharing is promoted to get ideas going!",
+      "link": "",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/company/10am-mun/posts/?feedView=all",   
+      "instagram": "https://www.instagram.com/10am_mun/",  
+      "date": "2025"
+    },
     "Google Developers Club": {
       "title": "",
       "logo": "/res/team_logos/google.png",
       "text": "",
-      "link": "https://gdsc.community.dev/memorial-university-of-newfoundland/",
-      "discord": "https://discord.gg/hr6gyCrjt5/",
+      "link": "",
+      "discord": "",
       "facebook": "https://www.facebook.com/dscmun/",
       "instagram": "https://www.instagram.com/gdscmun/",
       "linkedin": "https://www.linkedin.com/company/dscmun/"
@@ -228,7 +286,7 @@
       "logo": "/res/team_logos/nsbe.png",
       "text": "NSBE MUN is the Memorial University chapter of the National Society of Black Engineers. At NSBE MUN, we hope to foster a community to support black identifying students (and ethnic minorities) participating in the Memorials Engineering program",
       "instagram": "https://www.instagram.com/nsbe.mun",
-      "facebook": "https://www.facebook.com/NSBE-MUN-102221058869179/",
+      "facebook": "https://www.facebook.com/profile.php?id=100089496834962",
       "contact": "nsbemun@gmail.com",
       "date": "2020"
     },
@@ -236,7 +294,7 @@
       "title": "",
       "logo": "/res/team_logos/ieee.png",
       "text": "",
-      "discord": "https://discord.gg/Y737BCURTr/",
+      "discord": "",
       "facebook": "https://www.facebook.com/MUNIEEEStundentBranch/",
       "contact": "kmali@ieee.org"
     },
@@ -258,7 +316,7 @@
       "instagram": "https://www.instagram.com/hackfrostnl/",
       "facebook": "https://www.facebook.com/hackfrostnl/",
       "twitter": "https://twitter.com/hackfrostnl/",
-      "discord": "https://discord.gg/x5drWuwTT4/"
+      "discord": "https://discord.gg/MVVes9Tf"
     },
     "Tetra Society": {
       "title": "",

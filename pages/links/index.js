@@ -25,8 +25,8 @@ export default function Events() {
 			</Head>
 			<section className="flex flex-col justify-center pt-5">
 				<img src="../res/logos/soc_round_logo.png" className="mx-auto h-24 rounded-full lg:h-48" />
-				<h1 className="text-center font-norwester text-2xl text-white lg:text-4xl">@munengsoc</h1>
-				<h1 className="text-center font-norwester text-lg text-white lg:text-2xl">MUN Engineering Undergraduate Society</h1>
+				<h3 className="text-center font-norwester text-2xl text-white lg:text-4xl">@munengsoc</h3>
+				<h3 className="text-center font-norwester text-lg text-white lg:text-2xl">MUN Engineering Undergraduate Society</h3>
 			</section>
 			<section className="flex min-h-screen flex-col place-items-center gap-y-3 p-3">
 				{data &&

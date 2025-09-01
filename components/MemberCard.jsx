@@ -6,9 +6,9 @@ export function MemberCard(props) {
 			<div className="flex flex-col place-items-center gap-5 xl:flex-row xl:justify-evenly">
 				<img className="h-60 w-60 rounded-full object-cover object-top p-1 ring-2 ring-mun-burgundy lg:h-40 lg:w-40" src={props.photo} alt={props.name} />
 				<div className="flex w-3/4 flex-col justify-evenly">
-					<h1 className="text-center font-norwester text-2xl font-bold text-black md:text-4xl">{props.title}</h1>
-					<h1 className="text-center font-norwester text-3xl text-white md:text-5xl">{props.name}</h1>
-					<h1 className="text-center font-norwester text-lg text-black md:text-2xl">{props.program}</h1>
+					<h3 className="text-center font-norwester text-2xl font-bold text-black md:text-4xl">{props.title}</h3>
+					<h3 className="text-center font-norwester text-3xl text-white md:text-5xl">{props.name}</h3>
+					<h3 className="text-center font-norwester text-lg text-black md:text-2xl">{props.program}</h3>
 					<div className="flex justify-center gap-x-3 rounded-full lg:p-5">
 						{props.link ? (
 							<a href={props.link} target="_blank" className="inline-flex items-center space-x-2 rounded bg-stone-300 p-2 font-semibold text-black hover:animate-pulse">
