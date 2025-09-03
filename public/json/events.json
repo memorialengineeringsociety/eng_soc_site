@@ -5,8 +5,9 @@
         "alt_name": "Dday",
         "age": "19+",
         "date": "12 September, 2025",
-        "location": "",
-        "cost": "$40"
+        "location": "Pickup @135 Mayor Ave @8:00AM",
+        "cost": "$40",
+        "description": "To pre-register, EMT $40 to finance.munengsocb@gmail.com. Use the password “engineering” (all lowercase) and be sure to include your name in the description box. If you would like to purchase merch, add the required amount to your EMT and mention in the description box which item you are purchasing. More information is available on our Instagram @munengsoc.",
+        "image": "/res/events/dday_f2025.png"
     }
-
 }
