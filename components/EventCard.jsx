@@ -11,7 +11,7 @@ export function EventCard(props) {
 					<h3 className="text-md text-center font-norwester text-stone-700 lg:text-xl">
 						{props.location} &#x2022; {props.cost}
 					</h3>
-					<p className="text-center font-bold text-black md:text-sm lg:pl-20 lg:pr-20 lg:text-lg">{props.description}</p>
+					<p className="text-center text-stone-800 md:text-sm lg:pl-20 lg:pr-20 lg:text-lg">{props.description}</p>
 				</div>
 			</div>
 		)
