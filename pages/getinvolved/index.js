@@ -16,11 +16,11 @@ export default function GetInvolved() {
 			<Parallax image="../res/get_involved/eastern_edge_presentation_2023.jpg">
 				<div className="flex h-fit flex-col items-center pt-5 text-center text-white lg:pt-20">
 					<h3 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">GET INVOLVED</h3>
-					<div className="text-center text-md space-y-5 p-8 font-maven md:text-xl lg:p-20 xl:text-2xl 2xl:text-3xl">
+					<div className="text-center text-md space-y-5 p-8 font-maven md:text-xl lg:p-20 xl:text-xl 2xl:text-xl lg:w-4/5 w-6/7">
 						<p className="text-shadow-lg text-justify">&emsp;As technology continues to advance at an accelerated pace, student-led initiatives play a pivotal role in fostering innovation and inspiring the next generation of engineers and scientists.</p>
 						<p className="text-shadow-lg text-justify">&emsp;These multidisciplinary teams undertake a wide array of projects, ranging from the construction of sustainable sailboats, development of autonomous vehicles, to the design of lightweight racers and chemical-powered cars. Such endeavors not only enhance technical skills, but also encourage teamwork, problem-solving, and communication abilities, preparing students for future careers in various industries.</p>
 					</div>
-					<h2 className="hidden lg:mb-10 font-maven_medium text-4xl lg:block">Join a team, organization, or volunteer!</h2>
+					<h2 className="hidden lg:mb-10 font-maven_medium text-3xl lg:block">Join a team, organization, or volunteer!</h2>
 				</div>
 			</Parallax>
 			<div id="paralaxdivider" className="h-5 border-t-4 border-black bg-gradient-to-b  from-mun-burgundy to-stone-400" />

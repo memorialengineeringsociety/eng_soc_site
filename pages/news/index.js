@@ -9,7 +9,9 @@ export default function News() {
 			<Head>
 				<title> MUN Eng Society | News</title>
 			</Head>
-			<NothingHereYet></NothingHereYet>
+			<div className="mt-20 justify-items-center w-full h-full">
+				<NothingHereYet></NothingHereYet>
+			</div>
 		</main>
 	);
 }

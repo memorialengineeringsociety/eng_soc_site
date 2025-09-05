@@ -13,9 +13,9 @@ export default function GetInvolved() {
 			<Parallax image="../res/academics/essc-f2022.png">
 				<div className="flex flex-col items-center pt-5 text-center text-white lg:pt-20">
 					<h3 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">ACADEMICS</h3>
-					<div className="text-center text-md space-y-5 p-8 font-maven md:text-xl lg:p-20 xl:text-2xl 2xl:text-3xl">
+					<div className="text-center text-md space-y-5 p-8 font-maven md:text-xl lg:p-20 xl:text-xl 2xl:text-xl lg:w-4/5 w-6/7">
 						<p className="text-shadow-lg text-justify">&emsp;The Memorial University Engineering Society is more than just a student leadership group - it's a community dedicated to supporting its members throughout their engineering journey.</p>
-						<p className="text-shadow-lg text-justify">&emsp;From the moment you join, the society provides a wealth of resources designed to enhance your learning experience. This includes access to academic support services, mentorship programs, and opportunities to engage in innovative projects. Moreover, the society fosters a collaborative environment where students can share ideas, learn from each other, and build lasting relationships. Through various events and activities, students can connect with their peers, network with industry professionals, and gain valuable insights into the engineering field. Ultimately, the society is committed to helping you succeed, providing the tools, guidance, and support you need to reach your academic and career goals.</p>
+						<p className="text-shadow-lg text-justify hidden lg:block">&emsp;From the moment you join, the society provides a wealth of resources designed to enhance your learning experience. This includes access to academic support services, mentorship programs, and opportunities to engage in innovative projects. Moreover, the society fosters a collaborative environment where students can share ideas, learn from each other, and build lasting relationships. Through various events and activities, students can connect with their peers, network with industry professionals, and gain valuable insights into the engineering field. Ultimately, the society is committed to helping you succeed, providing the tools, guidance, and support you need to reach your academic and career goals.</p>
 					</div>
 				</div>
 			</Parallax>
@@ -66,8 +66,8 @@ function Navigation() {
 				</button>
 			</div>
 
-			<div className="lg:mt-16 justify-items-center">
-				<div className={`transition-opacity ${currentButton === 1 ? "block opacity-100" : "hidden opacity-0"} delay-200 w-5/6 lg:w-2/3`}>
+			<div className="lg:mt-16 flex justify-center w-full">
+				<div className={`transition-opacity ${currentButton === 1 ? "block" : "hidden"} delay-200 w-5/6 lg:w-2/3`}>
 					<div className="p-6 min-h-fit  justify-center">
 						<h3 className="mb-4 text-2xl font-bold text-black">Get the most out of your co-op experience</h3>
 						<p className="mb-4 text-black">Students from Memorial University's Bachelor of Engineering co-operative program are fortunate to have the opportunity to combine academic and practical education through a series of 4 month work terms. While the Co-op Handbook contains most information, this page is to be used as an additional resource to help you navigate the co-op office's expectations.</p>
@@ -85,28 +85,19 @@ function Navigation() {
 							<img src="../res/academics/asmce.png" alt="Map with the FEAS Co-op representatives" width="600"></img>
 						</div>
 
-						<h2 className="mb-2 text-lg font-semibold text-black">How to claim work-terms towards your P.Eng</h2>
-						<p className="mb-4 text-black">On behalf of PEGNL, Mark Fewer held an information session on March 15, 2017, to talk about claiming undergraduate work experience towards your Professional License.</p>
-
+						<h2 className="mb-2 text-lg font-semibold text-black">How to claim Work Terms towards your P.Eng</h2>
+						<p className="mb-4 text-black">After half of your degree has been completed (term 4 for us at MUN), up to 12 months of Work Term experience can be claimed for your licensure. 48 months of engineering experience is required for a graduate of the engineering program to receive their professional engineering license with PEGNL. In the past, this required the use of logbooks and an experience evaluation, which have both now been replace by a Competency Based Assesment (CBA). PEGNL conducts presentations in latter terms to explain this process to engineering students, but for the Work Term experience to count, you will have to collect some information necessary for them to assess your experience. They have mentioned these details:</p>
 						<ul className="mb-4 list-inside list-disc text-black">
-							<li>Keep a PEGNL Logbook during your work-terms with bi-weekly entries (or at least monthly) between 8-10 lines each, and have a P.Eng (or equivalent) sign off on each entry.</li>
-							<li>You can claim up to 3 work-terms (a maximum of 12 months) of undergraduate work experience, starting after you complete academic Term 4 in the program. This means you can back-log the fall 2016 work-term, and have a P.Eng (or equivalent) that you worked with sign off on the entries, but it is unnecessary since we still have 3 work terms left.</li>
-							<li>If the person signing off on your entries is not a P.Eng, PEGNL will determine equivalency by having them submit their resume with your logbook, so make sure you supervisor is aware of this expectation.</li>
-							<li>Blank logbook pages, and example entries can be found on the PEGNL website. You can print the pages yourself or buy an actual logbook from the PEGNL office downtown. If you do not use their logbook, it is recommended that you at least follow their format.</li>
-							<li>Not looking to stay in NL for your entire career? Don't worry, your professional license is easily transferable between Canadian provinces.</li>
-							<li>The quality and type of experience you earn is also assessed, so be aware of PEGNL's definition of acceptable work experience.</li>
+							<li>Employer Name</li>
+							<li>Supervisor Name</li>
+							<li>Title</li>
+							<li>Contact Information</li>
+							<li>Descriptions of the main projects and responsibilities you had</li>
 						</ul>
-
-						<p className="mb-2 text-black">
-							For more details, please reference Mark Fewer's presentation, the PEGNL website, or contact Jordan Careen, Director of Co-op at{" "}
-							<a href="mailto:jecareen@mun.ca" className="text-black">
-								jecareen@mun.ca
-							</a>
-							.
-						</p>
+						<p className="text-black">As students, we do not yet have access to the CBA system, but once you apply for your license, you will be able to add the experience you have gathered in your Work Terms. For more information, please look at the <a className="text-blue-500 underline hover:no-underline hover:text-blue-800" href="https://pegnl.ca/applicant/competency-based-assessment/" target="_blank">CBA site</a> and the <a className="text-blue-500 underline hover:no-underline hover:text-blue-800" href="https://pegnl.ca/faq/registration-faq/" target="_blank">FAQ</a> by PEGNL.</p>
 					</div>
 				</div>
-				<div className={`transition-opacity ${currentButton === 2 ? "block opacity-100" : "hidden opacity-0"} delay-200 w-5/6 lg:w-2/3 `}>
+				<div className={`transition-opacity ${currentButton === 2 ? "block" : "hidden"} delay-200 w-5/6 lg:w-2/3 `}>
 					<div className="p-6">
 						<h3 className="mb-4 text-2xl font-bold text-black">Cahill Engineering One Student Success Centre</h3>
 						<p className="mb-4 text-black">There's a reason everyone gets the 'look to your left, look to your right' speech when you join engineering... do not be those guys! The Engineering One Help Centre is a great chance to learn all that course material that you're struggling with. (Pro tip: start trying to actually learn that material, oh, you know, not the night before your big midterm or final... just trust me on this).</p>
@@ -145,7 +136,7 @@ function Navigation() {
 						<p className="mb-4 text-black">Student Affairs and Services administers the Scholarships and Awards Program for the University, distributes out-of-Province Financial Aid, and emergency financial aid.</p>
 					</div>
 				</div>
-				<div className={`transition-opacity${currentButton === 3 ? "block opacity-100" : "hidden opacity-0"} min-h-fit pb-10 delay-200 `}>
+				<div className={`transition-opacity ${currentButton === 3 ? "block" : "hidden"} min-h-fit lg:pt-0 pt-20 mb-10 pb-10 delay-200 `}>
 					<NothingHereYet />
 				</div>
 			</div>

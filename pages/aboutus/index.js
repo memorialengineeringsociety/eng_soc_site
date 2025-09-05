@@ -18,9 +18,9 @@ export default function AboutUs() {
 			<Parallax image="/res/members/group/aces_2022.png">
 				<div className="flex h-full flex-col items-center pt-5 text-center text-white lg:pt-20">
 					<h3 className="font-norwester text-4xl font-bold lg:text-6xl xl:text-7xl 2xl:text-8xl">ABOUT US</h3>
-					<div className="text-center text-md space-y-5 p-8 font-maven sm:text-l md:text-xl lg:p-20 xl:text-2xl 2xl:text-3xl">
+					<div className="text-center text-md space-y-5 p-8 font-maven sm:text-l md:text-xl lg:p-20 xl:text-xl 2xl:text-xl lg:w-4/5 w-6/7">
 						<p className="text-shadow-lg text-justify">&emsp;MUN Engineering Society is a dynamic and motivated group that serves as a strong voice and support system for engineering students. Our society prioritizes effective communication and aims to foster transparent dialogue between students and faculty, ensuring a fulfilling and inclusive learning experience for all. With a strong dedication to making a positive impact, we aim to create an empowered and thriving engineering community at MUN.</p>
-						<p className="text-shadow-lg text-justify">&emsp;Internally, we cultivate a sense of unity and camaraderie among our members, providing a platform for students to collaborate, share ideas, and address their concerns. Externally, we actively engage with faculty, industry professionals, and student organizations, to advocate for the needs and aspirations of engineering students. We strive to enhance opportunities for internships, co-op placements, and networking events, facilitating academic and professional growth.</p>
+						<p className="text-shadow-lg text-justify hidden lg:block">&emsp;Internally, we cultivate a sense of unity and camaraderie among our members, providing a platform for students to collaborate, share ideas, and address their concerns. Externally, we actively engage with faculty, industry professionals, and student organizations, to advocate for the needs and aspirations of engineering students. We strive to enhance opportunities for internships, co-op placements, and networking events, facilitating academic and professional growth.</p>
 					</div>
 				</div>
 			</Parallax>
