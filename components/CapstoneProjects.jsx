@@ -87,7 +87,7 @@ function CapstoneProjectCard({ project }) {
 			<div className="bg-white rounded-xl shadow-md border border-stone-200 flex flex-col w-full max-w-3xl">
 				{displayPhoto && (
 					<div
-						className="relative w-full h-48 overflow-hidden rounded-t-xl cursor-zoom-in group"
+						className="relative w-full h-48 lg:h-80 overflow-hidden rounded-t-xl cursor-zoom-in group"
 						onClick={() => setLightboxOpen(true)}
 					>
 						<img
@@ -120,6 +120,8 @@ function CapstoneProjectCard({ project }) {
 						<span className="text-xs text-stone-400 font-maven">Group {project.group_number}</span>
 						<h3 className="font-norwester text-lg text-black leading-tight">{project.name}</h3>
 					</div>
+
+					<p className="text-xs text-stone-500 font-maven">{project.members.join(", ")}</p>
 
 					<p className={`text-sm text-black font-maven ${!expanded && isLong ? "line-clamp-4" : ""}`}>
 						{project.description}

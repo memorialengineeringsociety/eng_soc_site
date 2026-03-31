@@ -20,7 +20,7 @@
                   "linkedin": "https://www.linkedin.com/in/harnoorsingh05/",
                   "github": "https://github.com/harnoor-singh"
                 }
-            ],
+              ],
               "links": []
             },
             {
@@ -36,18 +36,11 @@
             {
               "group_number": "3",
               "name": "EyeOS",
-              "members": ["Akash Samanta", "Matthew Fewer", "Moaaz Elshabasy"],
+              "members": ["Moaaz Elshabasy", "Matthew Fewer", "Akash Samanta"],
               "description": "EyeOS is an accessibility-focused software system that enables hands-free computer control using low-cost webcam-based eye tracking. It allows users to move the cursor, click, drag, scroll, type, and trigger voice commands through eye movements, blinks, mouth gestures, and optional pedal input, reducing reliance on traditional mouse and keyboard interaction. The project is designed to provide an affordable and practical assistive technology solution for users with limited mobility across everyday computer tasks.",
               "group_photo": "../res/academics/capstone/2026/ece/group/3.jpg",
               "project_photo": "../res/academics/capstone/2026/ece/project/3.png",
               "member_links": [
-                {
-                  "name": "Akash Samanta",
-                  "website": "https://akashcraft.ca",
-                  "linkedin": "https://linkedin.com/in/akashcraft",
-                  "github": "https://github.com/akashcraft",
-                  "youtube": "https://youtube.com/@akashcraft2"
-                },
                 {
                   "name": "Moaaz Elshabasy",
                   "website": "https://moaazelshabasy.github.io",
@@ -58,6 +51,13 @@
                   "name": "Matthew Fewer",
                   "linkedin": "https://linkedin.com/in/matthew-fewer-74a780223",
                   "github": "https://github.com/mafewer"
+                },
+                {
+                  "name": "Akash Samanta",
+                  "website": "https://akashcraft.ca",
+                  "linkedin": "https://linkedin.com/in/akashcraft",
+                  "github": "https://github.com/akashcraft",
+                  "youtube": "https://youtube.com/@akashcraft2"
                 }
               ],
               "links": []
@@ -65,15 +65,15 @@
             {
               "group_number": "4",
               "name": "Making Highway Driving Safer - Roadside Hazard Detection",
-              "members": ["Ben Thomas", "Jacob Gillis", "Kate Williams", "Michael Mallay"],
+              "members": ["Jacob Gillis", "Michael Mallay", "Ben Thomas", "Kate Williams"],
               "description": "An on-vehicle moose detection and alert system to improve driver safety in NL. The system uses thermal imagery to capture heat signatures of the environment. A machine learning object detection model processes these thermal images in real-time to identify potential threats and trigger an audio warning to the driver. The system emphasizes driver safety, operation with limited visibility, and efficient real-time moose detection to address the moose-vehicle collision issue in NL.",
               "group_photo": "../res/academics/capstone/2026/ece/group/4.jpg",
               "project_photo": "",
               "member_links": [
-                {"name": "Ben Thomas", "linkedin": "https://www.linkedin.com/in/brjthomas"},
                 {"name": "Jacob Gillis", "linkedin": "https://www.linkedin.com/in/jpj-gillis"},
-                {"name": "Kate Williams", "linkedin": "https://www.linkedin.com/in/km-williams"},
-                {"name": "Michael Mallay", "linkedin": "https://www.linkedin.com/in/michael-mallay"}
+                {"name": "Michael Mallay", "linkedin": "https://www.linkedin.com/in/michael-mallay"},
+                {"name": "Ben Thomas", "linkedin": "https://www.linkedin.com/in/brjthomas"},
+                {"name": "Kate Williams", "linkedin": "https://www.linkedin.com/in/km-williams"}
               ],
               "links": []
             },
@@ -94,7 +94,7 @@
             {
               "group_number": "6",
               "name": "MiniBeat",
-              "members": ["Eli Brown", "Abigail Hurley", "Jacob Norman", "Lance Mhaurice Labrador", "Kyle Lynch"],
+              "members": ["Eli Brown", "Abigail Hurley", "Lance Mhaurice Labrador", "Kyle Lynch", "Jacob Norman"],
               "description": "In 2026, Newfoundland's healthcare system used adult ECG Holter monitors for infants and toddlers. Our team designed MiniBeat, a custom flex PCB that collects the ECG signal free from wires. To improve the parents' experience with these take-home monitors, we also implemented a phone app to view the live ECG signal over Bluetooth, including activity and event logging suggested by physicians. Finally, we developed a web application for physicians to review the ECG signal overlaid with events, incorporating AI detection for AFib and allowing for easy report generation.",
               "group_photo": "../res/academics/capstone/2026/ece/group/6.png",
               "project_photo": "../res/academics/capstone/2026/ece/project/6.png",
@@ -104,22 +104,22 @@
             {
               "group_number": "7",
               "name": "Smart Load Management System (SLMS)",
-              "members": ["Mohibun Chowdhury", "Sajedul Hassan", "Aariyan Bin Shahariar", "Tanzim Masood"],
+              "members": ["Mohibun Chowdhury", "Sajedul Hassan", "Tanzim Masood", "Aariyan Bin Shahariar"],
               "description": "The Smart Load Management System (SLMS) is a residential energy management platform designed to give homeowners real-time visibility and control over their electricity consumption. SLMS addresses the challenge of rising electricity prices and Time-of-Use pricing by combining real-time electrical monitoring with intelligent load control. The system measures voltage, current, and power from household loads and transmits this data to a Raspberry Pi for processing. Appliances are categorized into three priority levels—critical, essential, and non-essential—allowing the system to automatically manage loads during high demand or peak pricing periods while ensuring critical devices remain operational.",
               "group_photo": "../res/academics/capstone/2026/ece/group/7.jpg",
               "project_photo": "../res/academics/capstone/2026/ece/project/7.jpg",
               "member_links": [
                 {"name": "Mohibun Chowdhury", "linkedin": "https://www.linkedin.com/in/mohibun-nabi-chowdhury/"},
                 {"name": "Sajedul Hassan", "linkedin": "https://www.linkedin.com/in/sajedulhassan017/"},
-                {"name": "Aariyan Bin Shahariar", "linkedin": "https://www.linkedin.com/in/aariyan-shahariar/"},
-                {"name": "Tanzim Masood", "linkedin": "https://www.linkedin.com/in/tanzim-masood-695a80263/"}
+                {"name": "Tanzim Masood", "linkedin": "https://www.linkedin.com/in/tanzim-masood-695a80263/"},
+                {"name": "Aariyan Bin Shahariar", "linkedin": "https://www.linkedin.com/in/aariyan-shahariar/"}
               ],
               "links": []
             },
             {
               "group_number": "8",
               "name": "Rayvolution",
-              "members": ["Mubarak Titilola", "Deven Chitanga", "Sasanka Gamage", "Hannah Jenkins"],
+              "members": ["Deven Chitanga", "Sasanka Gamage", "Hannah Jenkins", "Mubarak Titilola"],
               "description": "A household boost converter for solar panels in Newfoundland. It uses an MPPT (Maximum Power Point Tracking) algorithm to maximise input power and by extension output power for more overall efficiency.",
               "group_photo": "../res/academics/capstone/2026/ece/group/8.jpg",
               "project_photo": "../res/academics/capstone/2026/ece/project/8.jpg",
@@ -129,7 +129,7 @@
             {
               "group_number": "9",
               "name": "Earworm",
-              "members": ["Ally Reid", "Naomi Pierce", "Noah Colbourne"],
+              "members": ["Noah Colbourne", "Naomi Pierce", "Ally Reid"],
               "description": "Earworm is a mobile platform that allows users to rate, review, and discover music through community discussion and shared taste. The app combines user-generated reviews with structured music metadata to create a social space for exploring albums and connecting with other listeners.",
               "group_photo": "../res/academics/capstone/2026/ece/group/9.png",
               "project_photo": "../res/academics/capstone/2026/ece/project/9.png",
@@ -141,39 +141,41 @@
             {
               "group_number": "12",
               "name": "UWBot: Warehouse Navigator",
-              "members": ["Alex Kingsley", "Sam Beaulieu", "Liam Smith"],
+              "members": ["Sam Beaulieu", "Alex Kingsley", "Liam Smith"],
               "description": "By leveraging a sensor fusion combination of LiDAR, wheel odometry, and UWB (Ultra-Wideband) radio transceivers, our project aimed to combine these non-vision based localization tools to autonomously drive a robot through a dynamic warehouse-type environment. We specifically addressed the challenge of non-line of sight, where reflections and environment obstructions interrupt UWB signal pathways. By integrating a board that feeds live UWB signal data and signal quality diagnostics to an on-board computer, our system is a proof-of-concept demonstrating that this sensor fusion combination is a strong candidate for future research.",
               "group_photo": "../res/academics/capstone/2026/ece/group/12.jpg",
               "project_photo": "",
-              "member_links": [],
+              "member_links": [
+                {"name": "Liam Smith", "linkedin": "https://www.linkedin.com/in/liam-smith-885b1a250/"}
+              ],
               "links": []
             },
             {
               "group_number": "13",
               "name": "Antihypotensionator",
-              "members": ["Ayman Islam", "Sophia White", "Zachary Coffey", "Daniel Dolomount"],
+              "members": ["Zachary Coffey", "Daniel Dolomount", "Ayman Islam", "Sophia White"],
               "description": "Orthostatic hypotension is a sudden drop in blood pressure caused by sudden movements such as standing up, causing dizziness, lightheadedness, or fainting, usually affecting the elderly population. The Antihypotensionator aims to fix this. A custom PPG-based heart rate monitor constantly feeds heart rate data to an algorithm used to predict blood pressure. Using this prediction, a compression sleeve is autonomously inflated and deflated to regulate the user's blood pressure.",
               "group_photo": "../res/academics/capstone/2026/ece/group/13.jpg",
               "project_photo": "../res/academics/capstone/2026/ece/project/13.png",
               "member_links": [
-                {"name": "Ayman Islam", "website": "https://aymanislam.com/"},
-                {"name": "Sophia White", "linkedin": "https://www.linkedin.com/in/sophiacw/"},
                 {"name": "Zachary Coffey", "linkedin": "https://www.linkedin.com/in/zachary-coffey-447708225/"},
-                {"name": "Daniel Dolomount", "linkedin": "https://www.linkedin.com/in/daniel-dolomount-328bb1248/"}
+                {"name": "Daniel Dolomount", "linkedin": "https://www.linkedin.com/in/daniel-dolomount-328bb1248/"},
+                {"name": "Ayman Islam", "website": "https://aymanislam.com/", "linkedin": "https://www.linkedin.com/in/ayman-islam/"},
+                {"name": "Sophia White", "linkedin": "https://www.linkedin.com/in/sophiacw/"}
               ],
               "links": []
             },
             {
               "group_number": "15",
               "name": "NeuroTrack",
-              "members": ["Logan Janes", "Jesse Lewis", "Aman Azad", "Irwanpreet Sidhu"],
+              "members": ["Aman Azad", "Logan Janes", "Jesse Lewis", "Irwanpreet Sidhu"],
               "description": "Alzheimer's is a progressive neurodegenerative disease that completely destroys thinking and memory skills. Rising case numbers result in long hospital wait times and hours of travel from rural areas to urban hospitals for expensive screening tests. In response, our team developed NeuroTrack, a portable and low-cost screening tool designed to help clinicians identify early signs of cognitive decline in patients who may be at risk of Alzheimer's disease. By catching warning signs sooner, clinicians can intervene earlier when lifestyle and therapeutic changes are most effective. NeuroTrack also supports ongoing monitoring of Alzheimer's progression, allowing clinicians to track changes in brain activity over repeated sessions without costly hospital visits.",
-              "group_photo": "../res/academics/capstone/2026/ece/group/15.webp",
+              "group_photo": "../res/academics/capstone/2026/ece/group/15.jpg",
               "project_photo": "../res/academics/capstone/2026/ece/project/15.jpg",
               "member_links": [
+                {"name": "Aman Azad", "linkedin": "https://www.linkedin.com/in/aman-azad/"},
                 {"name": "Logan Janes", "linkedin": "https://www.linkedin.com/in/logan-janes/", "github": "https://github.com/LoganJanes"},
                 {"name": "Jesse Lewis", "linkedin": "https://www.linkedin.com/in/jesserl/"},
-                {"name": "Aman Azad", "linkedin": "https://www.linkedin.com/in/aman-azad/"},
                 {"name": "Irwanpreet Sidhu", "linkedin": "https://www.linkedin.com/in/irwanpreet-sidhu-158464223/"}
               ],
               "links": []
@@ -181,7 +183,7 @@
             {
               "group_number": "16",
               "name": "DartBuddy",
-              "members": ["Jordan Brown", "Noel Rowsell", "Shane Hillier", "Shawna Edwards"],
+              "members": ["Jordan Brown", "Shawna Edwards", "Shane Hillier", "Noel Rowsell"],
               "description": "DartBuddy is a computer-vision-based automatic scoring system designed to improve the traditional game of darts. Using three cameras, built-in lighting, and image processing, the system detects dart tip locations and calculates scores in real-time. The results are displayed in an intuitive user interface and the system features support for multiple game modes.",
               "group_photo": "../res/academics/capstone/2026/ece/group/16.jpg",
               "project_photo": "../res/academics/capstone/2026/ece/project/16.png",
@@ -191,15 +193,15 @@
             {
               "group_number": "17",
               "name": "RoomRelay",
-              "members": ["Jadzia Penney", "Russell Corbett", "Matthew Jones", "Aaron Oates"],
+              "members": ["Russell Corbett", "Matthew Jones", "Aaron Oates", "Jadzia Penney"],
               "description": "The RoomRelay is a privacy-focused smart home assistant, designed to work completely offline, protecting user data.",
               "group_photo": "../res/academics/capstone/2026/ece/group/17.png",
               "project_photo": "../res/academics/capstone/2026/ece/project/17.jpeg",
               "member_links": [
-                {"name": "Jadzia Penney", "linkedin": "https://www.linkedin.com/in/jadzia-penney-8601321b6"},
                 {"name": "Russell Corbett", "linkedin": "https://www.linkedin.com/in/russell-corbett"},
                 {"name": "Matthew Jones", "linkedin": "https://www.linkedin.com/in/matthew-jones-3104ba224"},
-                {"name": "Aaron Oates", "linkedin": "https://www.linkedin.com/in/aaron-oatesajo"}
+                {"name": "Aaron Oates", "linkedin": "https://www.linkedin.com/in/aaron-oatesajo"},
+                {"name": "Jadzia Penney", "linkedin": "https://www.linkedin.com/in/jadzia-penney-8601321b6"}
               ],
               "links": []
             }
