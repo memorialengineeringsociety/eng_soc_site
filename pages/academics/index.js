@@ -3,6 +3,8 @@ import Image from "next/image";
 import { NothingHereYet } from "../../components/NothingHereYet";
 import Parallax from "../../components/Parallax";
 import Head from 'next/head'
+import capstoneData from "public/json/capstone.json";
+import { CapstoneProjects } from "../../components/CapstoneProjects";
 
 export default function GetInvolved() {
 	return (
@@ -39,29 +41,37 @@ function Navigation() {
 
 	return (
 		<div className="items-center xl:flex xl:flex-col">
-			<div className="sticky top-[76px] z-40 flex w-full justify-evenly gap-x-3 rounded-b-3xl border-b-2 border-black bg-stone-400 lg:pb-5 lg:pl-20 lg:pr-20 lg:pt-3 xl:top-[92px]">
-				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/3 xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+			<div className="sticky top-[76px] z-40 flex w-full justify-evenly gap-x-3 rounded-b-3xl border-b-2 border-black bg-stone-400 lg:pb-5 lg:pl-10 lg:pr-10 lg:pt-3 xl:top-[92px]">
+				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/4 xl:text-2xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
 					Co-op
 				</button>
-				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/3 xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/4 xl:text-2xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
 					Support
 				</button>
-				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/3 xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/4 xl:text-2xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					Equity, Diversity, and Inclusion
 				</button>
-				<button className={`pt-2 font-norwester font-extrabold transition-transform pt-5 lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/4 xl:text-2xl ${currentButton === 4 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(4)}>
+					Capstone Projects
+				</button>
+				<button className={`pt-2 font-norwester font-extrabold transition-transform pt-5 lg:hidden xl:w-1/4 xl:text-2xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
 					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
 						work
 					</span>
 				</button>
-				<button className={`pt-2 font-norwester font-extrabold transition-transform pt-5 lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+				<button className={`pt-2 font-norwester font-extrabold transition-transform pt-5 lg:hidden xl:w-1/4 xl:text-2xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
 					<span className="material-icons  pointer-events-none" style={{ fontSize: "40px" }}>
 						contact_support
 					</span>
 				</button>
-				<button className={`pt-2 font-norwester font-extrabold transition-transform pt-5 lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+				<button className={`pt-2 font-norwester font-extrabold transition-transform pt-5 lg:hidden xl:w-1/4 xl:text-2xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
 						diversity_2
+					</span>
+				</button>
+				<button className={`pt-2 font-norwester font-extrabold transition-transform pt-5 lg:hidden xl:w-1/4 xl:text-2xl ${currentButton === 4 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(4)}>
+					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
+						school
 					</span>
 				</button>
 			</div>
@@ -73,7 +83,7 @@ function Navigation() {
 						<p className="mb-4 text-black">Students from Memorial University's Bachelor of Engineering co-operative program are fortunate to have the opportunity to combine academic and practical education through a series of 4 month work terms. While the Co-op Handbook contains most information, this page is to be used as an additional resource to help you navigate the co-op office's expectations.</p>
 
 						<p className="mb-4 text-black">Information regarding important dates for Work Terms and their course outlines can be found in the following link:</p>
-						
+
 						<div className="w-full justify-center flex mt-6 mb-6">
 							<button className="justify-center rounded-full w-fit bg-blue-500 px-4 py-2 font-bold text-white transition hover:bg-blue-700" onClick={() => window.open("https://www.mun.ca/coop/programs/engineering/work-term-dates-and-forms/", "_blank")}>
 								Work Term Dates and Forms
@@ -97,7 +107,7 @@ function Navigation() {
 						<p className="text-black">As students, we do not yet have access to the CBA system, but once you apply for your license, you will be able to add the experience you have gathered in your Work Terms. For more information, please look at the <a className="text-blue-500 underline hover:no-underline hover:text-blue-800" href="https://pegnl.ca/applicant/competency-based-assessment/" target="_blank">CBA site</a> and the <a className="text-blue-500 underline hover:no-underline hover:text-blue-800" href="https://pegnl.ca/faq/registration-faq/" target="_blank">FAQ</a> by PEGNL.</p>
 
 						<div className="w-full flex justify-center">
-							<div className="w-4/5 mt-6 mb-6 md:w-1/2 aspect-[4/3]"> 
+							<div className="w-4/5 mt-6 mb-6 md:w-1/2 aspect-[4/3]">
 								<object  className="w-full h-full rounded-lg shadow-md"	 type="application/pdf" data="../res/academics/MUN%20Student%20Society%20Webinar%202025-11-05.pdf?#view=FitH&scrollbar=0&toolbar=0&navpanes=0">
 									<p className="text-black">A problem with the CBA Presentation PDF has occurred</p>
 								</object>
@@ -157,6 +167,10 @@ function Navigation() {
 					</div>
 
 					<p className="mb-4 text-black">If you have any questions, do not hesitate to reach out to us through social media, or to the Director of International Representation of your society.</p>
+				</div>
+
+				<div className={`transition-opacity ${currentButton === 4 ? "block" : "hidden"} delay-200 w-11/12 lg:w-4/5`}>
+					<CapstoneProjects data={capstoneData} />
 				</div>
 			</div>
 		</div>
