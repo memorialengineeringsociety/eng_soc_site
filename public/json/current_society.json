@@ -142,7 +142,7 @@
 		"title": "President",
 		"name": "Olivia Verge",
 		"program": "Mechatronics Engineering",
-		"about": "Hi! My name is Olivia Verge and I’m your Society B President. I am super excited to be stepping into this role and to be able to support the student body. I’m passionate about student success, engagement and making sure that engineering is more than just a degree, but it's a community. I am also the Mechatronics Class Representative for Class of 2029, and am always around campus studying, hanging out or getting involved! Outside of school, I love to be outside, whether it's hiking, running, backpacking, or just sitting by the ocean. I also love playing hockey, traveling, or spending time with my family and dog when I get to visit home in Ottawa. I’m excited to be able to represent Soc B for the next two years, and am always happy to chat! If you see me around, pop by and say hi!",
+		"about": "Hi! My name is Olivia Verge and I'm your Society B President. I am super excited to be stepping into this role and to be able to support the student body. I’m passionate about student success, engagement and making sure that engineering is more than just a degree, but it's a community. I am also the Mechatronics Class Representative for Class of 2029, and am always around campus studying, hanging out or getting involved! Outside of school, I love to be outside, whether it's hiking, running, backpacking, or just sitting by the ocean. I also love playing hockey, traveling, or spending time with my family and dog when I get to visit home in Ottawa. I’m excited to be able to represent Soc B for the next two years, and am always happy to chat! If you see me around, pop by and say hi!",
 		"photo": "/res/members/b2026/olivia_verge.jpg",
 		"link": "",
 		"contact": "obverge@mun.ca",
@@ -164,7 +164,7 @@
 		"title": "VP External",
 		"name": "Samantha Bruneau",
 		"program": "Ocean and Naval Architectural Engineering",
-		"about": "Hi everybody! I’m Samantha, your VP External for MUN Society ‘B’. My job is to send you guys to conferences, organize Charity Ball, and assist in outreach events to help everyone grow their networks! I am the Ocean and Naval architectural Engineering Class of 2029’s representative and can usually be found in an empty classroom in the engineering building or hanging out in my homeroom. Outside of society and my studies, I spend tons of time hiking, I love to read, and I spend lots of time with friends! I am so excited to have gotten the opportunity to be a part of this awesome society and look forward to being able to help you guys get the absolute most out of your time in engineering! If you have any external related questions or have any ideas for conferences and other opportunities, please do not hesitate to reach out, I would love to hear from you. Cheers!",
+		"about": "Hi everybody! I'm Samantha, your VP External for MUN Society ‘B’. My job is to send you guys to conferences, organize Charity Ball, and assist in outreach events to help everyone grow their networks! I am the Ocean and Naval architectural Engineering Class of 2029’s representative and can usually be found in an empty classroom in the engineering building or hanging out in my homeroom. Outside of society and my studies, I spend tons of time hiking, I love to read, and I spend lots of time with friends! I am so excited to have gotten the opportunity to be a part of this awesome society and look forward to being able to help you guys get the absolute most out of your time in engineering! If you have any external related questions or have any ideas for conferences and other opportunities, please do not hesitate to reach out, I would love to hear from you. Cheers!",
 		"photo": "/res/members/b2026/sam_bruneau.png",
 		"link": "",
 		"contact": "sjebruneau@mun.ca",
@@ -186,8 +186,8 @@
 		"title": "VP Academic",
 		"name": "Emmett Cochran",
 		"program": "Electrical Engineering",
-		"about": "Hello everyone! My name is Emmett Cochran, and I’m your VP Academic for MUN Society B. I’m currently an Electrical Engineering student, and I’m super excited to be stepping into this role on this awesome team. As VP Academic, my role is to represent students to faculty on all things academic. This includes advocating for student success, organizing academic initiatives such as ESPN, coordinating student-professor socials and professor awards, and helping ensure student voices are heard when it comes to courses, professors, evaluations, and academic support. Outside of engineering, I enjoy playing guitar, playing chess, and spending time with friends. Lastly, as I mentioned, my role is to advocate for students academically. If you ever have questions or concerns about courses, evaluations, academic resources, or just need some general academic advice, I’m always happy to help, so please don’t hesitate to reach out. Cheers!",
-		"photo": "",
+		"about": "Hello everyone! My name is Emmett Cochran, and I'm your VP Academic for MUN Society B. I'm currently an Electrical Engineering student, and I'm super excited to be stepping into this role on this awesome team. As VP Academic, my role is to represent students to faculty on all things academic. This includes advocating for student success, organizing academic initiatives such as ESPN, coordinating student-professor socials and professor awards, and helping ensure student voices are heard when it comes to courses, professors, evaluations, and academic support. Outside of engineering, I enjoy playing guitar, playing chess, and spending time with friends. Lastly, as I mentioned, my role is to advocate for students academically. If you ever have questions or concerns about courses, evaluations, academic resources, or just need some general academic advice, I'm always happy to help, so please don't hesitate to reach out. Cheers!",
+		"photo": "/res/members/b2026/emmett_cochran.jpeg",
 		"link": "",
 		"contact": "ejcochran@mun.ca",
 		"linkedin": "",
@@ -209,7 +209,7 @@
 		"name": "Allie Spencer",
 		"program": "Electrical Engineering",
 		"about": "Hi my name is Allie Spencer and I am an Electrical Engineering student at Memorial University. My role in Society B as Director of Sports is to coordinate interfaculty teams and all society sports events alongside the VP Internal and Director of Social Events! In my free time I enjoy playing hockey and running. Super excited to work alongside such a great team to provide a memorable few years!",
-		"photo": "",
+		"photo": "/res/members/b2026/allie_spencer.JPG",
 		"link": "",
 		"contact": "aspencer@mun.ca",
 		"linkedin": "",
@@ -242,7 +242,7 @@
 		"name": "Katie Dobbin",
 		"program": "Mechanical Engineering",
 		"about": "",
-		"photo": "/res/members/b2026/katie_dobbin.HEIC",
+		"photo": "/res/members/b2026/katie_dobbin.jpeg",
 		"link": "",
 		"contact": "kedobbin@mun.ca",
 		"linkedin": "",
@@ -270,4 +270,5 @@
 		"linkedin": "",
 		"instagram": ""
 	}
+}
 }
