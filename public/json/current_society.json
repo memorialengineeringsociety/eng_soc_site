@@ -135,129 +135,139 @@
 			"instagram": ""
 		}
 	},
-	"socB": {
-		"title": "24th Society B",
-		"years": "2024 - 2026",
-		"President": {
-			"title": "President",
-			"name": "Isabella Day",
-			"program": "Computer Engineering",
-			"about": "Hi everyone! I’m Bella, and I’m the current president for Society “B”. I am in the Computer Engineering class of 2027, and I am happily serving as one of the co-class-reps. I love being a voice for the students in my class and hope to be a good representative of the Society B student body as well. When I’m not in school I enjoy spending time outside, working on new skills, or playing board games. I am beyond thrilled to be representing this amazing group of students until we hand it off in 2026.",
-			"photo": "/res/members/b2024/isabella_day.JPG",
-			"link": "",
-			"contact": "imday@mun.ca",
-			"linkedin": "https://www.linkedin.com/in/isabella-m-day/",
-			"instagram": ""
-		},
-		"VP External": {
-			"title": "VP External",
-			"name": "Abigail Reddick",
-			"program": "Civil Engineering",
-			"about": "Hi everybody! I’m Abby, your VP External for MUN Society ‘B’. My job is to send you guys to conferences, organize Charity Ball, and assist in outreach events to help everyone grow their networks! I am the Civil Class of 2027’s representative and can usually be found in the Eng Caf or on the 3rd floor of the library, despite our awesome (windowless) homeroom. Outside of society and my studies, I spend tons of time outside (when the weather allows), I love to read, and I spend lots of time with friends! I am so excited to have gotten the opportunity to be a part of this awesome society and look forward to being able to help you guys get the absolute most out of your time in engineering! If you have any external related questions or have any ideas for conferences and other opportunities please do not hesitate to reach out, I would love to hear from you. Cheers!",
-			"photo": "/res/members/b2024/abigail_reddick.JPG",
-			"link": "",
-			"contact": "afreddick@mun.ca",
-			"linkedin": "https://www.linkedin.com/in/abigail-r-911913291/",
-			"instagram": ""
-		},
-		"VP Internal": {
-			"title": "VP Internal",
-			"name": "Jessie Ball",
-			"program": "Computer Engineering",
-			"about": "Hey Everyone! I’m Jessie Ball and I am the VP of Internal Operations for MUN Engineering Society ‘B’. I am responsible for planning student socials like D-Day and any other events that take place during the academic semester! I am in the Computer Engineering Class of 2027 and work as a co-class-representative. Aside from society, I love to go for runs, read, and spend time with friends and family! I am so thrilled to be a part of society and I can’t wait to see what fun and exciting opportunities we will have over the next 2 years! ",
-			"photo": "/res/members/b2024/jessie_ball.jpg",
-			"contact": "jessieb@mun.ca",
-			"link": "",
-			"linkedin": "https://www.linkedin.com/in/jessieball/",
-			"instagram": ""
-		},
-		"VP Finance": {
-			"title": "VP Finance",
-			"name": "Eric Head",
-			"program": "Mechanical Engineering",
-			"about": "Hey everyone! Im Eric and I am the VP of Finance for the MUN Engineering Society ‘B’. I’m in charge of looking after all the finances for our events such as D-Day, Charity Ball, and more! You can usually find me on the fifth floor silent room in the library studying. Outside of school, I love going to the gym, playing basketball and fly fishing. I also love watching basketball and am a huge Detroit Pistons fan. I am tremendously honoured and excited to be the VP of Finance for MUN’s Engineering Society ‘B’ and if you have any questions, concerns or ideas, I am all ears so please feel free to contact me!",
-			"photo": "/res/members/b2024/eric_head.JPG",
-			"link": "",
-			"contact": "echead@mun.ca",
-			"linkedin": "https://www.linkedin.com/in/eric-head-189615263/",
-			"instagram": ""
-		},
-		"VP Academic": {
-			"title": "VP Academic",
-			"name": "Cameron Jeans",
-			"program": "Mechanical Engineering",
-			"about": "Hello everyone, my name is Cameron Jeans, and I’m the VP of academics for MUN Engineering Society ‘B’. I’m responsible for attending faculty meetings, CUGs meetings, and appeal meetings, serving as the student representative for MUN Society ‘B’. I ensure that the academic concerns and interests of students are properly addressed and acted upon. Outside my studies, I enjoy playing basketball and tennis, and love playing ping-pong in the mechanical homeroom. I also enjoy watching TV, with some of my favourite shows being Game of Thrones and Succession. I’m extremely excited for the next 2 years, and If you have any academic-related questions or concerns, please feel free to contact me. ",
-			"photo": "/res/members/b2024/cameron_jeans.JPG",
-			"link": "",
-			"contact": "cejeans@mun.ca",
-			"linkedin": "https://www.linkedin.com/in/cameronjeans/",
-			"instagram": ""
-		},
-		"Director of Social Events": {
-			"title": "Director of Social Events",
-			"name": "Gavin Richards",
-			"program": "Mechanical Engineering",
-			"about": "Good day everyone, my name is Gavin Richards, and I’m the Director of Social Events for MUN Eng Soc B. In this role, I am responsible for planning and organizing a variety of events designed to enhance social interactions and boost morale when students aren’t studying. From D-day and bus crawls to collaborating with the sports director in athletic events, there’s always something exciting happening for everyone. In school, you will find me in the Mech Room. Outside of school, I like playing hockey, going to the gym, and going out with friends. I am truly excited about this position and the upcoming events. If you have any ideas or concerns, please feel free to give me a shout. ",
-			"photo": "/res/members/b2024/gavin_richards.jpg",
-			"link": "",
-			"contact": "gjrichards@mun.ca",
-			"linkedin": "https://www.linkedin.com/in/gavin-richards-mun/",
-			"instagram": ""
-		},
-		"Director of Sports": {
-			"title": "Director of Sports",
-			"name": "Marc McShane",
-			"program": "Mechanical Engineering",
-			"about": "Hey everyone, my name is Marc McShane, and I am the Director of Sports for MUN Engineering Society B! I am responsible for planning, organizing, and executing all athletic and sporting events affiliated with MUN Engineering Society B. This includes organizing fun internal tournaments such as soccer, basketball, softball, etc, as well as working with other faculties to do inter-faculty sporting events such as the classic Engineering Vs. Business hockey game. I am a mechanical student, and during the day you are likely to find me on a massive ping-pong win streak in the mechanical homeroom. During my free time, I love doing everything sports and athletics such as basketball, soccer, tennis, running, and biking. I hope to contribute to making this experience as memorable as possible for everyone over the next two years!",
-			"photo": "/res/members/b2024/marc_mcshane.JPG",
-			"link": "",
-			"contact": "mdmcshane@mun.ca",
-			"linkedin": "https://www.linkedin.com/in/marc-mcshane-26425a262/",
-			"instagram": ""
-		},
-		"Director of Co-op": {
-			"title": "Director of Co-op",
-			"name": "Liam French",
-			"program": "Computer Engineering",
-			"about": "Hi! My name is Liam French, and I am super excited to be your Director of Co-Op and a part of Society B! I am responsible for all communications with the Co-Op Office and improving the cooperative education experience for students. In my spare time, I enjoy playing spikeball, running, playing games, swimming, and as a computer engineer, learning about computers. Typically, I’m found in the ECE lab, so if you have any questions or suggestions, you can find me there! I’m looking forward to the next few years serving you all!",
-			"photo": "/res/members/b2024/liam_french.JPG",
-			"link": "",
-			"contact": "lfrench@mun.ca",
-			"linkedin": "https://www.linkedin.com/in/liam-french-540342290/",
-			"instagram": ""
-		},
-		"Director of Outreach": {
-			"title": "Director of Outreach",
-			"name": "Will Robbins",
-			"program": "Electrical Engineering",
-			"about": "Hi everyone, I’m Will Robbins and I’m the Director of Outreach for Soc B. In this role, I’ll help develop our eng one program and make sure the transition from high school to university is as smooth as possible. In school, you can probably find me at the ECE lab or the mech room playing ping pong. Outside of class, I love playing different sports like volleyball, basketball, and golf. ",
-			"photo": "/res/members/b2024/will_robbins.jpg",
-			"link": "",
-			"contact": "wrobbins@mun.ca",
-			"linkedin": "https://www.linkedin.com/in/will-robbins-19b3021b3/",
-			"instagram": ""
-		},
-		"Director of Communications": {
-			"title": "Director of Communications",
-			"name": "Ian Andersen",
-			"program": "Mechanical Engineering",
-			"about": "Hey Everyone! I’m Ian Andersen and I am the Director of Communications for Soc B. I manage all of the society's social media accounts and ensure everyone is informed of any events happening. I’m a mechanical student and during the day you’ll most likely find me playing pingpong in the mech room. In my free time, I love playing basketball, running, and photography. I’m very excited for these next two years and if you have any questions, reach out to me through the society socials!",
-			"photo": "/res/members/b2024/ian_andersen.jpg",
-			"link": "",
-			"contact": "irandersen@mun.ca",
-			"linkedin": "https://www.linkedin.com/in/ian-andersen-543556261/",
-			"instagram": ""
-		},
-		"Director of International Representation": {
-			"title": "Director of International Representation",
-			"name": "Claire Qi",
-			"program": "Computer Engineering",
-			"about": "Hi everyone! I’m Claire Qi, the Director of International Representative for the MUN Engineering Society B. My primary responsibility is to ensure that the voices of international students are heard and acted upon within our society and faculty. I support our international students in their academic and personal lives and promote cultural diversity within the engineering community. I’m a computer engineering student in the Class of 2027, and I love playing badminton, reading, and watching TV shows in my spare time. I’m excited to help you all over the next 2 years.",
-			"photo": "/res/members/b2024/claire_qi.JPG",
-			"link": "",
-			"contact": "wenxuanq@mun.ca",
-			"linkedin": "https://www.linkedin.com/in/wenxuan-qi/",
-			"instagram": ""
-		}
+	""socB": {
+	"title": "25th Society B",
+	"years": "2025 - 2027",
+	"President": {
+		"title": "President",
+		"name": "Olivia Verge",
+		"program": "Mechatronics Engineering",
+		"about": "Hi! My name is Olivia Verge and I’m your Society B President. I am super excited to be stepping into this role and to be able to support the student body. I’m passionate about student success, engagement and making sure that engineering is more than just a degree, but it's a community. I am also the Mechatronics Class Representative for Class of 2029, and am always around campus studying, hanging out or getting involved! Outside of school, I love to be outside, whether it's hiking, running, backpacking, or just sitting by the ocean. I also love playing hockey, traveling, or spending time with my family and dog when I get to visit home in Ottawa. I’m excited to be able to represent Soc B for the next two years, and am always happy to chat! If you see me around, pop by and say hi!",
+		"photo": "/res/members/b2026/olivia_verge.jpg",
+		"link": "",
+		"contact": "obverge@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"VP Internal": {
+		"title": "VP Internal",
+		"name": "Flora Chisholm",
+		"program": "Mechanical Engineering",
+		"about": "",
+		"photo": "/res/members/b2026/flora_chisholm.jpg",
+		"link": "",
+		"contact": "fchisholm@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"VP External": {
+		"title": "VP External",
+		"name": "Samantha Bruneau",
+		"program": "Ocean and Naval Architectural Engineering",
+		"about": "Hi everybody! I’m Samantha, your VP External for MUN Society ‘B’. My job is to send you guys to conferences, organize Charity Ball, and assist in outreach events to help everyone grow their networks! I am the Ocean and Naval architectural Engineering Class of 2029’s representative and can usually be found in an empty classroom in the engineering building or hanging out in my homeroom. Outside of society and my studies, I spend tons of time hiking, I love to read, and I spend lots of time with friends! I am so excited to have gotten the opportunity to be a part of this awesome society and look forward to being able to help you guys get the absolute most out of your time in engineering! If you have any external related questions or have any ideas for conferences and other opportunities, please do not hesitate to reach out, I would love to hear from you. Cheers!",
+		"photo": "/res/members/b2026/sam_bruneau.png",
+		"link": "",
+		"contact": "sjebruneau@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"VP Finance": {
+		"title": "VP Finance",
+		"name": "Nathan Hopkins",
+		"program": "Ocean and Naval Architerctural Engineering",
+		"about": "",
+		"photo": "/res/members/b2026/nathan_hopkins.jpeg",
+		"link": "",
+		"contact": "nbhopkins@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"VP Academic": {
+		"title": "VP Academic",
+		"name": "Emmett Cochran",
+		"program": "Electrical Engineering",
+		"about": "Hello everyone! My name is Emmett Cochran, and I’m your VP Academic for MUN Society B. I’m currently an Electrical Engineering student, and I’m super excited to be stepping into this role on this awesome team. As VP Academic, my role is to represent students to faculty on all things academic. This includes advocating for student success, organizing academic initiatives such as ESPN, coordinating student-professor socials and professor awards, and helping ensure student voices are heard when it comes to courses, professors, evaluations, and academic support. Outside of engineering, I enjoy playing guitar, playing chess, and spending time with friends. Lastly, as I mentioned, my role is to advocate for students academically. If you ever have questions or concerns about courses, evaluations, academic resources, or just need some general academic advice, I’m always happy to help, so please don’t hesitate to reach out. Cheers!",
+		"photo": "",
+		"link": "",
+		"contact": "ejcochran@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"Director of Social Events": {
+		"title": "Director of Social Events",
+		"name": "Grace Norris",
+		"program": "Civil Engineering",
+		"about": "Hey everyone! My name is Grace Norris, and I am excited to be your Director of Social Events and a member of Society B! In this role, I am excited to organize and plan engaging events that bring our society together. My goal is to create a welcoming and inclusive environment where everyone feels encouraged to participate, connect with others, and make lasting memories. I am a Civil Engineering student in the Class of 2029 and currently serve as a Civil Engineering co-class representative. Outside of Society, I enjoy running, being outdoors, hanging out with friends and family and travelling. I am very excited for the next two years, and if you have any questions, please don’t hesitate to reach out!",
+		"photo": "/res/members/b2026/grace_norris.jpeg",
+		"link": "",
+		"contact": "grnorris@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"Director of Sports": {
+		"title": "Director of Sports",
+		"name": "Allie Spencer",
+		"program": "Electrical Engineering",
+		"about": "Hi my name is Allie Spencer and I am an Electrical Engineering student at Memorial University. My role in Society B as Director of Sports is to coordinate interfaculty teams and all society sports events alongside the VP Internal and Director of Social Events! In my free time I enjoy playing hockey and running. Super excited to work alongside such a great team to provide a memorable few years!",
+		"photo": "",
+		"link": "",
+		"contact": "aspencer@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"Director of Co-op": {
+		"title": "Director of Co-op",
+		"name": "Ava Keating",
+		"program": "Civil Engineering",
+		"about": "Hey everyone! My name is Ava Keating, and I am excited to be your Director of Co-op and a member of Society B! In this role, I am responsible for working with students and the Co-op Office to help make the co-operative education experience as valuable as possible. I am a Civil Engineering student in the Class of 2029 and currently serve as a Civil Engineering co-class representative. Outside of Society, I am a member of the MUN Women’s Basketball team, and in my free time, I enjoy travelling, hiking, and spending time with friends and family. I am very excited for the next two years, and if you have any questions, please don’t hesitate to reach out!",
+		"photo": "/res/members/b2026/fava_keating.jpg",
+		"link": "",
+		"contact": "akkeating@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"Director of Outreach": {
+		"title": "Director of Outreach",
+		"name": "Sophie Newman",
+		"program": "Mechatronics Engineering",
+		"about": "Hi! I'm Sophie Newman and I'm the Director of Outreach for Society B! My role will be to continue the connection between the engineering students and the community. I will achieve this through outreach to future students, keeping connections with those already part of the engineering community, and much more. Outside of society, I am a mechatronics student, I love dancing, music, and reading. I'm very excited to have the opportunity to have this role for the next two years!",
+		"photo": "/res/members/b2026/sophie_newman.JPG",
+		"link": "",
+		"contact": "senewman@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"Director of Communications": {
+		"title": "Director of Communications",
+		"name": "Katie Dobbin",
+		"program": "Mechanical Engineering",
+		"about": "",
+		"photo": "/res/members/b2026/katie_dobbin.HEIC",
+		"link": "",
+		"contact": "kedobbin@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"Director of International Representation": {
+		"title": "Director of International Representation",
+		"name": "Nabiha Soomro",
+		"program": "Electrical Engineering",
+		"about": "Hey everyone! My name is Nabiha Soomro, the Director of International Representation for Society B. My goal is to support international students, promote diversity and inclusion and help create opportunities for students to connect and feel welcome within the engineering community. I am an Electrical Engineering student in the Class of 2029. In my free time, I enjoy hiking, crocheting and watching new shows. I’m excited to work in this role so don’t hesitate to reach out!",
+		"photo": "/res/members/b2026/nabiha_soomro.jpg",
+		"link": "",
+		"contact": "nsoomro@mun.ca",
+		"linkedin": "",
+		"instagram": ""
+	},
+	"Director of Sponsorships": {
+		"title": "Director of Sponsorships",
+		"name": "Beth Parsons",
+		"program": "Civil Engineering",
+		"about": "Hi Everyone, My name is Beth Parsons and I am a civil engineering student at Memorial University. My role on Society B as Director of Sponsorship is to help organize and gain sponsorships for engineering society, charity ball and other events, as well as to help the VP External with conference planning and budgeting. In my free time I enjoy hiking the East Coast Trail with my dog, painting and doing yoga. I am very excited for this opportunity so if you have any questions, please reach out!",
+		"photo": "/res/members/b2026/beth_parsons.PNG",
+		"link": "",
+		"contact": "bparsons24@mun.ca",
+		"linkedin": "",
+		"instagram": ""
 	}
 }
