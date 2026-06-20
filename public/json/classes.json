@@ -9,8 +9,11 @@
 		"ENGI 1030": {
 			"name": "Engineering Graphics and Design"
 		},
-		"ENGI 1040": {
-			"name": "Thinking Like an Engineer"
+		"ENGI 1050": {
+			"name": "Introduction to Circuits"
+		},
+		"ENGI 200W": {
+			"name": "Professional Development"
 		},
 		"MATH 1000": {
 			"name": "Calculus I"
@@ -45,8 +48,83 @@
 		"term8": {}
 	},
 	"mechatronics": {
-		"term3": {},
-		"term4": {},
+		"term3": {"ECE 3300": {
+				"name": "Circuit Analysis",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ECE 3400": {
+				"name": "Foundations of Programming",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ME 3301": {
+				"name": "Dynamics",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ENGI 3101": {
+				"name": "Engineering Professionalism I",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ENGI 3424": {
+				"name": "Engineering Mathematics",
+				"credits": "4",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ME 3102": {
+				"name": "Production Technology",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			}},
+		"term4": {"ECE 4300": {
+				"name": "Electronic Circuits I",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ECE 4510": {
+				"name": "Digital Logic & Microprocessors",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ME 4601": {
+				"name": "Solids",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ENGI 4430": {
+				"name": "Engineering Mathematics",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ME 4302": {
+				"name": "Mechanisms & Machines",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			}},
 		"term5": {},
 		"term6": {},
 		"term7": {},
@@ -61,7 +139,48 @@
 		"term8": {}
 	},
 	"electrical": {
-		"term3": {},
+		"term3": {"ECE 3300": {
+				"name": "Circuit Analysis",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ECE 3400": {
+				"name": "Foundations of Programming",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ECE 3500": {
+				"name": "Digital Logic",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ENGI 3101": {
+				"name": "Engineering Professionalism I",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"ENGI 3424": {
+				"name": "Engineering Mathematics",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			},
+			"PHYS 3000": {
+				"name": "Physics of Device Materials",
+				"credits": "3",
+				"description": "",
+				"difficulty": "",
+				"tips&tricks": ""
+			}},
 		"term4": {},
 		"term5": {},
 		"term6": {},
@@ -100,7 +219,7 @@
 			},
 			"ENGI 3424": {
 				"name": "Engineering Mathematics",
-				"credits": "4",
+				"credits": "3",
 				"description": "",
 				"difficulty": "",
 				"tips&tricks": ""

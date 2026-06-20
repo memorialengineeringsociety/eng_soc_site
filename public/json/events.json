@@ -1,3 +1,68 @@
-{
-    
-}
+[
+  {
+    "name": "Quidi Vidi Tely Shakeout",
+    "date": "June 27",
+    "location": "Quidi Vidi Lake, 5-6pm",
+    "description": "",
+    "details": [],
+    "image": "",
+    "organizer": "engsocb",
+    "age": "All Ages",
+    "alt_name": "",
+    "cost": "Free",
+    "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdTjLtSOji2IdpVBHkT539QjC5nmVnD4BSJvTT462K4AICaPg/viewform",
+    "contactEmail": "aspencer@mun.ca"
+  },
+  {
+    "name": "Canada Day Party",
+    "date": "June 30",
+    "location": "The Wharf, 2-10pm",
+    "description": "",
+    "details": [],
+    "image": "",
+    "organizer": "engsocb",
+    "age": "19+",
+    "alt_name": "",
+    "cost": "",
+    "registerLink": "",
+    "contactEmail": "fchisholm@mun.ca"
+  },
+  {
+    "name": "Student x Prof Social",
+    "date": "July 3",
+    "location": "The Breezeway, 5-8pm",
+    "description": "",
+    "details": [],
+    "image": "",
+    "organizer": "engsocb",
+    "age": "All Ages",
+    "alt_name": "",
+    "cost": "Free",
+    "registerLink": "",
+    "contactEmail": "ejcochran@mun.ca"
+  },
+  {
+    "name": "World Cup Soccer Tournament",
+    "date": "July 5-10",
+    "location": "MUN Fieldhouse Soccer Field",
+    "description": "Soc B is hosting a soccer tournament, world cup theme! See below for all rules and details. Sign up as a team (max 15) or individual using the link below, and choose what country you’ll represent. Stay tuned for the after party👀! ",
+    "details": [
+        "All games will be played at the MUN Soccer Field outside the Fieldhouse",
+        "Games will be two 25-minute halves and a 5-minute half-time",
+        "The games will be 9 players and a goalie",
+        "You can enter as a team or an individual",
+        "If entering a team, a minimum of 3 girls is required",
+        "Cleats and shin guards are recommended but not required",
+        "No arguing about calls, slide tackling, and offside rules can be decided by teams beforehand",
+        "All teams sign up as a country name",
+        "Teams must have same colour shirt (based on country colour!)",
+        "Registration deadline is Thursday, June 25th"],
+    "image": "/res/events/world_cup_soccer_spring26.png",
+    "organizer": "engsocb",
+    "age": "All Ages",
+    "alt_name": "",
+    "cost": "Free",
+    "registerLink": "https://forms.gle/bfrpyjBDDg6vR723A",
+    "contactEmail": "aspencer@mun.ca"
+  }
+]

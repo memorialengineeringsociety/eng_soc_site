@@ -8,7 +8,7 @@ export default function ChartComponent(props) {
 				<h3 className="text-black font-bold text-2xl mt-5">Engineering Society Organizational Charts</h3>
 				<div className="flex gap-x-5 pt-6 pb-10 pr-10 pl-10 xl:flex-row w-7/9 m-auto">
 						<div className="h-auto items-center flex" >
-							<img src="/res/members/group/org_chart_soc_2027.jpg"/>
+							<img src="/res/members/group/org_chart_soc_2029.jpg"/>
 						</div>
 						<div className="h-auto items-center flex" >
 							<img src="/res/members/group/org_chart_soc_2028.jpg"/>

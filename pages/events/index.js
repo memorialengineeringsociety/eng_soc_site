@@ -32,8 +32,7 @@ export default function Events() {
     				<EventCard name="No events now." description="Check back soon!" organizer="" age="" date=""/>
 					) : (
 				Object.entries(data).map(([event, event_data]) => {
-					return <EventCard name={event_data.name} organizer={organizer[event_data.organizer]} alt_name={event_data.alt_name} age={event_data.age} date={event_data.date} location={event_data.location} cost={event_data.cost} available={event_data.available} description={event_data.description} image={event_data.image} />;
-				}))}
+					return <EventCard name={event_data.name} organizer={organizer[event_data.organizer]} alt_name={event_data.alt_name} age={event_data.age} date={event_data.date} location={event_data.location} cost={event_data.cost} available={event_data.available} description={event_data.description} image={event_data.image} details={event_data.details} registerLink={event_data.registerLink} contactEmail={event_data.contactEmail} />;				}))}
 			</section>
 		</main>
 	);
