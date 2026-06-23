@@ -1,342 +1,1371 @@
 {
-	"engi_one": {
-		"ENGI 1010": {
-			"name": "Foundations of Programming"
-		},
-		"ENGI 1020": {
-			"name": "Engineering Statics"
-		},
-		"ENGI 1030": {
-			"name": "Engineering Graphics and Design"
-		},
-		"ENGI 1050": {
-			"name": "Introduction to Circuits"
-		},
-		"ENGI 200W": {
-			"name": "Professional Development"
-		},
-		"MATH 1000": {
-			"name": "Calculus I"
-		},
-		"MATH 1001": {
-			"name": "Calculus II"
-		},
-		"MATH 2050": {
-			"name": "Linear Algebra I"
-		},
-		"PHYS 1050": {
-			"name": "Physics I"
-		},
-		"PHYS 1051": {
-			"name": "Physics II"
-		},
-		"CHEM 1050": {
-			"name": "Chemistry I"
-		},
-		"CHOICE": {
-			"ENGL 1090": {
-				"name": "Introduction to Academic Writing"
-			}
-		}
-	},
-	"mechanical": {
-		"term3": {},
-		"term4": {},
-		"term5": {},
-		"term6": {},
-		"term7": {},
-		"term8": {}
-	},
-	"mechatronics": {
-		"term3": {"ECE 3300": {
-				"name": "Circuit Analysis",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ECE 3400": {
-				"name": "Foundations of Programming",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ME 3301": {
-				"name": "Dynamics",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ENGI 3101": {
-				"name": "Engineering Professionalism I",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ENGI 3424": {
-				"name": "Engineering Mathematics",
-				"credits": "4",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ME 3102": {
-				"name": "Production Technology",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			}},
-		"term4": {"ECE 4300": {
-				"name": "Electronic Circuits I",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ECE 4510": {
-				"name": "Digital Logic & Microprocessors",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ME 4601": {
-				"name": "Solids",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ENGI 4430": {
-				"name": "Engineering Mathematics",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ME 4302": {
-				"name": "Mechanisms & Machines",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			}},
-		"term5": {},
-		"term6": {},
-		"term7": {},
-		"term8": {}
-	},
-	"civil": {
-		"term3": {},
-		"term4": {},
-		"term5": {},
-		"term6": {},
-		"term7": {},
-		"term8": {}
-	},
-	"electrical": {
-		"term3": {"ECE 3300": {
-				"name": "Circuit Analysis",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ECE 3400": {
-				"name": "Foundations of Programming",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ECE 3500": {
-				"name": "Digital Logic",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ENGI 3101": {
-				"name": "Engineering Professionalism I",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ENGI 3424": {
-				"name": "Engineering Mathematics",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"PHYS 3000": {
-				"name": "Physics of Device Materials",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			}},
-		"term4": {},
-		"term5": {},
-		"term6": {},
-		"term7": {},
-		"term8": {}
-	},
-	"computer": {
-		"term3": {
-			"ECE 3300": {
-				"name": "Circuit Analysis",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ECE 3400": {
-				"name": "Foundations of Programming",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ECE 3500": {
-				"name": "Digital Logic",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ENGI 3101": {
-				"name": "Engineering Professionalism I",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ENGI 3424": {
-				"name": "Engineering Mathematics",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"PHYS 3000": {
-				"name": "Physics of Device Materials",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			}
-		},
-		"term4": {
-			"ECE 4110": {
-				"name": "Discrete Mathematics for Computer Engineering",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ECE 4300": {
-				"name": "Electronic Circuits I",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ECE 4400": {
-				"name": "Data Structures",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ECE 4500": {
-				"name": "Microprocessors",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			},
-			"ENGI 4600": {
-				"name": "Introduction to Systems and Signals",
-				"credits": "3",
-				"description": "",
-				"difficulty": "",
-				"tips&tricks": ""
-			}
-		},
-		"term5": {
-            "ECE 5010": {
-                "name": "Software Design",
-                "credits": "3",
-                "description": "",
-                "difficulty": "",
-                "tips&tricks": ""
-            },
-            "ECE 5100": {
-                "name": "Probability and Random Processes",
-                "credits": "3",
-                "description": "",
-                "difficulty": "",
-                "tips&tricks": ""
-            },
-            "ECE 5200": {
-                "name": "Control Systems I",
-                "credits": "3",
-                "description": "",
-                "difficulty": "",
-                "tips&tricks": ""
-            },
-            "ECE 5400": {
-                "name": "Algorithms: Correctness and Complexity",
-                "credits": "3",
-                "description": "",
-                "difficulty": "",
-                "tips&tricks": ""
-            },
-            "ECE 5500": {
-                "name": "Digital Systems",
-                "credits": "3",
-                "description": "",
-                "difficulty": "",
-                "tips&tricks": ""
-            }
-        },
-		"term6": {
-            "ECE 6400": {
-                "name": "Software Development Practice",
-                "credits": "3",
-                "description": "",
-                "difficulty": "",
-                "tips&tricks": ""
-            },
-            "ECE 6500": {
-                "name": "Computer Architecture",
-                "credits": "3",
-                "description": "",
-                "difficulty": "",
-                "tips&tricks": ""
-            },
-            "ECE 6600": {
-                "name": "Communication Principles",
-                "credits": "3",
-                "description": "",
-                "difficulty": "",
-                "tips&tricks": ""
-            },
-            "ECE 6610": {
-                "name": "Communication Networks",
-                "credits": "3",
-                "description": "",
-                "difficulty": "",
-                "tips&tricks": ""
-            }
-        },
-		"term7": {},
-		"term8": {}
-	}
+  "engi_one": {
+    "ENGI 1010": {
+      "name": "Foundations of Programming",
+      "credits": "3",
+      "description": "Introduction to computational thinking and programming using a high-level language. Topics include variables, control structures, functions, arrays, and basic algorithms. Students develop problem-solving skills through programming assignments.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "ENGI 1020": {
+      "name": "Engineering Statics",
+      "credits": "3",
+      "description": "Principles of statics applied to engineering problems. Topics include forces and moments, equilibrium of particles and rigid bodies, trusses, frames, friction, centroids, and moments of inertia.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "ENGI 1030": {
+      "name": "Engineering Graphics and Design",
+      "credits": "3",
+      "description": "Principles of engineering drawing and design. Topics include orthographic projection, sectional views, dimensioning, tolerancing, and introduction to CAD software. Emphasis on communicating designs clearly through technical drawings.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "ENGI 1050": {
+      "name": "Introduction to Circuits",
+      "credits": "3",
+      "description": "Fundamentals of electric circuits. Topics include DC circuit analysis using Kirchhoff's laws, node and mesh methods, Thevenin and Norton equivalents, capacitors, inductors, and an introduction to AC circuits.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "ENGI 200W": {
+      "name": "Professional Development",
+      "credits": "0",
+      "description": "Non-credit course covering professional skills for engineers including technical writing, oral communication, ethics, and workplace readiness. Required for continuation in the engineering program.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "MATH 1000": {
+      "name": "Calculus I",
+      "credits": "3",
+      "description": "Limits, continuity, derivatives of single-variable functions, rules of differentiation, implicit differentiation, related rates, linear approximation, curve sketching, and optimization. Introduction to antiderivatives.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "MATH 1001": {
+      "name": "Calculus II",
+      "credits": "3",
+      "description": "Definite and indefinite integrals, the Fundamental Theorem of Calculus, techniques of integration, applications of integration (area, volume, arc length), sequences and series, Taylor series.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "MATH 2050": {
+      "name": "Linear Algebra I",
+      "credits": "3",
+      "description": "Systems of linear equations, matrices, determinants, vector spaces, linear transformations, eigenvalues and eigenvectors, and orthogonality. Applications to engineering problems.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "PHYS 1050": {
+      "name": "Physics I",
+      "credits": "3",
+      "description": "Classical mechanics: kinematics and dynamics of particles, Newton's laws, work and energy, momentum, rotational motion, oscillations, and gravitation.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "PHYS 1051": {
+      "name": "Physics II",
+      "credits": "3",
+      "description": "Electricity and magnetism: electric fields, Gauss's law, electric potential, capacitance, current and resistance, magnetic fields, Faraday's law, and introduction to electromagnetic waves.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "CHEM 1050": {
+      "name": "Chemistry I",
+      "credits": "3",
+      "description": "Fundamental principles of chemistry: atomic theory, chemical bonding, stoichiometry, states of matter, thermochemistry, and introduction to solutions and chemical equilibrium.",
+      "difficulty": "",
+      "tips&tricks": ""
+    },
+    "CHOICE": {
+      "ENGL 1090": {
+        "name": "Introduction to Academic Writing",
+        "credits": "3",
+        "description": "Development of academic writing skills including essay structure, argumentation, research skills, and citation practices. Students write multiple essays of increasing complexity.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    }
+  },
+  "mechanical": {
+    "term3": {
+      "ME 3301": {
+        "name": "Dynamics",
+        "credits": "3",
+        "description": "Kinematics and kinetics of particles and rigid bodies. Topics include rectilinear and curvilinear motion, Newton's laws, work-energy and impulse-momentum methods, and an introduction to vibration.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 3102": {
+        "name": "Production Technology",
+        "credits": "3",
+        "description": "Overview of manufacturing processes including casting, forming, machining, welding, and additive manufacturing. Introduces material selection, quality control, and tolerancing concepts.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3101": {
+        "name": "Engineering Professionalism I",
+        "credits": "3",
+        "description": "Introduction to professional engineering practice including the role of engineers in society, professional ethics and codes of conduct, engineering law, equity and diversity, and technical communication.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3424": {
+        "name": "Engineering Mathematics",
+        "credits": "4",
+        "description": "Mathematical methods for engineering. Topics include ordinary differential equations, Laplace transforms, Fourier series, partial differential equations, and introductory complex analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 3201": {
+        "name": "Thermodynamics I",
+        "credits": "3",
+        "description": "Fundamental concepts of thermodynamics. Topics include properties of pure substances, work and heat interactions, the first and second laws of thermodynamics, entropy, and ideal gas behavior.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 3401": {
+        "name": "Materials Science",
+        "credits": "3",
+        "description": "Structure-property relationships in engineering materials. Topics include atomic bonding, crystal structures, phase diagrams, heat treatment, mechanical properties, and an overview of metals, ceramics, and polymers.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term4": {
+      "ENGI 4430": {
+        "name": "Advanced Calculus for Engineering",
+        "credits": "3",
+        "description": "Advanced mathematical methods for engineering. Topics include vector calculus (gradient, divergence, curl), line and surface integrals, Green's and Stokes' theorems, and applications to engineering problems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 4302": {
+        "name": "Mechanisms and Machines",
+        "credits": "3",
+        "description": "Analysis and synthesis of mechanisms. Topics include kinematic analysis of linkages, velocity and acceleration analysis, gear trains, cams, and dynamic analysis of machines.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 4402": {
+        "name": "Thermodynamics II",
+        "credits": "3",
+        "description": "Applications of thermodynamics to engineering systems. Topics include thermodynamic cycles (Rankine, Brayton, Otto, Diesel), refrigeration, mixtures and psychrometrics, and combustion fundamentals.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 4501": {
+        "name": "Fluid Mechanics I",
+        "credits": "3",
+        "description": "Fundamentals of fluid mechanics. Topics include fluid statics, kinematics, the continuity equation, Bernoulli's equation, the momentum equation, pipe flow, dimensional analysis, and similitude.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 4601": {
+        "name": "Mechanics of Solids I",
+        "credits": "3",
+        "description": "Mechanics of deformable bodies. Topics include stress and strain, axial loading, torsion, bending of beams, shear and bending moment diagrams, beam deflection, and introductory failure theories.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term5": {
+      "ME 5103": {
+        "name": "Chemistry and Physics of Engineering Materials II",
+        "credits": "3",
+        "description": "Advanced study of engineering material behavior. Topics include phase transformations, corrosion, fracture mechanics, fatigue, creep, and selection of materials for mechanical applications.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 4421": {
+        "name": "Probability and Statistics",
+        "credits": "3",
+        "description": "Probability theory and statistical methods for engineers. Topics include probability distributions, statistical inference, hypothesis testing, regression analysis, and quality control.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 5602": {
+        "name": "Mechanics of Solids II",
+        "credits": "3",
+        "description": "Advanced mechanics of materials. Topics include unsymmetrical bending, shear flow, energy methods, yield criteria, plastic deformation, fatigue, and an introduction to fracture mechanics.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 5201": {
+        "name": "Mechatronics I",
+        "credits": "3",
+        "description": "Introduction to mechatronic systems. Topics include sensors and actuators, signal conditioning, data acquisition, microcontroller interfacing, and integration of electromechanical subsystems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 5502": {
+        "name": "Fluid Mechanics II",
+        "credits": "3",
+        "description": "Advanced fluid mechanics. Topics include viscous flow, boundary layer theory, external flow over bodies, compressible flow fundamentals, and an introduction to turbomachinery.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term6": {
+      "ME 6202": {
+        "name": "Control Systems I",
+        "credits": "3",
+        "description": "Analysis and design of feedback control systems. Topics include mathematical modeling of physical systems, transfer functions, time-domain response, stability analysis, root locus, and Bode plots.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 6303": {
+        "name": "Mechanical Vibrations",
+        "credits": "3",
+        "description": "Mechanical vibrations of single and multi-degree-of-freedom systems. Topics include free and forced vibration, damping, resonance, vibration isolation, and an introduction to modal analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 6403": {
+        "name": "Heat Transfer I",
+        "credits": "3",
+        "description": "Fundamentals of heat transfer. Topics include steady-state and transient conduction, convection (forced and natural), radiation, and analysis of heat exchangers.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 6701": {
+        "name": "Computer Aided Engineering Applications",
+        "credits": "3",
+        "description": "Application of computational tools to engineering analysis and design. Topics include finite element analysis, CAD/CAE integration, numerical simulation, and engineering optimization using industry-standard software.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 6702": {
+        "name": "Mechanical Component Design I",
+        "credits": "3",
+        "description": "Design of mechanical components under static and fatigue loading. Topics include failure theories, stress concentrations, fatigue analysis, and design of shafts, keys, fasteners, and welded joints.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term7": {
+      "ME 7203": {
+        "name": "Instrumentation and Experimental Design",
+        "credits": "3",
+        "description": "Principles of engineering measurement and experimental design. Topics include sensor selection, signal conditioning, data acquisition, uncertainty analysis, experimental planning, and technical reporting.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 7703": {
+        "name": "Mechanical Component Design II",
+        "credits": "3",
+        "description": "Advanced mechanical component design. Topics include design of bearings (journal and rolling element), gears (spur, helical, bevel, worm), belts, chains, clutches, and brakes.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 7704": {
+        "name": "Mechanical Project I",
+        "credits": "3",
+        "description": "First phase of a two-term capstone design project. Students identify an open-ended design problem, review relevant literature, define requirements, and develop and evaluate preliminary design concepts.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term8": {
+      "ME 8600": {
+        "name": "Mechanical Project II",
+        "credits": "3",
+        "description": "Completion of the capstone design project. Students finalize detailed design, fabricate and test prototypes, and present results in a formal professional review.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    }
+  },
+  "mechatronics": {
+    "term3": {
+      "ECE 3300": {
+        "name": "Circuit Analysis",
+        "credits": "3",
+        "description": "Systematic analysis of linear electric circuits. Topics include nodal and mesh analysis, superposition, Thevenin and Norton theorems, first- and second-order transient response, phasors, AC steady-state analysis, and frequency response.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 3400": {
+        "name": "Foundations of Programming",
+        "credits": "3",
+        "description": "Programming concepts applied to engineering problems using C/C++. Topics include data types, control structures, functions, pointers, data structures, and file I/O.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 3301": {
+        "name": "Dynamics",
+        "credits": "3",
+        "description": "Kinematics and kinetics of particles and rigid bodies. Topics include rectilinear and curvilinear motion, Newton's laws, work-energy and impulse-momentum methods, and an introduction to vibration.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3101": {
+        "name": "Engineering Professionalism I",
+        "credits": "3",
+        "description": "Introduction to professional engineering practice including the role of engineers in society, professional ethics and codes of conduct, engineering law, equity and diversity, and technical communication.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3424": {
+        "name": "Engineering Mathematics",
+        "credits": "4",
+        "description": "Mathematical methods for engineering. Topics include ordinary differential equations, Laplace transforms, Fourier series, partial differential equations, and introductory complex analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 3102": {
+        "name": "Production Technology",
+        "credits": "3",
+        "description": "Overview of manufacturing processes including casting, forming, machining, welding, and additive manufacturing. Introduces material selection, quality control, and tolerancing concepts.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term4": {
+      "ECE 4300": {
+        "name": "Electronic Circuits I",
+        "credits": "3",
+        "description": "Analysis and design of electronic circuits using semiconductor devices. Topics include diode circuits, BJT and FET operation, biasing, small-signal models, and single-stage amplifier design.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 4510": {
+        "name": "Microprocessors and Advanced Logic",
+        "credits": "3",
+        "description": "Combinational and sequential digital logic design combined with microprocessor fundamentals. Topics include Boolean algebra, flip-flops, state machines, microcontroller architecture, instruction sets, and assembly language programming.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 4430": {
+        "name": "Advanced Calculus for Engineering",
+        "credits": "3",
+        "description": "Advanced mathematical methods for engineering. Topics include vector calculus (gradient, divergence, curl), line and surface integrals, Green's and Stokes' theorems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 4302": {
+        "name": "Mechanisms and Machines",
+        "credits": "3",
+        "description": "Analysis and synthesis of mechanisms. Topics include kinematic analysis of linkages, velocity and acceleration analysis, gear trains, cams, and dynamic analysis of machines.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 4601": {
+        "name": "Mechanics of Solids I",
+        "credits": "3",
+        "description": "Mechanics of deformable bodies. Topics include stress and strain, axial loading, torsion, bending of beams, shear and bending moment diagrams, beam deflection, and introductory failure theories.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term5": {
+      "CIV 6470": {
+        "name": "Thermal Sciences",
+        "credits": "3",
+        "description": "Integrated treatment of thermodynamics and heat transfer for engineering applications. Topics include energy balances, thermodynamic cycles, conduction, convection, radiation, and heat exchanger analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 5300": {
+        "name": "Electronic Circuits II",
+        "credits": "3",
+        "description": "Advanced electronic circuit design. Topics include multi-stage and differential amplifiers, operational amplifiers, feedback theory, frequency response and stability, and power amplifiers.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 5610": {
+        "name": "Sensors and Instrumentation",
+        "credits": "3",
+        "description": "Principles and applications of sensors and instrumentation systems. Topics include displacement, force, temperature, flow, and optical sensors; signal conditioning, noise, calibration, and data acquisition systems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 4421": {
+        "name": "Probability and Statistics",
+        "credits": "3",
+        "description": "Probability theory and statistical methods for engineers. Topics include probability distributions, statistical inference, hypothesis testing, regression analysis, and quality control.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 5602": {
+        "name": "Mechanics of Solids II",
+        "credits": "3",
+        "description": "Advanced mechanics of materials. Topics include unsymmetrical bending, shear flow, energy methods, yield criteria, plastic deformation, fatigue, and an introduction to fracture mechanics.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term6": {
+      "ECE 6810": {
+        "name": "Power Electronics",
+        "credits": "3",
+        "description": "Principles of power electronic circuits and systems. Topics include power semiconductor devices, DC-DC converters, rectifiers, inverters, PWM techniques, and motor drive applications.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 6202": {
+        "name": "Control Systems I",
+        "credits": "3",
+        "description": "Analysis and design of feedback control systems. Topics include mathematical modeling of physical systems, transfer functions, time-domain response, stability analysis, root locus, and Bode plots.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 6303": {
+        "name": "Mechanical Vibrations",
+        "credits": "3",
+        "description": "Mechanical vibrations of single and multi-degree-of-freedom systems. Topics include free and forced vibration, damping, resonance, vibration isolation, and an introduction to modal analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 6701": {
+        "name": "Computer Aided Engineering Applications",
+        "credits": "3",
+        "description": "Application of computational tools to engineering analysis and design. Topics include finite element analysis, CAD/CAE integration, numerical simulation, and engineering optimization using industry-standard software.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 6702": {
+        "name": "Mechanical Component Design I",
+        "credits": "3",
+        "description": "Design of mechanical components under static and fatigue loading. Topics include failure theories, stress concentrations, fatigue analysis, and design of shafts, keys, fasteners, and welded joints.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term7": {
+      "ME 4501": {
+        "name": "Fluid Mechanics I",
+        "credits": "3",
+        "description": "Fundamentals of fluid mechanics. Topics include fluid statics, kinematics, the continuity equation, Bernoulli's equation, the momentum equation, pipe flow, dimensional analysis, and similitude.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 7205": {
+        "name": "Applied Mechatronics",
+        "credits": "3",
+        "description": "Advanced mechatronics system design and implementation. Topics include embedded control, real-time programming, actuator selection and drives, system integration, and mechatronics project development.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 7705": {
+        "name": "Mechatronics Design Project I",
+        "credits": "3",
+        "description": "First phase of a two-term capstone design project. Students identify an open-ended mechatronics design problem, develop specifications, and produce a preliminary integrated system design.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term8": {
+      "ME 8600": {
+        "name": "Mechatronics Design Project II",
+        "credits": "3",
+        "description": "Completion of the capstone design project. Students build, test, and validate their mechatronic system and present results in a formal professional review.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    }
+  },
+  "civil": {
+    "term3": {
+      "ENGI 3101": {
+        "name": "Engineering Professionalism I",
+        "credits": "3",
+        "description": "Introduction to professional engineering practice including ethics, codes of conduct, engineering law, equity and diversity in engineering, and effective technical communication.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3424": {
+        "name": "Engineering Mathematics",
+        "credits": "4",
+        "description": "Mathematical methods for engineering including ordinary differential equations, Laplace transforms, Fourier series, and partial differential equations.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 3301": {
+        "name": "Mechanics of Materials",
+        "credits": "3",
+        "description": "Mechanics of deformable bodies applied to civil structures. Topics include stress and strain, axial loading, torsion, bending, shear and bending moment diagrams, beam deflection, and column buckling.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 3401": {
+        "name": "Civil Engineering Materials",
+        "credits": "3",
+        "description": "Properties and behavior of civil engineering materials including concrete, steel, asphalt, wood, and soils. Topics include material testing, failure mechanisms, durability, and sustainable material selection.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 3501": {
+        "name": "Surveying",
+        "credits": "3",
+        "description": "Principles and practice of land surveying. Topics include distance and angle measurement, traversing, leveling, topographic mapping, and an introduction to GPS and GIS technologies.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 3201": {
+        "name": "Fluid Mechanics",
+        "credits": "3",
+        "description": "Fundamentals of fluid mechanics for civil engineers. Topics include fluid statics, kinematics, Bernoulli's equation, momentum principle, pipe flow, dimensional analysis, and open channel flow.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term4": {
+      "CIV 4220": {
+        "name": "Geotechnical Engineering I",
+        "credits": "3",
+        "description": "Fundamentals of soil mechanics. Topics include soil classification, compaction, permeability, seepage, consolidation, shear strength, and an introduction to shallow foundation design.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 4310": {
+        "name": "Mechanics of Solids I",
+        "credits": "3",
+        "description": "Mechanics of deformable bodies for civil engineering. Topics include stress and strain, axial loading, torsion, bending, shear and bending moment diagrams, beam deflection, and introductory stability.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 4450": {
+        "name": "Mathematics for Civil Engineering II",
+        "credits": "3",
+        "description": "Advanced mathematical methods for civil engineering including vector calculus, partial differential equations, and numerical methods applied to structural and environmental problems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 4610": {
+        "name": "Applied Environmental Science and Engineering",
+        "credits": "3",
+        "description": "Environmental engineering principles for civil engineers. Topics include water quality, wastewater treatment, air pollution, solid waste management, and environmental impact assessment.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 4421": {
+        "name": "Probability and Statistics",
+        "credits": "3",
+        "description": "Probability theory and statistical methods for engineers. Topics include probability distributions, statistical inference, hypothesis testing, regression analysis, and reliability applications.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term5": {
+      "CIV 5320": {
+        "name": "Mechanics of Solids II",
+        "credits": "3",
+        "description": "Advanced mechanics of materials for civil structures. Topics include unsymmetrical bending, shear flow in thin-walled sections, energy methods, yield criteria, and an introduction to structural plasticity.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 5460": {
+        "name": "Applied Mathematical Analysis",
+        "credits": "3",
+        "description": "Mathematical analysis methods applied to civil engineering problems. Topics include Fourier analysis, advanced ODEs and PDEs, and numerical solution methods for structural and fluid problems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 5510": {
+        "name": "Design of Concrete Structures",
+        "credits": "3",
+        "description": "Design of reinforced concrete structural members following CSA standards. Topics include flexure, shear, torsion, serviceability, columns, footings, and retaining wall design.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 5110": {
+        "name": "Fluid Mechanics",
+        "credits": "3",
+        "description": "Advanced fluid mechanics for civil engineers. Topics include pipe networks, open channel flow (uniform and non-uniform), hydraulic structures, and introduction to computational fluid dynamics.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 5230": {
+        "name": "Geotechnical Engineering II",
+        "credits": "3",
+        "description": "Advanced geotechnical engineering topics including deep foundations, retaining wall design, slope stability analysis, and ground improvement methods.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term6": {
+      "CIV 6470": {
+        "name": "Thermal Sciences",
+        "credits": "3",
+        "description": "Integrated treatment of thermodynamics and heat transfer. Topics include energy balances, thermodynamic cycles, conduction, convection, radiation, and applications in civil and environmental systems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 6330": {
+        "name": "Structural Analysis I",
+        "credits": "3",
+        "description": "Analysis of statically determinate and indeterminate structures. Topics include beams, trusses, frames, influence lines, energy methods, and the stiffness method.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 6520": {
+        "name": "Design of Concrete and Masonry Structures",
+        "credits": "3",
+        "description": "Design of reinforced concrete and masonry structural systems. Topics include advanced concrete design (continuous beams, slabs, walls) and principles of masonry structural design to Canadian standards.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 6120": {
+        "name": "Hydraulics",
+        "credits": "3",
+        "description": "Applied hydraulics for civil engineers. Topics include open channel flow analysis, hydraulic design of channels and culverts, flood routing, and design of hydraulic structures.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 6820": {
+        "name": "Project Planning and Construction Management",
+        "credits": "3",
+        "description": "Principles of construction management including project planning, scheduling (CPM/PERT), cost estimation, procurement, quality management, and health and safety on construction sites.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term7": {
+      "CIV 7130": {
+        "name": "Hydrology and Water Resources",
+        "credits": "3",
+        "description": "Principles of hydrology and water resources engineering. Topics include the hydrologic cycle, rainfall-runoff modeling, flood frequency analysis, and water resources planning and management.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 7530": {
+        "name": "Design of Steel Structures",
+        "credits": "3",
+        "description": "Design of steel structures using limit states design. Topics include tension members, compression members (columns), beams, beam-columns, and connections following CSA/CISC standards.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "CIV 7730": {
+        "name": "Highway Engineering",
+        "credits": "3",
+        "description": "Design and analysis of highway systems. Topics include geometric design, pavement design, traffic engineering, intersection design, and highway safety.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term8": {
+      "CIV 8600": {
+        "name": "Civil Engineering Design Project II",
+        "credits": "3",
+        "description": "Completion of the capstone design project. Teams finalize structural, environmental, and cost analyses, prepare construction drawings, and deliver professional presentations of their completed design.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    }
+  },
+  "electrical": {
+    "term3": {
+      "ECE 3300": {
+        "name": "Circuit Analysis",
+        "credits": "3",
+        "description": "Systematic analysis of linear electric circuits. Topics include nodal and mesh analysis, superposition, Thevenin and Norton theorems, first- and second-order transient response, phasors, AC steady-state analysis, and frequency response.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 3400": {
+        "name": "Foundations of Programming",
+        "credits": "3",
+        "description": "Programming concepts applied to engineering problems using C/C++. Topics include data types, control structures, functions, pointers, data structures, and file I/O.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 3500": {
+        "name": "Digital Logic",
+        "credits": "3",
+        "description": "Boolean algebra and combinational logic design. Topics include logic gates, Karnaugh maps, multiplexers, decoders, adders, and sequential logic including flip-flops, registers, counters, and finite state machines.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3101": {
+        "name": "Engineering Professionalism I",
+        "credits": "3",
+        "description": "Introduction to professional engineering practice including ethics, codes of conduct, engineering law, equity and diversity, and effective technical communication.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3424": {
+        "name": "Engineering Mathematics",
+        "credits": "3",
+        "description": "Mathematical methods for engineering including ordinary differential equations, Laplace transforms, Fourier series, partial differential equations, and introductory complex analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PHYS 3000": {
+        "name": "Physics of Device Materials",
+        "credits": "3",
+        "description": "Quantum mechanical principles underlying electronic materials. Topics include atomic structure, energy bands in solids, semiconductor theory, doping, p-n junctions, and optical and magnetic material properties.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term4": {
+      "ECE 4300": {
+        "name": "Electronic Circuits I",
+        "credits": "3",
+        "description": "Analysis and design of electronic circuits. Topics include diode circuits, BJT and FET operation, biasing, small-signal models, and single-stage amplifier design.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 4500": {
+        "name": "Microprocessors",
+        "credits": "3",
+        "description": "Architecture and programming of microprocessors and microcontrollers. Topics include instruction set architecture, assembly language, memory organization, I/O interfacing, and interrupt handling.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 4600": {
+        "name": "Systems and Signals I",
+        "credits": "3",
+        "description": "Analysis of continuous and discrete-time signals and systems. Topics include Fourier series and transforms, the sampling theorem, convolution, Laplace and Z-transforms, and frequency response.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 4800": {
+        "name": "Electromechanical Devices",
+        "credits": "3",
+        "description": "Principles of electromechanical energy conversion. Topics include magnetic circuits, transformers, DC machines, induction motors, synchronous machines, and stepper motors.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 4430": {
+        "name": "Advanced Calculus for Engineering",
+        "credits": "3",
+        "description": "Advanced mathematical methods for engineering. Topics include vector calculus, line and surface integrals, Green's and Stokes' theorems, and applications to electrical engineering problems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term5": {
+      "ECE 5000": {
+        "name": "Electrical Engineering Design",
+        "credits": "3",
+        "description": "Introduction to electrical engineering design methodology. Students undertake a structured design project applying engineering standards, safety, and professional practice to a real-world electrical engineering problem.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 5100": {
+        "name": "Probability and Random Processes",
+        "credits": "3",
+        "description": "Probability theory and stochastic processes for engineers. Topics include probability spaces, random variables, probability distributions, expectation, the central limit theorem, and introduction to random processes and noise.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 5200": {
+        "name": "Control Systems I",
+        "credits": "3",
+        "description": "Analysis and design of feedback control systems. Topics include mathematical modeling, transfer functions, block diagrams, time-domain response, stability analysis, root locus, and Bode plots.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 5300": {
+        "name": "Electronic Circuits II",
+        "credits": "3",
+        "description": "Advanced electronic circuit design. Topics include multi-stage and differential amplifiers, operational amplifiers, feedback theory, frequency response and stability, and power amplifiers.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 5700": {
+        "name": "Basic Electromagnetics",
+        "credits": "3",
+        "description": "Fundamentals of electromagnetic theory. Topics include electrostatics, magnetostatics, Maxwell's equations, plane wave propagation, and introduction to transmission lines.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term6": {
+      "ECE 6700": {
+        "name": "Electromagnetic Fields",
+        "credits": "3",
+        "description": "Advanced electromagnetic theory. Topics include field solutions to Maxwell's equations, waveguides, antennas, microwave engineering fundamentals, and electromagnetic compatibility.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 6800": {
+        "name": "Rotating Machines",
+        "credits": "3",
+        "description": "Analysis and design of rotating electrical machines. Topics include induction motor performance, synchronous machine operation, motor starting and control, and variable-speed drives.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 6200": {
+        "name": "Industrial Controls and Instrumentation",
+        "credits": "3",
+        "description": "Industrial control systems and instrumentation. Topics include PLCs, SCADA systems, process sensors, signal conditioning, PID control implementation, and safety instrumented systems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 6600": {
+        "name": "Communication Principles",
+        "credits": "3",
+        "description": "Fundamentals of analog and digital communications. Topics include AM, FM, PM modulation, digital modulation (ASK, FSK, PSK, QAM), channel capacity, noise analysis, and error performance.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term7": {
+      "ECE 7000": {
+        "name": "Electrical Engineering Design Project I",
+        "credits": "3",
+        "description": "First phase of a two-term capstone design project. Student teams select an open-ended electrical engineering problem, complete system-level design, perform simulation, and begin preliminary prototyping.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 7600": {
+        "name": "Introduction to Digital Signal Processing",
+        "credits": "3",
+        "description": "Fundamentals of digital signal processing. Topics include discrete-time signals and systems, the DFT and FFT, digital filter design (FIR and IIR), and applications in communications and control.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term8": {
+      "ECE 8600": {
+        "name": "Electrical Engineering Design Project II",
+        "credits": "3",
+        "description": "Completion of the capstone design project. Teams finalize their design, build and test prototypes, and present results in a formal professional review.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    }
+  },
+  "computer": {
+    "term3": {
+      "ECE 3300": {
+        "name": "Circuit Analysis",
+        "credits": "3",
+        "description": "Systematic analysis of linear electric circuits. Topics include nodal and mesh analysis, superposition, Thevenin and Norton theorems, transient response, phasors, AC steady-state analysis, and frequency response.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 3400": {
+        "name": "Foundations of Programming",
+        "credits": "3",
+        "description": "Programming concepts applied to engineering problems using C/C++. Topics include data types, control structures, functions, pointers, data structures, and file I/O.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 3500": {
+        "name": "Digital Logic",
+        "credits": "3",
+        "description": "Boolean algebra and combinational logic design including logic gates, Karnaugh maps, multiplexers, decoders, and sequential logic including flip-flops, registers, counters, and finite state machines.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3101": {
+        "name": "Engineering Professionalism I",
+        "credits": "3",
+        "description": "Introduction to professional engineering practice including ethics, codes of conduct, engineering law, equity and diversity, and effective technical communication.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3424": {
+        "name": "Engineering Mathematics",
+        "credits": "3",
+        "description": "Mathematical methods for engineering including ordinary differential equations, Laplace transforms, Fourier series, partial differential equations, and introductory complex analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PHYS 3000": {
+        "name": "Physics of Device Materials",
+        "credits": "3",
+        "description": "Quantum mechanical principles underlying electronic materials including energy bands, semiconductors, doping, p-n junctions, and optical and magnetic material properties.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term4": {
+      "ECE 4110": {
+        "name": "Discrete Mathematics for Computer Engineering",
+        "credits": "3",
+        "description": "Mathematical foundations for computing. Topics include propositional and predicate logic, set theory, relations and functions, graph theory, combinatorics, and introductory number theory.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 4300": {
+        "name": "Electronic Circuits I",
+        "credits": "3",
+        "description": "Analysis and design of electronic circuits using diodes, BJTs, and FETs. Topics include biasing, small-signal models, and single-stage amplifier design.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 4400": {
+        "name": "Data Structures",
+        "credits": "3",
+        "description": "Fundamental data structures and their applications. Topics include arrays, linked lists, stacks, queues, trees, heaps, hash tables, and graphs. Analysis of time and space complexity implemented in C or C++.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 4500": {
+        "name": "Microprocessors",
+        "credits": "3",
+        "description": "Architecture and programming of microprocessors and microcontrollers including instruction set architecture, assembly language, memory organization, I/O interfacing, and interrupt handling.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 4600": {
+        "name": "Systems and Signals I",
+        "credits": "3",
+        "description": "Analysis of continuous and discrete-time signals and systems. Topics include Fourier series and transforms, the sampling theorem, convolution, Laplace and Z-transforms, and frequency response.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term5": {
+      "ECE 5010": {
+        "name": "Software Design",
+        "credits": "3",
+        "description": "Principles of software engineering and object-oriented design. Topics include requirements analysis, UML modeling, design patterns, testing strategies, and version control. Team-based software development projects.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 5100": {
+        "name": "Probability and Random Processes",
+        "credits": "3",
+        "description": "Probability theory and stochastic processes for engineers. Topics include probability spaces, random variables, distributions, expectation, the central limit theorem, and an introduction to random processes.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 5200": {
+        "name": "Control Systems I",
+        "credits": "3",
+        "description": "Analysis and design of feedback control systems. Topics include mathematical modeling, transfer functions, time-domain response, stability analysis, root locus, and Bode plots.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 5400": {
+        "name": "Algorithms: Correctness and Complexity",
+        "credits": "3",
+        "description": "Design and analysis of algorithms. Topics include correctness proofs, asymptotic complexity, divide-and-conquer, dynamic programming, greedy algorithms, graph algorithms, and NP-completeness.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 5500": {
+        "name": "Digital Systems",
+        "credits": "3",
+        "description": "Design and implementation of digital systems using hardware description languages (VHDL or Verilog). Topics include RTL design, FPGAs, synchronous design methodologies, and finite state machine implementation.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term6": {
+      "ECE 6500": {
+        "name": "Computer Architecture",
+        "credits": "3",
+        "description": "Design and organization of computer systems. Topics include instruction set architecture, pipelining, memory hierarchy (caches and virtual memory), I/O systems, and parallel processing fundamentals.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 6600": {
+        "name": "Communication Principles",
+        "credits": "3",
+        "description": "Fundamentals of analog and digital communications. Topics include modulation techniques, digital modulation (ASK, FSK, PSK, QAM), channel capacity, noise analysis, and error performance.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 6610": {
+        "name": "Communication Networks",
+        "credits": "3",
+        "description": "Principles and architecture of computer networks. Topics include the OSI and TCP/IP models, data link protocols, local area networks, routing algorithms, transport protocols, and network security.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 6400": {
+        "name": "Software Development Practice",
+        "credits": "3",
+        "description": "Advanced software engineering practices for large-scale systems. Topics include agile methodologies, continuous integration and delivery, code quality, testing frameworks, documentation, and collaborative development tools.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term7": {
+      "ECE 7010": {
+        "name": "Computer Engineering Design Project I",
+        "credits": "3",
+        "description": "First phase of a two-term capstone design project. Teams select an open-ended problem and complete system specification, architecture design, and preliminary implementation.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 7400": {
+        "name": "Concurrent Programming",
+        "credits": "3",
+        "description": "Principles of concurrent and parallel programming. Topics include threads, synchronization, mutual exclusion, deadlock, message passing, and parallel algorithm design.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ECE 7600": {
+        "name": "Introduction to Digital Signal Processing",
+        "credits": "3",
+        "description": "Fundamentals of digital signal processing. Topics include discrete-time signals and systems, the DFT and FFT, digital filter design (FIR and IIR), and engineering applications.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term8": {
+      "ECE 8600": {
+        "name": "Computer Engineering Design Project II",
+        "credits": "3",
+        "description": "Completion of the capstone design project. Teams finalize implementation, conduct testing and validation, and present results professionally.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    }
+  },
+  "onae": {
+    "term3": {
+      "ENGI 3101": {
+        "name": "Engineering Professionalism I",
+        "credits": "3",
+        "description": "Introduction to professional engineering practice including ethics, codes of conduct, engineering law, and technical communication.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3424": {
+        "name": "Engineering Mathematics",
+        "credits": "4",
+        "description": "Mathematical methods for engineering including ordinary differential equations, Laplace transforms, Fourier series, and partial differential equations.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 3001": {
+        "name": "Ship Hydrostatics and Stability",
+        "credits": "3",
+        "description": "Introduction to ship geometry and hydrostatics. Topics include ship form coefficients, displacement and buoyancy, intact and damage stability, trim, and regulatory stability criteria.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 3301": {
+        "name": "Dynamics",
+        "credits": "3",
+        "description": "Kinematics and kinetics of particles and rigid bodies including Newton's laws, work-energy, and impulse-momentum methods.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ME 3201": {
+        "name": "Thermodynamics I",
+        "credits": "3",
+        "description": "Fundamental concepts of thermodynamics including properties of substances, work and heat, first and second laws, and entropy.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term4": {
+      "ONAE 4002": {
+        "name": "Solids Mechanics for Marine Structures",
+        "credits": "3",
+        "description": "Mechanics of deformable bodies applied to marine structures. Topics include stress and strain, bending, shear, torsion, beam deflection, and an introduction to structural analysis of ship hull girders.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "MATH 2260": {
+        "name": "Ordinary Differential Equations I",
+        "credits": "3",
+        "description": "Theory and solution methods for ordinary differential equations. Topics include first and second order ODEs, systems of ODEs, Laplace transforms, and series solutions.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 4007": {
+        "name": "Marine Materials",
+        "credits": "3",
+        "description": "Properties and behavior of materials used in marine structures. Topics include steel, aluminum, composites, and polymers with emphasis on corrosion, fatigue, fracture, and material selection for shipbuilding.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 4011": {
+        "name": "Resistance and Propulsion",
+        "credits": "3",
+        "description": "Ship resistance and propulsion fundamentals. Topics include ship resistance components, model testing and scaling, propeller theory, propeller design, and powering calculations.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 4020": {
+        "name": "Marine Fluid Dynamics",
+        "credits": "3",
+        "description": "Fluid mechanics applied to marine systems. Topics include potential flow theory, wave theory, free surface flows, and hydrodynamic forces on marine structures.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term5": {
+      "AMAT 3202": {
+        "name": "Vector Calculus",
+        "credits": "3",
+        "description": "Vector calculus methods for engineering and science. Topics include gradient, divergence, and curl; line, surface, and volume integrals; Green's theorem, Stokes' theorem, and the divergence theorem.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 5020": {
+        "name": "Marine Propulsion",
+        "credits": "3",
+        "description": "Design and analysis of marine propulsion systems. Topics include diesel engines, gas turbines, shaft systems, propellers, waterjets, and emerging propulsion technologies including LNG and hybrid systems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 5022": {
+        "name": "Stochastic Processes in Ocean Engineering",
+        "credits": "3",
+        "description": "Application of stochastic methods to ocean engineering. Topics include random processes, spectral analysis of ocean waves, response of structures to random loading, and reliability fundamentals.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 5034": {
+        "name": "Marine Vibrations",
+        "credits": "3",
+        "description": "Vibration analysis applied to marine structures and machinery. Topics include free and forced vibration, torsional and axial vibrations of shafting, hull vibrations, and noise control in ships.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PHYS 3300": {
+        "name": "Introduction to Physical Oceanography",
+        "credits": "3",
+        "description": "Physical properties and dynamics of the ocean. Topics include ocean stratification, currents, tides, waves, sea ice, and the interaction of ocean and atmosphere relevant to marine engineering.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term6": {
+      "ONAE 6002": {
+        "name": "Ship Structures I",
+        "credits": "3",
+        "description": "Analysis and design of ship structural systems. Topics include ship structural loads, hull girder bending and shear, primary, secondary, and tertiary structural elements, and classification society rules.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 6005": {
+        "name": "Floating Ocean Structures Design",
+        "credits": "3",
+        "description": "Design of floating offshore platforms including semi-submersibles, FPSOs, and spars. Topics include environmental loading, hydrostatic stability, mooring systems, and structural design principles.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 6036": {
+        "name": "Dynamics of Ocean Vehicles",
+        "credits": "3",
+        "description": "Dynamics and seakeeping of ships and ocean vehicles. Topics include equations of motion, seakeeping theory, ship responses in waves, ship motion prediction, and operability analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 6046": {
+        "name": "Marine Engineering Systems",
+        "credits": "3",
+        "description": "Ship systems engineering. Topics include electrical power systems, piping and HVAC systems, fire protection, ballast and bilge systems, and integration of marine engineering systems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 6055": {
+        "name": "Marine Cybernetics",
+        "credits": "3",
+        "description": "Control and automation of marine systems. Topics include dynamic positioning, autopilots, ship manoeuvring models, feedback control design, and integrated bridge systems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term7": {
+      "ONAE 7000": {
+        "name": "Ocean Systems Design",
+        "credits": "3",
+        "description": "Capstone design project for ocean and naval architectural engineering. Students undertake a complete ship or offshore system design, integrating hydrodynamics, structures, propulsion, and systems engineering.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 7002": {
+        "name": "Ship Structures II",
+        "credits": "3",
+        "description": "Advanced ship structural analysis and design. Topics include fatigue and fracture of marine structures, finite element analysis, ultimate strength of hull girders, and structural assessment methods.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 7033": {
+        "name": "Marine Hydrodynamics",
+        "credits": "3",
+        "description": "Advanced hydrodynamics for marine applications. Topics include potential flow methods, wave-body interactions, added mass and damping, and computational approaches for ship and offshore structure hydrodynamics.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ONAE 7036": {
+        "name": "Manoeuvring of Ocean Vehicles",
+        "credits": "3",
+        "description": "Ship manoeuvring theory and control. Topics include mathematical models of ship manoeuvring, hydrodynamic derivatives, rudder and thruster systems, harbour manoeuvring, and dynamic positioning.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term8": {
+      "ONAE 8600": {
+        "name": "Naval Architecture Design Project II",
+        "credits": "3",
+        "description": "Completion of the capstone design project. Teams finalize the design, produce a complete design report to industry standards, and defend their work in a formal presentation.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    }
+  },
+  "process": {
+    "term3": {
+      "ENGI 3101": {
+        "name": "Engineering Professionalism I",
+        "credits": "3",
+        "description": "Introduction to professional engineering practice including ethics, codes of conduct, engineering law, and technical communication.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "ENGI 3424": {
+        "name": "Engineering Mathematics",
+        "credits": "4",
+        "description": "Mathematical methods for engineering including ordinary differential equations, Laplace transforms, Fourier series, and partial differential equations.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 3001": {
+        "name": "Material and Energy Balances",
+        "credits": "3",
+        "description": "Introduction to process engineering principles. Topics include stoichiometry, material balances for reacting and non-reacting systems, energy balances, and an introduction to process flow diagrams.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 3002": {
+        "name": "Introduction to Process Engineering",
+        "credits": "3",
+        "description": "Foundational concepts in process engineering. Topics include units and dimensions, process variables, equipment overview, safety in process plants, and an introduction to chemical engineering design.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term4": {
+      "ENGI 4430": {
+        "name": "Advanced Calculus for Engineering",
+        "credits": "3",
+        "description": "Advanced mathematical methods for engineering. Topics include vector calculus, line and surface integrals, and applications to process engineering problems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 4002": {
+        "name": "Process Engineering Thermodynamics",
+        "credits": "3",
+        "description": "Thermodynamics applied to process systems. Topics include the first and second laws, properties of pure substances and mixtures, vapor-liquid equilibria, equations of state, and thermodynamic cycle analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 4021": {
+        "name": "Process Mathematical Methods",
+        "credits": "3",
+        "description": "Mathematical methods for process engineering. Topics include ODEs, PDEs, numerical methods, and their application to process modeling and simulation problems.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 4025": {
+        "name": "Process Engineering Calculations",
+        "credits": "3",
+        "description": "Quantitative methods for process engineering analysis. Topics include reaction stoichiometry, phase equilibria calculations, and steady-state and transient process calculations.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 4061": {
+        "name": "Process Fluid Dynamics I",
+        "credits": "3",
+        "description": "Fluid mechanics for process engineers. Topics include fluid statics, the continuity and momentum equations, Bernoulli's equation, pipe flow, pumps, and dimensional analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term5": {
+      "ENGI 4421": {
+        "name": "Probability and Statistics",
+        "credits": "3",
+        "description": "Probability theory and statistical methods for engineers. Topics include probability distributions, statistical inference, hypothesis testing, regression analysis, and quality control.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 5001": {
+        "name": "Mass Transfer",
+        "credits": "3",
+        "description": "Principles of mass transfer in process systems. Topics include molecular diffusion, convective mass transfer, absorption, stripping, and distillation column design.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 5002": {
+        "name": "Process Heat Transfer",
+        "credits": "3",
+        "description": "Heat transfer applied to process engineering. Topics include conduction, convection, radiation, heat exchangers (shell-and-tube, plate), and thermal design of process equipment.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 5071": {
+        "name": "Process Equipment Design I",
+        "credits": "3",
+        "description": "Mechanical design of process equipment. Topics include pressure vessel theory, design to ASME standards, material selection, nozzle and flange design, and fabrication methods.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 5092": {
+        "name": "Chemistry and Physics of Engineering Materials",
+        "credits": "3",
+        "description": "Properties and behavior of engineering materials in process environments. Topics include corrosion mechanisms, material degradation, alloy selection, and non-metallic materials for process applications.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term6": {
+      "PROC 6025": {
+        "name": "Process Modelling and Analysis",
+        "credits": "3",
+        "description": "Development and analysis of mathematical models for process systems. Topics include steady-state and dynamic process models, process simulation software (e.g. HYSYS, Aspen), and model validation.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 6031": {
+        "name": "Chemical Reaction Engineering",
+        "credits": "3",
+        "description": "Design of chemical reactors. Topics include reaction kinetics, ideal reactor types (batch, CSTR, PFR), reactor sizing, temperature effects, multiple reactions, and non-ideal flow.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 6061": {
+        "name": "Process Fluid Dynamics II",
+        "credits": "3",
+        "description": "Advanced fluid mechanics for process systems. Topics include compressible flow, non-Newtonian fluids, multiphase flow, fluidization, and flow assurance in pipelines.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 6071": {
+        "name": "Process Equipment Design II",
+        "credits": "3",
+        "description": "Advanced design of process equipment. Topics include design of distillation columns, absorbers, heat exchangers, reactors, and storage tanks with emphasis on process integration and optimization.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term7": {
+      "PROC 7021": {
+        "name": "Process Dynamics and Control",
+        "credits": "3",
+        "description": "Dynamic modeling and control of chemical processes. Topics include Laplace domain analysis, PID control tuning, cascade and feedforward control, stability analysis, and process control instrumentation.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 7040": {
+        "name": "Process Engineering Project I",
+        "credits": "3",
+        "description": "First phase of a two-term capstone design project. Student teams undertake a complete process plant design including process selection, simulation, preliminary equipment sizing, and safety analysis.",
+        "difficulty": "",
+        "tips&tricks": ""
+      },
+      "PROC 7077": {
+        "name": "Process Plant Design and Economics",
+        "credits": "3",
+        "description": "Integrated process plant design and economic analysis. Topics include process flow diagrams, P&IDs, capital cost estimation, profitability analysis, and economic optimization of process designs.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    },
+    "term8": {
+      "PROC 8600": {
+        "name": "Process Engineering Project II",
+        "credits": "3",
+        "description": "Completion of the capstone design project. Teams produce a full process design package including detailed P&IDs, economic analysis, environmental assessment, and a professional presentation.",
+        "difficulty": "",
+        "tips&tricks": ""
+      }
+    }
+  }
 }
