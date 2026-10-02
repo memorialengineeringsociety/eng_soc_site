@@ -118,6 +118,14 @@ function Navigation() {
 
 				<div className={`transition-opacity ${currentButton === 2 ? "block" : "hidden"} delay-200 w-5/6 lg:w-2/3 `}>
 					<div className="p-6">
+						<h3 className="mb-4 text-2xl font-bold text-black">Engineering Mentorship Program</h3>
+						<p className="mb-4 text-black">Students who are transitioning into a new stage of their academic career are often faced with many questions and uncertainties. Connecting with other students who have recently made a similar transition—their peer network—can be invaluable as a source of information and support for these new students. The Engineering Mentorship Program (EMP) connects incoming engineering students with more senior students in the program to help them establish their network.
+							<br /> <strong>How it works</strong>
+							<br />Students who are currently enrolled in, or have been accepted to Engineering One (mentee) can sign-up and will be paired with a senior student (mentor) based on preferred major or other interests.
+							<br />Mentors and their mentees are encouraged to meet, either in-person or virtually at least monthly. 
+							<br />The Engineering Student Society will organize various events for all mentors and mentees to enable more broad networking and discussion of topics of interest.
+							<br />These events are normally organized in the Fall, but another event could be organized during the Winter semester. Keep an eye on our social media to get more info about it!
+						</p>
 						<h3 className="mb-4 text-2xl font-bold text-black">Cahill Engineering One Student Success Centre</h3>
 						<p className="mb-4 text-black">There's a reason everyone gets the 'look to your left, look to your right' speech when you join engineering... do not be those guys! The Engineering One Help Centre is a great chance to learn all that course material that you're struggling with. (Pro tip: start trying to actually learn that material, oh, you know, not the night before your big midterm or final... just trust me on this).</p>
 
