@@ -32,7 +32,7 @@ export default function CharityBall() {
 			<div className="h-10 border-b-4 border-t-4 border-black bg-mun-burgundy" />
 
 			<section className="mx-auto max-w-6xl px-6 py-12">
-				<div className="grid items-center gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+				<div className="grid items-center gap-8 lg:grid-cols-1">
 					<div className="space-y-5">
 						<h2 className="font-norwester text-4xl text-black lg:text-5xl">About the Event</h2>
 						<p className="text-justify font-maven text-lg text-slate-700">
