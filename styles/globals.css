@@ -17,8 +17,14 @@
 }
 
 .repeating-bg {
-  background-color: #ffffff; /* Fallback background color */
-  background-image: url('../public/res/backgrounds/cubes.png'); /* Path to your image file */
+  background-color: #ffffff;
+  background-image: url('../public/res/backgrounds/cubes.png');
+  background-repeat: repeat;
+}
+
+.charity-ball-bg {
+  background-color: #f1f5f9;
+  background-image: linear-gradient(rgba(241, 245, 249, 0.9), rgba(241, 245, 249, 0.9)), url('../public/res/backgrounds/cubes.png');
   background-repeat: repeat;
 }
 

@@ -21,7 +21,7 @@ module.exports = {
         'mun-gold': "#EAAB00",
         'charity-ball-gold': "#d9b04c",
         'charity-ball-dark-blue': "#00146e",
-        'charity-ball-light-blue': "#6796ff"
+        'charity-ball-light-blue': "#89CFF0"
       },
       fontFamily:{
 				ops: ['BlackOpsOne-Regular', 'opentype'],
