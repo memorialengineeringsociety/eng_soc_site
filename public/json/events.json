@@ -1,16 +1,16 @@
 [
   {
-    "name": "Design Competition",
-    "date": "October 3rd",
-    "location": "Eng Building, 9am",
+    "name": "Games Night Series",
+    "date": "Every Wednesday 5-7PM",
+    "location": "Eng Cafe (2nd Floor)",
     "description": "",
     "details": [],
-    "image": "/res/events/MUN ENGINEERING x SDH.png",
+    "image": "/res/events/Game Night Series Fall 2026.png",
     "organizer": "engsoca",
-    "age": "Eng Ones- Term 6s",
+    "age": "Everyone is welcome!",
     "alt_name": "",
     "cost": "Free!",
     "registerLink": "",
-    "contactEmail": "jdcaines@mun.ca"
+    "contactEmail": ""
   }
 ]
