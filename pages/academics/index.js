@@ -181,7 +181,7 @@ function Navigation() {
             </p>
             <div className="w-full justify-center flex mb-7">
               <img
-                src="../res/academics/asmce.png"
+                src="../res/academics/asmce_2026.png"
                 alt="Map with the FEAS Co-op representatives"
                 width="600"
               ></img>
